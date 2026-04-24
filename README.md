@@ -1,58 +1,79 @@
 # Sandeep Mothukuri  
-### Senior SOC Analyst (L3) | Incident Response | Threat Hunting | XDR | SIEM
+### Senior SOC Analyst (L3) | Incident Response | Threat Hunting | XDR | SIEM (Splunk, QRadar) | CISM  
 
 ---
 
-## 👨‍💻 Professional Summary
-Senior SOC Analyst with proven experience in **high-severity incident response**, **threat hunting**, and **enterprise-scale security operations** within MSSP environments.
+## 👨‍💻 Professional Profile
+Senior SOC Analyst with 5+ years of experience in **enterprise and MSSP environments**, specialising in **high-severity incident response**, **threat hunting**, and **XDR-driven investigations**.
 
-Strong expertise in:
-- SIEM detection and correlation (Splunk, QRadar)
-- XDR investigations and endpoint security (CrowdStrike)
-- MITRE ATT&CK-based threat analysis
-- Handling critical escalations (L2/L3)
+Trusted escalation point for critical security incidents, making **real-time containment decisions** based on business impact and risk.
 
 ---
 
-## 🛠 Core Competencies
-- 🔍 Threat Hunting & Detection Engineering  
-- 🚨 Incident Response & Escalation Handling  
-- 📊 SIEM: Splunk, IBM QRadar  
-- 🧠 MITRE ATT&CK Framework Mapping  
-- 🛡 EDR/XDR: CrowdStrike Falcon  
-- 🌐 Network Analysis: Wireshark, TCPDump  
-- 🐧 Linux & Security Operations  
+## 🚨 Core Capabilities
+
+### Incident Response & SOC Operations
+- End-to-end incident handling (Detection → Investigation → Containment → Recovery → RCA)  
+- High-severity alert triage and escalation (L2/L3)  
+- Business-impact-driven decision making  
+- Stakeholder communication (technical & executive level)  
+
+### Threat Detection & Hunting
+- Hypothesis-driven threat hunting  
+- Detection engineering and alert tuning  
+- False positive reduction and signal optimisation  
+
+### XDR & SIEM Expertise
+- Splunk (Search, correlation rules, dashboards)  
+- IBM QRadar  
+- CrowdStrike Falcon (EDR/XDR)  
+- Microsoft Defender & Sentinel  
+
+### Investigation & Analysis
+- Multi-telemetry correlation (endpoint, identity, network, email)  
+- Malware analysis (Any.Run, VirusTotal)  
+- Log analysis (Windows Events, Sysmon, network logs)  
 
 ---
 
-## 📂 Featured Projects
+## 📂 Featured Work
 
-### 🔐 SOC Detection Lab (Security Onion)
-- Designed and deployed a full SOC lab in VMware  
-- Simulated real-world attack scenarios (brute force, lateral movement)  
-- Performed alert triage and log correlation  
+### 🔐 SOC Incident Investigation – Brute Force Attack
+- Simulated and investigated brute-force attack scenario  
+- Correlated logs across network and endpoint telemetry  
+- Identified attacker behaviour and attack patterns  
+- Mapped activity to MITRE ATT&CK (T1110)  
+- Performed containment strategy and remediation planning  
 
 ---
 
-### 📊 Splunk Threat Detection & Monitoring
+### 📊 SIEM Detection Engineering
+- Developed detection use cases in Splunk  
 - Built dashboards for security monitoring  
-- Created alerts for brute-force and anomaly detection  
-- Conducted log analysis for incident investigation  
+- Tuned alerts to reduce false positives  
 
 ---
 
-### 🛡 Detection Engineering with Sigma
-- Developed Sigma rules mapped to MITRE ATT&CK  
-- Simulated attacker techniques for validation  
-- Enhanced detection coverage and visibility  
+### 🛡 Threat Detection (Sigma / MITRE ATT&CK)
+- Created detection rules aligned to attacker techniques  
+- Simulated adversary behaviour  
+- Improved detection coverage  
+
+---
+
+## 🧠 Analyst Decision-Making (What differentiates L3)
+- Evaluate alerts based on **risk, context, and business impact**  
+- Decide between **containment vs monitoring strategies**  
+- Lead investigations without dependency  
+- Translate technical findings into **actionable business insights**  
 
 ---
 
 ## 📈 Professional Focus
 - Advanced Detection Engineering  
-- AI-driven SOC Automation  
+- XDR-based Threat Hunting  
+- SOC Automation (AI + Security)  
 - Cloud Security Monitoring  
-- Proactive Threat Hunting  
 
 ---
 
