@@ -1,3 +1,11 @@
+<!-- AUTO-UPDATED-SNAKE START -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake.svg">
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake.svg">
+</picture>
+<!-- AUTO-UPDATED-SNAKE END -->
+
 <h1 align="center">Sandeep Mothukuri</h1>
 <h3 align="center">Senior SOC Analyst (L3) · Incident Response · Threat Hunting · Detection Engineering</h3>
 
@@ -9,26 +17,33 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Senior+SOC+Analyst+(L3);Incident+Response+%26+Threat+Hunting;XDR+%2F+SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;Detection+Engineering+%26+SOC+Automation;Open-Source+SOC+Lab+Builder">
+  <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Analyst%20Role%20%E2%80%94%20Opportunity">
+    <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Open%20to%20Senior%20SOC%20%2F%20L3%20roles%20%E2%80%94%20UK%20%C2%B7%20EU%20%C2%B7%20Remote-2EA043?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Senior+SOC+Analyst+(L3);Incident+Response+%26+Threat+Hunting;SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;Detection+Engineering+%26+SOC+Automation;Open-Source+SOC+Lab+Builder">
 </p>
 
 ---
 
 ## 👋 About Me
 
-I'm a **Senior SOC Analyst (L3)** with 5+ years across **enterprise and MSSP environments**, focused on high-severity incident response, threat hunting, and detection engineering. I build open-source SOC labs that mirror enterprise tooling so other analysts can level up without a corporate budget.
+**Senior SOC Analyst (L3)** with 5+ years across **enterprise and MSSP environments**. Trusted escalation point for high-severity incidents — I make real-time containment decisions based on business impact, not just severity scores. Outside of work I build open-source SOC labs so other analysts can train on enterprise-grade stacks without enterprise budgets.
 
-- 🔭 **Currently building:** AI-augmented SOC automation, autonomous detection pipelines
-- 🌱 **Learning:** Detection engineering at scale, Sigma rule authoring, LLM-assisted triage
-- 💬 **Ask me about:** SIEM tuning, incident response playbooks, MITRE ATT&CK mapping, SOC home labs
-- 📫 **Reach me:** sandeep.mothukuris@gmail.com
+- 🔭 **Currently building:** AI-augmented SOC automation · autonomous detection pipelines
+- 🌱 **Learning:** Sigma rule authoring at scale · LLM-assisted alert triage · adversary emulation
+- 💬 **Ask me about:** SIEM tuning · incident response playbooks · MITRE ATT&CK · SOC home labs
+- 📫 **Reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com)
 - 🌐 **Website:** [cybertechnology.in](https://cybertechnology.in)
+- 💼 **Hiring me?** I'm open to **Senior SOC Analyst / L3 / Detection Engineer** roles. Remote-friendly, UK/EU preferred.
 
 ---
 
 ## 🛠️ Stack
 
-**SIEM / XDR**  
+**SIEM / XDR**
 ![Splunk](https://img.shields.io/badge/-Splunk-000000?logo=splunk&logoColor=white&style=flat-square)
 ![IBM QRadar](https://img.shields.io/badge/-IBM%20QRadar-054ADA?style=flat-square&logo=ibm&logoColor=white)
 ![Microsoft Sentinel](https://img.shields.io/badge/-Microsoft%20Sentinel-0078D4?logo=microsoftazure&logoColor=white&style=flat-square)
@@ -37,7 +52,7 @@ I'm a **Senior SOC Analyst (L3)** with 5+ years across **enterprise and MSSP env
 ![Wazuh](https://img.shields.io/badge/-Wazuh-0066CC?style=flat-square)
 ![OpenSearch](https://img.shields.io/badge/-OpenSearch-005EB8?logo=opensearch&logoColor=white&style=flat-square)
 
-**Threat Intel / DFIR**  
+**Threat Intel / DFIR**
 ![MISP](https://img.shields.io/badge/-MISP-1B5E20?style=flat-square)
 ![TheHive](https://img.shields.io/badge/-TheHive-FF7043?style=flat-square)
 ![Velociraptor](https://img.shields.io/badge/-Velociraptor-1E88E5?style=flat-square)
@@ -45,14 +60,14 @@ I'm a **Senior SOC Analyst (L3)** with 5+ years across **enterprise and MSSP env
 ![Any.Run](https://img.shields.io/badge/-Any.Run-FF6D00?style=flat-square)
 ![VirusTotal](https://img.shields.io/badge/-VirusTotal-394EFF?logo=virustotal&logoColor=white&style=flat-square)
 
-**Detection / Frameworks**  
+**Detection / Frameworks**
 ![MITRE ATT&CK](https://img.shields.io/badge/-MITRE%20ATT%26CK-red?style=flat-square)
 ![Sigma](https://img.shields.io/badge/-Sigma%20Rules-FFC107?style=flat-square)
 ![Sysmon](https://img.shields.io/badge/-Sysmon-2E7D32?style=flat-square)
 ![Suricata](https://img.shields.io/badge/-Suricata-D81B60?style=flat-square)
 ![Zeek](https://img.shields.io/badge/-Zeek-6A1B9A?style=flat-square)
 
-**Automation / Platform**  
+**Automation / Platform**
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnubash&logoColor=white&style=flat-square)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
@@ -136,6 +151,14 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10">
 </p>
+
+---
+
+<!-- TRAFFIC-DIGEST-START -->
+## 📈 Repo Traffic — Last 14 Days
+
+_This section is auto-updated daily by [`.github/workflows/traffic-digest.yml`](.github/workflows/traffic-digest.yml). First run pending — values will appear within 24 h._
+<!-- TRAFFIC-DIGEST-END -->
 
 ---
 

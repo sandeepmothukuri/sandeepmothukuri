@@ -1,0 +1,51 @@
+name: Update Traffic Digest
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate traffic digest
+        env:
+          # GH_PAT must have `repo` (private repos) or `public_repo` (public-only) scope.
+          # Add via: Repo Settings → Secrets and variables → Actions → New repository secret.
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/traffic-digest.sh
+
+      - name: Inject digest into README
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re, pathlib
+          readme = pathlib.Path('README.md').read_text(encoding='utf-8')
+          digest = pathlib.Path('digest.md').read_text(encoding='utf-8')
+          new = re.sub(
+              r'<!-- TRAFFIC-DIGEST-START -->.*?<!-- TRAFFIC-DIGEST-END -->',
+              digest.strip(),
+              readme,
+              flags=re.DOTALL,
+          )
+          pathlib.Path('README.md').write_text(new, encoding='utf-8')
+          PY
+
+      - name: Commit changes
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "chore: auto-update traffic digest"
+            git push
+          else
+            echo "No README changes to commit."
+          fi
