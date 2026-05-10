@@ -119,19 +119,6 @@ jobs:
           plugin_introduction_title: yes
           config_timezone: Europe/London
 
-  website:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.website.svg
-          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-          user: sandeepmothukuri
-          base: ""
-          plugin_screenshot: yes
-          plugin_screenshot_title: 🌐 cybertechnology.in
-          plugin_screenshot_url: https://cybertechnology.in
-          plugin_screenshot_selector: body
-          plugin_screenshot_viewport: '{ "width": 1280, "height": 800 }'
-          plugin_screenshot_wait: 3000
-          config_timezone: Europe/London
+# Note: website preview is now served live by api.microlink.io directly
+# from the README (no GitHub Action needed). See the "🌐 cybertechnology.in —
+# Live Preview" section in README.md.

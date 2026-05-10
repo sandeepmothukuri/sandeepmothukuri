@@ -200,8 +200,17 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 ### 🌐 cybertechnology.in — Live Preview
 
 <p align="center">
+  <a href="https://cybertechnology.in" title="Open cybertechnology.in">
+    <img
+      src="https://api.microlink.io/?url=https%3A%2F%2Fcybertechnology.in&screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=2500&viewport.width=1440&viewport.height=900"
+      alt="cybertechnology.in — live preview (click to open)"
+      width="100%">
+  </a>
+</p>
+
+<p align="center">
   <a href="https://cybertechnology.in">
-    <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.website.svg" alt="cybertechnology.in dashboard preview" width="42%">
+    <img src="https://img.shields.io/badge/Visit-cybertechnology.in-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit site">
   </a>
 </p>
 
