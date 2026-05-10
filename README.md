@@ -236,7 +236,16 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 <!-- CVE-OF-THE-WEEK-START -->
 ## 🚨 Critical CVE — This Week
 
-_Auto-pulled from the NIST NVD API by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml). First run pending._
+| Field | Value |
+|---|---|
+| **CVE ID** | [`CVE-2026-7719`](https://nvd.nist.gov/vuln/detail/CVE-2026-7719) |
+| **CVSS v3.1** | `9.8` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
+| **Published** | 2026-05-04 |
+
+> A security flaw has been discovered in Totolink WA300 5.2cu.7112_B20190227. The affected element is the function loginauth of the file /cgi-bin/cstecgi.cgi of the component POST Request Handler. The manipulation of the argument http_host results in buffer overflow. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks.…
+
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-10 19:40 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
