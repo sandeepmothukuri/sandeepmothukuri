@@ -197,31 +197,36 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sandeepmothukuri&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="activity graph">
 </p>
 
-### 🛰️ Auto-Generated Metrics Dashboard
+### 🌐 cybertechnology.in — Live Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.lines.svg" alt="metrics — code volume" width="49%">
-  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.languages.svg" alt="metrics — languages" width="49%">
+  <a href="https://cybertechnology.in">
+    <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.website.svg" alt="cybertechnology.in dashboard preview" width="42%">
+  </a>
+</p>
+
+<details>
+<summary><b>🛰️ Click to expand — Auto-Generated Metrics Dashboard</b></summary>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.lines.svg" alt="metrics — code volume" width="48%">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.languages.svg" alt="metrics — languages" width="48%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.habits.svg" alt="metrics — coding habits" width="48%">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.followup.svg" alt="metrics — issue follow-up" width="48%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.topics.svg" alt="metrics — topic mosaic" width="48%">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.introduction.svg" alt="metrics — introduction" width="48%">
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.isocalendar.svg" alt="metrics — isocalendar heatmap" width="80%">
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.achievements.svg" alt="metrics — achievements" width="80%">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.habits.svg" alt="metrics — coding habits" width="49%">
-  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.followup.svg" alt="metrics — issue follow-up" width="49%">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.topics.svg" alt="metrics — topic mosaic" width="49%">
-  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.introduction.svg" alt="metrics — introduction" width="49%">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.website.svg" alt="cybertechnology.in screenshot" width="80%">
-</p>
 
-> _Metrics auto-regenerate daily via [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml)._
+</details>
+
+> _Metrics auto-regenerate daily via [`metrics.yml`](.github/workflows/metrics.yml). Achievements plugin removed (was unstable); use the trophy row above instead._
 
 ### 🌆 3D Contribution Skyline
 
@@ -234,7 +239,7 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 <!-- CVE-OF-THE-WEEK-START -->
-## 🚨 Critical CVE — This Week
+## 🚨 Today's Top Critical CVE
 
 | Field | Value |
 |---|---|
