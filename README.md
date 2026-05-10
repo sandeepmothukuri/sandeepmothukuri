@@ -1,3 +1,8 @@
+<!-- HERO BANNER -->
+<a href="https://github.com/sandeepmothukuri">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=240&section=header&text=Sandeep%20Mothukuri&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Senior%20SOC%20Analyst%20%28L3%29%20%C2%B7%20Incident%20Response%20%C2%B7%20Threat%20Hunting%20%C2%B7%20Detection%20Engineering&descAlignY=62&descSize=18&animation=fadeIn" alt="hero banner">
+</a>
+
 <!-- AUTO-UPDATED-SNAKE START -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake-dark.svg">
@@ -5,9 +10,6 @@
   <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake.svg">
 </picture>
 <!-- AUTO-UPDATED-SNAKE END -->
-
-<h1 align="center">Sandeep Mothukuri</h1>
-<h3 align="center">Senior SOC Analyst (L3) · Incident Response · Threat Hunting · Detection Engineering</h3>
 
 <p align="center">
   <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
@@ -188,6 +190,43 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10">
 </p>
+
+### 📈 Contribution Activity (last year)
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sandeepmothukuri&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="activity graph">
+</p>
+
+### 🛰️ Auto-Generated Metrics Dashboard
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.lines.svg" alt="metrics — code volume" width="49%">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.languages.svg" alt="metrics — languages" width="49%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.isocalendar.svg" alt="metrics — isocalendar heatmap" width="80%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.achievements.svg" alt="metrics — achievements" width="80%">
+</p>
+
+> _Metrics auto-regenerate daily via [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml). First run pending — images appear once workflow completes._
+
+---
+
+<!-- BLOG-POST-LIST:START -->
+## ✍️ Latest from [cybertechnology.in](https://cybertechnology.in)
+
+_Auto-updated daily by [`blog-posts.yml`](.github/workflows/blog-posts.yml). Posts appear once the RSS feed is reachable._
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+<!-- SECURITY-NEWS-START -->
+## 📰 Cybersecurity Headlines — auto-updated daily
+
+_Latest stories from The Hacker News, BleepingComputer, Dark Reading. Refreshed by [`security-news.yml`](.github/workflows/security-news.yml). First run pending._
+<!-- SECURITY-NEWS-END -->
 
 ---
 

@@ -1,0 +1,47 @@
+name: Update Security News
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # daily at 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch headlines
+        run: bash .github/scripts/security-news.sh
+
+      - name: Inject into README
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re, pathlib
+          readme = pathlib.Path('README.md').read_text(encoding='utf-8')
+          news = pathlib.Path('news.md').read_text(encoding='utf-8')
+          new = re.sub(
+              r'<!-- SECURITY-NEWS-START -->.*?<!-- SECURITY-NEWS-END -->',
+              f'<!-- SECURITY-NEWS-START -->\n{news.strip()}\n<!-- SECURITY-NEWS-END -->',
+              readme,
+              flags=re.DOTALL,
+          )
+          pathlib.Path('README.md').write_text(new, encoding='utf-8')
+          PY
+
+      - name: Commit changes
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "chore: refresh cybersecurity headlines"
+            git push
+          else
+            echo "No headline changes."
+          fi
