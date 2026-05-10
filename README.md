@@ -36,7 +36,7 @@
 
 <!-- SOC INCIDENT PIPELINE START -->
 <p align="center">
-  <img src="assets/soc-incident-pipeline.svg" alt="Animated SOC incident response pipeline" width="100%">
+  <img src="assets/soc-incident-pipeline.svg" alt="SOC incident response pipeline" width="100%">
 </p>
 <!-- SOC INCIDENT PIPELINE END -->
 
