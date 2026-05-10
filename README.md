@@ -10,6 +10,19 @@ Trusted escalation point for critical security incidents, making **real-time con
 
 ---
 
+## 🛠️ Tools & Technologies
+![Splunk](https://img.shields.io/badge/-Splunk-000000?logo=splunk&logoColor=green&style=flat-square)
+![IBM QRadar](https://img.shields.io/badge/-IBM%20QRadar-054ADA?style=flat-square)
+![CrowdStrike](https://img.shields.io/badge/-CrowdStrike-E00000?style=flat-square)
+![Microsoft Sentinel](https://img.shields.io/badge/-Microsoft%20Sentinel-0078D4?logo=microsoft&logoColor=white&style=flat-square)
+![Wazuh](https://img.shields.io/badge/-Wazuh-0066CC?style=flat-square)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
+![MITRE ATT&CK](https://img.shields.io/badge/-MITRE%20ATT%26CK-red?style=flat-square)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat-square)
+
+---
+
 ## 🚨 Core Capabilities
 
 ### Incident Response & SOC Operations
@@ -74,6 +87,13 @@ Trusted escalation point for critical security incidents, making **real-time con
 - XDR-based Threat Hunting  
 - SOC Automation (AI + Security)  
 - Cloud Security Monitoring  
+
+---
+
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=sandeepmothukuri&theme=tokyonight&hide_border=true)
 
 ---
 
