@@ -1,119 +1,166 @@
-# Sandeep Mothukuri  
-### Senior SOC Analyst (L3) | Incident Response | Threat Hunting | XDR | SIEM (Splunk, QRadar) | CISM  
+<h1 align="center">Sandeep Mothukuri</h1>
+<h3 align="center">Senior SOC Analyst (L3) · Incident Response · Threat Hunting · Detection Engineering</h3>
+
+<p align="center">
+  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/sandeepmothukuris"><img src="https://img.shields.io/badge/LinkedIn-sandeepmothukuris-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:sandeep.mothukuris@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <img src="https://komarev.com/ghpvc/?username=sandeepmothukuri&style=for-the-badge&color=blueviolet&label=Profile+Views">
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Senior+SOC+Analyst+(L3);Incident+Response+%26+Threat+Hunting;XDR+%2F+SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;Detection+Engineering+%26+SOC+Automation;Open-Source+SOC+Lab+Builder">
+</p>
 
 ---
 
-## 👨‍💻 Professional Profile
-Senior SOC Analyst with 5+ years of experience in **enterprise and MSSP environments**, specialising in **high-severity incident response**, **threat hunting**, and **XDR-driven investigations**.
+## 👋 About Me
 
-Trusted escalation point for critical security incidents, making **real-time containment decisions** based on business impact and risk.
+I'm a **Senior SOC Analyst (L3)** with 5+ years across **enterprise and MSSP environments**, focused on high-severity incident response, threat hunting, and detection engineering. I build open-source SOC labs that mirror enterprise tooling so other analysts can level up without a corporate budget.
+
+- 🔭 **Currently building:** AI-augmented SOC automation, autonomous detection pipelines
+- 🌱 **Learning:** Detection engineering at scale, Sigma rule authoring, LLM-assisted triage
+- 💬 **Ask me about:** SIEM tuning, incident response playbooks, MITRE ATT&CK mapping, SOC home labs
+- 📫 **Reach me:** sandeep.mothukuris@gmail.com
+- 🌐 **Website:** [cybertechnology.in](https://cybertechnology.in)
 
 ---
 
-## 🛠️ Tools & Technologies
-![Splunk](https://img.shields.io/badge/-Splunk-000000?logo=splunk&logoColor=green&style=flat-square)
-![IBM QRadar](https://img.shields.io/badge/-IBM%20QRadar-054ADA?style=flat-square)
-![CrowdStrike](https://img.shields.io/badge/-CrowdStrike-E00000?style=flat-square)
-![Microsoft Sentinel](https://img.shields.io/badge/-Microsoft%20Sentinel-0078D4?logo=microsoft&logoColor=white&style=flat-square)
+## 🛠️ Stack
+
+**SIEM / XDR**  
+![Splunk](https://img.shields.io/badge/-Splunk-000000?logo=splunk&logoColor=white&style=flat-square)
+![IBM QRadar](https://img.shields.io/badge/-IBM%20QRadar-054ADA?style=flat-square&logo=ibm&logoColor=white)
+![Microsoft Sentinel](https://img.shields.io/badge/-Microsoft%20Sentinel-0078D4?logo=microsoftazure&logoColor=white&style=flat-square)
+![CrowdStrike](https://img.shields.io/badge/-CrowdStrike%20Falcon-E00000?logo=crowdstrike&logoColor=white&style=flat-square)
+![Defender](https://img.shields.io/badge/-MS%20Defender-0078D4?logo=microsoft&logoColor=white&style=flat-square)
 ![Wazuh](https://img.shields.io/badge/-Wazuh-0066CC?style=flat-square)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
+![OpenSearch](https://img.shields.io/badge/-OpenSearch-005EB8?logo=opensearch&logoColor=white&style=flat-square)
+
+**Threat Intel / DFIR**  
+![MISP](https://img.shields.io/badge/-MISP-1B5E20?style=flat-square)
+![TheHive](https://img.shields.io/badge/-TheHive-FF7043?style=flat-square)
+![Velociraptor](https://img.shields.io/badge/-Velociraptor-1E88E5?style=flat-square)
+![DFIR-IRIS](https://img.shields.io/badge/-DFIR--IRIS-455A64?style=flat-square)
+![Any.Run](https://img.shields.io/badge/-Any.Run-FF6D00?style=flat-square)
+![VirusTotal](https://img.shields.io/badge/-VirusTotal-394EFF?logo=virustotal&logoColor=white&style=flat-square)
+
+**Detection / Frameworks**  
 ![MITRE ATT&CK](https://img.shields.io/badge/-MITRE%20ATT%26CK-red?style=flat-square)
+![Sigma](https://img.shields.io/badge/-Sigma%20Rules-FFC107?style=flat-square)
+![Sysmon](https://img.shields.io/badge/-Sysmon-2E7D32?style=flat-square)
+![Suricata](https://img.shields.io/badge/-Suricata-D81B60?style=flat-square)
+![Zeek](https://img.shields.io/badge/-Zeek-6A1B9A?style=flat-square)
+
+**Automation / Platform**  
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnubash&logoColor=white&style=flat-square)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat-square)
+![Windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=white&style=flat-square)
+![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square)
 
 ---
 
-## 🚨 Core Capabilities
+## 🚀 Featured Projects
 
-### Incident Response & SOC Operations
-- End-to-end incident handling (Detection → Investigation → Containment → Recovery → RCA)  
-- High-severity alert triage and escalation (L2/L3)  
-- Business-impact-driven decision making  
-- Stakeholder communication (technical & executive level)  
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Threat Detection & Hunting
-- Hypothesis-driven threat hunting  
-- Detection engineering and alert tuning  
-- False positive reduction and signal optimisation  
+### 🔐 [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0)
+12-tool SOC lab — OpenSearch · Suricata · Zeek · MISP · Caldera · Velociraptor + AI agents. Docker Compose, MITRE ATT&CK v14, 15 built-in detection rules.
 
-### XDR & SIEM Expertise
-- Splunk (Search, correlation rules, dashboards)  
-- IBM QRadar  
-- CrowdStrike Falcon (EDR/XDR)  
-- Microsoft Defender & Sentinel  
+</td>
+<td width="50%" valign="top">
 
-### Investigation & Analysis
-- Multi-telemetry correlation (endpoint, identity, network, email)  
-- Malware analysis (Any.Run, VirusTotal)  
-- Log analysis (Windows Events, Sysmon, network logs)  
+### 🤖 [ai-soc-lab](https://github.com/sandeepmothukuri/ai-soc-lab)
+AI-augmented open-source SOC — Wazuh + TheHive + Shuffle + MISP + Ollama (LLaMA3) for automated alert triage.
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## 📂 Featured Work
+### 🆓 [soc-lab-free](https://github.com/sandeepmothukuri/soc-lab-free)
+100% free SOC lab — OpenVAS, Wazuh, pfSense, Proxmox Mail, Lynis replacing Nessus, Splunk, Netskope, Mimecast.
 
-### 🔐 SOC Incident Investigation – Brute Force Attack
-- Simulated and investigated brute-force attack scenario  
-- Correlated logs across network and endpoint telemetry  
-- Identified attacker behaviour and attack patterns  
-- Mapped activity to MITRE ATT&CK (T1110)  
-- Performed containment strategy and remediation planning  
+</td>
+<td width="50%" valign="top">
 
----
+### 🛡️ [soc-lab](https://github.com/sandeepmothukuri/soc-lab)
+SOC analyst home lab — Wazuh SIEM, Sysmon, brute-force detection, MITRE ATT&CK mapping, IR workflow.
 
-### 📊 SIEM Detection Engineering
-- Developed detection use cases in Splunk  
-- Built dashboards for security monitoring  
-- Tuned alerts to reduce false positives  
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### 🔬 [soc-threat-hunting-lab](https://github.com/sandeepmothukuri/soc-threat-hunting-lab)
+Advanced threat detection lab — Zeek · RITA · Arkime · Velociraptor · OSQuery · MISP · TheHive · Shuffle.
 
-### 🛡 Threat Detection (Sigma / MITRE ATT&CK)
-- Created detection rules aligned to attacker techniques  
-- Simulated adversary behaviour  
-- Improved detection coverage  
+</td>
+<td width="50%" valign="top">
+
+### 🌀 [Autonomous-SOC-Lab](https://github.com/sandeepmothukuri/Autonomous-SOC-Lab)
+Autonomous SOC with AI-driven detection, automated response, and self-healing playbooks.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🧠 Analyst Decision-Making (What differentiates L3)
-- Evaluate alerts based on **risk, context, and business impact**  
-- Decide between **containment vs monitoring strategies**  
-- Lead investigations without dependency  
-- Translate technical findings into **actionable business insights**  
+## 🎯 What I Do
 
----
-
-## 📈 Professional Focus
-- Advanced Detection Engineering  
-- XDR-based Threat Hunting  
-- SOC Automation (AI + Security)  
-- Cloud Security Monitoring  
+| Area | Detail |
+|---|---|
+| **Incident Response** | End-to-end IR — detection → investigation → containment → recovery → RCA |
+| **Threat Hunting** | Hypothesis-driven hunts, Sigma rule authoring, behaviour-based detection |
+| **Detection Engineering** | Custom Splunk / QRadar / Wazuh rules, tuning, false-positive reduction |
+| **SOAR & Automation** | Playbook design, alert enrichment, Python automation |
+| **Cloud & XDR** | Microsoft Sentinel, Defender XDR, CrowdStrike Falcon investigations |
+| **Lab Building** | Open-source SOC labs that mirror enterprise stacks — free for the community |
 
 ---
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&theme=tokyonight&hide_border=true)
-![GitHub Streak](https://streak-stats.demolab.com?user=sandeepmothukuri&theme=tokyonight&hide_border=true)
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&theme=tokyonight&hide_border=true&count_private=true">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&theme=tokyonight&hide_border=true&langs_count=8">
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=sandeepmothukuri&theme=tokyonight&hide_border=true">
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10">
+</p>
 
 ---
 
 ## 🎓 Certifications
-- CISM
-- CompTIA Security+ 
-- ISC2 Certified in Cybersecurity
-- Cybersecurity SOC Analyst & Professional
-- Cybersecurity Ethical Hacking Professional
-- CompTIA Network+ | CompTIA A+
-- ITIL 4 Foundation
+
+![CISM](https://img.shields.io/badge/-CISM-CC0000?style=flat-square)
+![Security+](https://img.shields.io/badge/-CompTIA%20Security%2B-E03333?style=flat-square)
+![CC](https://img.shields.io/badge/-ISC2%20CC-007ACC?style=flat-square)
+![SOC Analyst](https://img.shields.io/badge/-SOC%20Analyst-2E7D32?style=flat-square)
+![Ethical Hacking](https://img.shields.io/badge/-Ethical%20Hacking-263238?style=flat-square)
+![Network+](https://img.shields.io/badge/-Network%2B-E03333?style=flat-square)
+![A+](https://img.shields.io/badge/-A%2B-E03333?style=flat-square)
+![ITIL 4](https://img.shields.io/badge/-ITIL%204-0098D4?style=flat-square)
 
 ---
 
-## 🌐 Connect With Me
-- Website: https://cybertechnology.in
-- LinkedIn: https://www.linkedin.com/in/sandeepmothukuris  
-- Email: sandeep.mothukuris@gmail.com  
+## 🌐 Connect
+
+<p align="left">
+  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-1f6feb?style=flat-square&logo=googlechrome&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/sandeepmothukuris"><img src="https://img.shields.io/badge/LinkedIn-sandeepmothukuris-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:sandeep.mothukuris@gmail.com"><img src="https://img.shields.io/badge/Gmail-sandeep.mothukuris-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/sandeepmothukuri"><img src="https://img.shields.io/badge/GitHub-sandeepmothukuri-181717?style=flat-square&logo=github&logoColor=white"></a>
+</p>
 
 ---
 
-## ⚡ Value Proposition
-Delivering **high-confidence detections**, minimizing **false positives**, and enabling **rapid response to critical threats** in enterprise SOC environments.
+<p align="center"><i>⭐ If my labs or write-ups helped you, a star goes a long way — it helps other SOC analysts find this work.</i></p>
