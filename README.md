@@ -28,6 +28,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Senior+SOC+Analyst+(L3);Incident+Response+%26+Threat+Hunting;SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;Detection+Engineering+%26+SOC+Automation;Open-Source+SOC+Lab+Builder">
 </p>
 
+<!-- SOC VISUAL INTERFACE START -->
+<p align="center">
+  <img src="assets/soc-profile-interface.svg" alt="Sandeep Mothukuri SOC profile visual interface" width="100%">
+</p>
+<!-- SOC VISUAL INTERFACE END -->
+
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 ## 👋 About Me
