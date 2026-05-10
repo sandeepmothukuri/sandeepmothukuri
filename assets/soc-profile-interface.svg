@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sandeep Mothukuri SOC profile visual interface</title>
+  <desc id="desc">Animated cybersecurity command center interface preview for a GitHub profile README.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07101d"/>
+      <stop offset="0.48" stop-color="#0b1728"/>
+      <stop offset="1" stop-color="#06151a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101c2f" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#071420" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#36d1dc"/>
+      <stop offset="0.5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#7ee787"/>
+    </linearGradient>
+    <linearGradient id="alert" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffcf5a"/>
+      <stop offset="1" stop-color="#ff6b6b"/>
+    </linearGradient>
+    <radialGradient id="radarGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0.28"/>
+      <stop offset="0.52" stop-color="#58a6ff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f3b55" stroke-width="1" opacity="0.24"/>
+    </pattern>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .font { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
+      .mono { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
+      .small { font-size: 13px; fill: #8ba3bd; }
+      .muted { fill: #8ba3bd; }
+      .line { stroke: #24445f; stroke-width: 1; }
+      .panel { fill: url(#panel); stroke: #274968; stroke-width: 1.2; }
+      .chip { fill: #0d2233; stroke: #235b78; stroke-width: 1; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      .pulse2 { animation: pulse 3.4s ease-in-out infinite 0.5s; }
+      .dash { stroke-dasharray: 9 11; animation: dash 12s linear infinite; }
+      .sweep { transform-origin: 282px 294px; animation: sweep 5.5s linear infinite; }
+      .float { animation: float 4.8s ease-in-out infinite; }
+      .blink { animation: blink 1.4s steps(2, start) infinite; }
+      .scan { animation: scan 4.2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+      @keyframes dash { to { stroke-dashoffset: -240; } }
+      @keyframes sweep { to { transform: rotate(360deg); } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: .15; } }
+      @keyframes scan { 0%,100% { transform: translateY(0); opacity: .08; } 50% { transform: translateY(226px); opacity: .28; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="720" rx="0" fill="url(#bg)"/>
+  <rect width="1200" height="720" fill="url(#grid)" opacity="0.72"/>
+  <path d="M0 92 C130 54 218 86 342 56 C470 24 580 68 698 42 C850 8 1010 48 1200 18" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.28"/>
+  <path d="M0 624 C170 680 312 612 456 650 C612 692 778 620 912 650 C1038 678 1110 642 1200 666" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.20"/>
+
+  <g class="font">
+    <rect x="36" y="34" width="1128" height="126" rx="18" class="panel"/>
+    <text x="70" y="85" font-size="40" font-weight="800" fill="#f0f6fc">Sandeep Mothukuri</text>
+    <text x="72" y="119" font-size="18" fill="#58a6ff" letter-spacing="0">Senior SOC Analyst L3 | Incident Response | Threat Hunting | Detection Engineering</text>
+    <g transform="translate(730 58)">
+      <rect width="382" height="66" rx="14" fill="#071928" stroke="#1f6feb" opacity="0.92"/>
+      <text x="20" y="28" font-size="13" fill="#8ba3bd">PROFILE MODE</text>
+      <text x="20" y="51" font-size="20" font-weight="700" fill="#7ee787">Open to UK / EU / Remote SOC roles</text>
+      <circle cx="352" cy="33" r="8" fill="#7ee787" class="pulse" filter="url(#softGlow)"/>
+    </g>
+  </g>
+
+  <g class="font" transform="translate(54 185)">
+    <rect x="0" y="0" width="456" height="254" rx="16" class="panel"/>
+    <text x="24" y="36" font-size="15" font-weight="700" fill="#f0f6fc">Live SOC Signal Map</text>
+    <text x="24" y="58" class="small">Radar sweep, telemetry nodes, triage paths</text>
+    <circle cx="228" cy="134" r="92" fill="url(#radarGlow)"/>
+    <circle cx="228" cy="134" r="86" fill="none" stroke="#27506e"/>
+    <circle cx="228" cy="134" r="58" fill="none" stroke="#27506e" opacity="0.7"/>
+    <circle cx="228" cy="134" r="30" fill="none" stroke="#27506e" opacity="0.56"/>
+    <line x1="142" y1="134" x2="314" y2="134" stroke="#27506e"/>
+    <line x1="228" y1="48" x2="228" y2="220" stroke="#27506e"/>
+    <g class="sweep">
+      <path d="M228 134 L228 48 A86 86 0 0 1 296 82 Z" fill="#7ee787" opacity="0.16"/>
+      <line x1="228" y1="134" x2="228" y2="48" stroke="#7ee787" stroke-width="2" opacity="0.8"/>
+    </g>
+    <g stroke="url(#accent)" fill="none" opacity="0.9">
+      <path d="M106 196 C150 150 182 152 228 134 S294 94 346 82" class="dash"/>
+      <path d="M128 84 C174 116 198 108 228 134 S286 180 338 194" class="dash"/>
+    </g>
+    <g fill="#7ee787" filter="url(#softGlow)">
+      <circle cx="136" cy="89" r="4" class="pulse"/>
+      <circle cx="318" cy="88" r="5" class="pulse2"/>
+      <circle cx="348" cy="196" r="4" class="pulse"/>
+      <circle cx="108" cy="198" r="4" class="pulse2"/>
+      <circle cx="228" cy="134" r="6"/>
+    </g>
+    <rect x="22" y="208" width="412" height="28" rx="8" fill="#06131f" stroke="#24445f"/>
+    <text x="36" y="227" class="mono" font-size="12" fill="#7ee787">hunt --ttp T1059 --scope endpoint,identity,network</text>
+  </g>
+
+  <g class="font" transform="translate(536 185)">
+    <rect x="0" y="0" width="610" height="254" rx="16" class="panel"/>
+    <text x="24" y="36" font-size="15" font-weight="700" fill="#f0f6fc">Incident Response Flow</text>
+    <text x="24" y="58" class="small">Detection -> Enrichment -> Hunt -> Containment -> RCA</text>
+    <g transform="translate(28 84)">
+      <rect width="552" height="136" rx="12" fill="#07131f" stroke="#24445f"/>
+      <rect x="1" y="1" width="550" height="32" rx="11" fill="#0e2030"/>
+      <circle cx="20" cy="17" r="4" fill="#ff6b6b"/>
+      <circle cx="36" cy="17" r="4" fill="#ffcf5a"/>
+      <circle cx="52" cy="17" r="4" fill="#7ee787"/>
+      <text x="72" y="22" class="mono" font-size="12" fill="#8ba3bd">soc-triage.sh</text>
+      <text x="18" y="58" class="mono" font-size="13" fill="#58a6ff">$ alert ingest --source siem --severity high</text>
+      <text x="18" y="84" class="mono" font-size="13" fill="#7ee787">[ok] enriched: asset, identity, geo, hash, sandbox</text>
+      <text x="18" y="110" class="mono" font-size="13" fill="#ffcf5a">[hunt] mapped to MITRE: TA0002 / T1059</text>
+      <rect x="18" y="120" width="516" height="2" fill="url(#accent)" opacity="0.38" class="pulse"/>
+      <rect x="18" y="34" width="516" height="32" fill="#58a6ff" class="scan"/>
+    </g>
+    <g transform="translate(28 16)">
+      <rect x="342" y="0" width="70" height="24" rx="12" class="chip"/>
+      <text x="358" y="16" font-size="11" fill="#7ee787">SPL</text>
+      <rect x="420" y="0" width="70" height="24" rx="12" class="chip"/>
+      <text x="437" y="16" font-size="11" fill="#58a6ff">AQL</text>
+      <rect x="498" y="0" width="70" height="24" rx="12" class="chip"/>
+      <text x="513" y="16" font-size="11" fill="#ffcf5a">SIGMA</text>
+    </g>
+  </g>
+
+  <g class="font" transform="translate(54 470)">
+    <text x="0" y="0" font-size="18" font-weight="800" fill="#f0f6fc">Featured SOC Labs</text>
+    <text x="0" y="24" class="small">Reusable labs, automation, detection engineering, analyst training</text>
+    <g transform="translate(0 44)">
+      <rect width="268" height="124" rx="14" class="panel"/>
+      <circle cx="24" cy="28" r="6" fill="#7ee787" class="pulse"/>
+      <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">advanced-soc-lab-v2.0</text>
+      <text x="24" y="60" class="small">12-tool enterprise SOC lab</text>
+      <path d="M28 88 H84 L118 72 H174 L214 96 H240" fill="none" stroke="#58a6ff" stroke-width="2" class="dash"/>
+      <circle cx="84" cy="88" r="4" fill="#58a6ff"/><circle cx="174" cy="72" r="4" fill="#7ee787"/><circle cx="214" cy="96" r="4" fill="#ffcf5a"/>
+    </g>
+    <g transform="translate(286 44)">
+      <rect width="268" height="124" rx="14" class="panel"/>
+      <circle cx="24" cy="28" r="6" fill="#7ee787" class="pulse2"/>
+      <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">ai-soc-lab</text>
+      <text x="24" y="60" class="small">Wazuh + TheHive + Shuffle + AI</text>
+      <path d="M28 94 C76 56 118 116 166 78 S222 78 240 96" fill="none" stroke="#7ee787" stroke-width="2" class="dash"/>
+      <rect x="74" y="78" width="34" height="22" rx="5" fill="#0d2233" stroke="#235b78"/><rect x="164" y="66" width="34" height="22" rx="5" fill="#0d2233" stroke="#235b78"/>
+    </g>
+    <g transform="translate(572 44)">
+      <rect width="268" height="124" rx="14" class="panel"/>
+      <circle cx="24" cy="28" r="6" fill="#ffcf5a" class="pulse"/>
+      <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">soc-lab-free</text>
+      <text x="24" y="60" class="small">Free SOC tooling stack</text>
+      <g fill="#0d2233" stroke="#235b78"><rect x="30" y="80" width="44" height="26" rx="5"/><rect x="104" y="80" width="44" height="26" rx="5"/><rect x="178" y="80" width="44" height="26" rx="5"/></g>
+      <path d="M74 93 H104 M148 93 H178" stroke="#ffcf5a" stroke-width="2" class="dash"/>
+    </g>
+    <g transform="translate(858 44)">
+      <rect width="268" height="124" rx="14" class="panel"/>
+      <circle cx="24" cy="28" r="6" fill="#58a6ff" class="pulse2"/>
+      <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">soc-threat-hunting-lab</text>
+      <text x="24" y="60" class="small">Zeek, Arkime, Velociraptor</text>
+      <path d="M36 102 L82 74 L128 98 L174 64 L232 90" fill="none" stroke="#58a6ff" stroke-width="2"/>
+      <path d="M36 102 L82 74 L128 98 L174 64 L232 90" fill="none" stroke="#7ee787" stroke-width="5" opacity="0.12"/>
+    </g>
+  </g>
+
+  <g class="font" transform="translate(54 664)">
+    <rect width="1092" height="34" rx="12" fill="#081725" stroke="#24445f"/>
+    <text x="22" y="22" font-size="12" fill="#8ba3bd">SIEM tuning</text>
+    <text x="166" y="22" font-size="12" fill="#8ba3bd">MITRE mapping</text>
+    <text x="334" y="22" font-size="12" fill="#8ba3bd">Cloud XDR</text>
+    <text x="472" y="22" font-size="12" fill="#8ba3bd">SOAR playbooks</text>
+    <text x="640" y="22" font-size="12" fill="#8ba3bd">Detection as code</text>
+    <text x="828" y="22" font-size="12" fill="#8ba3bd">Open-source SOC labs</text>
+    <rect x="1034" y="11" width="38" height="12" rx="6" fill="url(#accent)" class="pulse"/>
+  </g>
+</svg>
