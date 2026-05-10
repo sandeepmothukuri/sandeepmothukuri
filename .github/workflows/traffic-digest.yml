@@ -1,4 +1,8 @@
-name: Update Traffic Digest
+name: Private Traffic Digest
+
+# Writes a daily traffic report to the Actions run summary.
+# Only repo admins can view workflow run pages — NOT public.
+# View at: https://github.com/sandeepmothukuri/sandeepmothukuri/actions/workflows/traffic-digest.yml
 
 on:
   schedule:
@@ -6,46 +10,22 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  update:
+  digest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate traffic digest
+      - name: Generate digest into job summary
         env:
-          # GH_PAT must have `repo` (private repos) or `public_repo` (public-only) scope.
+          # GH_PAT must have `public_repo` scope minimum (or `repo` for private repos).
           # Add via: Repo Settings → Secrets and variables → Actions → New repository secret.
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-        run: bash .github/scripts/traffic-digest.sh
-
-      - name: Inject digest into README
         run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          import re, pathlib
-          readme = pathlib.Path('README.md').read_text(encoding='utf-8')
-          digest = pathlib.Path('digest.md').read_text(encoding='utf-8')
-          new = re.sub(
-              r'<!-- TRAFFIC-DIGEST-START -->.*?<!-- TRAFFIC-DIGEST-END -->',
-              digest.strip(),
-              readme,
-              flags=re.DOTALL,
-          )
-          pathlib.Path('README.md').write_text(new, encoding='utf-8')
-          PY
-
-      - name: Commit changes
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet README.md; then
-            git add README.md
-            git commit -m "chore: auto-update traffic digest"
-            git push
-          else
-            echo "No README changes to commit."
-          fi
+          bash .github/scripts/traffic-digest.sh
+          # Pipe the produced digest.md into the run summary (private to admins)
+          cat digest.md >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "_View the same data anytime at <https://github.com/sandeepmothukuri/sandeepmothukuri/actions/workflows/traffic-digest.yml>._" >> "$GITHUB_STEP_SUMMARY"

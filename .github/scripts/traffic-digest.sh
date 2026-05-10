@@ -16,10 +16,9 @@ OWNER="sandeepmothukuri"
 TODAY="$(date -u +'%Y-%m-%d %H:%M UTC')"
 
 {
-  echo "<!-- TRAFFIC-DIGEST-START -->"
   echo "## 📈 Repo Traffic — Last 14 Days"
   echo ""
-  echo "_Auto-updated ${TODAY} by [\`traffic-digest.yml\`](.github/workflows/traffic-digest.yml)._"
+  echo "_Generated ${TODAY}. Private to repo admins (this is an Actions run summary, not published to README)._"
   echo ""
   echo "| Repo | 👁 Views | 🧑 Unique | 📥 Clones | 🆔 Unique cloners | ⭐ Stars |"
   echo "|---|---:|---:|---:|---:|---:|"
@@ -54,8 +53,7 @@ TODAY="$(date -u +'%Y-%m-%d %H:%M UTC')"
   done | sort -t'|' -k3 -rn | head -10 | awk -F'|' '{printf "| %s | %s | %s | %s |\n", $1, $2, $3, $4}'
 
   echo ""
-  echo "> ℹ️ GitHub anonymizes individual viewers/cloners. The numbers above are aggregate. For named interest, see each repo's STARGAZERS.md."
-  echo "<!-- TRAFFIC-DIGEST-END -->"
+  echo "> ℹ️ GitHub anonymizes individual viewers/cloners. The numbers above are aggregate. For named interest (recruiters, hiring managers, etc.) check each repo's auto-generated **STARGAZERS.md** and the auto-created **\"⭐ New stargazer: @username\"** issues."
 } > digest.md
 
 echo "Wrote digest.md:"

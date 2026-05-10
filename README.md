@@ -30,14 +30,51 @@
 
 ## 👋 About Me
 
-**Senior SOC Analyst (L3)** with 5+ years across **enterprise and MSSP environments**. Trusted escalation point for high-severity incidents — I make real-time containment decisions based on business impact, not just severity scores. Outside of work I build open-source SOC labs so other analysts can train on enterprise-grade stacks without enterprise budgets.
+**Senior SOC Analyst (L3)** with **5+ years** across **enterprise and MSSP environments**. I'm the escalation point teams reach when the alert is real, the clock is loud, and the next call decides whether containment beats compromise. I lead with **risk and business impact**, not just severity scores — and I document every move so the next analyst, manager, or auditor can follow the trail.
 
-- 🔭 **Currently building:** AI-augmented SOC automation · autonomous detection pipelines
-- 🌱 **Learning:** Sigma rule authoring at scale · LLM-assisted alert triage · adversary emulation
-- 💬 **Ask me about:** SIEM tuning · incident response playbooks · MITRE ATT&CK · SOC home labs
-- 📫 **Reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com)
-- 🌐 **Website:** [cybertechnology.in](https://cybertechnology.in)
-- 💼 **Hiring me?** I'm open to **Senior SOC Analyst / L3 / Detection Engineer** roles. Remote-friendly, UK/EU preferred.
+Outside of work I build **open-source SOC labs** that mirror enterprise stacks, so analysts can train on Splunk / QRadar / Sentinel / CrowdStrike-class tooling without the licensing wall.
+
+### 🎯 What I bring to a SOC
+
+- **End-to-end incident response.** Detection → investigation → containment → recovery → RCA → lessons learned. Equally comfortable on the keyboard at 3 AM and in the post-incident exec briefing the next morning.
+- **Detection engineering that survives contact with reality.** Custom Splunk SPL, QRadar AQL, Wazuh rules, Sigma — tuned for signal-to-noise, not vanity coverage. I treat false positives as bugs.
+- **Threat hunting with a hypothesis.** Not "let's go looking" — specific TTPs from current threat intel, mapped to MITRE ATT&CK, measured by what we found vs. what we ruled out.
+- **Cross-telemetry investigation.** Endpoint (CrowdStrike, Defender), identity (Entra ID, AD), network (Suricata, Zeek, firewall), email (proofpoint/Mimecast-class), and cloud (Sentinel, GuardDuty) — correlated, not siloed.
+- **Stakeholder communication.** Technical depth for engineers, business framing for execs, plain language for end users. I don't hide behind jargon.
+- **Automation mindset.** If I do it twice, it gets a playbook. If I do it weekly, it gets Python. Shuffle / StackStorm / native SIEM playbooks all on the menu.
+
+### 🧭 Where I'm currently focused
+
+- 🔭 **Building:** AI-augmented SOC automation — LLM-assisted alert triage, autonomous detection pipelines, agentic IR playbooks (CrewAI + Ollama)
+- 🌱 **Learning:** Sigma rule authoring at scale · adversary emulation with Caldera · detection-as-code with CI/CD validation
+- 🧪 **Writing:** Open-source SOC labs others can clone in 15 min — see **Featured Projects** below
+- 🎤 **Discussing:** detection engineering, SOAR design, the false-positive economy in modern SOCs
+
+### 💬 Ask me about
+
+SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home labs · L1 → L3 career progression · interview prep for SOC roles · transitioning from MSSP to in-house SOC · open-source SOAR vs. commercial vendors
+
+### 🌍 Quick facts
+
+| | |
+|---|---|
+| **Role** | Senior SOC Analyst (L3) |
+| **Experience** | 5+ years (enterprise + MSSP) |
+| **Specialties** | IR · Detection Engineering · Threat Hunting · Cloud XDR |
+| **Open to** | Senior SOC Analyst · L3 · Detection Engineer · Threat Hunter |
+| **Location preference** | UK / EU / Remote |
+| **Availability** | Open to conversations now |
+| **Languages** | English · Telugu · Hindi |
+| **Website** | [cybertechnology.in](https://cybertechnology.in) |
+| **Email** | [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com) |
+| **LinkedIn** | [sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris) |
+
+### 💼 Hiring me?
+
+I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hunter** roles. Remote-friendly, UK/EU preferred but happy to talk about anywhere with reasonable time-zone overlap.
+
+📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity)
+🔗 Or send a LinkedIn message: [linkedin.com/in/sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris)
 
 ---
 
@@ -151,14 +188,6 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10">
 </p>
-
----
-
-<!-- TRAFFIC-DIGEST-START -->
-## 📈 Repo Traffic — Last 14 Days
-
-_This section is auto-updated daily by [`.github/workflows/traffic-digest.yml`](.github/workflows/traffic-digest.yml). First run pending — values will appear within 24 h._
-<!-- TRAFFIC-DIGEST-END -->
 
 ---
 
