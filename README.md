@@ -323,3 +323,5 @@ _Last refresh: 2026-05-10 19:29 UTC_
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 <p align="center"><i>⭐ If my labs or write-ups helped you, a star goes a long way — it helps other SOC analysts find this work.</i></p>
+
+<p align="center"><sub>© 2026 Sandeep Mothukuri · All Rights Reserved · See <a href="LICENSE">LICENSE</a> for terms.</sub></p>
