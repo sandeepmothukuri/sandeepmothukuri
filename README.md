@@ -128,6 +128,12 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 ![Windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=white&style=flat-square)
 ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square)
 
+<!-- SOC TELEMETRY STREAM START -->
+<p align="center">
+  <img src="assets/soc-telemetry-strip.svg" alt="SOC telemetry stream" width="100%">
+</p>
+<!-- SOC TELEMETRY STREAM END -->
+
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 ## 🚀 Featured Projects
