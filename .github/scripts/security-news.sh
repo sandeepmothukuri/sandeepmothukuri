@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Pulls latest cybersecurity headlines from public RSS feeds → news.md
-set -euo pipefail
+# Note: pipefail intentionally omitted — SIGPIPE from `head` in piped streams
+#       is expected and harmless; we only want to fail on real errors.
+set -eu
 
 FEEDS=(
   "https://feeds.feedburner.com/TheHackersNews|The Hacker News"
