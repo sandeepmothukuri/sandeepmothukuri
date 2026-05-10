@@ -28,7 +28,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Senior+SOC+Analyst+(L3);Incident+Response+%26+Threat+Hunting;SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;Detection+Engineering+%26+SOC+Automation;Open-Source+SOC+Lab+Builder">
 </p>
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 ## 👋 About Me
 
@@ -59,7 +59,7 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 ### 🌍 Quick facts
 
 | | |
-|---|---|
+|<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>|<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>|
 | **Role** | Senior SOC Analyst (L3) |
 | **Experience** | 5+ years (enterprise + MSSP) |
 | **Specialties** | IR · Detection Engineering · Threat Hunting · Cloud XDR |
@@ -78,7 +78,7 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity)
 🔗 Or send a LinkedIn message: [linkedin.com/in/sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris)
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 ## 🛠️ Stack
 
@@ -114,7 +114,7 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 ![Windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=white&style=flat-square)
 ![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square)
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 ## 🚀 Featured Projects
 
@@ -163,12 +163,12 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 </tr>
 </table>
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 ## 🎯 What I Do
 
 | Area | Detail |
-|---|---|
+|<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>|<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>|
 | **Incident Response** | End-to-end IR — detection → investigation → containment → recovery → RCA |
 | **Threat Hunting** | Hypothesis-driven hunts, Sigma rule authoring, behaviour-based detection |
 | **Detection Engineering** | Custom Splunk / QRadar / Wazuh rules, tuning, false-positive reduction |
@@ -176,7 +176,7 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 | **Cloud & XDR** | Microsoft Sentinel, Defender XDR, CrowdStrike Falcon investigations |
 | **Lab Building** | Open-source SOC labs that mirror enterprise stacks — free for the community |
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 ## 📊 GitHub Stats
 
@@ -209,10 +209,45 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 <p align="center">
   <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.achievements.svg" alt="metrics — achievements" width="80%">
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.habits.svg" alt="metrics — coding habits" width="49%">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.followup.svg" alt="metrics — issue follow-up" width="49%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.topics.svg" alt="metrics — topic mosaic" width="49%">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.introduction.svg" alt="metrics — introduction" width="49%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/metrics.plugin.website.svg" alt="cybertechnology.in screenshot" width="80%">
+</p>
 
-> _Metrics auto-regenerate daily via [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml). First run pending — images appear once workflow completes._
+> _Metrics auto-regenerate daily via [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml)._
 
----
+### 🌆 3D Contribution Skyline
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution skyline" width="80%">
+</p>
+
+> _Generated by [`skyline-3d.yml`](.github/workflows/skyline-3d.yml). Refreshes daily._
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
+
+<!-- CVE-OF-THE-WEEK-START -->
+## 🚨 Critical CVE — This Week
+
+_Auto-pulled from the NIST NVD API by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml). First run pending._
+<!-- CVE-OF-THE-WEEK-END -->
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
+
+<!-- FEATURED-REPOS-START -->
+## 🔥 Featured Repos — auto-curated by recent activity
+
+_Auto-refreshed every Monday by [`featured-repos.yml`](.github/workflows/featured-repos.yml). First run pending._
+<!-- FEATURED-REPOS-END -->
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 <!-- BLOG-POST-LIST:START -->
 ## ✍️ Latest from [cybertechnology.in](https://cybertechnology.in)
@@ -220,7 +255,7 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 _Auto-updated daily by [`blog-posts.yml`](.github/workflows/blog-posts.yml). Posts appear once the RSS feed is reachable._
 <!-- BLOG-POST-LIST:END -->
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 <!-- SECURITY-NEWS-START -->
 ## 📰 Cybersecurity Headlines — auto-updated daily
@@ -247,7 +282,7 @@ _Last refresh: 2026-05-10 19:29 UTC_
 > Headlines pulled from public RSS feeds. Not endorsements — just situational awareness.
 <!-- SECURITY-NEWS-END -->
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 ## 🎓 Certifications
 
@@ -260,7 +295,7 @@ _Last refresh: 2026-05-10 19:29 UTC_
 ![A+](https://img.shields.io/badge/-A%2B-E03333?style=flat-square)
 ![ITIL 4](https://img.shields.io/badge/-ITIL%204-0098D4?style=flat-square)
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 ## 🌐 Connect
 
@@ -271,6 +306,6 @@ _Last refresh: 2026-05-10 19:29 UTC_
   <a href="https://github.com/sandeepmothukuri"><img src="https://img.shields.io/badge/GitHub-sandeepmothukuri-181717?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
----
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
 <p align="center"><i>⭐ If my labs or write-ups helped you, a star goes a long way — it helps other SOC analysts find this work.</i></p>

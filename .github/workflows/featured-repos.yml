@@ -1,0 +1,94 @@
+name: Update Featured Repos
+
+on:
+  schedule:
+    - cron: "0 11 * * 1"   # Mondays 11:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+      OWNER: sandeepmothukuri
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build featured-repos block
+        run: |
+          set -eu
+          TODAY="$(date -u +'%Y-%m-%d')"
+          # Pick top-6 most recently updated non-fork, non-archived public repos with at least 1 star or recent push.
+          gh api --paginate "/users/${OWNER}/repos?per_page=100&sort=pushed&type=public" \
+            | jq -r '
+                [.[] | select(.fork==false and .archived==false and .private==false)]
+                | sort_by(.pushed_at) | reverse
+                | .[0:6]
+                | .[]
+                | "\(.name)|\(.description // \"\")|\(.stargazers_count)|\(.forks_count)|\(.html_url)|\(.pushed_at[0:10])"
+              ' > /tmp/repos.tsv
+
+          {
+            echo "<!-- FEATURED-REPOS-START -->"
+            echo "## 🔥 Featured Repos — auto-curated by recent activity"
+            echo ""
+            echo "_Auto-refreshed every Monday by [\`featured-repos.yml\`](.github/workflows/featured-repos.yml)._"
+            echo ""
+            echo "<table>"
+
+            i=0
+            while IFS='|' read -r name desc stars forks url pushed; do
+              [ -z "$name" ] && continue
+              [ $((i % 2)) -eq 0 ] && echo "<tr>"
+              echo "<td width=\"50%\" valign=\"top\">"
+              echo ""
+              echo "### [\`${name}\`](${url})"
+              echo "${desc}"
+              echo ""
+              echo "⭐ ${stars} · 🍴 ${forks} · 📅 last push \`${pushed}\`"
+              echo ""
+              echo "</td>"
+              i=$((i + 1))
+              [ $((i % 2)) -eq 0 ] && echo "</tr>"
+            done < /tmp/repos.tsv
+
+            # close trailing row if odd
+            [ $((i % 2)) -ne 0 ] && echo "</tr>"
+
+            echo "</table>"
+            echo "<!-- FEATURED-REPOS-END -->"
+          } > featured.md
+
+          cat featured.md
+
+      - name: Inject into README
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re, pathlib
+          readme = pathlib.Path('README.md').read_text(encoding='utf-8')
+          featured = pathlib.Path('featured.md').read_text(encoding='utf-8')
+          new = re.sub(
+              r'<!-- FEATURED-REPOS-START -->.*?<!-- FEATURED-REPOS-END -->',
+              featured.strip(),
+              readme,
+              flags=re.DOTALL,
+          )
+          pathlib.Path('README.md').write_text(new, encoding='utf-8')
+          PY
+
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "chore: refresh featured repos"
+            git push
+          else
+            echo "No featured-repo changes."
+          fi

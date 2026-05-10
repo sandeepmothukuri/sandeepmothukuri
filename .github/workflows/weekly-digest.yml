@@ -1,0 +1,101 @@
+name: Weekly Recruiter Digest
+
+# Opens a private issue every Monday with a summary of last week's
+# stargazers, traffic, referrers, and new followers across your repos.
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"   # Mondays 08:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+      OWNER: sandeepmothukuri
+      REPOS: "advanced-soc-lab-v2.0 ai-soc-lab soc-lab soc-lab-free soc-threat-hunting-lab Autonomous-SOC-Lab cyberblue"
+    steps:
+      - name: Build digest
+        run: |
+          set -eu
+          SINCE="$(date -u -d '7 days ago' +'%Y-%m-%d')"
+          TODAY="$(date -u +'%Y-%m-%d')"
+
+          {
+            echo "# 📋 Weekly Recruiter Digest — ${TODAY}"
+            echo ""
+            echo "Coverage: **${SINCE}** → **${TODAY}** (last 7 days)."
+            echo ""
+
+            echo "## ⭐ New Stargazers This Week"
+            echo ""
+            echo "| Repo | User | Profile | Starred |"
+            echo "|---|---|---|---|"
+            for r in $REPOS; do
+              gh api -H "Accept: application/vnd.github.star+json" \
+                --paginate "/repos/${OWNER}/${r}/stargazers" 2>/dev/null \
+                | jq -r --arg since "$SINCE" --arg r "$r" \
+                    '.[] | select(.starred_at > $since) | "| \($r) | @\(.user.login) | <\(.user.html_url)> | \(.starred_at | .[0:10]) |"' \
+                || true
+            done | sort -t'|' -k5 -r
+            echo ""
+
+            echo "## 📈 Traffic — Last 14 d (snapshot)"
+            echo ""
+            echo "| Repo | 👁 Views | 🧑 Unique | 📥 Clones | 🆔 Unique cloners |"
+            echo "|---|---:|---:|---:|---:|"
+            for r in $REPOS; do
+              v=$(gh api "/repos/${OWNER}/${r}/traffic/views" 2>/dev/null || echo '{}')
+              c=$(gh api "/repos/${OWNER}/${r}/traffic/clones" 2>/dev/null || echo '{}')
+              vc=$(echo "$v" | jq -r '.count // 0')
+              vu=$(echo "$v" | jq -r '.uniques // 0')
+              cc=$(echo "$c" | jq -r '.count // 0')
+              cu=$(echo "$c" | jq -r '.uniques // 0')
+              echo "| ${r} | ${vc} | ${vu} | ${cc} | ${cu} |"
+            done
+            echo ""
+
+            echo "## 🔗 Top Referrers"
+            echo ""
+            echo "| Source | Repo | Visits | Unique |"
+            echo "|---|---|---:|---:|"
+            for r in $REPOS; do
+              gh api "/repos/${OWNER}/${r}/traffic/popular/referrers" 2>/dev/null \
+                | jq -r --arg r "$r" '.[] | "| \(.referrer) | \($r) | \(.count) | \(.uniques) |"' \
+                || true
+            done | sort -t'|' -k4 -rn | head -10
+            echo ""
+
+            echo "## 👥 Followers"
+            echo ""
+            FOLLOWERS=$(gh api "/users/${OWNER}/followers" --paginate 2>/dev/null | jq -r '. | length' | paste -sd+ - | bc 2>/dev/null || echo "?")
+            echo "Total followers: **${FOLLOWERS}**"
+            echo ""
+            echo "Latest 5:"
+            gh api "/users/${OWNER}/followers?per_page=5" 2>/dev/null \
+              | jq -r '.[] | "- @\(.login) — <\(.html_url)>"' || true
+            echo ""
+
+            echo "---"
+            echo "_This digest is auto-generated every Monday by [\`weekly-digest.yml\`](.github/workflows/weekly-digest.yml). Close this issue after reviewing._"
+          } > digest.md
+
+          cat digest.md
+
+      - name: Open issue
+        run: |
+          TITLE="📋 Weekly Recruiter Digest — $(date -u +'%Y-%m-%d')"
+          gh issue create \
+            -R "${OWNER}/sandeepmothukuri" \
+            --title "$TITLE" \
+            --body-file digest.md \
+            --label "weekly-digest" 2>&1 \
+          || gh issue create \
+            -R "${OWNER}/sandeepmothukuri" \
+            --title "$TITLE" \
+            --body-file digest.md

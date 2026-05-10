@@ -74,3 +74,80 @@ jobs:
           plugin_achievements_display: detailed
           plugin_achievements_limit: 0
           config_timezone: Europe/London
+
+  habits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.svg
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          user: sandeepmothukuri
+          base: ""
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_skipped: sandeepmothukuri/sandeepmothukuri
+          config_timezone: Europe/London
+
+  followup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.followup.svg
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          user: sandeepmothukuri
+          base: ""
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_followup_indepth: yes
+          config_timezone: Europe/London
+
+  topics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.svg
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          user: sandeepmothukuri
+          base: ""
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_sort: stars
+          plugin_topics_limit: 15
+          config_timezone: Europe/London
+
+  introduction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.introduction.svg
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          user: sandeepmothukuri
+          base: ""
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          config_timezone: Europe/London
+
+  website:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.website.svg
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          user: sandeepmothukuri
+          base: ""
+          plugin_screenshot: yes
+          plugin_screenshot_title: 🌐 cybertechnology.in
+          plugin_screenshot_url: https://cybertechnology.in
+          plugin_screenshot_selector: body
+          plugin_screenshot_viewport: '{ "width": 1280, "height": 800 }'
+          plugin_screenshot_wait: 3000
+          config_timezone: Europe/London
