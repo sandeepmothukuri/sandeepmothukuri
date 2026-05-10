@@ -59,7 +59,7 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 ### 🌍 Quick facts
 
 | | |
-|<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>|<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>|
+|---|---|
 | **Role** | Senior SOC Analyst (L3) |
 | **Experience** | 5+ years (enterprise + MSSP) |
 | **Specialties** | IR · Detection Engineering · Threat Hunting · Cloud XDR |
@@ -168,7 +168,7 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 ## 🎯 What I Do
 
 | Area | Detail |
-|<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>|<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>|
+|---|---|
 | **Incident Response** | End-to-end IR — detection → investigation → containment → recovery → RCA |
 | **Threat Hunting** | Hypothesis-driven hunts, Sigma rule authoring, behaviour-based detection |
 | **Detection Engineering** | Custom Splunk / QRadar / Wazuh rules, tuning, false-positive reduction |
