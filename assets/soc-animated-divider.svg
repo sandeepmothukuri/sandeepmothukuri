@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="34" viewBox="0 0 1200 34" role="img" aria-label="Animated SOC signal divider">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#36d1dc" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#36d1dc"/>
+      <stop offset="0.5" stop-color="#58a6ff"/>
+      <stop offset="0.82" stop-color="#7ee787"/>
+      <stop offset="1" stop-color="#7ee787" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .dash { stroke-dasharray: 18 18; animation: dash 8s linear infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes dash { to { stroke-dashoffset: -360; } }
+      @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <rect width="1200" height="34" fill="none"/>
+  <path d="M46 17H1154" stroke="#1f3b55" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+  <path d="M46 17H1154" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round" class="dash" filter="url(#glow)"/>
+  <g fill="#07101d" stroke="#58a6ff" filter="url(#glow)">
+    <circle cx="164" cy="17" r="5" class="pulse"/>
+    <circle cx="420" cy="17" r="5" class="pulse"/>
+    <circle cx="780" cy="17" r="5" class="pulse"/>
+    <circle cx="1036" cy="17" r="5" class="pulse"/>
+  </g>
+  <circle r="4" fill="#7ee787" filter="url(#glow)">
+    <animateMotion dur="4.8s" repeatCount="indefinite" path="M46 17H1154"/>
+  </circle>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">Animated SOC incident response pipeline</title>
+  <desc id="desc">A dark cybersecurity pipeline showing alert intake, enrichment, threat hunting, containment, and reporting with animated signal packets.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07101d"/>
+      <stop offset="0.5" stop-color="#0b1728"/>
+      <stop offset="1" stop-color="#06151a"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffcf5a"/>
+      <stop offset="0.28" stop-color="#58a6ff"/>
+      <stop offset="0.7" stop-color="#7ee787"/>
+      <stop offset="1" stop-color="#ff6b6b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1f3b55" stroke-width="1" opacity="0.22"/>
+    </pattern>
+    <style>
+      .font { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
+      .mono { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
+      .panel { fill: #0b1828; stroke: #254761; stroke-width: 1.2; }
+      .muted { fill: #8ba3bd; }
+      .pulse { animation: pulse 2.6s ease-in-out infinite; }
+      .pulse2 { animation: pulse 3.1s ease-in-out infinite .4s; }
+      .dash { stroke-dasharray: 14 16; animation: dash 9s linear infinite; }
+      .scan { animation: scan 4.8s ease-in-out infinite; }
+      .type1 { animation: swap 8s steps(1, end) infinite; }
+      .type2 { animation: swap 8s steps(1, end) infinite 2s; opacity: 0; }
+      .type3 { animation: swap 8s steps(1, end) infinite 4s; opacity: 0; }
+      .type4 { animation: swap 8s steps(1, end) infinite 6s; opacity: 0; }
+      @keyframes pulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+      @keyframes dash { to { stroke-dashoffset: -260; } }
+      @keyframes scan { 0%,100% { transform: translateX(0); opacity: .08; } 50% { transform: translateX(980px); opacity: .32; } }
+      @keyframes swap { 0%,24.9% { opacity: 1; } 25%,100% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="230" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="230" rx="18" fill="url(#grid)" opacity="0.75"/>
+  <rect x="28" y="24" width="1144" height="182" rx="16" fill="#07131f" stroke="#24445f"/>
+  <rect x="52" y="44" width="1096" height="2" fill="url(#line)" opacity="0.48"/>
+  <rect x="52" y="44" width="96" height="2" fill="#ffffff" class="scan"/>
+
+  <g class="font">
+    <text x="58" y="78" font-size="20" font-weight="800" fill="#f0f6fc">Animated SOC Response Pipeline</text>
+    <text x="58" y="101" font-size="13" fill="#8ba3bd">Alert intake -> enrichment -> threat hunt -> containment -> reporting</text>
+  </g>
+
+  <path id="flowPath" d="M150 140H1050" fill="none"/>
+  <path d="M150 140H1050" fill="none" stroke="#24445f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M150 140H1050" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" class="dash"/>
+
+  <g filter="url(#softGlow)">
+    <circle r="5" fill="#58a6ff">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M150 140H1050"/>
+    </circle>
+    <circle r="4" fill="#7ee787">
+      <animateMotion dur="5s" begin="1.15s" repeatCount="indefinite" path="M150 140H1050"/>
+    </circle>
+    <circle r="4" fill="#ffcf5a">
+      <animateMotion dur="5s" begin="2.3s" repeatCount="indefinite" path="M150 140H1050"/>
+    </circle>
+  </g>
+
+  <g class="font" text-anchor="middle">
+    <g transform="translate(150 140)">
+      <circle r="36" fill="url(#glow)" class="pulse"/>
+      <rect x="-52" y="-26" width="104" height="52" rx="14" class="panel"/>
+      <text y="-3" font-size="13" font-weight="800" fill="#ffcf5a">ALERT</text>
+      <text y="16" font-size="10" fill="#8ba3bd">SIEM + XDR</text>
+    </g>
+    <g transform="translate(375 140)">
+      <circle r="36" fill="url(#glow)" class="pulse2"/>
+      <rect x="-52" y="-26" width="104" height="52" rx="14" class="panel"/>
+      <text y="-3" font-size="13" font-weight="800" fill="#58a6ff">ENRICH</text>
+      <text y="16" font-size="10" fill="#8ba3bd">asset + intel</text>
+    </g>
+    <g transform="translate(600 140)">
+      <circle r="36" fill="url(#glow)" class="pulse"/>
+      <rect x="-52" y="-26" width="104" height="52" rx="14" class="panel"/>
+      <text y="-3" font-size="13" font-weight="800" fill="#7ee787">HUNT</text>
+      <text y="16" font-size="10" fill="#8ba3bd">MITRE TTPs</text>
+    </g>
+    <g transform="translate(825 140)">
+      <circle r="36" fill="url(#glow)" class="pulse2"/>
+      <rect x="-52" y="-26" width="104" height="52" rx="14" class="panel"/>
+      <text y="-3" font-size="13" font-weight="800" fill="#ff6b6b">CONTAIN</text>
+      <text y="16" font-size="10" fill="#8ba3bd">hosts + users</text>
+    </g>
+    <g transform="translate(1050 140)">
+      <circle r="36" fill="url(#glow)" class="pulse"/>
+      <rect x="-52" y="-26" width="104" height="52" rx="14" class="panel"/>
+      <text y="-3" font-size="13" font-weight="800" fill="#f0f6fc">REPORT</text>
+      <text y="16" font-size="10" fill="#8ba3bd">RCA + lessons</text>
+    </g>
+  </g>
+
+  <g class="mono" font-size="12">
+    <rect x="58" y="174" width="1084" height="20" rx="10" fill="#050f1a" stroke="#213c54"/>
+    <text x="76" y="188" fill="#7ee787" class="type1">triage: severity=high signal=true false_positive=false</text>
+    <text x="76" y="188" fill="#58a6ff" class="type2">enrich: identity, endpoint, hash, sandbox, geo, blast_radius</text>
+    <text x="76" y="188" fill="#ffcf5a" class="type3">hunt: map=T1059 scope=endpoint,identity,network window=24h</text>
+    <text x="76" y="188" fill="#ff6b6b" class="type4">contain: isolate_host disable_token block_ioc open_rca</text>
+  </g>
+</svg>

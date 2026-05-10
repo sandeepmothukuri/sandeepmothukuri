@@ -34,7 +34,15 @@
 </p>
 <!-- SOC VISUAL INTERFACE END -->
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
+<!-- SOC INCIDENT PIPELINE START -->
+<p align="center">
+  <img src="assets/soc-incident-pipeline.svg" alt="Animated SOC incident response pipeline" width="100%">
+</p>
+<!-- SOC INCIDENT PIPELINE END -->
+
+<p align="center">
+  <img src="assets/soc-animated-divider.svg" alt="" width="100%">
+</p>
 
 ## 👋 About Me
 
