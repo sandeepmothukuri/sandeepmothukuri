@@ -68,39 +68,6 @@ Outside of work I build **open-source SOC labs** that mirror enterprise stacks, 
 | **Cloud & XDR** | Microsoft Sentinel, Defender XDR, CrowdStrike Falcon investigations |
 | **Lab Building** | Open-source SOC labs that mirror enterprise stacks — free for the community |
 
-## 🧭 Currently focused
-
-- 🔭 **Building** — AI-augmented SOC automation: LLM-assisted alert triage, autonomous detection pipelines, agentic IR playbooks (CrewAI + Ollama)
-- 🌱 **Learning** — Sigma rule authoring at scale · adversary emulation with Caldera · detection-as-code with CI/CD validation
-- 🧪 **Writing** — Open-source SOC labs others can clone in 15 min (see Featured Labs below)
-- 🎤 **Discussing** — detection engineering, SOAR design, the false-positive economy in modern SOCs
-
-## 💬 Ask me about
-
-SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home labs · L1 → L3 career progression · interview prep for SOC roles · transitioning from MSSP to in-house SOC · open-source SOAR vs. commercial vendors
-
-## 🌍 Quick facts
-
-| | |
-|---|---|
-| **Role** | Senior SOC Analyst (L3) |
-| **Experience** | 5+ years (enterprise + MSSP) |
-| **Specialties** | IR · Detection Engineering · Threat Hunting · Cloud XDR |
-| **Open to** | Senior SOC Analyst · L3 · Detection Engineer · Threat Hunter |
-| **Location preference** | UK / EU / Remote |
-| **Availability** | Open to conversations now |
-| **Languages** | English · Telugu · Hindi |
-| **Website** | [cybertechnology.in](https://cybertechnology.in) |
-| **Email** | [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com) |
-| **LinkedIn** | [sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris) |
-
-## 💼 Hiring me?
-
-I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hunter** roles. Remote-friendly, UK/EU preferred but happy to talk about anywhere with reasonable time-zone overlap.
-
-📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity)
-🔗 Or send a LinkedIn message: [linkedin.com/in/sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris)
-
 ## 🧰 Stack — cybersecurity tooling
 
 **SIEM / XDR / EDR**
@@ -277,6 +244,19 @@ index=wineventlog EventCode=5140
 
 > Triggers when one account touches `ADMIN$` / `C$` on **5+ distinct hosts** within the search window — classic post-exploitation lateral movement (PsExec, Impacket, Cobalt Strike `psexec_psh`).
 
+## 🔐 Certifications
+
+<p align="left">
+  <img src="https://img.shields.io/badge/CISM-f85149?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/CompTIA%20Security%2B-f85149?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/ISC2%20CC-58a6ff?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/SOC%20Analyst-3fb950?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Ethical%20Hacking-8b949e?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/CompTIA%20Network%2B-f85149?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/CompTIA%20A%2B-f85149?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/ITIL%204-58a6ff?style=flat-square&labelColor=132f4c">
+</p>
+
 ## 📊 Live GitHub Stats
 
 <p align="center">
@@ -360,18 +340,38 @@ _Last refresh: 2026-05-11 16:31 UTC_
 > Headlines pulled from public RSS feeds. Not endorsements — just situational awareness.
 <!-- SECURITY-NEWS-END -->
 
-## 🔐 Certifications
+## 🧭 Currently focused
 
-<p align="left">
-  <img src="https://img.shields.io/badge/CISM-f85149?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/CompTIA%20Security%2B-f85149?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/ISC2%20CC-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/SOC%20Analyst-3fb950?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Ethical%20Hacking-8b949e?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/CompTIA%20Network%2B-f85149?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/CompTIA%20A%2B-f85149?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/ITIL%204-58a6ff?style=flat-square&labelColor=132f4c">
-</p>
+- 🔭 **Building** — AI-augmented SOC automation: LLM-assisted alert triage, autonomous detection pipelines, agentic IR playbooks (CrewAI + Ollama)
+- 🌱 **Learning** — Sigma rule authoring at scale · adversary emulation with Caldera · detection-as-code with CI/CD validation
+- 🧪 **Writing** — Open-source SOC labs others can clone in 15 min (see Featured Labs below)
+- 🎤 **Discussing** — detection engineering, SOAR design, the false-positive economy in modern SOCs
+
+## 💬 Ask me about
+
+SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home labs · L1 → L3 career progression · interview prep for SOC roles · transitioning from MSSP to in-house SOC · open-source SOAR vs. commercial vendors
+
+## 🌍 Quick facts
+
+| | |
+|---|---|
+| **Role** | Senior SOC Analyst (L3) |
+| **Experience** | 5+ years (enterprise + MSSP) |
+| **Specialties** | IR · Detection Engineering · Threat Hunting · Cloud XDR |
+| **Open to** | Senior SOC Analyst · L3 · Detection Engineer · Threat Hunter |
+| **Location preference** | UK / EU / Remote |
+| **Availability** | Open to conversations now |
+| **Languages** | English · Telugu · Hindi |
+| **Website** | [cybertechnology.in](https://cybertechnology.in) |
+| **Email** | [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com) |
+| **LinkedIn** | [sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris) |
+
+## 💼 Hiring me?
+
+I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hunter** roles. Remote-friendly, UK/EU preferred but happy to talk about anywhere with reasonable time-zone overlap.
+
+📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity)
+🔗 Or send a LinkedIn message: [linkedin.com/in/sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris)
 
 ## 📨 Contact
 
