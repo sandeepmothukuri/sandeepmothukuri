@@ -68,6 +68,17 @@ Outside of work I build **open-source SOC labs** that mirror enterprise stacks, 
 | **Cloud & XDR** | Microsoft Sentinel, Defender XDR, CrowdStrike Falcon investigations |
 | **Lab Building** | Open-source SOC labs that mirror enterprise stacks — free for the community |
 
+## 🧭 Currently focused
+
+- 🔭 **Building** — AI-augmented SOC automation: LLM-assisted alert triage, autonomous detection pipelines, agentic IR playbooks (CrewAI + Ollama)
+- 🌱 **Learning** — Sigma rule authoring at scale · adversary emulation with Caldera · detection-as-code with CI/CD validation
+- 🧪 **Writing** — Open-source SOC labs others can clone in 15 min (see Featured Labs below)
+- 🎤 **Discussing** — detection engineering, SOAR design, the false-positive economy in modern SOCs
+
+## 💬 Ask me about
+
+SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home labs · L1 → L3 career progression · interview prep for SOC roles · transitioning from MSSP to in-house SOC · open-source SOAR vs. commercial vendors
+
 ## 🧰 Stack — cybersecurity tooling
 
 **SIEM / XDR / EDR**
@@ -339,17 +350,6 @@ _Last refresh: 2026-05-11 16:31 UTC_
 
 > Headlines pulled from public RSS feeds. Not endorsements — just situational awareness.
 <!-- SECURITY-NEWS-END -->
-
-## 🧭 Currently focused
-
-- 🔭 **Building** — AI-augmented SOC automation: LLM-assisted alert triage, autonomous detection pipelines, agentic IR playbooks (CrewAI + Ollama)
-- 🌱 **Learning** — Sigma rule authoring at scale · adversary emulation with Caldera · detection-as-code with CI/CD validation
-- 🧪 **Writing** — Open-source SOC labs others can clone in 15 min (see Featured Labs below)
-- 🎤 **Discussing** — detection engineering, SOAR design, the false-positive economy in modern SOCs
-
-## 💬 Ask me about
-
-SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home labs · L1 → L3 career progression · interview prep for SOC roles · transitioning from MSSP to in-house SOC · open-source SOAR vs. commercial vendors
 
 ## 🌍 Quick facts
 
