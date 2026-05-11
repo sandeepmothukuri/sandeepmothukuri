@@ -1,108 +1,263 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
-  <title id="title">SOC telemetry strip</title>
-  <desc id="desc">A cybersecurity telemetry strip with SIEM, endpoint, identity, network, cloud, and automation signals.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t d">
+  <title id="t">SOC Live Telemetry — 6 data sources</title>
+  <desc id="d">Professional live telemetry dashboard showing event volume and sparklines for 6 SOC data sources.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#07101d"/>
-      <stop offset="0.55" stop-color="#0a1727"/>
-      <stop offset="1" stop-color="#06151a"/>
+      <stop offset="0" stop-color="#070d1a"/>
+      <stop offset="0.5" stop-color="#0a1929"/>
+      <stop offset="1" stop-color="#040810"/>
     </linearGradient>
-    <linearGradient id="signal" x1="0" x2="1">
-      <stop offset="0" stop-color="#36d1dc"/>
-      <stop offset="0.42" stop-color="#58a6ff"/>
-      <stop offset="0.78" stop-color="#7ee787"/>
-      <stop offset="1" stop-color="#ffcf5a"/>
+    <linearGradient id="pnl" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#132f4c" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0a1929" stop-opacity="0.95"/>
     </linearGradient>
-    <filter id="glow" x="-25%" y="-80%" width="150%" height="260%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#1f3b55" stroke-width="1" opacity="0.2"/>
+    <linearGradient id="bar" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#1f3b55" stroke-width="1" opacity="0.22"/>
     </pattern>
+    <filter id="g"><feGaussianBlur stdDeviation="2"/></filter>
     <style>
-      .font { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
-      .mono { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
-      .dash { stroke-dasharray: 10 14; animation: dash 8s linear infinite; }
-      .pulse { animation: pulse 2.6s ease-in-out infinite; }
-      .pulse2 { animation: pulse 3.2s ease-in-out infinite .5s; }
-      .scan { animation: scan 4.5s ease-in-out infinite; }
-      .line1 { animation: swap 9s steps(1, end) infinite; }
-      .line2 { animation: swap 9s steps(1, end) infinite 3s; opacity: 0; }
-      .line3 { animation: swap 9s steps(1, end) infinite 6s; opacity: 0; }
-      @keyframes dash { to { stroke-dashoffset: -220; } }
-      @keyframes pulse { 0%,100% { opacity: .46; } 50% { opacity: 1; } }
-      @keyframes scan { 0%,100% { transform: translateX(0); opacity: .08; } 50% { transform: translateX(930px); opacity: .26; } }
-      @keyframes swap { 0%,32.9% { opacity: 1; } 33%,100% { opacity: 0; } }
+      .f { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
+      .m { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
+      .ttl { font-size: 13px; font-weight: 800; fill: #f0f6fc; letter-spacing: 1.4px; }
+      .lbl { font-size: 9px; fill: #8ba3bd; letter-spacing: 1.4px; font-weight: 700; }
+      .sm  { font-size: 9px; fill: #8ba3bd; letter-spacing: 0.3px; }
+      .num { font-size: 18px; font-weight: 800; fill: #f0f6fc; }
+      .unit { font-size: 9px; fill: #8ba3bd; letter-spacing: 0.4px; }
+      .pnl { fill: url(#pnl); stroke: #1f3b55; stroke-width: 1; }
+      .card { fill: #0d2233; stroke: #1f3b55; stroke-width: 0.8; }
+      .live { animation: live 1.8s steps(2) infinite; }
+      .pls1 { animation: pls 3.4s ease-in-out infinite; }
+      .pls2 { animation: pls 3.4s ease-in-out infinite 0.4s; }
+      .pls3 { animation: pls 3.4s ease-in-out infinite 0.8s; }
+      .pls4 { animation: pls 3.4s ease-in-out infinite 1.2s; }
+      .pls5 { animation: pls 3.4s ease-in-out infinite 1.6s; }
+      .pls6 { animation: pls 3.4s ease-in-out infinite 2.0s; }
+      .blink { animation: blink 1.6s steps(2) infinite; }
+      .scan { animation: scan 9s linear infinite; }
+      @keyframes live { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.3 } }
+      @keyframes pls  { 0%,100% { opacity: 0.4 } 50% { opacity: 1 } }
+      @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.35 } }
+      @keyframes scan { 0% { transform: translateX(-200px); opacity: 0 } 5% { opacity: 0.6 } 95% { opacity: 0.6 } 100% { transform: translateX(1200px); opacity: 0 } }
     </style>
   </defs>
 
-  <rect width="1200" height="150" rx="16" fill="url(#bg)"/>
-  <rect width="1200" height="150" rx="16" fill="url(#grid)" opacity="0.7"/>
-  <rect x="30" y="24" width="1140" height="102" rx="14" fill="#07131f" stroke="#24445f"/>
-  <rect x="54" y="42" width="1092" height="2" fill="url(#signal)" opacity="0.45"/>
-  <rect x="54" y="42" width="128" height="2" fill="#ffffff" class="scan"/>
+  <rect width="1200" height="150" fill="url(#bg)"/>
+  <rect width="1200" height="150" fill="url(#grid)" opacity="0.6"/>
 
-  <g class="font">
-    <text x="58" y="72" font-size="18" font-weight="800" fill="#f0f6fc">SOC Telemetry Stream</text>
-    <text x="58" y="94" font-size="12" fill="#8ba3bd">SIEM | Endpoint | Identity | Network | Cloud | Automation</text>
-  </g>
+  <!-- Outer panel -->
+  <rect x="20" y="12" width="1160" height="126" rx="12" class="pnl"/>
 
-  <path d="M350 86H1088" fill="none" stroke="#24445f" stroke-width="8" stroke-linecap="round"/>
-  <path d="M350 86H1088" fill="none" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round" class="dash" filter="url(#glow)"/>
-
-  <g class="font" text-anchor="middle">
-    <g transform="translate(380 86)">
-      <circle r="22" fill="#0d2233" stroke="#58a6ff"/>
-      <circle r="5" fill="#58a6ff" class="pulse" filter="url(#glow)"/>
-      <text y="40" font-size="10" fill="#8ba3bd">SIEM</text>
-    </g>
-    <g transform="translate(520 86)">
-      <circle r="22" fill="#0d2233" stroke="#7ee787"/>
-      <circle r="5" fill="#7ee787" class="pulse2" filter="url(#glow)"/>
-      <text y="40" font-size="10" fill="#8ba3bd">EDR</text>
-    </g>
-    <g transform="translate(660 86)">
-      <circle r="22" fill="#0d2233" stroke="#ffcf5a"/>
-      <circle r="5" fill="#ffcf5a" class="pulse" filter="url(#glow)"/>
-      <text y="40" font-size="10" fill="#8ba3bd">IAM</text>
-    </g>
-    <g transform="translate(800 86)">
-      <circle r="22" fill="#0d2233" stroke="#58a6ff"/>
-      <circle r="5" fill="#58a6ff" class="pulse2" filter="url(#glow)"/>
-      <text y="40" font-size="10" fill="#8ba3bd">NET</text>
-    </g>
-    <g transform="translate(940 86)">
-      <circle r="22" fill="#0d2233" stroke="#7ee787"/>
-      <circle r="5" fill="#7ee787" class="pulse" filter="url(#glow)"/>
-      <text y="40" font-size="10" fill="#8ba3bd">CLOUD</text>
-    </g>
-    <g transform="translate(1080 86)">
-      <circle r="22" fill="#0d2233" stroke="#ff6b6b"/>
-      <circle r="5" fill="#ff6b6b" class="pulse2" filter="url(#glow)"/>
-      <text y="40" font-size="10" fill="#8ba3bd">SOAR</text>
+  <!-- Header strip -->
+  <g class="f">
+    <text x="40" y="32" class="ttl">LIVE TELEMETRY  ·  6 DATA SOURCES</text>
+    <g transform="translate(990 18)">
+      <rect width="170" height="22" rx="6" fill="#0d2233" stroke="#1f6feb"/>
+      <circle cx="14" cy="11" r="4" fill="#3fb950" class="live" filter="url(#g)"/>
+      <text x="26" y="15" class="sm" letter-spacing="1.2" fill="#3fb950" font-weight="700">ALL SOURCES · ONLINE</text>
     </g>
   </g>
 
-  <g filter="url(#glow)">
-    <circle r="4" fill="#58a6ff">
-      <animateMotion dur="4.6s" repeatCount="indefinite" path="M350 86H1088"/>
-    </circle>
-    <circle r="4" fill="#7ee787">
-      <animateMotion dur="4.6s" begin="1.2s" repeatCount="indefinite" path="M350 86H1088"/>
-    </circle>
-    <circle r="4" fill="#ffcf5a">
-      <animateMotion dur="4.6s" begin="2.4s" repeatCount="indefinite" path="M350 86H1088"/>
-    </circle>
+  <!-- Animated scan beam under header -->
+  <rect x="-200" y="42" width="200" height="2" fill="#58a6ff" class="scan" opacity="0.6"/>
+
+  <!-- 6 telemetry cards: SIEM · EDR · IAM · NET · CLOUD · SOAR -->
+  <g class="f" transform="translate(30 50)">
+
+    <!-- SIEM -->
+    <g transform="translate(0 0)">
+      <rect width="186" height="78" rx="8" class="card"/>
+      <text x="14" y="16" class="lbl">SIEM</text>
+      <circle cx="172" cy="14" r="3.5" fill="#58a6ff" class="pls1" filter="url(#g)"/>
+      <text x="14" y="40" class="num m">12.4<tspan class="unit"> K/min</tspan></text>
+      <g transform="translate(14 50)" fill="url(#bar)">
+        <rect x="0"   y="14" width="6" height="6"  rx="1"/>
+        <rect x="8"   y="11" width="6" height="9"  rx="1"/>
+        <rect x="16"  y="6"  width="6" height="14" rx="1"/>
+        <rect x="24"  y="2"  width="6" height="18" rx="1"/>
+        <rect x="32"  y="4"  width="6" height="16" rx="1"/>
+        <rect x="40"  y="8"  width="6" height="12" rx="1"/>
+        <rect x="48"  y="3"  width="6" height="17" rx="1"/>
+        <rect x="56"  y="0"  width="6" height="20" rx="1"/>
+        <rect x="64"  y="5"  width="6" height="15" rx="1"/>
+        <rect x="72"  y="9"  width="6" height="11" rx="1"/>
+        <rect x="80"  y="6"  width="6" height="14" rx="1"/>
+        <rect x="88"  y="2"  width="6" height="18" rx="1"/>
+        <rect x="96"  y="4"  width="6" height="16" rx="1"/>
+        <rect x="104" y="7"  width="6" height="13" rx="1"/>
+        <rect x="112" y="10" width="6" height="10" rx="1"/>
+        <rect x="120" y="6"  width="6" height="14" rx="1"/>
+        <rect x="128" y="3"  width="6" height="17" rx="1"/>
+        <rect x="136" y="1"  width="6" height="19" rx="1"/>
+        <rect x="144" y="5"  width="6" height="15" rx="1"/>
+        <rect x="152" y="8"  width="6" height="12" rx="1"/>
+      </g>
+    </g>
+
+    <!-- EDR -->
+    <g transform="translate(190 0)">
+      <rect width="186" height="78" rx="8" class="card"/>
+      <text x="14" y="16" class="lbl">EDR · ENDPOINT</text>
+      <circle cx="172" cy="14" r="3.5" fill="#58a6ff" class="pls2" filter="url(#g)"/>
+      <text x="14" y="40" class="num m">8.2<tspan class="unit"> K/min</tspan></text>
+      <g transform="translate(14 50)" fill="url(#bar)">
+        <rect x="0"   y="10" width="6" height="10" rx="1"/>
+        <rect x="8"   y="7"  width="6" height="13" rx="1"/>
+        <rect x="16"  y="11" width="6" height="9"  rx="1"/>
+        <rect x="24"  y="4"  width="6" height="16" rx="1"/>
+        <rect x="32"  y="2"  width="6" height="18" rx="1"/>
+        <rect x="40"  y="6"  width="6" height="14" rx="1"/>
+        <rect x="48"  y="9"  width="6" height="11" rx="1"/>
+        <rect x="56"  y="5"  width="6" height="15" rx="1"/>
+        <rect x="64"  y="1"  width="6" height="19" rx="1"/>
+        <rect x="72"  y="3"  width="6" height="17" rx="1"/>
+        <rect x="80"  y="8"  width="6" height="12" rx="1"/>
+        <rect x="88"  y="12" width="6" height="8"  rx="1"/>
+        <rect x="96"  y="9"  width="6" height="11" rx="1"/>
+        <rect x="104" y="5"  width="6" height="15" rx="1"/>
+        <rect x="112" y="2"  width="6" height="18" rx="1"/>
+        <rect x="120" y="7"  width="6" height="13" rx="1"/>
+        <rect x="128" y="11" width="6" height="9"  rx="1"/>
+        <rect x="136" y="6"  width="6" height="14" rx="1"/>
+        <rect x="144" y="3"  width="6" height="17" rx="1"/>
+        <rect x="152" y="9"  width="6" height="11" rx="1"/>
+      </g>
+    </g>
+
+    <!-- IAM -->
+    <g transform="translate(380 0)">
+      <rect width="186" height="78" rx="8" class="card"/>
+      <text x="14" y="16" class="lbl">IAM · IDENTITY</text>
+      <circle cx="172" cy="14" r="3.5" fill="#58a6ff" class="pls3" filter="url(#g)"/>
+      <text x="14" y="40" class="num m">4.1<tspan class="unit"> K/min</tspan></text>
+      <g transform="translate(14 50)" fill="url(#bar)">
+        <rect x="0"   y="12" width="6" height="8"  rx="1"/>
+        <rect x="8"   y="14" width="6" height="6"  rx="1"/>
+        <rect x="16"  y="10" width="6" height="10" rx="1"/>
+        <rect x="24"  y="7"  width="6" height="13" rx="1"/>
+        <rect x="32"  y="11" width="6" height="9"  rx="1"/>
+        <rect x="40"  y="14" width="6" height="6"  rx="1"/>
+        <rect x="48"  y="9"  width="6" height="11" rx="1"/>
+        <rect x="56"  y="5"  width="6" height="15" rx="1"/>
+        <rect x="64"  y="8"  width="6" height="12" rx="1"/>
+        <rect x="72"  y="12" width="6" height="8"  rx="1"/>
+        <rect x="80"  y="6"  width="6" height="14" rx="1"/>
+        <rect x="88"  y="3"  width="6" height="17" rx="1"/>
+        <rect x="96"  y="9"  width="6" height="11" rx="1"/>
+        <rect x="104" y="13" width="6" height="7"  rx="1"/>
+        <rect x="112" y="10" width="6" height="10" rx="1"/>
+        <rect x="120" y="7"  width="6" height="13" rx="1"/>
+        <rect x="128" y="11" width="6" height="9"  rx="1"/>
+        <rect x="136" y="14" width="6" height="6"  rx="1"/>
+        <rect x="144" y="9"  width="6" height="11" rx="1"/>
+        <rect x="152" y="6"  width="6" height="14" rx="1"/>
+      </g>
+    </g>
+
+    <!-- NET -->
+    <g transform="translate(570 0)">
+      <rect width="186" height="78" rx="8" class="card"/>
+      <text x="14" y="16" class="lbl">NETWORK · NDR</text>
+      <circle cx="172" cy="14" r="3.5" fill="#58a6ff" class="pls4" filter="url(#g)"/>
+      <text x="14" y="40" class="num m">18.7<tspan class="unit"> K/min</tspan></text>
+      <g transform="translate(14 50)" fill="url(#bar)">
+        <rect x="0"   y="3"  width="6" height="17" rx="1"/>
+        <rect x="8"   y="1"  width="6" height="19" rx="1"/>
+        <rect x="16"  y="5"  width="6" height="15" rx="1"/>
+        <rect x="24"  y="0"  width="6" height="20" rx="1"/>
+        <rect x="32"  y="2"  width="6" height="18" rx="1"/>
+        <rect x="40"  y="6"  width="6" height="14" rx="1"/>
+        <rect x="48"  y="4"  width="6" height="16" rx="1"/>
+        <rect x="56"  y="1"  width="6" height="19" rx="1"/>
+        <rect x="64"  y="3"  width="6" height="17" rx="1"/>
+        <rect x="72"  y="0"  width="6" height="20" rx="1"/>
+        <rect x="80"  y="5"  width="6" height="15" rx="1"/>
+        <rect x="88"  y="2"  width="6" height="18" rx="1"/>
+        <rect x="96"  y="4"  width="6" height="16" rx="1"/>
+        <rect x="104" y="7"  width="6" height="13" rx="1"/>
+        <rect x="112" y="3"  width="6" height="17" rx="1"/>
+        <rect x="120" y="0"  width="6" height="20" rx="1"/>
+        <rect x="128" y="2"  width="6" height="18" rx="1"/>
+        <rect x="136" y="6"  width="6" height="14" rx="1"/>
+        <rect x="144" y="4"  width="6" height="16" rx="1"/>
+        <rect x="152" y="1"  width="6" height="19" rx="1"/>
+      </g>
+    </g>
+
+    <!-- CLOUD -->
+    <g transform="translate(760 0)">
+      <rect width="186" height="78" rx="8" class="card"/>
+      <text x="14" y="16" class="lbl">CLOUD · CSPM</text>
+      <circle cx="172" cy="14" r="3.5" fill="#58a6ff" class="pls5" filter="url(#g)"/>
+      <text x="14" y="40" class="num m">3.6<tspan class="unit"> K/min</tspan></text>
+      <g transform="translate(14 50)" fill="url(#bar)">
+        <rect x="0"   y="11" width="6" height="9"  rx="1"/>
+        <rect x="8"   y="9"  width="6" height="11" rx="1"/>
+        <rect x="16"  y="12" width="6" height="8"  rx="1"/>
+        <rect x="24"  y="14" width="6" height="6"  rx="1"/>
+        <rect x="32"  y="10" width="6" height="10" rx="1"/>
+        <rect x="40"  y="8"  width="6" height="12" rx="1"/>
+        <rect x="48"  y="11" width="6" height="9"  rx="1"/>
+        <rect x="56"  y="13" width="6" height="7"  rx="1"/>
+        <rect x="64"  y="10" width="6" height="10" rx="1"/>
+        <rect x="72"  y="7"  width="6" height="13" rx="1"/>
+        <rect x="80"  y="9"  width="6" height="11" rx="1"/>
+        <rect x="88"  y="12" width="6" height="8"  rx="1"/>
+        <rect x="96"  y="10" width="6" height="10" rx="1"/>
+        <rect x="104" y="8"  width="6" height="12" rx="1"/>
+        <rect x="112" y="11" width="6" height="9"  rx="1"/>
+        <rect x="120" y="13" width="6" height="7"  rx="1"/>
+        <rect x="128" y="9"  width="6" height="11" rx="1"/>
+        <rect x="136" y="11" width="6" height="9"  rx="1"/>
+        <rect x="144" y="8"  width="6" height="12" rx="1"/>
+        <rect x="152" y="10" width="6" height="10" rx="1"/>
+      </g>
+    </g>
+
+    <!-- SOAR -->
+    <g transform="translate(950 0)">
+      <rect width="186" height="78" rx="8" class="card"/>
+      <text x="14" y="16" class="lbl">SOAR · PLAYBOOKS</text>
+      <circle cx="172" cy="14" r="3.5" fill="#f85149" class="pls6 blink" filter="url(#g)"/>
+      <text x="14" y="40" class="num m">142<tspan class="unit"> /min</tspan></text>
+      <g transform="translate(14 50)" fill="url(#bar)">
+        <rect x="0"   y="15" width="6" height="5"  rx="1"/>
+        <rect x="8"   y="16" width="6" height="4"  rx="1"/>
+        <rect x="16"  y="14" width="6" height="6"  rx="1"/>
+        <rect x="24"  y="15" width="6" height="5"  rx="1"/>
+        <rect x="32"  y="17" width="6" height="3"  rx="1"/>
+        <rect x="40"  y="13" width="6" height="7"  rx="1"/>
+        <rect x="48"  y="11" width="6" height="9"  rx="1"/>
+        <rect x="56"  y="14" width="6" height="6"  rx="1"/>
+        <rect x="64"  y="16" width="6" height="4"  rx="1"/>
+        <rect x="72"  y="13" width="6" height="7"  rx="1"/>
+        <rect x="80"  y="15" width="6" height="5"  rx="1"/>
+        <rect x="88"  y="17" width="6" height="3"  rx="1"/>
+        <rect x="96"  y="14" width="6" height="6"  rx="1"/>
+        <rect x="104" y="12" width="6" height="8"  rx="1"/>
+        <rect x="112" y="15" width="6" height="5"  rx="1"/>
+        <rect x="120" y="16" width="6" height="4"  rx="1"/>
+        <rect x="128" y="14" width="6" height="6"  rx="1"/>
+        <rect x="136" y="17" width="6" height="3"  rx="1"/>
+        <rect x="144" y="15" width="6" height="5"  rx="1"/>
+        <rect x="152" y="13" width="6" height="7"  rx="1"/>
+      </g>
+    </g>
   </g>
 
-  <g class="mono" font-size="12">
-    <rect x="58" y="105" width="266" height="18" rx="9" fill="#050f1a" stroke="#213c54"/>
-    <text x="72" y="118" fill="#7ee787" class="line1">rule.deploy: sigma/windows/process</text>
-    <text x="72" y="118" fill="#58a6ff" class="line2">hunt.query: suspicious_parent_child</text>
-    <text x="72" y="118" fill="#ffcf5a" class="line3">playbook.run: enrich_and_score</text>
+  <!-- Footer stats line -->
+  <g class="f" transform="translate(40 142)">
+    <text class="sm" fill="#8ba3bd">▸ TOTAL INGEST:</text>
+    <text class="m" font-size="10" font-weight="800" fill="#58a6ff" x="100">2.4M events/day</text>
+    <text class="sm" fill="#8ba3bd" x="200">·  alerts triaged:</text>
+    <text class="m" font-size="10" font-weight="800" fill="#3fb950" x="290">247/24h</text>
+    <text class="sm" fill="#8ba3bd" x="350">·  MTTD:</text>
+    <text class="m" font-size="10" font-weight="800" fill="#3fb950" x="392">4m 12s</text>
+    <text class="sm" fill="#8ba3bd" x="448">·  uptime:</text>
+    <text class="m" font-size="10" font-weight="800" fill="#3fb950" x="498">99.94%</text>
+    <text class="sm" fill="#8ba3bd" x="940">last refresh: 2026-05-11 · 22:48 UTC</text>
   </g>
 </svg>
