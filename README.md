@@ -1,6 +1,6 @@
 <!-- HERO BANNER -->
 <a href="https://github.com/sandeepmothukuri">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,40:001a0d,75:003820,100:00ff41&height=240&section=header&text=Sandeep%20Mothukuri&fontSize=60&fontColor=00ff41&fontAlignY=36&desc=%5B%20Senior%20SOC%20Analyst%20L3%20%5D%20%C2%B7%20Incident%20Response%20%C2%B7%20Threat%20Hunting%20%C2%B7%20Detection%20Engineering&descAlignY=60&descSize=17&descColor=c9d1d9&animation=fadeIn" alt="hero banner">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1929,50:132f4c,100:1f6feb&height=240&section=header&text=Sandeep%20Mothukuri&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Senior%20SOC%20Analyst%20(L3)%20%C2%B7%20Incident%20Response%20%C2%B7%20Threat%20Hunting%20%C2%B7%20Detection%20Engineering&descAlignY=60&descSize=17&descColor=c9d1d9&animation=fadeIn" alt="hero banner">
 </a>
 
 <!-- AUTO-UPDATED-SNAKE START -->
@@ -267,17 +267,17 @@ index=wineventlog EventCode=5140
 ## 📊 Live GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&count_private=true&hide_border=true&bg_color=000000&title_color=00ff41&text_color=00ff41&icon_color=00ff41&ring_color=00ff41">
-  <img height="180" src="https://streak-stats.demolab.com?user=sandeepmothukuri&hide_border=true&background=000000&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakNum=00ff41&sideNums=00ff41&currStreakLabel=00ff41&sideLabels=00ff41&dates=00ff41">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&count_private=true&hide_border=true&bg_color=0a1929&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&ring_color=58a6ff">
+  <img height="180" src="https://streak-stats.demolab.com?user=sandeepmothukuri&hide_border=true&background=0a1929&stroke=1f6feb&ring=58a6ff&fire=f85149&currStreakNum=ffffff&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e">
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&langs_count=8&hide_border=true&bg_color=000000&title_color=00ff41&text_color=00ff41">
-  <img height="180" src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=matrix&no-frame=true&no-bg=true&row=2&column=3&margin-w=8&margin-h=8">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&langs_count=8&hide_border=true&bg_color=0a1929&title_color=58a6ff&text_color=c9d1d9">
+  <img height="180" src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=nord&no-frame=true&no-bg=true&row=2&column=3&margin-w=8&margin-h=8">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sandeepmothukuri&bg_color=000000&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%94%20last%2012%20months&title_color=00ff41" alt="contribution activity graph" width="100%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sandeepmothukuri&bg_color=0a1929&color=58a6ff&line=58a6ff&point=1f6feb&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%94%20last%2012%20months&title_color=58a6ff" alt="contribution activity graph" width="100%">
 </p>
 
 <p align="center">
@@ -293,9 +293,9 @@ index=wineventlog EventCode=5140
 </p>
 
 <p align="center">
-  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Visit%20Site-cybertechnology.in-00ff41?style=for-the-badge&logo=googlechrome&logoColor=000000&labelColor=000000"></a>
-  <img src="https://img.shields.io/website?url=https%3A%2F%2Fcybertechnology.in&style=for-the-badge&up_color=00ff41&up_message=ONLINE&down_color=f85149&down_message=OFFLINE&label=STATUS&labelColor=000000">
-  <img src="https://img.shields.io/badge/Updated-daily-58a6ff?style=for-the-badge&labelColor=000000">
+  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Visit%20Site-cybertechnology.in-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=0a1929"></a>
+  <img src="https://img.shields.io/website?url=https%3A%2F%2Fcybertechnology.in&style=for-the-badge&up_color=3fb950&up_message=ONLINE&down_color=f85149&down_message=OFFLINE&label=STATUS&labelColor=0a1929">
+  <img src="https://img.shields.io/badge/Updated-daily-58a6ff?style=for-the-badge&labelColor=0a1929">
 </p>
 
 <p align="center">
