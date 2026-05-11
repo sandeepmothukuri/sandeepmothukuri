@@ -7,7 +7,7 @@ set -eu
 FEEDS=(
   "https://feeds.feedburner.com/TheHackersNews|The Hacker News"
   "https://www.bleepingcomputer.com/feed/|BleepingComputer"
-  "https://www.darkreading.com/rss.xml|Dark Reading"
+  "https://krebsonsecurity.com/feed/|Krebs on Security"
 )
 TODAY="$(date -u +'%Y-%m-%d %H:%M UTC')"
 

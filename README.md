@@ -37,7 +37,7 @@
 <!-- TYPING ANIMATION -->
 <p align="center">
   <a href="https://github.com/sandeepmothukuri">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3200&pause=700&color=39D353&background=0A192900&center=true&vCenter=true&width=900&height=60&multiline=false&random=false&lines=%E2%96%B6+Senior+SOC+Analyst+(L3);%E2%96%B6+Incident+Response+%26+Threat+Hunting;%E2%96%B6+SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;%E2%96%B6+Detection+Engineering+%26+SOC+Automation;%E2%96%B6+Open-Source+SOC+Lab+Builder;%E2%96%B6+AI-Augmented+SOC+%E2%80%94+Sigma%2C+Caldera%2C+CrewAI;%E2%96%B6+L1+%E2%86%92+L3+career+path+%E2%80%94+ask+me+anything" alt="typing animation showcasing roles and focus">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3200&pause=700&color=39D353&background=0A192900&center=true&vCenter=true&width=900&height=60&multiline=false&random=false&lines=%E2%96%B6+Senior+SOC+Analyst+(L3);%E2%96%B6+Incident+Response+%26+Threat+Hunting;%E2%96%B6+SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;%E2%96%B6+Detection+Engineering+%26+SOC+Automation;%E2%96%B6+Open-Source+SOC+Lab+Builder;%E2%96%B6+AI-Augmented+SOC+%E2%80%94+Sigma%2C+Caldera%2C+CrewAI;%E2%96%B6+Mentoring+L1%2FL2+analysts+%E2%80%94+L1+%E2%86%92+L3+career+path" alt="typing animation showcasing roles and focus">
   </a>
 </p>
 
@@ -103,6 +103,7 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 <p align="left">
   <img src="https://img.shields.io/badge/MISP-1B5E20?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/TheHive-FF7043?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/TheHive%20Cortex-FF7043?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Velociraptor-1E88E5?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/DFIR--IRIS-455A64?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white&labelColor=132f4c">
@@ -140,7 +141,6 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 
 <p align="left">
   <img src="https://img.shields.io/badge/Shuffle-455A64?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/TheHive%20Cortex-FF7043?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=132f4c">
   <img src="https://img.shields.io/badge/PowerShell-2671BE?style=flat-square&logo=powershell&logoColor=white&labelColor=132f4c">
@@ -263,14 +263,16 @@ index=wineventlog EventCode=5140
 
 <p align="left">
   <img src="https://img.shields.io/badge/CISM-f85149?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/CompTIA%20Security%2B-f85149?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/ISC2%20CC-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/SOC%20Analyst-3fb950?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Ethical%20Hacking-8b949e?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/CompTIA%20Security%2B-f85149?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/SOC%20Analyst%20(EC--Council)-3fb950?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Ethical%20Hacking%20(CEH)-8b949e?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/ITIL%204%20Foundation-58a6ff?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/CompTIA%20Network%2B-f85149?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/CompTIA%20A%2B-f85149?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/ITIL%204-58a6ff?style=flat-square&labelColor=132f4c">
 </p>
+
+<sub>Cert order: senior/specialty first, foundational at the end. Update if you hold different titles — e.g. CSAP, GSEC, OSCP, AZ-500, AWS Security.</sub>
 
 ## 📊 Live GitHub Stats
 
@@ -313,7 +315,7 @@ index=wineventlog EventCode=5140
 
 ## 📡 SOC Pulse — live
 
-Auto-refreshed by GitHub Actions. CVE feed from NIST NVD; headlines from public security RSS; featured repos curated from my recent activity.
+Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines from public security RSS sources.
 
 <!-- CVE-OF-THE-WEEK-START -->
 ### 🚨 Today's Top Critical CVE
@@ -383,8 +385,6 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
   <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-7c3aed?style=flat-square&logo=googlechrome&logoColor=white&labelColor=132f4c"></a>
   <a href="https://www.linkedin.com/in/sandeepmothukuris"><img src="https://img.shields.io/badge/LinkedIn-sandeepmothukuris-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=132f4c"></a>
   <a href="mailto:sandeep.mothukuris@gmail.com"><img src="https://img.shields.io/badge/Email-sandeep.mothukuris%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=132f4c"></a>
-  <a href="https://github.com/sandeepmothukuri"><img src="https://img.shields.io/badge/GitHub-sandeepmothukuri-181717?style=flat-square&logo=github&logoColor=white&labelColor=132f4c"></a>
-  <a href="https://x.com/sandeepmothukuri"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-Follow-000000?style=flat-square&logo=x&logoColor=white&labelColor=132f4c"></a>
 </p>
 
 📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity) — typical reply within 24h.
