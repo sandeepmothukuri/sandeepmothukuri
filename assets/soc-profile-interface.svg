@@ -1,186 +1,247 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-  <title id="title">Sandeep Mothukuri SOC profile visual interface</title>
-  <desc id="desc">Animated cybersecurity command center interface preview for a GitHub profile README.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+  <title id="t">SOC Mission Control — Sandeep Mothukuri</title>
+  <desc id="d">Animated real-time SOC operations console: KPIs, global threat map, MITRE coverage, alert stream.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#07101d"/>
-      <stop offset="0.48" stop-color="#0b1728"/>
-      <stop offset="1" stop-color="#06151a"/>
+      <stop offset="0" stop-color="#070d1a"/>
+      <stop offset="0.5" stop-color="#0a1929"/>
+      <stop offset="1" stop-color="#040810"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#101c2f" stop-opacity="0.94"/>
-      <stop offset="1" stop-color="#071420" stop-opacity="0.92"/>
+    <linearGradient id="pnl" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#132f4c" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0a1929" stop-opacity="0.95"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" x2="1">
-      <stop offset="0" stop-color="#36d1dc"/>
-      <stop offset="0.5" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#7ee787"/>
+    <linearGradient id="acc" x1="0" x2="1">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#58a6ff"/>
     </linearGradient>
-    <linearGradient id="alert" x1="0" x2="1">
-      <stop offset="0" stop-color="#ffcf5a"/>
-      <stop offset="1" stop-color="#ff6b6b"/>
-    </linearGradient>
-    <radialGradient id="radarGlow" cx="50%" cy="50%" r="55%">
-      <stop offset="0" stop-color="#7ee787" stop-opacity="0.28"/>
-      <stop offset="0.52" stop-color="#58a6ff" stop-opacity="0.12"/>
+    <radialGradient id="globeGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.16"/>
       <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f3b55" stroke-width="1" opacity="0.24"/>
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#1f3b55" stroke-width="1" opacity="0.22"/>
     </pattern>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .font { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
-      .mono { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
-      .small { font-size: 13px; fill: #8ba3bd; }
-      .muted { fill: #8ba3bd; }
-      .line { stroke: #24445f; stroke-width: 1; }
-      .panel { fill: url(#panel); stroke: #274968; stroke-width: 1.2; }
-      .chip { fill: #0d2233; stroke: #235b78; stroke-width: 1; }
-      .pulse { animation: pulse 2.8s ease-in-out infinite; }
-      .pulse2 { animation: pulse 3.4s ease-in-out infinite 0.5s; }
-      .dash { stroke-dasharray: 9 11; animation: dash 12s linear infinite; }
-      .sweep { transform-origin: 282px 294px; animation: sweep 5.5s linear infinite; }
-      .float { animation: float 4.8s ease-in-out infinite; }
-      .blink { animation: blink 1.4s steps(2, start) infinite; }
-      .scan { animation: scan 4.2s ease-in-out infinite; }
-      @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
-      @keyframes dash { to { stroke-dashoffset: -240; } }
-      @keyframes sweep { to { transform: rotate(360deg); } }
-      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-      @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: .15; } }
-      @keyframes scan { 0%,100% { transform: translateY(0); opacity: .08; } 50% { transform: translateY(226px); opacity: .28; } }
+      .f { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
+      .m { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
+      .sm { font-size: 11px; fill: #8ba3bd; letter-spacing: 0.5px; }
+      .lbl { font-size: 11px; fill: #8ba3bd; letter-spacing: 1.4px; }
+      .ttl { font-size: 14px; font-weight: 700; fill: #f0f6fc; letter-spacing: 0.5px; }
+      .pnl { fill: url(#pnl); stroke: #1f3b55; stroke-width: 1; }
+      .chip { fill: #0d2233; stroke: #1f6feb; stroke-width: 1; }
+      .live { animation: live 1.4s steps(2) infinite; }
+      .pls1 { animation: pls 2.4s ease-in-out infinite; }
+      .pls2 { animation: pls 2.4s ease-in-out infinite 0.4s; }
+      .pls3 { animation: pls 2.4s ease-in-out infinite 0.8s; }
+      .pls4 { animation: pls 2.4s ease-in-out infinite 1.2s; }
+      .dash { stroke-dasharray: 6 10; animation: dash 9s linear infinite; }
+      .arc1 { animation: arc 5.6s ease-in-out infinite; offset-distance: 0%; }
+      .arc2 { animation: arc 5.6s ease-in-out infinite 1.4s; }
+      .arc3 { animation: arc 5.6s ease-in-out infinite 2.8s; }
+      .arc4 { animation: arc 5.6s ease-in-out infinite 4.2s; }
+      .scroll { animation: scrl 14s linear infinite; }
+      .blink { animation: blink 1.2s steps(2) infinite; }
+      @keyframes live { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.25 } }
+      @keyframes pls { 0%,100% { opacity: 0.4; transform: scale(1) } 50% { opacity: 1; transform: scale(1.18) } }
+      @keyframes dash { to { stroke-dashoffset: -180 } }
+      @keyframes arc { 0% { opacity: 0; offset-distance: 0% } 10% { opacity: 1 } 80% { opacity: 1 } 100% { opacity: 0; offset-distance: 100% } }
+      @keyframes scrl { 0% { transform: translateY(0) } 100% { transform: translateY(-140px) } }
+      @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.3 } }
     </style>
   </defs>
 
-  <rect width="1200" height="720" rx="0" fill="url(#bg)"/>
-  <rect width="1200" height="720" fill="url(#grid)" opacity="0.72"/>
-  <path d="M0 92 C130 54 218 86 342 56 C470 24 580 68 698 42 C850 8 1010 48 1200 18" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.28"/>
-  <path d="M0 624 C170 680 312 612 456 650 C612 692 778 620 912 650 C1038 678 1110 642 1200 666" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.20"/>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect width="1200" height="720" fill="url(#grid)" opacity="0.7"/>
 
-  <g class="font">
-    <rect x="36" y="34" width="1128" height="126" rx="18" class="panel"/>
-    <text x="70" y="85" font-size="40" font-weight="800" fill="#f0f6fc">Sandeep Mothukuri</text>
-    <text x="72" y="119" font-size="18" fill="#58a6ff" letter-spacing="0">Senior SOC Analyst L3 | Incident Response | Threat Hunting | Detection Engineering</text>
-    <g transform="translate(730 58)">
-      <rect width="382" height="66" rx="14" fill="#071928" stroke="#1f6feb" opacity="0.92"/>
-      <text x="20" y="28" font-size="13" fill="#8ba3bd">PROFILE MODE</text>
-      <text x="20" y="51" font-size="20" font-weight="700" fill="#7ee787">Open to UK / EU / Remote SOC roles</text>
-      <circle cx="352" cy="33" r="8" fill="#7ee787" class="pulse" filter="url(#softGlow)"/>
+  <!-- HEADER -->
+  <g class="f">
+    <rect x="24" y="20" width="1152" height="84" rx="14" class="pnl"/>
+    <text x="44" y="50" font-size="22" font-weight="800" fill="#f0f6fc">SOC MISSION CONTROL</text>
+    <text x="44" y="72" font-size="14" fill="#58a6ff">Sandeep Mothukuri  ·  Senior SOC Analyst (L3)  ·  Incident Response · Threat Hunting · Detection Engineering</text>
+    <text x="44" y="90" class="sm">London · UK  ·  Shift: 24/7 escalation rotation  ·  Console v2.1</text>
+
+    <g transform="translate(940 36)">
+      <rect width="220" height="52" rx="10" class="chip"/>
+      <circle cx="22" cy="26" r="7" fill="#f85149" class="live" filter="url(#glow)"/>
+      <text x="40" y="24" font-size="12" fill="#8ba3bd" letter-spacing="1.4">SYSTEM STATUS</text>
+      <text x="40" y="42" font-size="14" font-weight="700" fill="#3fb950">● OPERATIONAL · LIVE</text>
     </g>
   </g>
 
-  <g class="font" transform="translate(54 185)">
-    <rect x="0" y="0" width="456" height="254" rx="16" class="panel"/>
-    <text x="24" y="36" font-size="15" font-weight="700" fill="#f0f6fc">Live SOC Signal Map</text>
-    <text x="24" y="58" class="small">Radar sweep, telemetry nodes, triage paths</text>
-    <circle cx="228" cy="134" r="92" fill="url(#radarGlow)"/>
-    <circle cx="228" cy="134" r="86" fill="none" stroke="#27506e"/>
-    <circle cx="228" cy="134" r="58" fill="none" stroke="#27506e" opacity="0.7"/>
-    <circle cx="228" cy="134" r="30" fill="none" stroke="#27506e" opacity="0.56"/>
-    <line x1="142" y1="134" x2="314" y2="134" stroke="#27506e"/>
-    <line x1="228" y1="48" x2="228" y2="220" stroke="#27506e"/>
-    <g class="sweep">
-      <path d="M228 134 L228 48 A86 86 0 0 1 296 82 Z" fill="#7ee787" opacity="0.16"/>
-      <line x1="228" y1="134" x2="228" y2="48" stroke="#7ee787" stroke-width="2" opacity="0.8"/>
+  <!-- KPI TILES ROW -->
+  <g class="f" transform="translate(24 120)">
+    <!-- Alerts handled -->
+    <g transform="translate(0 0)">
+      <rect width="282" height="130" rx="14" class="pnl"/>
+      <circle cx="22" cy="26" r="5" fill="#58a6ff" class="pls1" filter="url(#glow)"/>
+      <text x="38" y="30" class="lbl">ALERTS HANDLED · 24H</text>
+      <text x="22" y="74" font-size="40" font-weight="800" fill="#f0f6fc" class="m">247</text>
+      <text x="22" y="104" class="sm">▲ +12% vs 7-day avg</text>
+      <g transform="translate(160 64)">
+        <rect width="100" height="6" rx="3" fill="#0d2233"/>
+        <rect width="78" height="6" rx="3" fill="url(#acc)"/>
+        <text x="0" y="-6" class="sm">CAPACITY</text>
+        <text x="86" y="-6" class="sm" fill="#3fb950">78%</text>
+      </g>
     </g>
-    <g stroke="url(#accent)" fill="none" opacity="0.9">
-      <path d="M106 196 C150 150 182 152 228 134 S294 94 346 82" class="dash"/>
-      <path d="M128 84 C174 116 198 108 228 134 S286 180 338 194" class="dash"/>
+    <!-- MTTR -->
+    <g transform="translate(294 0)">
+      <rect width="282" height="130" rx="14" class="pnl"/>
+      <circle cx="22" cy="26" r="5" fill="#3fb950" class="pls2" filter="url(#glow)"/>
+      <text x="38" y="30" class="lbl">MEAN TIME TO RESPOND</text>
+      <text x="22" y="74" font-size="40" font-weight="800" fill="#f0f6fc" class="m">11<tspan font-size="22" fill="#8ba3bd">m</tspan> 47<tspan font-size="22" fill="#8ba3bd">s</tspan></text>
+      <text x="22" y="104" class="sm" fill="#3fb950">▼ -23% vs last quarter</text>
+      <g transform="translate(192 70)" opacity="0.85">
+        <path d="M0 18 L14 8 L28 14 L42 4 L56 10 L70 0" stroke="#58a6ff" stroke-width="2" fill="none"/>
+        <circle cx="70" cy="0" r="3" fill="#58a6ff"/>
+      </g>
     </g>
-    <g fill="#7ee787" filter="url(#softGlow)">
-      <circle cx="136" cy="89" r="4" class="pulse"/>
-      <circle cx="318" cy="88" r="5" class="pulse2"/>
-      <circle cx="348" cy="196" r="4" class="pulse"/>
-      <circle cx="108" cy="198" r="4" class="pulse2"/>
-      <circle cx="228" cy="134" r="6"/>
+    <!-- MITRE coverage -->
+    <g transform="translate(588 0)">
+      <rect width="282" height="130" rx="14" class="pnl"/>
+      <circle cx="22" cy="26" r="5" fill="#ffcf5a" class="pls3" filter="url(#glow)"/>
+      <text x="38" y="30" class="lbl">MITRE ATT&amp;CK COVERAGE</text>
+      <text x="22" y="74" font-size="40" font-weight="800" fill="#f0f6fc" class="m">86<tspan font-size="22" fill="#8ba3bd"> TTPs</tspan></text>
+      <text x="22" y="104" class="sm">across 14 tactics · Sigma + custom</text>
+      <g transform="translate(192 56)">
+        <circle cx="32" cy="20" r="28" fill="none" stroke="#0d2233" stroke-width="4"/>
+        <circle cx="32" cy="20" r="28" fill="none" stroke="#58a6ff" stroke-width="4" stroke-dasharray="138 176" transform="rotate(-90 32 20)"/>
+        <text x="32" y="25" text-anchor="middle" font-size="12" font-weight="700" fill="#f0f6fc">78%</text>
+      </g>
     </g>
-    <rect x="22" y="208" width="412" height="28" rx="8" fill="#06131f" stroke="#24445f"/>
-    <text x="36" y="227" class="mono" font-size="12" fill="#7ee787">hunt --ttp T1059 --scope endpoint,identity,network</text>
-  </g>
-
-  <g class="font" transform="translate(536 185)">
-    <rect x="0" y="0" width="610" height="254" rx="16" class="panel"/>
-    <text x="24" y="36" font-size="15" font-weight="700" fill="#f0f6fc">Incident Response Flow</text>
-    <text x="24" y="58" class="small">Detection -> Enrichment -> Hunt -> Containment -> RCA</text>
-    <g transform="translate(28 84)">
-      <rect width="552" height="136" rx="12" fill="#07131f" stroke="#24445f"/>
-      <rect x="1" y="1" width="550" height="32" rx="11" fill="#0e2030"/>
-      <circle cx="20" cy="17" r="4" fill="#ff6b6b"/>
-      <circle cx="36" cy="17" r="4" fill="#ffcf5a"/>
-      <circle cx="52" cy="17" r="4" fill="#7ee787"/>
-      <text x="72" y="22" class="mono" font-size="12" fill="#8ba3bd">soc-triage.sh</text>
-      <text x="18" y="58" class="mono" font-size="13" fill="#58a6ff">$ alert ingest --source siem --severity high</text>
-      <text x="18" y="84" class="mono" font-size="13" fill="#7ee787">[ok] enriched: asset, identity, geo, hash, sandbox</text>
-      <text x="18" y="110" class="mono" font-size="13" fill="#ffcf5a">[hunt] mapped to MITRE: TA0002 / T1059</text>
-      <rect x="18" y="120" width="516" height="2" fill="url(#accent)" opacity="0.38" class="pulse"/>
-      <rect x="18" y="34" width="516" height="32" fill="#58a6ff" class="scan"/>
-    </g>
-    <g transform="translate(28 16)">
-      <rect x="342" y="0" width="70" height="24" rx="12" class="chip"/>
-      <text x="358" y="16" font-size="11" fill="#7ee787">SPL</text>
-      <rect x="420" y="0" width="70" height="24" rx="12" class="chip"/>
-      <text x="437" y="16" font-size="11" fill="#58a6ff">AQL</text>
-      <rect x="498" y="0" width="70" height="24" rx="12" class="chip"/>
-      <text x="513" y="16" font-size="11" fill="#ffcf5a">SIGMA</text>
-    </g>
-  </g>
-
-  <g class="font" transform="translate(54 470)">
-    <text x="0" y="0" font-size="18" font-weight="800" fill="#f0f6fc">Featured SOC Labs</text>
-    <text x="0" y="24" class="small">Reusable labs, automation, detection engineering, analyst training</text>
-    <g transform="translate(0 44)">
-      <rect width="268" height="124" rx="14" class="panel"/>
-      <circle cx="24" cy="28" r="6" fill="#7ee787" class="pulse"/>
-      <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">advanced-soc-lab-v2.0</text>
-      <text x="24" y="58" class="small">12-tool enterprise SOC lab</text>
-      <text x="24" y="78" class="mono" font-size="11" fill="#7ee787">OpenSearch · Suricata · Zeek</text>
-      <text x="24" y="94" class="mono" font-size="11" fill="#58a6ff">MISP · Caldera · Velociraptor</text>
-      <text x="24" y="112" class="mono" font-size="11" fill="#ffcf5a">15 detections · MITRE ATT&amp;CK v14</text>
-    </g>
-    <g transform="translate(286 44)">
-      <rect width="268" height="124" rx="14" class="panel"/>
-      <circle cx="24" cy="28" r="6" fill="#7ee787" class="pulse2"/>
-      <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">ai-soc-lab</text>
-      <text x="24" y="58" class="small">AI-augmented SOC automation</text>
-      <text x="24" y="78" class="mono" font-size="11" fill="#7ee787">Wazuh · TheHive · Shuffle</text>
-      <text x="24" y="94" class="mono" font-size="11" fill="#58a6ff">MISP · Ollama (LLaMA3)</text>
-      <text x="24" y="112" class="mono" font-size="11" fill="#ffcf5a">LLM-assisted alert triage</text>
-    </g>
-    <g transform="translate(572 44)">
-      <rect width="268" height="124" rx="14" class="panel"/>
-      <circle cx="24" cy="28" r="6" fill="#ffcf5a" class="pulse"/>
-      <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">soc-lab-free</text>
-      <text x="24" y="58" class="small">100% free SOC tooling stack</text>
-      <text x="24" y="78" class="mono" font-size="11" fill="#7ee787">OpenVAS · Wazuh · pfSense</text>
-      <text x="24" y="94" class="mono" font-size="11" fill="#58a6ff">Lynis · Proxmox Mail Gateway</text>
-      <text x="24" y="112" class="mono" font-size="11" fill="#ffcf5a">Free Nessus / Splunk alternative</text>
-    </g>
-    <g transform="translate(858 44)">
-      <rect width="268" height="124" rx="14" class="panel"/>
-      <circle cx="24" cy="28" r="6" fill="#58a6ff" class="pulse2"/>
-      <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">soc-threat-hunting-lab</text>
-      <text x="24" y="58" class="small">Hypothesis-driven hunting</text>
-      <text x="24" y="78" class="mono" font-size="11" fill="#7ee787">Zeek · RITA · Arkime</text>
-      <text x="24" y="94" class="mono" font-size="11" fill="#58a6ff">Velociraptor · OSQuery</text>
-      <text x="24" y="112" class="mono" font-size="11" fill="#ffcf5a">MISP · TheHive · Shuffle</text>
+    <!-- Open incidents -->
+    <g transform="translate(882 0)">
+      <rect width="270" height="130" rx="14" class="pnl"/>
+      <circle cx="22" cy="26" r="5" fill="#f85149" class="pls4" filter="url(#glow)"/>
+      <text x="38" y="30" class="lbl">OPEN INCIDENTS · L3 QUEUE</text>
+      <text x="22" y="74" font-size="40" font-weight="800" fill="#f0f6fc" class="m">3</text>
+      <text x="22" y="104" class="sm">2 active · 1 awaiting RCA</text>
+      <g transform="translate(140 50)">
+        <rect width="14" height="14" rx="3" fill="#f85149"/><text x="22" y="11" class="sm" fill="#f0f6fc">CRITICAL · 1</text>
+        <rect y="22" width="14" height="14" rx="3" fill="#ffcf5a"/><text x="22" y="33" class="sm" fill="#f0f6fc">HIGH · 1</text>
+        <rect y="44" width="14" height="14" rx="3" fill="#58a6ff"/><text x="22" y="55" class="sm" fill="#f0f6fc">MEDIUM · 1</text>
+      </g>
     </g>
   </g>
 
-  <g class="font" transform="translate(54 664)">
-    <rect width="1092" height="34" rx="12" fill="#081725" stroke="#24445f"/>
-    <text x="22" y="22" font-size="12" fill="#8ba3bd">SIEM tuning</text>
-    <text x="166" y="22" font-size="12" fill="#8ba3bd">MITRE mapping</text>
-    <text x="334" y="22" font-size="12" fill="#8ba3bd">Cloud XDR</text>
-    <text x="472" y="22" font-size="12" fill="#8ba3bd">SOAR playbooks</text>
-    <text x="640" y="22" font-size="12" fill="#8ba3bd">Detection as code</text>
-    <text x="828" y="22" font-size="12" fill="#8ba3bd">Open-source SOC labs</text>
-    <rect x="1034" y="11" width="38" height="12" rx="6" fill="url(#accent)" class="pulse"/>
+  <!-- LEFT: GLOBAL THREAT MAP -->
+  <g class="f" transform="translate(24 270)">
+    <rect width="720" height="240" rx="14" class="pnl"/>
+    <text x="22" y="30" class="ttl">GLOBAL THREAT VECTORS — last 24h</text>
+    <text x="22" y="50" class="sm">arcs animate origin → destination · color = severity</text>
+
+    <!-- world glow -->
+    <ellipse cx="360" cy="148" rx="320" ry="76" fill="url(#globeGlow)"/>
+
+    <!-- abstract continent shapes (simplified) -->
+    <g fill="#1f3b55" opacity="0.45">
+      <!-- North America -->
+      <path d="M70 100 L150 90 L180 110 L170 150 L130 170 L80 160 Z"/>
+      <!-- South America -->
+      <path d="M165 175 L200 180 L210 215 L180 220 L165 200 Z"/>
+      <!-- Europe -->
+      <path d="M340 90 L400 85 L420 115 L385 130 L345 120 Z"/>
+      <!-- Africa -->
+      <path d="M360 135 L420 135 L430 180 L395 215 L370 205 L355 165 Z"/>
+      <!-- Asia -->
+      <path d="M440 80 L580 80 L620 120 L590 150 L500 145 L450 120 Z"/>
+      <!-- Australia -->
+      <path d="M580 180 L640 175 L650 205 L600 210 Z"/>
+    </g>
+
+    <!-- city nodes -->
+    <g fill="#58a6ff" filter="url(#glow)">
+      <circle cx="120" cy="125" r="4" class="pls1"/><text x="128" y="123" class="sm" fill="#c9d1d9">NYC</text>
+      <circle cx="370" cy="105" r="4" class="pls2"/><text x="378" y="103" class="sm" fill="#c9d1d9">LON</text>
+      <circle cx="530" cy="105" r="4" class="pls3"/><text x="538" y="103" class="sm" fill="#c9d1d9">SGP</text>
+      <circle cx="610" cy="195" r="4" class="pls4"/><text x="618" y="193" class="sm" fill="#c9d1d9">SYD</text>
+      <circle cx="400" cy="180" r="4" class="pls1"/><text x="408" y="178" class="sm" fill="#c9d1d9">JNB</text>
+    </g>
+
+    <!-- animated threat arcs -->
+    <g fill="none" stroke-width="1.5">
+      <path d="M120 125 Q 245 50 370 105" stroke="#f85149" opacity="0.85" class="dash"/>
+      <path d="M530 105 Q 450 30 370 105" stroke="#ffcf5a" opacity="0.85" class="dash"/>
+      <path d="M610 195 Q 500 240 400 180" stroke="#58a6ff" opacity="0.85" class="dash"/>
+      <path d="M120 125 Q 260 195 400 180" stroke="#f85149" opacity="0.6" class="dash"/>
+    </g>
+
+    <!-- legend strip bottom of panel -->
+    <g transform="translate(22 210)">
+      <rect width="14" height="10" rx="2" fill="#f85149"/><text x="22" y="9" class="sm" fill="#c9d1d9">CRITICAL</text>
+      <rect x="100" width="14" height="10" rx="2" fill="#ffcf5a"/><text x="122" y="9" class="sm" fill="#c9d1d9">HIGH</text>
+      <rect x="180" width="14" height="10" rx="2" fill="#58a6ff"/><text x="202" y="9" class="sm" fill="#c9d1d9">MEDIUM</text>
+      <rect x="560" width="120" height="14" rx="7" fill="#0d2233" stroke="#1f6feb"/>
+      <text x="576" y="10" class="sm" fill="#58a6ff">▶ FEED: ACTIVE</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: MITRE ATT&CK TACTIC COVERAGE -->
+  <g class="f" transform="translate(756 270)">
+    <rect width="420" height="240" rx="14" class="pnl"/>
+    <text x="22" y="30" class="ttl">MITRE ATT&amp;CK · TACTIC COVERAGE</text>
+    <text x="22" y="50" class="sm">14 tactics · cell intensity = detection depth</text>
+
+    <!-- 14 cells in 2 rows of 7 -->
+    <g transform="translate(22 64)">
+      <!-- Row 1 -->
+      <g><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.95"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">REC</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">8</text></g>
+      <g transform="translate(56 0)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.7"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">RD</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">4</text></g>
+      <g transform="translate(112 0)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.95"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">INI</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">9</text></g>
+      <g transform="translate(168 0)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.85"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">EXE</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">7</text></g>
+      <g transform="translate(224 0)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.7"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">PER</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">5</text></g>
+      <g transform="translate(280 0)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.6"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">PE</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">3</text></g>
+      <g transform="translate(336 0)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.9"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">DE</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">8</text></g>
+      <!-- Row 2 -->
+      <g transform="translate(0 64)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.55"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">CA</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">3</text></g>
+      <g transform="translate(56 64)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.95"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">DIS</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">9</text></g>
+      <g transform="translate(112 64)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.75"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">LAT</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">6</text></g>
+      <g transform="translate(168 64)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.85"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">COL</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">7</text></g>
+      <g transform="translate(224 64)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.7"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">C2</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">5</text></g>
+      <g transform="translate(280 64)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.6"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">EX</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">4</text></g>
+      <g transform="translate(336 64)"><rect width="50" height="56" rx="5" fill="#1f6feb" opacity="0.85" class="blink"/><text x="25" y="26" text-anchor="middle" class="sm" fill="#f0f6fc" font-weight="700">IMP</text><text x="25" y="42" text-anchor="middle" class="sm" fill="#c9d1d9">8</text></g>
+    </g>
+
+    <!-- footer of matrix -->
+    <g transform="translate(22 206)">
+      <text class="sm" y="0" fill="#8ba3bd">Total detections shipped:</text>
+      <text class="m" font-size="16" font-weight="800" fill="#3fb950" x="160" y="2">45+</text>
+      <text class="sm" y="16" fill="#8ba3bd">False-positive rate:</text>
+      <text class="m" font-size="16" font-weight="800" fill="#ffcf5a" x="160" y="18">7.4%</text>
+    </g>
+  </g>
+
+  <!-- ALERT STREAM (full width terminal) -->
+  <g class="f" transform="translate(24 530)">
+    <rect width="1152" height="170" rx="14" class="pnl"/>
+    <rect x="0" y="0" width="1152" height="32" rx="14" fill="#132f4c"/>
+    <circle cx="22" cy="16" r="4" fill="#f85149"/>
+    <circle cx="38" cy="16" r="4" fill="#ffcf5a"/>
+    <circle cx="54" cy="16" r="4" fill="#3fb950"/>
+    <text x="76" y="20" class="m" font-size="12" fill="#8ba3bd">alert-stream@soc-console:~$  tail -f /var/log/siem/alerts.live</text>
+    <text x="1080" y="20" class="sm" fill="#3fb950">● STREAMING</text>
+
+    <!-- scrolling alerts -->
+    <g clip-path="inset(0 0 0 0)">
+      <rect x="0" y="32" width="1152" height="138" fill="none"/>
+      <g class="scroll" font-size="12">
+        <text x="22" y="56" class="m" fill="#f85149">[2026-05-11 16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
+        <text x="22" y="76" class="m" fill="#ffcf5a">[2026-05-11 16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
+        <text x="22" y="96" class="m" fill="#58a6ff">[2026-05-11 16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
+        <text x="22" y="116" class="m" fill="#3fb950">[2026-05-11 16:47:08] [INFO]      T1078 Successful auth from new geo · user=m.singh@corp · geo=GB → DE</text>
+        <text x="22" y="136" class="m" fill="#ffcf5a">[2026-05-11 16:46:42] [HIGH]      T1486 Ransomware behavior · 1200+ file writes in 60s · host=WS-SALES-29</text>
+        <text x="22" y="156" class="m" fill="#58a6ff">[2026-05-11 16:46:19] [MEDIUM]    T1003.001 LSASS access · proc=mimikatz.exe-renamed · contained</text>
+        <text x="22" y="176" class="m" fill="#3fb950">[2026-05-11 16:45:54] [INFO]      Playbook auto-isolate executed on WS-FIN-014 · SLA met (4m 12s)</text>
+        <!-- duplicate set for seamless loop -->
+        <text x="22" y="196" class="m" fill="#f85149">[2026-05-11 16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
+        <text x="22" y="216" class="m" fill="#ffcf5a">[2026-05-11 16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
+        <text x="22" y="236" class="m" fill="#58a6ff">[2026-05-11 16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
+      </g>
+    </g>
   </g>
 </svg>
