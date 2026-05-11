@@ -139,33 +139,37 @@
       <rect width="268" height="124" rx="14" class="panel"/>
       <circle cx="24" cy="28" r="6" fill="#7ee787" class="pulse"/>
       <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">advanced-soc-lab-v2.0</text>
-      <text x="24" y="60" class="small">12-tool enterprise SOC lab</text>
-      <path d="M28 88 H84 L118 72 H174 L214 96 H240" fill="none" stroke="#58a6ff" stroke-width="2" class="dash"/>
-      <circle cx="84" cy="88" r="4" fill="#58a6ff"/><circle cx="174" cy="72" r="4" fill="#7ee787"/><circle cx="214" cy="96" r="4" fill="#ffcf5a"/>
+      <text x="24" y="58" class="small">12-tool enterprise SOC lab</text>
+      <text x="24" y="78" class="mono" font-size="11" fill="#7ee787">OpenSearch · Suricata · Zeek</text>
+      <text x="24" y="94" class="mono" font-size="11" fill="#58a6ff">MISP · Caldera · Velociraptor</text>
+      <text x="24" y="112" class="mono" font-size="11" fill="#ffcf5a">15 detections · MITRE ATT&amp;CK v14</text>
     </g>
     <g transform="translate(286 44)">
       <rect width="268" height="124" rx="14" class="panel"/>
       <circle cx="24" cy="28" r="6" fill="#7ee787" class="pulse2"/>
       <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">ai-soc-lab</text>
-      <text x="24" y="60" class="small">Wazuh + TheHive + Shuffle + AI</text>
-      <path d="M28 94 C76 56 118 116 166 78 S222 78 240 96" fill="none" stroke="#7ee787" stroke-width="2" class="dash"/>
-      <rect x="74" y="78" width="34" height="22" rx="5" fill="#0d2233" stroke="#235b78"/><rect x="164" y="66" width="34" height="22" rx="5" fill="#0d2233" stroke="#235b78"/>
+      <text x="24" y="58" class="small">AI-augmented SOC automation</text>
+      <text x="24" y="78" class="mono" font-size="11" fill="#7ee787">Wazuh · TheHive · Shuffle</text>
+      <text x="24" y="94" class="mono" font-size="11" fill="#58a6ff">MISP · Ollama (LLaMA3)</text>
+      <text x="24" y="112" class="mono" font-size="11" fill="#ffcf5a">LLM-assisted alert triage</text>
     </g>
     <g transform="translate(572 44)">
       <rect width="268" height="124" rx="14" class="panel"/>
       <circle cx="24" cy="28" r="6" fill="#ffcf5a" class="pulse"/>
       <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">soc-lab-free</text>
-      <text x="24" y="60" class="small">Free SOC tooling stack</text>
-      <g fill="#0d2233" stroke="#235b78"><rect x="30" y="80" width="44" height="26" rx="5"/><rect x="104" y="80" width="44" height="26" rx="5"/><rect x="178" y="80" width="44" height="26" rx="5"/></g>
-      <path d="M74 93 H104 M148 93 H178" stroke="#ffcf5a" stroke-width="2" class="dash"/>
+      <text x="24" y="58" class="small">100% free SOC tooling stack</text>
+      <text x="24" y="78" class="mono" font-size="11" fill="#7ee787">OpenVAS · Wazuh · pfSense</text>
+      <text x="24" y="94" class="mono" font-size="11" fill="#58a6ff">Lynis · Proxmox Mail Gateway</text>
+      <text x="24" y="112" class="mono" font-size="11" fill="#ffcf5a">Free Nessus / Splunk alternative</text>
     </g>
     <g transform="translate(858 44)">
       <rect width="268" height="124" rx="14" class="panel"/>
       <circle cx="24" cy="28" r="6" fill="#58a6ff" class="pulse2"/>
       <text x="42" y="33" font-size="15" font-weight="700" fill="#f0f6fc">soc-threat-hunting-lab</text>
-      <text x="24" y="60" class="small">Zeek, Arkime, Velociraptor</text>
-      <path d="M36 102 L82 74 L128 98 L174 64 L232 90" fill="none" stroke="#58a6ff" stroke-width="2"/>
-      <path d="M36 102 L82 74 L128 98 L174 64 L232 90" fill="none" stroke="#7ee787" stroke-width="5" opacity="0.12"/>
+      <text x="24" y="58" class="small">Hypothesis-driven hunting</text>
+      <text x="24" y="78" class="mono" font-size="11" fill="#7ee787">Zeek · RITA · Arkime</text>
+      <text x="24" y="94" class="mono" font-size="11" fill="#58a6ff">Velociraptor · OSQuery</text>
+      <text x="24" y="112" class="mono" font-size="11" fill="#ffcf5a">MISP · TheHive · Shuffle</text>
     </g>
   </g>
 
