@@ -26,6 +26,12 @@
       <feGaussianBlur stdDeviation="3.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <clipPath id="alertClip">
+      <rect x="0" y="32" width="1152" height="138"/>
+    </clipPath>
+    <clipPath id="mapClip">
+      <rect x="0" y="0" width="720" height="240" rx="14"/>
+    </clipPath>
     <style>
       .f { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
       .m { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
@@ -132,6 +138,7 @@
   <!-- LEFT: GLOBAL THREAT MAP -->
   <g class="f" transform="translate(24 270)">
     <rect width="720" height="240" rx="14" class="pnl"/>
+    <g clip-path="url(#mapClip)">
     <text x="22" y="30" class="ttl">GLOBAL THREAT VECTORS — last 24h</text>
     <text x="22" y="50" class="sm">arcs animate origin → destination · color = severity</text>
 
@@ -178,6 +185,7 @@
       <rect x="180" width="14" height="10" rx="2" fill="#58a6ff"/><text x="202" y="9" class="sm" fill="#c9d1d9">MEDIUM</text>
       <rect x="560" width="120" height="14" rx="7" fill="#0d2233" stroke="#1f6feb"/>
       <text x="576" y="10" class="sm" fill="#58a6ff">▶ FEED: ACTIVE</text>
+    </g>
     </g>
   </g>
 
@@ -226,21 +234,24 @@
     <text x="76" y="20" class="m" font-size="12" fill="#8ba3bd">alert-stream@soc-console:~$  tail -f /var/log/siem/alerts.live</text>
     <text x="1080" y="20" class="sm" fill="#3fb950">● STREAMING</text>
 
-    <!-- scrolling alerts -->
-    <g clip-path="inset(0 0 0 0)">
-      <rect x="0" y="32" width="1152" height="138" fill="none"/>
+    <!-- scrolling alerts (clipped to panel body) -->
+    <g clip-path="url(#alertClip)">
       <g class="scroll" font-size="12">
-        <text x="22" y="56" class="m" fill="#f85149">[2026-05-11 16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
-        <text x="22" y="76" class="m" fill="#ffcf5a">[2026-05-11 16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
-        <text x="22" y="96" class="m" fill="#58a6ff">[2026-05-11 16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
-        <text x="22" y="116" class="m" fill="#3fb950">[2026-05-11 16:47:08] [INFO]      T1078 Successful auth from new geo · user=m.singh@corp · geo=GB → DE</text>
-        <text x="22" y="136" class="m" fill="#ffcf5a">[2026-05-11 16:46:42] [HIGH]      T1486 Ransomware behavior · 1200+ file writes in 60s · host=WS-SALES-29</text>
-        <text x="22" y="156" class="m" fill="#58a6ff">[2026-05-11 16:46:19] [MEDIUM]    T1003.001 LSASS access · proc=mimikatz.exe-renamed · contained</text>
-        <text x="22" y="176" class="m" fill="#3fb950">[2026-05-11 16:45:54] [INFO]      Playbook auto-isolate executed on WS-FIN-014 · SLA met (4m 12s)</text>
+        <text x="22" y="56" class="m" fill="#f85149">[16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
+        <text x="22" y="76" class="m" fill="#ffcf5a">[16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
+        <text x="22" y="96" class="m" fill="#58a6ff">[16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
+        <text x="22" y="116" class="m" fill="#3fb950">[16:47:08] [INFO]      T1078 Successful auth from new geo · user=m.singh@corp · geo=GB → DE</text>
+        <text x="22" y="136" class="m" fill="#ffcf5a">[16:46:42] [HIGH]      T1486 Ransomware behavior · 1200+ file writes in 60s · host=WS-SALES-29</text>
+        <text x="22" y="156" class="m" fill="#58a6ff">[16:46:19] [MEDIUM]    T1003.001 LSASS access · proc=mimikatz.exe-renamed · contained</text>
+        <text x="22" y="176" class="m" fill="#3fb950">[16:45:54] [INFO]      Playbook auto-isolate executed on WS-FIN-014 · SLA met (4m 12s)</text>
         <!-- duplicate set for seamless loop -->
-        <text x="22" y="196" class="m" fill="#f85149">[2026-05-11 16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
-        <text x="22" y="216" class="m" fill="#ffcf5a">[2026-05-11 16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
-        <text x="22" y="236" class="m" fill="#58a6ff">[2026-05-11 16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
+        <text x="22" y="196" class="m" fill="#f85149">[16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
+        <text x="22" y="216" class="m" fill="#ffcf5a">[16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
+        <text x="22" y="236" class="m" fill="#58a6ff">[16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
+        <text x="22" y="256" class="m" fill="#3fb950">[16:47:08] [INFO]      T1078 Successful auth from new geo · user=m.singh@corp · geo=GB → DE</text>
+        <text x="22" y="276" class="m" fill="#ffcf5a">[16:46:42] [HIGH]      T1486 Ransomware behavior · 1200+ file writes in 60s · host=WS-SALES-29</text>
+        <text x="22" y="296" class="m" fill="#58a6ff">[16:46:19] [MEDIUM]    T1003.001 LSASS access · proc=mimikatz.exe-renamed · contained</text>
+        <text x="22" y="316" class="m" fill="#3fb950">[16:45:54] [INFO]      Playbook auto-isolate executed on WS-FIN-014 · SLA met (4m 12s)</text>
       </g>
     </g>
   </g>
