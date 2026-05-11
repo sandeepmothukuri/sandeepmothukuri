@@ -284,17 +284,24 @@ index=wineventlog EventCode=5140
   <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution skyline" width="85%">
 </p>
 
-## 🌐 cybertechnology.in — Live Preview
+## 🌐 cybertechnology.in — Live Site Preview
 
 <p align="center">
-  <a href="https://cybertechnology.in" title="Open cybertechnology.in">
-    <img src="https://api.microlink.io/?url=https%3A%2F%2Fcybertechnology.in&screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=2500&viewport.width=1440&viewport.height=900" alt="cybertechnology.in — live preview (click to open)" width="100%">
+  <a href="https://cybertechnology.in" title="Open cybertechnology.in in a new tab">
+    <img src="https://image.thum.io/get/width/1280/crop/720/viewportWidth/1440/noanimate/https://cybertechnology.in/" alt="cybertechnology.in — live screenshot (click to visit)" width="100%">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Visit-cybertechnology.in-00ff41?style=for-the-badge&logo=googlechrome&logoColor=000000&labelColor=000000"></a>
+  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Visit%20Site-cybertechnology.in-00ff41?style=for-the-badge&logo=googlechrome&logoColor=000000&labelColor=000000"></a>
+  <img src="https://img.shields.io/website?url=https%3A%2F%2Fcybertechnology.in&style=for-the-badge&up_color=00ff41&up_message=ONLINE&down_color=f85149&down_message=OFFLINE&label=STATUS&labelColor=000000">
+  <img src="https://img.shields.io/badge/Updated-daily-58a6ff?style=for-the-badge&labelColor=000000">
 </p>
+
+<p align="center">
+  <sub>📡 Personal lab + blog covering SOC operations, detection engineering, threat hunting walkthroughs, and open-source security tooling. Screenshot refreshes automatically — click to visit.</sub>
+</p>
+
 
 ## 📡 SOC Pulse — live
 
