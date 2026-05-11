@@ -50,14 +50,49 @@
 
 Outside of work I build **open-source SOC labs** that mirror enterprise stacks, so analysts can train on Splunk / QRadar / Sentinel / CrowdStrike-class tooling without the licensing wall.
 
-## 🎯 Focus
+## 🎯 What I Do
 
-- **End-to-end incident response** — detection → investigation → containment → recovery → RCA → lessons learned.
-- **Detection engineering that survives contact with reality** — Splunk SPL, QRadar AQL, Wazuh, Sigma. False positives treated as bugs.
-- **Hypothesis-driven threat hunting** — specific TTPs from current intel, mapped to MITRE ATT&CK, measured by what we found vs. what we ruled out.
-- **Cross-telemetry investigation** — endpoint, identity, network, email, cloud, correlated not siloed.
-- **Automation mindset** — if I do it twice, it gets a playbook. If I do it weekly, it gets Python.
-- **Currently building** — AI-augmented SOC automation: LLM-assisted alert triage, agentic IR playbooks (CrewAI + Ollama).
+| Area | Detail |
+|---|---|
+| **Incident Response** | End-to-end IR — detection → investigation → containment → recovery → RCA |
+| **Threat Hunting** | Hypothesis-driven hunts, Sigma rule authoring, behaviour-based detection |
+| **Detection Engineering** | Custom Splunk / QRadar / Wazuh rules, tuning, false-positive reduction |
+| **SOAR & Automation** | Playbook design, alert enrichment, Python automation |
+| **Cloud & XDR** | Microsoft Sentinel, Defender XDR, CrowdStrike Falcon investigations |
+| **Lab Building** | Open-source SOC labs that mirror enterprise stacks — free for the community |
+
+## 🧭 Currently focused
+
+- 🔭 **Building** — AI-augmented SOC automation: LLM-assisted alert triage, autonomous detection pipelines, agentic IR playbooks (CrewAI + Ollama)
+- 🌱 **Learning** — Sigma rule authoring at scale · adversary emulation with Caldera · detection-as-code with CI/CD validation
+- 🧪 **Writing** — Open-source SOC labs others can clone in 15 min (see Featured Labs below)
+- 🎤 **Discussing** — detection engineering, SOAR design, the false-positive economy in modern SOCs
+
+## 💬 Ask me about
+
+SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home labs · L1 → L3 career progression · interview prep for SOC roles · transitioning from MSSP to in-house SOC · open-source SOAR vs. commercial vendors
+
+## 🌍 Quick facts
+
+| | |
+|---|---|
+| **Role** | Senior SOC Analyst (L3) |
+| **Experience** | 5+ years (enterprise + MSSP) |
+| **Specialties** | IR · Detection Engineering · Threat Hunting · Cloud XDR |
+| **Open to** | Senior SOC Analyst · L3 · Detection Engineer · Threat Hunter |
+| **Location preference** | UK / EU / Remote |
+| **Availability** | Open to conversations now |
+| **Languages** | English · Telugu · Hindi |
+| **Website** | [cybertechnology.in](https://cybertechnology.in) |
+| **Email** | [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com) |
+| **LinkedIn** | [sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris) |
+
+## 💼 Hiring me?
+
+I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hunter** roles. Remote-friendly, UK/EU preferred but happy to talk about anywhere with reasonable time-zone overlap.
+
+📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity)
+🔗 Or send a LinkedIn message: [linkedin.com/in/sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris)
 
 ## 🧰 Stack — cybersecurity tooling
 
@@ -232,21 +267,33 @@ index=wineventlog EventCode=5140
 ## 📊 Live GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9&icon_color=58a6ff">
-  <img height="170" src="https://streak-stats.demolab.com?user=sandeepmothukuri&hide_border=true&background=0d1117&stroke=30363d&ring=3fb950&fire=f85149&currStreakNum=3fb950&sideNums=58a6ff&currStreakLabel=3fb950&sideLabels=c9d1d9&dates=8b949e">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&count_private=true&hide_border=true&bg_color=000000&title_color=00ff41&text_color=00ff41&icon_color=00ff41&ring_color=00ff41">
+  <img height="180" src="https://streak-stats.demolab.com?user=sandeepmothukuri&hide_border=true&background=000000&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakNum=00ff41&sideNums=00ff41&currStreakLabel=00ff41&sideLabels=00ff41&dates=00ff41">
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9">
-  <img height="170" src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=matrix&no-frame=true&no-bg=true&row=2&column=3&margin-w=8&margin-h=8">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&langs_count=8&hide_border=true&bg_color=000000&title_color=00ff41&text_color=00ff41">
+  <img height="180" src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=matrix&no-frame=true&no-bg=true&row=2&column=3&margin-w=8&margin-h=8">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sandeepmothukuri&bg_color=0d1117&color=3fb950&line=58a6ff&point=3fb950&area=true&area_color=3fb950&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%94%20last%2012%20months" alt="contribution activity graph" width="100%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sandeepmothukuri&bg_color=000000&color=00ff41&line=00ff41&point=00ff41&area=true&area_color=00ff41&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%94%20last%2012%20months&title_color=00ff41" alt="contribution activity graph" width="100%">
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution skyline" width="85%">
+</p>
+
+## 🌐 cybertechnology.in — Live Preview
+
+<p align="center">
+  <a href="https://cybertechnology.in" title="Open cybertechnology.in">
+    <img src="https://api.microlink.io/?url=https%3A%2F%2Fcybertechnology.in&screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=2500&viewport.width=1440&viewport.height=900" alt="cybertechnology.in — live preview (click to open)" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Visit-cybertechnology.in-00ff41?style=for-the-badge&logo=googlechrome&logoColor=000000&labelColor=000000"></a>
 </p>
 
 ## 📡 SOC Pulse — live
