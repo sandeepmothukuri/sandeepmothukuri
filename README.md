@@ -13,10 +13,10 @@
 
 <!-- STATUS BAR -->
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ON--CALL-3fb950?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/TIER-L3%20%C2%B7%20Senior-58a6ff?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-8b949e?style=for-the-badge&labelColor=132f4c">
-  <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=for-the-badge&labelColor=132f4c"></a>
+  <img src="https://img.shields.io/badge/STATUS-ON--CALL-3fb950?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/TIER-L3%20%C2%B7%20Senior-58a6ff?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-8b949e?style=flat-square&labelColor=132f4c">
+  <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
 </p>
 
 <!-- AT A GLANCE -->
@@ -73,63 +73,63 @@ Outside of work I build **open-source SOC labs** that mirror enterprise stacks, 
 **SIEM / XDR / EDR**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/IBM%20QRadar-054ADA?style=for-the-badge&logo=ibm&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/MS%20Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/CrowdStrike%20Falcon-E00000?style=for-the-badge&logo=crowdstrike&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/MS%20Defender%20XDR-0078D4?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Wazuh-3fb950?style=for-the-badge&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Elastic%20SIEM-005571?style=for-the-badge&logo=elastic&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/IBM%20QRadar-054ADA?style=flat-square&logo=ibm&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/MS%20Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/CrowdStrike%20Falcon-E00000?style=flat-square&logo=crowdstrike&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/MS%20Defender%20XDR-0078D4?style=flat-square&logo=microsoft&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Wazuh-3fb950?style=flat-square&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Elastic%20SIEM-005571?style=flat-square&logo=elastic&logoColor=white&labelColor=132f4c">
 </p>
 
 **DFIR & Threat Intel**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/MISP-1B5E20?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/TheHive-FF7043?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Velociraptor-1E88E5?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/DFIR--IRIS-455A64?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/VirusTotal-394EFF?style=for-the-badge&logo=virustotal&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Any.Run-FF6D00?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Volatility-263238?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Autopsy-8B0000?style=for-the-badge&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/MISP-1B5E20?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/TheHive-FF7043?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Velociraptor-1E88E5?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/DFIR--IRIS-455A64?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Any.Run-FF6D00?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Volatility-263238?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Autopsy-8B0000?style=flat-square&labelColor=132f4c">
 </p>
 
 **Detection Engineering & Frameworks**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-f85149?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Sigma%20Rules-FFC107?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/YARA-3fb950?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Sysmon-2E7D32?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Suricata-D81B60?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Zeek-6A1B9A?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Snort-A91D22?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/OSQuery-58a6ff?style=for-the-badge&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-f85149?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Sigma%20Rules-FFC107?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/YARA-3fb950?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Sysmon-2E7D32?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Suricata-D81B60?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Zeek-6A1B9A?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Snort-A91D22?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/OSQuery-58a6ff?style=flat-square&labelColor=132f4c">
 </p>
 
 **Offensive Security & Pen-Testing**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Caldera-455A64?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Atomic%20Red%20Team-D81B60?style=for-the-badge&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Nmap-4682B4?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Caldera-455A64?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Atomic%20Red%20Team-D81B60?style=flat-square&labelColor=132f4c">
 </p>
 
 **SOAR & Scripting**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Shuffle-455A64?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/TheHive%20Cortex-FF7043?style=for-the-badge&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/PowerShell-2671BE?style=for-the-badge&logo=powershell&logoColor=white&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Ollama%20(LLaMA3)-3fb950?style=for-the-badge&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Shuffle-455A64?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/TheHive%20Cortex-FF7043?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/PowerShell-2671BE?style=flat-square&logo=powershell&logoColor=white&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Ollama%20(LLaMA3)-3fb950?style=flat-square&labelColor=132f4c">
 </p>
 
 <!-- SOC TELEMETRY STREAM START -->
@@ -286,9 +286,9 @@ index=wineventlog EventCode=5140
 </p>
 
 <p align="center">
-  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Visit%20Site-cybertechnology.in-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=132f4c"></a>
-  <img src="https://img.shields.io/website?url=https%3A%2F%2Fcybertechnology.in&style=for-the-badge&up_color=3fb950&up_message=ONLINE&down_color=f85149&down_message=OFFLINE&label=STATUS&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Updated-daily-58a6ff?style=for-the-badge&labelColor=132f4c">
+  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Visit%20Site-cybertechnology.in-1f6feb?style=flat-square&logo=googlechrome&logoColor=ffffff&labelColor=132f4c"></a>
+  <img src="https://img.shields.io/website?url=https%3A%2F%2Fcybertechnology.in&style=flat-square&up_color=3fb950&up_message=ONLINE&down_color=f85149&down_message=OFFLINE&label=STATUS&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Updated-daily-58a6ff?style=flat-square&labelColor=132f4c">
 </p>
 
 <p align="center">
@@ -376,9 +376,9 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 ## 📨 Contact
 
 <p align="left">
-  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=132f4c"></a>
-  <a href="https://www.linkedin.com/in/sandeepmothukuris"><img src="https://img.shields.io/badge/LinkedIn-sandeepmothukuris-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=132f4c"></a>
-  <a href="mailto:sandeep.mothukuris@gmail.com"><img src="https://img.shields.io/badge/Email-sandeep.mothukuris%40gmail.com-3fb950?style=for-the-badge&logo=gmail&logoColor=white&labelColor=132f4c"></a>
+  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-58a6ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=132f4c"></a>
+  <a href="https://www.linkedin.com/in/sandeepmothukuris"><img src="https://img.shields.io/badge/LinkedIn-sandeepmothukuris-58a6ff?style=flat-square&logo=linkedin&logoColor=white&labelColor=132f4c"></a>
+  <a href="mailto:sandeep.mothukuris@gmail.com"><img src="https://img.shields.io/badge/Email-sandeep.mothukuris%40gmail.com-3fb950?style=flat-square&logo=gmail&logoColor=white&labelColor=132f4c"></a>
 </p>
 
 📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity) — typical reply within 24h.
