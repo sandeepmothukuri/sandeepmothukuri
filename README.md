@@ -218,6 +218,12 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 </tr>
 </table>
 
+<!-- SOC DETECTION PIPELINE START -->
+<p align="center">
+  <img src="assets/soc-detection-pipeline.svg" alt="Detection Engineering Pipeline — telemetry to containment, live" width="100%">
+</p>
+<!-- SOC DETECTION PIPELINE END -->
+
 ## 🧬 Detection Engineering — sample work
 
 A SOC analyst is judged on the quality of detections they ship, not the tools they list. Two examples below.
