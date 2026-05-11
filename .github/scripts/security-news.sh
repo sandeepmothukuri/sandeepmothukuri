@@ -14,7 +14,7 @@ TODAY="$(date -u +'%Y-%m-%d %H:%M UTC')"
 clean() { sed 's/<!\[CDATA\[//g; s/\]\]>//g' | sed 's/<[^>]*>//g' | tr -s ' \t\n' ' ' | sed 's/^ *//;s/ *$//'; }
 
 {
-  echo "## 📰 Cybersecurity Headlines — auto-updated daily"
+  echo "### 📰 Threat Headlines"
   echo ""
   echo "_Last refresh: ${TODAY}_"
   echo ""
@@ -22,7 +22,7 @@ clean() { sed 's/<!\[CDATA\[//g; s/\]\]>//g' | sed 's/<[^>]*>//g' | tr -s ' \t\n
   for entry in "${FEEDS[@]}"; do
     url="${entry%%|*}"
     name="${entry##*|}"
-    echo "### ${name}"
+    echo "**${name}**"
     echo ""
 
     raw=$(curl -fsSL --max-time 20 -A "Mozilla/5.0 (compatible; SOC-Lab-Profile/1.0)" "$url" 2>/dev/null || echo "")

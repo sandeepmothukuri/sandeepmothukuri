@@ -33,7 +33,7 @@ jobs:
 
           {
             echo "<!-- FEATURED-REPOS-START -->"
-            echo "## 🔥 Featured Repos — auto-curated by recent activity"
+            echo "### 🔥 Featured Repos — auto-curated"
             echo ""
             echo "_Auto-refreshed every Monday by [\`featured-repos.yml\`](.github/workflows/featured-repos.yml)._"
             echo ""
