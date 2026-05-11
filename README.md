@@ -51,13 +51,13 @@
 
 <p align="center"><img src="assets/soc-animated-divider.svg" alt="" width="100%"></p>
 
-## 🛡️ About
+<p><img alt="About" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F-About-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 **Senior SOC Analyst (L3)** with **5+ years** across enterprise and MSSP environments. I'm the escalation point teams reach when the alert is real, the clock is loud, and the next call decides whether containment beats compromise. I lead with **risk and business impact**, not severity scores — and I document every move so the next analyst, manager, or auditor can follow the trail.
 
 Outside of work I build **open-source SOC labs** that mirror enterprise stacks, so analysts can train on Splunk / QRadar / Sentinel / CrowdStrike-class tooling without the licensing wall.
 
-## 🎯 What I Do
+<p><img alt="What I Do" src="https://img.shields.io/badge/%F0%9F%8E%AF-What%20I%20Do-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 | Area | Detail |
 |---|---|
@@ -68,18 +68,18 @@ Outside of work I build **open-source SOC labs** that mirror enterprise stacks, 
 | **Cloud & XDR** | Microsoft Sentinel, Defender XDR, CrowdStrike Falcon investigations |
 | **Lab Building** | Open-source SOC labs that mirror enterprise stacks — free for the community |
 
-## 🧭 Currently focused
+<p><img alt="Currently focused" src="https://img.shields.io/badge/%F0%9F%A7%AD-Currently%20Focused-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 - 🔭 **Building** — AI-augmented SOC automation: LLM-assisted alert triage, autonomous detection pipelines, agentic IR playbooks (CrewAI + Ollama)
 - 🌱 **Learning** — Sigma rule authoring at scale · adversary emulation with Caldera · detection-as-code with CI/CD validation
 - 🧪 **Writing** — Open-source SOC labs others can clone in 15 min (see Featured Labs below)
 - 🎤 **Discussing** — detection engineering, SOAR design, the false-positive economy in modern SOCs
 
-## 💬 Ask me about
+<p><img alt="Ask me about" src="https://img.shields.io/badge/%F0%9F%92%AC-Ask%20Me%20About-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home labs · L1 → L3 career progression · interview prep for SOC roles · transitioning from MSSP to in-house SOC · open-source SOAR vs. commercial vendors
 
-## 🌍 Quick facts
+<p><img alt="Quick facts" src="https://img.shields.io/badge/%F0%9F%8C%8D-Quick%20Facts-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 | | |
 |---|---|
@@ -94,14 +94,14 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 | **Email** | [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com) |
 | **LinkedIn** | [sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris) |
 
-## 💼 Hiring me?
+<p><img alt="Hiring me?" src="https://img.shields.io/badge/%F0%9F%92%BC-Hiring%20Me-3fb950?style=flat-square&labelColor=132f4c" height="26"></p>
 
 I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hunter** roles. Remote-friendly, UK/EU preferred but happy to talk about anywhere with reasonable time-zone overlap.
 
 📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity)
 🔗 Or send a LinkedIn message: [linkedin.com/in/sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris)
 
-## 🧰 Stack — cybersecurity tooling
+<p><img alt="Stack — cybersecurity tooling" src="https://img.shields.io/badge/%F0%9F%A7%B0-Stack%20%E2%80%94%20Cybersecurity%20Tooling-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 **SIEM / XDR / EDR**
 
@@ -171,7 +171,7 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 </p>
 <!-- SOC TELEMETRY STREAM END -->
 
-## 🧪 Featured Labs
+<p><img alt="Featured Labs" src="https://img.shields.io/badge/%F0%9F%A7%AA-Featured%20Labs-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 <table>
 <tr>
@@ -224,7 +224,7 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 </p>
 <!-- SOC DETECTION PIPELINE END -->
 
-## 🧬 Detection Engineering — sample work
+<p><img alt="Detection Engineering — sample work" src="https://img.shields.io/badge/%F0%9F%A7%AC-Detection%20Engineering%20%E2%80%94%20Sample%20Work-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 A SOC analyst is judged on the quality of detections they ship, not the tools they list. Two examples below.
 
@@ -277,7 +277,7 @@ index=wineventlog EventCode=5140
 
 > Triggers when one account touches `ADMIN$` / `C$` on **5+ distinct hosts** within the search window — classic post-exploitation lateral movement (PsExec, Impacket, Cobalt Strike `psexec_psh`).
 
-## 📊 Live GitHub Stats
+<p><img alt="Live GitHub Stats" src="https://img.shields.io/badge/%F0%9F%93%8A-Live%20GitHub%20Stats-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 <p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&count_private=true&hide_border=true&bg_color=0a1929&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&ring_color=58a6ff">
@@ -297,7 +297,7 @@ index=wineventlog EventCode=5140
   <img src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution skyline" width="85%">
 </p>
 
-## 🌐 cybertechnology.in — Live Site Preview
+<p><img alt="cybertechnology.in — Live Site Preview" src="https://img.shields.io/badge/%F0%9F%8C%90-cybertechnology.in%20%E2%80%94%20Live%20Preview-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 <p align="center">
   <a href="https://cybertechnology.in" title="Open cybertechnology.in in a new tab">
@@ -316,7 +316,7 @@ index=wineventlog EventCode=5140
 </p>
 
 
-## 📡 SOC Pulse — live
+<p><img alt="SOC Pulse — live" src="https://img.shields.io/badge/%F0%9F%93%A1-SOC%20Pulse%20%E2%80%94%20Live-f85149?style=flat-square&labelColor=132f4c" height="26"></p>
 
 Auto-refreshed by GitHub Actions. CVE feed from NIST NVD; headlines from public security RSS; featured repos curated from my recent activity.
 
@@ -360,7 +360,7 @@ _Last refresh: 2026-05-11 16:31 UTC_
 > Headlines pulled from public RSS feeds. Not endorsements — just situational awareness.
 <!-- SECURITY-NEWS-END -->
 
-## 🔐 Certifications
+<p><img alt="Certifications" src="https://img.shields.io/badge/%F0%9F%94%90-Certifications-1f6feb?style=flat-square&labelColor=132f4c" height="26"></p>
 
 <p align="left">
   <img src="https://img.shields.io/badge/CISM-f85149?style=flat-square&labelColor=132f4c">
@@ -373,7 +373,7 @@ _Last refresh: 2026-05-11 16:31 UTC_
   <img src="https://img.shields.io/badge/ITIL%204-58a6ff?style=flat-square&labelColor=132f4c">
 </p>
 
-## 📨 Contact
+<p><img alt="Contact" src="https://img.shields.io/badge/%F0%9F%93%A8-Contact-3fb950?style=flat-square&labelColor=132f4c" height="26"></p>
 
 <p align="left">
   <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=132f4c"></a>
