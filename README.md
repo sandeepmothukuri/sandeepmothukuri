@@ -37,7 +37,7 @@
 <!-- TYPING ANIMATION -->
 <p align="center">
   <a href="https://github.com/sandeepmothukuri">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=820&lines=Senior+SOC+Analyst+(L3);Incident+Response+%26+Threat+Hunting;SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;Detection+Engineering+%26+SOC+Automation;Open-Source+SOC+Lab+Builder;Always+learning+%E2%80%94+Sigma%2C+Caldera%2C+CrewAI" alt="typing animation showcasing roles and focus">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3200&pause=700&color=39D353&background=0A192900&center=true&vCenter=true&width=900&height=60&multiline=false&random=false&lines=%E2%96%B6+Senior+SOC+Analyst+(L3);%E2%96%B6+Incident+Response+%26+Threat+Hunting;%E2%96%B6+SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;%E2%96%B6+Detection+Engineering+%26+SOC+Automation;%E2%96%B6+Open-Source+SOC+Lab+Builder;%E2%96%B6+AI-Augmented+SOC+%E2%80%94+Sigma%2C+Caldera%2C+CrewAI;%E2%96%B6+L1+%E2%86%92+L3+career+path+%E2%80%94+ask+me+anything" alt="typing animation showcasing roles and focus">
   </a>
 </p>
 
