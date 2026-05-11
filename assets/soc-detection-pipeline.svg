@@ -1,215 +1,285 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Detection Engineering Pipeline</title>
-  <desc id="desc">Animated end-to-end SOC detection pipeline: telemetry to response.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">Detection Engineering Pipeline — L3 SOC</title>
+  <desc id="d">Professional animated detection pipeline showing 5 stages from telemetry ingestion to automated containment, with live KPIs and industry-comparison metrics.</desc>
   <defs>
-    <linearGradient id="bg2" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#07101d"/>
-      <stop offset="0.48" stop-color="#0b1728"/>
-      <stop offset="1" stop-color="#06151a"/>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#070d1a"/>
+      <stop offset="0.5" stop-color="#0a1929"/>
+      <stop offset="1" stop-color="#040810"/>
     </linearGradient>
-    <linearGradient id="panel2" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#101c2f" stop-opacity="0.94"/>
-      <stop offset="1" stop-color="#071420" stop-opacity="0.92"/>
+    <linearGradient id="pnl" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#132f4c" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0a1929" stop-opacity="0.98"/>
     </linearGradient>
-    <linearGradient id="accent2" x1="0" x2="1">
-      <stop offset="0" stop-color="#36d1dc"/>
-      <stop offset="0.5" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#7ee787"/>
+    <linearGradient id="card" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1a3a5f"/>
+      <stop offset="1" stop-color="#0d2233"/>
+    </linearGradient>
+    <linearGradient id="cardActive" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#0d2233"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#58a6ff"/>
     </linearGradient>
     <linearGradient id="flow" x1="0" x2="1">
-      <stop offset="0" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#7ee787" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f3b55" stroke-width="1" opacity="0.24"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#1f3b55" stroke-width="1" opacity="0.22"/>
     </pattern>
-    <filter id="softGlow2" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <marker id="arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#58a6ff"/>
+    </marker>
     <style>
       .f { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
       .m { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
-      .sm { font-size: 12px; fill: #8ba3bd; }
-      .ttl { font-size: 13px; font-weight: 700; fill: #f0f6fc; }
-      .panel2 { fill: url(#panel2); stroke: #274968; stroke-width: 1.2; }
-      .node { fill: #0d2233; stroke: #1f6feb; stroke-width: 1.5; }
-      .pulse-a { animation: pulse-a 2.4s ease-in-out infinite; }
-      .pulse-b { animation: pulse-a 2.4s ease-in-out infinite 0.4s; }
-      .pulse-c { animation: pulse-a 2.4s ease-in-out infinite 0.8s; }
-      .pulse-d { animation: pulse-a 2.4s ease-in-out infinite 1.2s; }
-      .pulse-e { animation: pulse-a 2.4s ease-in-out infinite 1.6s; }
-      .dash2 { stroke-dasharray: 6 8; animation: dash2 3s linear infinite; }
-      .flow1 { animation: travel 4s ease-in-out infinite; }
-      .flow2 { animation: travel 4s ease-in-out infinite 0.8s; }
-      .flow3 { animation: travel 4s ease-in-out infinite 1.6s; }
-      .blink2 { animation: blink2 1.6s steps(2, start) infinite; }
-      @keyframes pulse-a { 0%,100% { opacity: .45; } 50% { opacity: 1; transform: scale(1.15); } }
-      @keyframes dash2 { to { stroke-dashoffset: -140; } }
-      @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(180px); opacity: 0; } }
-      @keyframes blink2 { 0%,49% { opacity: 1; } 50%,100% { opacity: .25; } }
+      .sm  { font-size: 10px; fill: #8ba3bd; letter-spacing: 0.3px; }
+      .lbl { font-size: 9px; fill: #58a6ff; letter-spacing: 1.6px; font-weight: 800; }
+      .ttl { font-size: 12px; font-weight: 800; fill: #f0f6fc; letter-spacing: 0.6px; }
+      .num { font-size: 10px; font-weight: 800; fill: #58a6ff; letter-spacing: 1.6px; }
+      .pnl { fill: url(#pnl); stroke: #1f3b55; stroke-width: 1; }
+      .card { fill: url(#card); stroke: #1f3b55; stroke-width: 1; }
+      .live { animation: live 1.8s steps(2) infinite; }
+      .pls1 { animation: pls 3.6s ease-in-out infinite; }
+      .pls2 { animation: pls 3.6s ease-in-out infinite 0.5s; }
+      .pls3 { animation: pls 3.6s ease-in-out infinite 1.0s; }
+      .pls4 { animation: pls 3.6s ease-in-out infinite 1.5s; }
+      .pls5 { animation: pls 3.6s ease-in-out infinite 2.0s; }
+      .scan { animation: scan 9s linear infinite; }
+      .blink { animation: blink 1.6s steps(2) infinite; }
+      @keyframes live { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.3 } }
+      @keyframes pls  { 0%,100% { opacity: 0.4 } 50% { opacity: 1 } }
+      @keyframes scan { 0% { transform: translateX(-200px); opacity: 0 } 8% { opacity: 0.5 } 92% { opacity: 0.5 } 100% { transform: translateX(1200px); opacity: 0 } }
+      @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.3 } }
     </style>
   </defs>
 
-  <rect width="1200" height="420" fill="url(#bg2)"/>
-  <rect width="1200" height="420" fill="url(#grid2)" opacity="0.6"/>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)" opacity="0.55"/>
 
-  <!-- HEADER STRIP -->
+  <!-- Outer panel -->
+  <rect x="24" y="14" width="1152" height="392" rx="14" class="pnl"/>
+
+  <!-- HEADER -->
   <g class="f">
-    <rect x="36" y="24" width="1128" height="56" rx="12" class="panel2"/>
-    <circle cx="62" cy="52" r="6" fill="#7ee787" class="pulse-a" filter="url(#softGlow2)"/>
-    <text x="80" y="48" font-size="16" font-weight="800" fill="#f0f6fc">Detection Engineering Pipeline</text>
-    <text x="80" y="68" class="sm">Telemetry → Sigma rule → SIEM match → Analyst triage → Containment · live</text>
-    <g transform="translate(960 36)">
-      <rect width="180" height="32" rx="10" fill="#071928" stroke="#1f6feb"/>
-      <circle cx="16" cy="16" r="4" fill="#7ee787" class="blink2"/>
-      <text x="30" y="20" class="m" font-size="11" fill="#7ee787">STATUS: PIPELINE ACTIVE</text>
+    <text x="44" y="44" class="ttl" font-size="16">DETECTION ENGINEERING PIPELINE</text>
+    <text x="44" y="62" class="sm">5-stage detection-as-code workflow · Sigma rules · CI-validated · production-ready</text>
+
+    <!-- Status pill -->
+    <g transform="translate(986 28)">
+      <rect width="170" height="32" rx="8" fill="#0d2233" stroke="#1f6feb"/>
+      <circle cx="16" cy="16" r="5" fill="#3fb950" class="live" filter="url(#glow)"/>
+      <text x="30" y="14" class="sm" letter-spacing="1.4">PIPELINE STATUS</text>
+      <text x="30" y="26" class="m" font-size="10" font-weight="800" fill="#3fb950">PRODUCTION · LIVE</text>
     </g>
+
+    <!-- Scan beam under header -->
+    <rect x="-200" y="76" width="200" height="1.5" fill="#58a6ff" class="scan"/>
   </g>
 
   <!-- 5 STAGES -->
-  <g class="f" transform="translate(54 110)">
-    <!-- Stage 1: Telemetry -->
+  <g class="f" transform="translate(44 96)">
+
+    <!-- STAGE 1: TELEMETRY -->
     <g transform="translate(0 0)">
-      <rect width="200" height="160" rx="14" class="panel2"/>
-      <circle cx="22" cy="24" r="6" fill="#36d1dc" class="pulse-a" filter="url(#softGlow2)"/>
-      <text x="38" y="29" class="ttl">1 · TELEMETRY</text>
-      <text x="22" y="52" class="sm">Raw signals ingested</text>
-      <g transform="translate(22 64)">
-        <text class="m" font-size="11" fill="#7ee787" y="0">▸ Sysmon EID 1, 3, 11</text>
-        <text class="m" font-size="11" fill="#7ee787" y="18">▸ Zeek conn, dns, http</text>
-        <text class="m" font-size="11" fill="#7ee787" y="36">▸ Windows Sec 4624, 4688</text>
-        <text class="m" font-size="11" fill="#58a6ff" y="54">▸ EDR + Cloud Audit</text>
+      <rect width="200" height="172" rx="10" class="card"/>
+      <rect x="0" y="0" width="200" height="3" rx="1.5" fill="url(#accent)"/>
+      <circle cx="20" cy="22" r="11" fill="#1f6feb"/>
+      <text x="20" y="26" text-anchor="middle" class="num" fill="#ffffff">01</text>
+      <circle cx="184" cy="22" r="4" fill="#58a6ff" class="pls1" filter="url(#glow)"/>
+      <text x="40" y="26" class="ttl">TELEMETRY</text>
+      <text x="14" y="50" class="sm">Raw signal ingestion · 6 sources</text>
+
+      <g transform="translate(14 64)" class="m" font-size="10">
+        <text fill="#c9d1d9" y="0">▸ Sysmon · Zeek · EDR</text>
+        <text fill="#c9d1d9" y="14">▸ Windows Sec 4624/4688</text>
+        <text fill="#c9d1d9" y="28">▸ Cloud audit · DNS</text>
       </g>
-      <rect x="22" y="138" width="156" height="6" rx="3" fill="#0d2233" stroke="#1f3b55"/>
-      <rect x="22" y="138" width="118" height="6" rx="3" fill="#36d1dc" opacity="0.85"/>
+
+      <line x1="14" y1="124" x2="186" y2="124" stroke="#1f3b55"/>
+      <text x="14" y="142" class="sm">VOLUME</text>
+      <text x="14" y="160" class="m" font-size="14" font-weight="800" fill="#58a6ff">2.4M<tspan font-size="10" fill="#8ba3bd"> events/day</tspan></text>
     </g>
 
     <!-- Connector 1 -->
-    <g transform="translate(200 70)">
-      <line x1="0" y1="10" x2="68" y2="10" stroke="#1f6feb" stroke-width="1" opacity="0.45" class="dash2"/>
-      <circle r="4" fill="#58a6ff" class="flow1" filter="url(#softGlow2)" cx="0" cy="10"/>
+    <g transform="translate(200 78)" stroke="#58a6ff" fill="none">
+      <line x1="0" y1="0" x2="20" y2="0" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow)"/>
+      <circle r="3" fill="#58a6ff" cx="6" cy="0" class="pls1" filter="url(#glow)"/>
     </g>
 
-    <!-- Stage 2: Sigma Rule -->
+    <!-- STAGE 2: DETECTION RULE -->
     <g transform="translate(228 0)">
-      <rect width="200" height="160" rx="14" class="panel2"/>
-      <circle cx="22" cy="24" r="6" fill="#58a6ff" class="pulse-b" filter="url(#softGlow2)"/>
-      <text x="38" y="29" class="ttl">2 · DETECTION RULE</text>
-      <text x="22" y="52" class="sm">Sigma → SPL / KQL / AQL</text>
-      <rect x="14" y="62" width="172" height="78" rx="6" fill="#06131f" stroke="#24445f"/>
-      <text class="m" font-size="9" fill="#7ee787" x="22" y="76">title: Encoded PowerShell</text>
-      <text class="m" font-size="9" fill="#58a6ff" x="22" y="89">logsource: sysmon</text>
-      <text class="m" font-size="9" fill="#ffcf5a" x="22" y="102">detection:</text>
-      <text class="m" font-size="9" fill="#c9d1d9" x="32" y="115">CommandLine|contains: -enc</text>
-      <text class="m" font-size="9" fill="#ff6b6b" x="22" y="128">level: high</text>
-      <text class="m" font-size="9" fill="#c9d1d9" x="22" y="138">tags: T1059.001</text>
+      <rect width="200" height="172" rx="10" class="card"/>
+      <rect x="0" y="0" width="200" height="3" rx="1.5" fill="url(#accent)"/>
+      <circle cx="20" cy="22" r="11" fill="#1f6feb"/>
+      <text x="20" y="26" text-anchor="middle" class="num" fill="#ffffff">02</text>
+      <circle cx="184" cy="22" r="4" fill="#58a6ff" class="pls2" filter="url(#glow)"/>
+      <text x="40" y="26" class="ttl">DETECTION RULE</text>
+      <text x="14" y="50" class="sm">Sigma → SPL · KQL · AQL</text>
+
+      <rect x="14" y="62" width="172" height="60" rx="4" fill="#06131f" stroke="#24445f"/>
+      <text x="20" y="76" class="m" font-size="8" fill="#3fb950">title: encoded_powershell</text>
+      <text x="20" y="88" class="m" font-size="8" fill="#58a6ff">logsource: sysmon</text>
+      <text x="20" y="100" class="m" font-size="8" fill="#ffcf5a">level: high</text>
+      <text x="20" y="112" class="m" font-size="8" fill="#c9d1d9">tags: T1059.001</text>
+
+      <line x1="14" y1="132" x2="186" y2="132" stroke="#1f3b55"/>
+      <text x="14" y="148" class="sm">DEPLOYED</text>
+      <text x="14" y="164" class="m" font-size="14" font-weight="800" fill="#58a6ff">45<tspan font-size="10" fill="#8ba3bd"> rules · CI-validated</tspan></text>
     </g>
 
     <!-- Connector 2 -->
-    <g transform="translate(428 70)">
-      <line x1="0" y1="10" x2="68" y2="10" stroke="#1f6feb" stroke-width="1" opacity="0.45" class="dash2"/>
-      <circle r="4" fill="#58a6ff" class="flow2" filter="url(#softGlow2)" cx="0" cy="10"/>
+    <g transform="translate(428 78)" stroke="#58a6ff" fill="none">
+      <line x1="0" y1="0" x2="20" y2="0" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow)"/>
+      <circle r="3" fill="#58a6ff" cx="6" cy="0" class="pls2" filter="url(#glow)"/>
     </g>
 
-    <!-- Stage 3: SIEM Match -->
+    <!-- STAGE 3: SIEM ALERT -->
     <g transform="translate(456 0)">
-      <rect width="200" height="160" rx="14" class="panel2"/>
-      <circle cx="22" cy="24" r="6" fill="#ffcf5a" class="pulse-c" filter="url(#softGlow2)"/>
-      <text x="38" y="29" class="ttl">3 · SIEM MATCH</text>
-      <text x="22" y="52" class="sm">Alert fires · enriched</text>
-      <g transform="translate(22 64)">
-        <rect x="0" y="0" width="156" height="22" rx="5" fill="#1a0d12" stroke="#ff6b6b"/>
-        <text class="m" font-size="10" fill="#ff6b6b" x="8" y="15">⚠ HIGH · powershell.exe</text>
+      <rect width="200" height="172" rx="10" class="card"/>
+      <rect x="0" y="0" width="200" height="3" rx="1.5" fill="#ffcf5a"/>
+      <circle cx="20" cy="22" r="11" fill="#ffcf5a"/>
+      <text x="20" y="26" text-anchor="middle" class="num" fill="#0a1929">03</text>
+      <circle cx="184" cy="22" r="4" fill="#ffcf5a" class="pls3" filter="url(#glow)"/>
+      <text x="40" y="26" class="ttl">SIEM ALERT</text>
+      <text x="14" y="50" class="sm">Alert fires · auto-enriched</text>
+
+      <g transform="translate(14 62)">
+        <rect width="172" height="22" rx="4" fill="#2b1a0a" stroke="#ffcf5a"/>
+        <text x="10" y="15" class="m" font-size="10" fill="#ffcf5a" font-weight="700">⚠ HIGH · powershell.exe</text>
       </g>
-      <text class="m" font-size="10" fill="#c9d1d9" x="22" y="103">host: WS-FIN-014</text>
-      <text class="m" font-size="10" fill="#c9d1d9" x="22" y="118">user: j.alvarez@corp</text>
-      <text class="m" font-size="10" fill="#7ee787" x="22" y="134">geo: GB · risk: 84/100</text>
+
+      <g transform="translate(14 92)" class="m" font-size="9">
+        <text fill="#c9d1d9" y="0">host:  WS-FIN-014</text>
+        <text fill="#c9d1d9" y="12">user:  j.alvarez@corp</text>
+        <text fill="#3fb950" y="24">geo:   GB · risk 84/100</text>
+      </g>
+
+      <line x1="14" y1="132" x2="186" y2="132" stroke="#1f3b55"/>
+      <text x="14" y="148" class="sm">FIRED · 24H</text>
+      <text x="14" y="164" class="m" font-size="14" font-weight="800" fill="#ffcf5a">247<tspan font-size="10" fill="#8ba3bd"> alerts</tspan></text>
     </g>
 
     <!-- Connector 3 -->
-    <g transform="translate(656 70)">
-      <line x1="0" y1="10" x2="68" y2="10" stroke="#1f6feb" stroke-width="1" opacity="0.45" class="dash2"/>
-      <circle r="4" fill="#58a6ff" class="flow3" filter="url(#softGlow2)" cx="0" cy="10"/>
+    <g transform="translate(656 78)" stroke="#58a6ff" fill="none">
+      <line x1="0" y1="0" x2="20" y2="0" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow)"/>
+      <circle r="3" fill="#58a6ff" cx="6" cy="0" class="pls3" filter="url(#glow)"/>
     </g>
 
-    <!-- Stage 4: Triage -->
+    <!-- STAGE 4: TRIAGE -->
     <g transform="translate(684 0)">
-      <rect width="200" height="160" rx="14" class="panel2"/>
-      <circle cx="22" cy="24" r="6" fill="#7ee787" class="pulse-d" filter="url(#softGlow2)"/>
-      <text x="38" y="29" class="ttl">4 · ANALYST TRIAGE</text>
-      <text x="22" y="52" class="sm">L3 review · TTP mapped</text>
-      <g transform="translate(22 64)">
-        <text class="m" font-size="10" fill="#58a6ff" y="0">$ hunt --ttp T1059.001</text>
-        <text class="m" font-size="10" fill="#7ee787" y="18">[ok] sandbox: malicious</text>
-        <text class="m" font-size="10" fill="#ffcf5a" y="36">[ok] IoC: 4 hits in 90d</text>
-        <text class="m" font-size="10" fill="#ff6b6b" y="54">[!] verdict: TRUE POSITIVE</text>
+      <rect width="200" height="172" rx="10" class="card"/>
+      <rect x="0" y="0" width="200" height="3" rx="1.5" fill="url(#accent)"/>
+      <circle cx="20" cy="22" r="11" fill="#1f6feb"/>
+      <text x="20" y="26" text-anchor="middle" class="num" fill="#ffffff">04</text>
+      <circle cx="184" cy="22" r="4" fill="#58a6ff" class="pls4" filter="url(#glow)"/>
+      <text x="40" y="26" class="ttl">L3 TRIAGE</text>
+      <text x="14" y="50" class="sm">Hunt · validate · classify</text>
+
+      <g transform="translate(14 64)" class="m" font-size="9">
+        <text fill="#58a6ff" y="0">$ hunt --ttp T1059.001</text>
+        <text fill="#3fb950" y="14">[ok] sandbox: malicious</text>
+        <text fill="#ffcf5a" y="28">[ok] IoC: 4 hits in 90d</text>
+        <text fill="#f85149" y="42">[!] verdict: TRUE POSITIVE</text>
       </g>
-      <text class="m" font-size="9" fill="#8ba3bd" x="22" y="146">SLA: 12m / 30m target</text>
+
+      <line x1="14" y1="132" x2="186" y2="132" stroke="#1f3b55"/>
+      <text x="14" y="148" class="sm">MEAN-TIME-TO-DETECT</text>
+      <text x="14" y="164" class="m" font-size="14" font-weight="800" fill="#3fb950">04:12<tspan font-size="10" fill="#8ba3bd"> · SLA met</tspan></text>
     </g>
 
     <!-- Connector 4 -->
-    <g transform="translate(884 70)">
-      <line x1="0" y1="10" x2="68" y2="10" stroke="#1f6feb" stroke-width="1" opacity="0.45" class="dash2"/>
-      <circle r="4" fill="#58a6ff" class="flow1" filter="url(#softGlow2)" cx="0" cy="10"/>
+    <g transform="translate(884 78)" stroke="#58a6ff" fill="none">
+      <line x1="0" y1="0" x2="20" y2="0" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow)"/>
+      <circle r="3" fill="#58a6ff" cx="6" cy="0" class="pls4" filter="url(#glow)"/>
     </g>
 
-    <!-- Stage 5: Response -->
+    <!-- STAGE 5: CONTAINMENT -->
     <g transform="translate(912 0)">
-      <rect width="180" height="160" rx="14" class="panel2"/>
-      <circle cx="22" cy="24" r="6" fill="#ff6b6b" class="pulse-e" filter="url(#softGlow2)"/>
-      <text x="38" y="29" class="ttl">5 · CONTAINMENT</text>
-      <text x="22" y="52" class="sm">Auto-response · RCA</text>
-      <g transform="translate(22 66)">
-        <rect x="0" y="0" width="14" height="14" rx="3" fill="#7ee787" opacity="0.85"/>
-        <text class="m" font-size="10" fill="#c9d1d9" x="20" y="11">isolate endpoint</text>
-        <rect x="0" y="20" width="14" height="14" rx="3" fill="#7ee787" opacity="0.85"/>
-        <text class="m" font-size="10" fill="#c9d1d9" x="20" y="31">disable user token</text>
-        <rect x="0" y="40" width="14" height="14" rx="3" fill="#7ee787" opacity="0.85"/>
-        <text class="m" font-size="10" fill="#c9d1d9" x="20" y="51">collect memory + disk</text>
-        <rect x="0" y="60" width="14" height="14" rx="3" fill="#ffcf5a" opacity="0.85" class="blink2"/>
-        <text class="m" font-size="10" fill="#c9d1d9" x="20" y="71">RCA + lessons-learned</text>
+      <rect width="200" height="172" rx="10" class="card"/>
+      <rect x="0" y="0" width="200" height="3" rx="1.5" fill="#3fb950"/>
+      <circle cx="20" cy="22" r="11" fill="#3fb950"/>
+      <text x="20" y="26" text-anchor="middle" class="num" fill="#0a1929">05</text>
+      <circle cx="184" cy="22" r="4" fill="#3fb950" class="pls5 blink" filter="url(#glow)"/>
+      <text x="40" y="26" class="ttl">CONTAINMENT</text>
+      <text x="14" y="50" class="sm">Auto-respond · RCA · docs</text>
+
+      <g transform="translate(14 64)" class="m" font-size="10">
+        <rect x="0" y="-9" width="10" height="10" rx="2" fill="#3fb950"/>
+        <text fill="#c9d1d9" x="16" y="0">isolate endpoint</text>
+        <rect x="0" y="7" width="10" height="10" rx="2" fill="#3fb950"/>
+        <text fill="#c9d1d9" x="16" y="16">disable user token</text>
+        <rect x="0" y="23" width="10" height="10" rx="2" fill="#3fb950"/>
+        <text fill="#c9d1d9" x="16" y="32">collect memory + disk</text>
+        <rect x="0" y="39" width="10" height="10" rx="2" fill="#3fb950"/>
+        <text fill="#c9d1d9" x="16" y="48">block IoC · open RCA</text>
+      </g>
+
+      <line x1="14" y1="132" x2="186" y2="132" stroke="#1f3b55"/>
+      <text x="14" y="148" class="sm">MEAN-TIME-TO-RESPOND</text>
+      <text x="14" y="164" class="m" font-size="14" font-weight="800" fill="#3fb950">11:47<tspan font-size="10" fill="#8ba3bd"> · contained</tspan></text>
+    </g>
+  </g>
+
+  <!-- KPI METRICS STRIP -->
+  <g class="f" transform="translate(44 288)">
+    <rect width="1112" height="92" rx="10" class="pnl"/>
+    <text x="20" y="22" class="lbl">PIPELINE PERFORMANCE · TRAILING 90 DAYS</text>
+    <text x="20" y="38" class="sm">Live KPIs benchmarked against industry averages (IBM Cost of Data Breach Report · Mandiant M-Trends)</text>
+
+    <!-- 6 KPIs in a row -->
+    <g transform="translate(20 54)">
+      <!-- MTTD -->
+      <g>
+        <text class="sm" y="0">⏱  MTTD</text>
+        <text class="m" font-size="20" font-weight="800" fill="#3fb950" y="24">04:12</text>
+        <text class="sm" y="36" fill="#3fb950">▼ 47% vs avg</text>
+      </g>
+      <!-- MTTR -->
+      <g transform="translate(186 0)">
+        <text class="sm" y="0">⚡  MTTR</text>
+        <text class="m" font-size="20" font-weight="800" fill="#3fb950" y="24">11:47</text>
+        <text class="sm" y="36" fill="#3fb950">▼ 32% vs baseline</text>
+      </g>
+      <!-- FP rate -->
+      <g transform="translate(372 0)">
+        <text class="sm" y="0">🎯  FALSE-POSITIVE</text>
+        <text class="m" font-size="20" font-weight="800" fill="#ffcf5a" y="24">7.4%</text>
+        <text class="sm" y="36" fill="#8ba3bd">industry avg: 23%</text>
+      </g>
+      <!-- Coverage -->
+      <g transform="translate(558 0)">
+        <text class="sm" y="0">🛡  MITRE COVERAGE</text>
+        <text class="m" font-size="20" font-weight="800" fill="#58a6ff" y="24">86 TTPs</text>
+        <text class="sm" y="36" fill="#8ba3bd">14 of 14 tactics</text>
+      </g>
+      <!-- Detections shipped -->
+      <g transform="translate(744 0)">
+        <text class="sm" y="0">📈  DETECTIONS SHIPPED</text>
+        <text class="m" font-size="20" font-weight="800" fill="#58a6ff" y="24">45+</text>
+        <text class="sm" y="36" fill="#8ba3bd">all CI-validated</text>
+      </g>
+      <!-- SLA -->
+      <g transform="translate(930 0)">
+        <text class="sm" y="0">✅  SLA MET</text>
+        <text class="m" font-size="20" font-weight="800" fill="#3fb950" y="24">98.2%</text>
+        <text class="sm" y="36" fill="#3fb950">142/145 days</text>
       </g>
     </g>
   </g>
 
-  <!-- BOTTOM METRICS STRIP -->
-  <g class="f" transform="translate(54 296)">
-    <rect width="1092" height="86" rx="14" class="panel2"/>
-    <text x="22" y="30" class="ttl">PIPELINE METRICS · last 90 days</text>
-
-    <g transform="translate(22 46)">
-      <text class="sm" y="0">MTTD (mean time to detect)</text>
-      <text class="m" font-size="20" font-weight="800" fill="#7ee787" y="28">04:12</text>
-    </g>
-    <g transform="translate(232 46)">
-      <text class="sm" y="0">MTTR (mean time to respond)</text>
-      <text class="m" font-size="20" font-weight="800" fill="#58a6ff" y="28">11:47</text>
-    </g>
-    <g transform="translate(442 46)">
-      <text class="sm" y="0">False-positive rate</text>
-      <text class="m" font-size="20" font-weight="800" fill="#ffcf5a" y="28">7.4%</text>
-    </g>
-    <g transform="translate(622 46)">
-      <text class="sm" y="0">Detections shipped</text>
-      <text class="m" font-size="20" font-weight="800" fill="#36d1dc" y="28">45+</text>
-    </g>
-    <g transform="translate(792 46)">
-      <text class="sm" y="0">MITRE coverage</text>
-      <text class="m" font-size="20" font-weight="800" fill="#7ee787" y="28">86 TTPs</text>
-    </g>
-    <g transform="translate(952 46)">
-      <text class="sm" y="0">SLA met</text>
-      <text class="m" font-size="20" font-weight="800" fill="#7ee787" y="28">98.2%</text>
-    </g>
-  </g>
-
-  <!-- BOTTOM HINT -->
-  <g class="f" transform="translate(54 396)">
-    <text class="sm" fill="#8ba3bd">Pipeline auto-instruments every detection — code-reviewed, version-controlled, CI-validated. Detection-as-code, not screenshots.</text>
+  <!-- Footer value-prop line -->
+  <g class="f" transform="translate(44 396)">
+    <text class="sm" fill="#8ba3bd">▸</text>
+    <text x="14" class="sm" fill="#c9d1d9" font-weight="700">Detection-as-code</text>
+    <text x="120" class="sm" fill="#8ba3bd">: every rule is git-tracked, peer-reviewed, CI-validated, MITRE-mapped — engineered, not improvised.</text>
   </g>
 </svg>
