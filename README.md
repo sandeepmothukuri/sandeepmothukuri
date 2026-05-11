@@ -24,7 +24,8 @@
   <img src="https://img.shields.io/badge/Experience-5%2B%20years-58a6ff?style=flat-square&labelColor=0d1117">
   <img src="https://img.shields.io/badge/Incidents%20triaged-300%2B-58a6ff?style=flat-square&labelColor=0d1117">
   <img src="https://img.shields.io/badge/Detections%20authored-45%2B-58a6ff?style=flat-square&labelColor=0d1117">
-  <img src="https://img.shields.io/badge/Open--source%20labs-12-58a6ff?style=flat-square&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/SOC%20labs%20shipped-6-58a6ff?style=flat-square&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Public%20repos-31-58a6ff?style=flat-square&labelColor=0d1117">
   <img src="https://img.shields.io/badge/Certifications-6-58a6ff?style=flat-square&labelColor=0d1117">
   <img src="https://komarev.com/ghpvc/?username=sandeepmothukuri&style=flat-square&color=3fb950&label=Profile+views&labelColor=0d1117">
 </p>
@@ -228,11 +229,20 @@ index=wineventlog EventCode=5140
 
 > Triggers when one account touches `ADMIN$` / `C$` on **5+ distinct hosts** within the search window — classic post-exploitation lateral movement (PsExec, Impacket, Cobalt Strike `psexec_psh`).
 
-## 📊 Stats
+## 📊 Live GitHub Stats
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9&icon_color=58a6ff">
+  <img height="170" src="https://streak-stats.demolab.com?user=sandeepmothukuri&hide_border=true&background=0d1117&stroke=30363d&ring=3fb950&fire=f85149&currStreakNum=3fb950&sideNums=58a6ff&currStreakLabel=3fb950&sideLabels=c9d1d9&dates=8b949e">
+</p>
+
+<p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9">
+  <img height="170" src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=matrix&no-frame=true&no-bg=true&row=2&column=3&margin-w=8&margin-h=8">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sandeepmothukuri&bg_color=0d1117&color=3fb950&line=58a6ff&point=3fb950&area=true&area_color=3fb950&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%94%20last%2012%20months" alt="contribution activity graph" width="100%">
 </p>
 
 <p align="center">
