@@ -28,7 +28,7 @@ jobs:
                 | sort_by(.pushed_at) | reverse
                 | .[0:6]
                 | .[]
-                | "\(.name)|\(.description // \"\")|\(.stargazers_count)|\(.forks_count)|\(.html_url)|\(.pushed_at[0:10])"
+                | "\(.name)|\(.description // "")|\(.stargazers_count)|\(.forks_count)|\(.html_url)|\(.pushed_at[0:10])"
               ' > /tmp/repos.tsv
 
           {

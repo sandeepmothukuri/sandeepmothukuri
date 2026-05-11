@@ -255,7 +255,7 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 
 </details>
 
-> _Metrics auto-regenerate daily via [`metrics.yml`](.github/workflows/metrics.yml). Achievements plugin removed (was unstable); use the trophy row above instead._
+> _Metrics auto-regenerate daily via [`metrics.yml`](.github/workflows/metrics.yml)._
 
 ### 🌆 3D Contribution Skyline
 
@@ -289,14 +289,6 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-11 12:38 UTC. Au
 
 _Auto-refreshed every Monday by [`featured-repos.yml`](.github/workflows/featured-repos.yml). First run pending._
 <!-- FEATURED-REPOS-END -->
-
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
-
-<!-- BLOG-POST-LIST:START -->
-## ✍️ Latest from [cybertechnology.in](https://cybertechnology.in)
-
-_Auto-updated daily by [`blog-posts.yml`](.github/workflows/blog-posts.yml). Posts appear once the RSS feed is reachable._
-<!-- BLOG-POST-LIST:END -->
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,15,20,22,24&height=2&section=footer" alt="divider" width="100%"></p>
 
