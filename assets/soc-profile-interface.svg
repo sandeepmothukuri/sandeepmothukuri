@@ -145,37 +145,88 @@
     <!-- world glow -->
     <ellipse cx="360" cy="148" rx="320" ry="76" fill="url(#globeGlow)"/>
 
-    <!-- abstract continent shapes (simplified) -->
-    <g fill="#1f3b55" opacity="0.45">
-      <!-- North America -->
-      <path d="M70 100 L150 90 L180 110 L170 150 L130 170 L80 160 Z"/>
-      <!-- South America -->
-      <path d="M165 175 L200 180 L210 215 L180 220 L165 200 Z"/>
-      <!-- Europe -->
-      <path d="M340 90 L400 85 L420 115 L385 130 L345 120 Z"/>
-      <!-- Africa -->
-      <path d="M360 135 L420 135 L430 180 L395 215 L370 205 L355 165 Z"/>
-      <!-- Asia -->
-      <path d="M440 80 L580 80 L620 120 L590 150 L500 145 L450 120 Z"/>
-      <!-- Australia -->
-      <path d="M580 180 L640 175 L650 205 L600 210 Z"/>
+    <!-- realistic world map silhouette: detailed coastlines, recognizable geography -->
+    <g fill="#1f3b55" opacity="0.6" stroke="#3a6da3" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round">
+      <!-- ALASKA (separated) -->
+      <path d="M22 96 L34 90 L46 87 L52 93 L48 100 L40 104 L30 102 Z"/>
+      <!-- NORTH AMERICA: Canada + USA + Mexico + Central America with Hudson Bay -->
+      <path d="M52 84 L72 78 L94 75 L118 73 L138 72 L154 74 L168 78 L178 86 L172 96 L162 90 L152 96 L148 108 L156 116 L168 110 L178 102 L188 94 L202 90 L218 92 L228 98 L222 108 L214 116 L222 122 L218 132 L210 138 L202 146 L196 156 L190 166 L182 170 L172 168 L165 174 L155 182 L144 184 L134 180 L128 168 L122 158 L114 150 L104 144 L92 140 L78 136 L65 130 L54 122 L46 112 L42 100 Z"/>
+      <!-- GREENLAND -->
+      <path d="M232 64 L250 60 L268 64 L278 74 L278 86 L270 96 L256 100 L240 96 L230 86 L226 76 Z"/>
+      <!-- SOUTH AMERICA: Brazil bulge + tapering Patagonia -->
+      <path d="M158 186 L172 178 L188 178 L200 182 L210 186 L218 194 L222 208 L220 222 L212 232 L202 238 L188 240 L176 232 L168 218 L162 202 L158 192 Z"/>
+      <!-- UK + IRELAND -->
+      <path d="M306 92 L314 86 L322 84 L324 96 L318 104 L310 102 L306 96 Z"/>
+      <!-- ICELAND -->
+      <path d="M286 74 L296 72 L300 80 L294 84 L286 82 Z"/>
+      <!-- SCANDINAVIA -->
+      <path d="M336 70 L352 64 L366 66 L376 76 L378 88 L372 96 L360 94 L350 88 L342 80 Z"/>
+      <!-- IBERIAN PENINSULA -->
+      <path d="M306 108 L322 106 L334 110 L336 118 L328 124 L316 124 L306 118 Z"/>
+      <!-- CONTINENTAL EUROPE -->
+      <path d="M334 102 L356 98 L380 96 L404 100 L420 106 L426 116 L416 122 L400 124 L388 128 L376 124 L368 122 L356 120 L344 116 L336 110 Z"/>
+      <!-- ITALY (boot) -->
+      <path d="M362 116 L368 116 L370 126 L374 134 L370 140 L364 134 L362 124 Z"/>
+      <!-- BALKANS / GREECE -->
+      <path d="M380 122 L394 122 L398 132 L390 138 L382 134 Z"/>
+      <!-- AFRICA: Mediterranean coast → horn of africa → south cape -->
+      <path d="M340 130 L362 128 L388 126 L412 126 L432 130 L444 138 L450 152 L448 168 L444 184 L436 200 L424 214 L410 224 L394 228 L380 224 L370 214 L362 198 L354 180 L348 162 L344 146 L342 138 Z"/>
+      <!-- MADAGASCAR -->
+      <path d="M444 196 L452 194 L456 208 L452 218 L446 216 L442 206 Z"/>
+      <!-- MIDDLE EAST / ARABIAN PENINSULA -->
+      <path d="M408 122 L428 118 L444 122 L454 132 L456 144 L448 152 L436 152 L424 146 L416 138 L410 130 Z"/>
+      <!-- CASPIAN + CENTRAL ASIA strip -->
+      <path d="M428 96 L460 92 L488 94 L508 100 L502 108 L484 110 L462 108 L440 104 Z"/>
+      <!-- RUSSIA / SIBERIA / NORTHERN ASIA — large landmass -->
+      <path d="M404 82 L440 74 L478 68 L516 66 L554 68 L590 72 L622 76 L648 82 L660 92 L654 100 L636 98 L612 96 L584 94 L552 92 L518 90 L486 88 L454 86 L428 84 L410 84 Z"/>
+      <!-- INDIA (triangular subcontinent) -->
+      <path d="M488 122 L506 120 L516 128 L524 138 L522 152 L516 162 L508 168 L502 162 L498 152 L494 140 L490 130 Z"/>
+      <!-- INDOCHINESE + MALAY PENINSULA (tapering south) -->
+      <path d="M548 126 L568 124 L582 130 L588 142 L584 154 L578 164 L570 168 L564 162 L562 152 L558 142 L552 134 Z"/>
+      <!-- CHINA + MONGOLIA + KOREA -->
+      <path d="M510 100 L538 98 L568 98 L596 102 L616 110 L620 122 L608 128 L590 130 L572 128 L552 126 L532 122 L518 116 L512 108 Z"/>
+      <!-- KOREAN PENINSULA -->
+      <path d="M610 110 L618 110 L620 124 L614 128 L610 124 Z"/>
+      <!-- JAPAN (4 main islands) -->
+      <path d="M624 100 L634 96 L640 104 L646 114 L640 120 L632 116 L626 108 Z"/>
+      <!-- PHILIPPINES -->
+      <path d="M608 142 L616 140 L620 152 L614 158 L610 152 Z"/>
+      <!-- INDONESIA (Sumatra/Java/Borneo simplified) -->
+      <path d="M566 168 L588 166 L612 168 L632 172 L644 178 L636 184 L616 184 L596 182 L578 178 L568 174 Z"/>
+      <!-- BORNEO -->
+      <path d="M598 158 L612 156 L618 168 L612 174 L600 172 L596 164 Z"/>
+      <!-- AUSTRALIA -->
+      <path d="M584 184 L606 178 L630 176 L652 180 L668 188 L668 200 L660 210 L642 214 L620 212 L600 206 L586 198 L580 190 Z"/>
+      <!-- TASMANIA -->
+      <path d="M642 220 L650 218 L654 228 L646 230 L640 226 Z"/>
+      <!-- NEW ZEALAND -->
+      <path d="M676 202 L684 200 L686 212 L680 218 L672 214 Z"/>
+      <path d="M678 222 L684 222 L684 232 L678 232 Z"/>
     </g>
 
-    <!-- city nodes -->
+    <!-- equator + meridian guides -->
+    <g stroke="#1f3b55" stroke-width="0.5" opacity="0.5" stroke-dasharray="2 4" fill="none">
+      <line x1="40" y1="148" x2="685" y2="148"/>
+      <line x1="360" y1="78" x2="360" y2="220"/>
+    </g>
+
+    <!-- city nodes (placed on actual continental positions) -->
     <g fill="#58a6ff" filter="url(#glow)">
-      <circle cx="120" cy="125" r="4" class="pls1"/><text x="128" y="123" class="sm" fill="#c9d1d9">NYC</text>
-      <circle cx="370" cy="105" r="4" class="pls2"/><text x="378" y="103" class="sm" fill="#c9d1d9">LON</text>
-      <circle cx="530" cy="105" r="4" class="pls3"/><text x="538" y="103" class="sm" fill="#c9d1d9">SGP</text>
-      <circle cx="610" cy="195" r="4" class="pls4"/><text x="618" y="193" class="sm" fill="#c9d1d9">SYD</text>
-      <circle cx="400" cy="180" r="4" class="pls1"/><text x="408" y="178" class="sm" fill="#c9d1d9">JNB</text>
+      <circle cx="138" cy="132" r="4" class="pls1"/><text x="146" y="129" class="sm" fill="#c9d1d9">NYC</text>
+      <circle cx="318" cy="100" r="4" class="pls2"/><text x="296" y="97"  class="sm" fill="#c9d1d9">LON</text>
+      <circle cx="568" cy="152" r="4" class="pls3"/><text x="576" y="149" class="sm" fill="#c9d1d9">SGP</text>
+      <circle cx="625" cy="190" r="4" class="pls4"/><text x="595" y="207" class="sm" fill="#c9d1d9">SYD</text>
+      <circle cx="395" cy="200" r="4" class="pls1"/><text x="403" y="197" class="sm" fill="#c9d1d9">JNB</text>
+      <circle cx="445" cy="135" r="3" class="pls2"/><text x="453" y="132" class="sm" fill="#c9d1d9">DXB</text>
     </g>
 
-    <!-- animated threat arcs -->
+    <!-- animated threat arcs (paths now follow geographic curves) -->
     <g fill="none" stroke-width="1.5">
-      <path d="M120 125 Q 245 50 370 105" stroke="#f85149" opacity="0.85" class="dash"/>
-      <path d="M530 105 Q 450 30 370 105" stroke="#ffcf5a" opacity="0.85" class="dash"/>
-      <path d="M610 195 Q 500 240 400 180" stroke="#58a6ff" opacity="0.85" class="dash"/>
-      <path d="M120 125 Q 260 195 400 180" stroke="#f85149" opacity="0.6" class="dash"/>
+      <path d="M138 132 Q 240 70 318 100" stroke="#f85149" opacity="0.85" class="dash"/>
+      <path d="M568 152 Q 460 60 318 100" stroke="#ffcf5a" opacity="0.85" class="dash"/>
+      <path d="M625 190 Q 510 250 395 200" stroke="#58a6ff" opacity="0.85" class="dash"/>
+      <path d="M138 132 Q 270 220 395 200" stroke="#f85149" opacity="0.6"  class="dash"/>
+      <path d="M445 135 Q 510 110 568 152" stroke="#ffcf5a" opacity="0.7"  class="dash"/>
     </g>
 
     <!-- legend strip bottom of panel -->
