@@ -234,25 +234,25 @@
     <text x="76" y="20" class="m" font-size="12" fill="#8ba3bd">alert-stream@soc-console:~$  tail -f /var/log/siem/alerts.live</text>
     <text x="1080" y="20" class="sm" fill="#3fb950">● STREAMING</text>
 
-    <!-- scrolling alerts (clipped to panel body) -->
-    <g clip-path="url(#alertClip)">
+    <!-- scrolling alerts: nested svg with overflow=hidden clips by default -->
+    <svg x="0" y="32" width="1152" height="138" viewBox="0 0 1152 138" overflow="hidden" preserveAspectRatio="xMinYMin">
       <g class="scroll" font-size="12">
-        <text x="22" y="56" class="m" fill="#f85149">[16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
-        <text x="22" y="76" class="m" fill="#ffcf5a">[16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
-        <text x="22" y="96" class="m" fill="#58a6ff">[16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
-        <text x="22" y="116" class="m" fill="#3fb950">[16:47:08] [INFO]      T1078 Successful auth from new geo · user=m.singh@corp · geo=GB → DE</text>
-        <text x="22" y="136" class="m" fill="#ffcf5a">[16:46:42] [HIGH]      T1486 Ransomware behavior · 1200+ file writes in 60s · host=WS-SALES-29</text>
-        <text x="22" y="156" class="m" fill="#58a6ff">[16:46:19] [MEDIUM]    T1003.001 LSASS access · proc=mimikatz.exe-renamed · contained</text>
-        <text x="22" y="176" class="m" fill="#3fb950">[16:45:54] [INFO]      Playbook auto-isolate executed on WS-FIN-014 · SLA met (4m 12s)</text>
-        <!-- duplicate set for seamless loop -->
-        <text x="22" y="196" class="m" fill="#f85149">[16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
-        <text x="22" y="216" class="m" fill="#ffcf5a">[16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
-        <text x="22" y="236" class="m" fill="#58a6ff">[16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
-        <text x="22" y="256" class="m" fill="#3fb950">[16:47:08] [INFO]      T1078 Successful auth from new geo · user=m.singh@corp · geo=GB → DE</text>
-        <text x="22" y="276" class="m" fill="#ffcf5a">[16:46:42] [HIGH]      T1486 Ransomware behavior · 1200+ file writes in 60s · host=WS-SALES-29</text>
-        <text x="22" y="296" class="m" fill="#58a6ff">[16:46:19] [MEDIUM]    T1003.001 LSASS access · proc=mimikatz.exe-renamed · contained</text>
-        <text x="22" y="316" class="m" fill="#3fb950">[16:45:54] [INFO]      Playbook auto-isolate executed on WS-FIN-014 · SLA met (4m 12s)</text>
+        <text x="22" y="24"  class="m" fill="#f85149">[16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
+        <text x="22" y="44"  class="m" fill="#ffcf5a">[16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
+        <text x="22" y="64"  class="m" fill="#58a6ff">[16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
+        <text x="22" y="84"  class="m" fill="#3fb950">[16:47:08] [INFO]      T1078 Successful auth from new geo · user=m.singh@corp · geo=GB → DE</text>
+        <text x="22" y="104" class="m" fill="#ffcf5a">[16:46:42] [HIGH]      T1486 Ransomware behavior · 1200+ file writes in 60s · host=WS-SALES-29</text>
+        <text x="22" y="124" class="m" fill="#58a6ff">[16:46:19] [MEDIUM]    T1003.001 LSASS access · proc=mimikatz.exe-renamed · contained</text>
+        <text x="22" y="144" class="m" fill="#3fb950">[16:45:54] [INFO]      Playbook auto-isolate executed on WS-FIN-014 · SLA met (4m 12s)</text>
+        <!-- duplicate set: positioned exactly 140px below set 1 for seamless loop -->
+        <text x="22" y="164" class="m" fill="#f85149">[16:48:22] [CRITICAL]  T1059.001 PowerShell encoded execution · host=WS-FIN-014 · user=j.alvarez · risk=84</text>
+        <text x="22" y="184" class="m" fill="#ffcf5a">[16:47:55] [HIGH]      T1110.003 Password spraying · target=AAD · attempts=47 in 90s · src=185.220.x.x</text>
+        <text x="22" y="204" class="m" fill="#58a6ff">[16:47:31] [MEDIUM]    T1071.001 Suspicious outbound HTTPS · dst=newdomain.tk · proc=svchost.exe</text>
+        <text x="22" y="224" class="m" fill="#3fb950">[16:47:08] [INFO]      T1078 Successful auth from new geo · user=m.singh@corp · geo=GB → DE</text>
+        <text x="22" y="244" class="m" fill="#ffcf5a">[16:46:42] [HIGH]      T1486 Ransomware behavior · 1200+ file writes in 60s · host=WS-SALES-29</text>
+        <text x="22" y="264" class="m" fill="#58a6ff">[16:46:19] [MEDIUM]    T1003.001 LSASS access · proc=mimikatz.exe-renamed · contained</text>
+        <text x="22" y="284" class="m" fill="#3fb950">[16:45:54] [INFO]      Playbook auto-isolate executed on WS-FIN-014 · SLA met (4m 12s)</text>
       </g>
-    </g>
+    </svg>
   </g>
 </svg>
