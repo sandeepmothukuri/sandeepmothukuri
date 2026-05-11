@@ -25,13 +25,13 @@
 
 <!-- AT A GLANCE -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Experience-5%2B%20years-58a6ff?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Experience-5%2B%20years-1f6feb?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Incidents%20triaged-300%2B-58a6ff?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Detections%20authored-45%2B-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/SOC%20labs%20shipped-6-58a6ff?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/SOC%20labs%20shipped-6-ffcf5a?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Public%20repos-31-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Certifications-6-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://komarev.com/ghpvc/?username=sandeepmothukuri&style=flat-square&color=3fb950&label=Profile+views&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Certifications-6-ffcf5a?style=flat-square&labelColor=132f4c">
+  <img src="https://hits.sh/github.com/sandeepmothukuri.svg?style=flat-square&label=Profile%20views&color=3fb950&labelColor=132f4c">
 </p>
 
 <!-- TYPING ANIMATION -->
