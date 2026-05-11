@@ -262,6 +262,63 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-11 16:30 UTC. Au
 ### 🔥 Featured Repos — auto-curated
 
 _Auto-refreshed every Monday by [`featured-repos.yml`](.github/workflows/featured-repos.yml)._
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [`sandeepmothukuri`](https://github.com/sandeepmothukuri/sandeepmothukuri)
+Senior SOC Analyst (L3) — IR, threat hunting, detection engineering. Open to senior roles.
+
+⭐ 1 · 🍴 0 · 📅 last push `2026-05-11`
+
+</td>
+<td width="50%" valign="top">
+
+### [`soc-lab-free`](https://github.com/sandeepmothukuri/soc-lab-free)
+Free SOC Lab - OpenVAS, Wazuh, pfSense, Proxmox Mail, Lynis replacing Nessus, Splunk, Netskope, Mimecast, Guardstack
+
+⭐ 1 · 🍴 0 · 📅 last push `2026-05-10`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`ai-soc-lab`](https://github.com/sandeepmothukuri/ai-soc-lab)
+🤖 AI-powered SOC lab — Wazuh SIEM + TheHive + Shuffle + MISP + Ollama LLaMA3 for LLM-powered alert triage, AI threat analysis, and automated incident response. Free & open-source.
+
+⭐ 1 · 🍴 0 · 📅 last push `2026-05-10`
+
+</td>
+<td width="50%" valign="top">
+
+### [`soc-lab`](https://github.com/sandeepmothukuri/soc-lab)
+SOC Analyst home lab with Wazuh SIEM, Sysmon logging, brute-force detection, MITRE ATT&CK mapping, and incident response workflow.
+
+⭐ 1 · 🍴 0 · 📅 last push `2026-05-10`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`advanced-soc-lab-v2.0`](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0)
+🔐 Hands-on SOC lab - 12 tools (OpenSearch, Suricata, Zeek, MISP, Caldera, Velociraptor + AI agents) via Docker Compose. MITRE ATT&CK v14. Free
+
+⭐ 1 · 🍴 0 · 📅 last push `2026-05-10`
+
+</td>
+<td width="50%" valign="top">
+
+### [`Autonomous-SOC-Lab`](https://github.com/sandeepmothukuri/Autonomous-SOC-Lab)
+Autonomous SOC lab with AI-driven detection, automated response, and self-healing playbooks
+
+⭐ 1 · 🍴 0 · 📅 last push `2026-04-30`
+
+</td>
+</tr>
+</table>
 <!-- FEATURED-REPOS-END -->
 
 <!-- SECURITY-NEWS-START -->
