@@ -58,16 +58,69 @@ Outside of work I build **open-source SOC labs** that mirror enterprise stacks, 
 - **Automation mindset** — if I do it twice, it gets a playbook. If I do it weekly, it gets Python.
 - **Currently building** — AI-augmented SOC automation: LLM-assisted alert triage, agentic IR playbooks (CrewAI + Ollama).
 
-## 🧰 Stack
+## 🧰 Stack — cybersecurity tooling
+
+**SIEM / XDR / EDR**
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,kubernetes,aws,azure,gcp,git,vscode&theme=dark" alt="tech stack">
+  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/IBM%20QRadar-054ADA?style=for-the-badge&logo=ibm&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/MS%20Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/CrowdStrike%20Falcon-E00000?style=for-the-badge&logo=crowdstrike&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/MS%20Defender%20XDR-0078D4?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Wazuh-3fb950?style=for-the-badge&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Elastic%20SIEM-005571?style=for-the-badge&logo=elastic&logoColor=white&labelColor=0d1117">
 </p>
 
-**SIEM / XDR** — Splunk · IBM QRadar · Microsoft Sentinel · CrowdStrike Falcon · MS Defender · Wazuh · OpenSearch
-**Threat Intel / DFIR** — MISP · TheHive · Velociraptor · DFIR-IRIS · Any.Run · VirusTotal
-**Detection / Frameworks** — MITRE ATT&CK · Sigma · Sysmon · Suricata · Zeek
-**Automation** — Python · Bash · Docker · Shuffle · Ollama (LLaMA3)
+**DFIR & Threat Intel**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/MISP-1B5E20?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/TheHive-FF7043?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Velociraptor-1E88E5?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/DFIR--IRIS-455A64?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/VirusTotal-394EFF?style=for-the-badge&logo=virustotal&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Any.Run-FF6D00?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Volatility-263238?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Autopsy-8B0000?style=for-the-badge&labelColor=0d1117">
+</p>
+
+**Detection Engineering & Frameworks**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-f85149?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Sigma%20Rules-FFC107?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/YARA-3fb950?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Sysmon-2E7D32?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Suricata-D81B60?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Zeek-6A1B9A?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Snort-A91D22?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/OSQuery-58a6ff?style=for-the-badge&labelColor=0d1117">
+</p>
+
+**Offensive Security & Pen-Testing**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Caldera-455A64?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Atomic%20Red%20Team-D81B60?style=for-the-badge&labelColor=0d1117">
+</p>
+
+**SOAR & Scripting**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Shuffle-455A64?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/TheHive%20Cortex-FF7043?style=for-the-badge&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/PowerShell-2671BE?style=for-the-badge&logo=powershell&logoColor=white&labelColor=0d1117">
+  <img src="https://img.shields.io/badge/Ollama%20(LLaMA3)-3fb950?style=for-the-badge&labelColor=0d1117">
+</p>
 
 <!-- SOC TELEMETRY STREAM START -->
 <p align="center">
