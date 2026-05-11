@@ -255,7 +255,7 @@ Auto-refreshed by GitHub Actions. CVE feed from NIST NVD; headlines from public 
 
 > vm2 is an open source vm/sandbox for Node.js. Prior to version 3.11.0, SuppressedError allows attackers to escape the sandbox and run arbitrary code. This issue has been patched in version 3.11.0.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-11 12:38 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-11 16:30 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- FEATURED-REPOS-START -->
