@@ -378,9 +378,11 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 ## 📨 Contact
 
 <p align="left">
-  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-58a6ff?style=flat-square&logo=googlechrome&logoColor=white&labelColor=132f4c"></a>
-  <a href="https://www.linkedin.com/in/sandeepmothukuris"><img src="https://img.shields.io/badge/LinkedIn-sandeepmothukuris-58a6ff?style=flat-square&logo=linkedin&logoColor=white&labelColor=132f4c"></a>
-  <a href="mailto:sandeep.mothukuris@gmail.com"><img src="https://img.shields.io/badge/Email-sandeep.mothukuris%40gmail.com-3fb950?style=flat-square&logo=gmail&logoColor=white&labelColor=132f4c"></a>
+  <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-7c3aed?style=flat-square&logo=googlechrome&logoColor=white&labelColor=132f4c"></a>
+  <a href="https://www.linkedin.com/in/sandeepmothukuris"><img src="https://img.shields.io/badge/LinkedIn-sandeepmothukuris-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=132f4c"></a>
+  <a href="mailto:sandeep.mothukuris@gmail.com"><img src="https://img.shields.io/badge/Email-sandeep.mothukuris%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=132f4c"></a>
+  <a href="https://github.com/sandeepmothukuri"><img src="https://img.shields.io/badge/GitHub-sandeepmothukuri-181717?style=flat-square&logo=github&logoColor=white&labelColor=132f4c"></a>
+  <a href="https://x.com/sandeepmothukuri"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-Follow-000000?style=flat-square&logo=x&logoColor=white&labelColor=132f4c"></a>
 </p>
 
 📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity) — typical reply within 24h.
