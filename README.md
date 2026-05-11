@@ -1,6 +1,6 @@
 <!-- HERO BANNER -->
 <a href="https://github.com/sandeepmothukuri">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:21262d&height=220&section=header&text=Sandeep%20Mothukuri&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Senior%20SOC%20Analyst%20(L3)%20%C2%B7%20Incident%20Response%20%C2%B7%20Threat%20Hunting%20%C2%B7%20Detection%20Engineering&descAlignY=62&descSize=16&animation=fadeIn" alt="hero banner">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,40:001a0d,75:003820,100:00ff41&height=240&section=header&text=Sandeep%20Mothukuri&fontSize=60&fontColor=00ff41&fontAlignY=36&desc=%5B%20Senior%20SOC%20Analyst%20L3%20%5D%20%C2%B7%20Incident%20Response%20%C2%B7%20Threat%20Hunting%20%C2%B7%20Detection%20Engineering&descAlignY=60&descSize=17&descColor=c9d1d9&animation=fadeIn" alt="hero banner">
 </a>
 
 <!-- AUTO-UPDATED-SNAKE START -->
