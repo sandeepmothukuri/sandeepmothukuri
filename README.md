@@ -4,11 +4,13 @@
 </a>
 
 <!-- AUTO-UPDATED-SNAKE START -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake.svg">
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake.svg">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake.svg">
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/sandeepmothukuri/sandeepmothukuri/output/github-snake.svg" width="100%">
+  </picture>
+</p>
 <!-- AUTO-UPDATED-SNAKE END -->
 
 <!-- STATUS BAR -->

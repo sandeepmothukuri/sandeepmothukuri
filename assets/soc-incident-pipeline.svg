@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="t d">
-  <title id="t">SOC Tool Ecosystem — Data Flow</title>
-  <desc id="d">Animated diagram showing how SOC tools connect across collection, analysis, enrichment, and response stages.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="t d">
+  <title id="t">SOC Capabilities Radar — L3 Skillset</title>
+  <desc id="d">Animated radar chart showing senior SOC analyst capability levels across 8 core domains, with live mini-bar comparisons.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0" stop-color="#070d1a"/>
@@ -11,14 +11,18 @@
       <stop offset="0" stop-color="#132f4c" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#0a1929" stop-opacity="0.98"/>
     </linearGradient>
-    <linearGradient id="card" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#1a3a5f"/>
-      <stop offset="1" stop-color="#0d2233"/>
-    </linearGradient>
-    <linearGradient id="flow" x1="0" x2="1">
-      <stop offset="0" stop-color="#1f6feb" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#58a6ff"/>
+    <radialGradient id="radGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.32"/>
+      <stop offset="0.6" stop-color="#1f6feb" stop-opacity="0.08"/>
       <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="polyFill" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#58a6ff"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0 L0 0 0 40" fill="none" stroke="#1f3b55" stroke-width="1" opacity="0.22"/>
@@ -31,200 +35,190 @@
       .f { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
       .m { font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace; }
       .ttl { font-size: 16px; font-weight: 800; fill: #f0f6fc; letter-spacing: 0.4px; }
-      .lbl { font-size: 10px; fill: #58a6ff; letter-spacing: 1.6px; font-weight: 700; }
-      .sm { font-size: 10px; fill: #8ba3bd; letter-spacing: 0.3px; }
-      .toolname { font-size: 11px; font-weight: 700; fill: #f0f6fc; }
-      .toolsub { font-size: 9px; fill: #8ba3bd; }
+      .lbl { font-size: 10px; fill: #58a6ff; letter-spacing: 1.5px; font-weight: 700; }
+      .sm  { font-size: 10px; fill: #8ba3bd; letter-spacing: 0.3px; }
+      .axlbl { font-size: 10px; font-weight: 700; fill: #c9d1d9; letter-spacing: 0.6px; }
       .pnl { fill: url(#pnl); stroke: #1f3b55; stroke-width: 1; }
-      .card { fill: url(#card); stroke: #1f6feb; stroke-width: 1; }
-      .pulse-a { animation: pls 2.4s ease-in-out infinite; }
-      .pulse-b { animation: pls 2.4s ease-in-out infinite 0.4s; }
-      .pulse-c { animation: pls 2.4s ease-in-out infinite 0.8s; }
-      .pulse-d { animation: pls 2.4s ease-in-out infinite 1.2s; }
-      .live { animation: live 1.4s steps(2) infinite; }
-      @keyframes pls { 0%,100% { opacity: 0.4; transform: scale(1) } 50% { opacity: 1; transform: scale(1.2) } }
+      .live { animation: live 1.8s steps(2) infinite; }
+      .sweep { transform-origin: 220px 140px; animation: sweep 6s linear infinite; }
+      .pls1 { animation: pls 3.6s ease-in-out infinite; }
+      .pls2 { animation: pls 3.6s ease-in-out infinite 0.45s; }
+      .pls3 { animation: pls 3.6s ease-in-out infinite 0.9s; }
+      .pls4 { animation: pls 3.6s ease-in-out infinite 1.35s; }
+      .pls5 { animation: pls 3.6s ease-in-out infinite 1.8s; }
+      .pls6 { animation: pls 3.6s ease-in-out infinite 2.25s; }
+      .pls7 { animation: pls 3.6s ease-in-out infinite 2.7s; }
+      .pls8 { animation: pls 3.6s ease-in-out infinite 3.15s; }
+      .polyDraw { stroke-dasharray: 700; stroke-dashoffset: 700; animation: polyDraw 3s ease-out infinite alternate; }
+      .barFill1 { animation: barFill 2.4s ease-out forwards; transform-origin: left center; }
+      .barFill2 { animation: barFill 2.4s ease-out 0.2s forwards; transform-origin: left center; }
+      .barFill3 { animation: barFill 2.4s ease-out 0.4s forwards; transform-origin: left center; }
+      .barFill4 { animation: barFill 2.4s ease-out 0.6s forwards; transform-origin: left center; }
+      .barFill5 { animation: barFill 2.4s ease-out 0.8s forwards; transform-origin: left center; }
+      .barFill6 { animation: barFill 2.4s ease-out 1.0s forwards; transform-origin: left center; }
+      .barFill7 { animation: barFill 2.4s ease-out 1.2s forwards; transform-origin: left center; }
+      .barFill8 { animation: barFill 2.4s ease-out 1.4s forwards; transform-origin: left center; }
       @keyframes live { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.3 } }
+      @keyframes pls  { 0%,100% { opacity: 0.4 } 50% { opacity: 1 } }
+      @keyframes sweep { to { transform: rotate(360deg) } }
+      @keyframes polyDraw { 0% { stroke-dashoffset: 700; opacity: 0.4 } 100% { stroke-dashoffset: 0; opacity: 1 } }
+      @keyframes barFill { from { transform: scaleX(0) } to { transform: scaleX(1) } }
     </style>
   </defs>
 
-  <rect width="1200" height="230" fill="url(#bg)"/>
-  <rect width="1200" height="230" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)" opacity="0.55"/>
 
   <!-- Outer panel -->
-  <rect x="24" y="16" width="1152" height="198" rx="14" class="pnl"/>
+  <rect x="24" y="16" width="1152" height="248" rx="14" class="pnl"/>
 
   <!-- Header -->
   <g class="f">
-    <text x="44" y="44" class="ttl">SOC TOOL ECOSYSTEM · DATA FLOW</text>
-    <text x="44" y="60" class="sm">Telemetry → SIEM → Enrichment → Response · live integration architecture</text>
+    <text x="44" y="44" class="ttl">SOC CAPABILITIES PROFILE · L3 SKILLSET</text>
+    <text x="44" y="60" class="sm">8-dimension radar · live capability assessment · skill levels indexed 0–100</text>
 
-    <g transform="translate(986 28)">
-      <rect width="170" height="32" rx="8" fill="#0d2233" stroke="#1f6feb"/>
+    <g transform="translate(996 28)">
+      <rect width="160" height="32" rx="8" fill="#0d2233" stroke="#1f6feb"/>
       <circle cx="16" cy="16" r="5" fill="#3fb950" class="live" filter="url(#glow)"/>
-      <text x="30" y="14" class="sm" fill="#8ba3bd" letter-spacing="1.4">PIPELINE</text>
-      <text x="30" y="26" class="m" font-size="10" fill="#3fb950">11 tools · ALL ONLINE</text>
+      <text x="30" y="14" class="sm" fill="#8ba3bd" letter-spacing="1.4">PROFILE</text>
+      <text x="30" y="26" class="m" font-size="10" fill="#3fb950">SCAN COMPLETE</text>
     </g>
   </g>
 
-  <!-- Stage labels -->
-  <g class="f" text-anchor="middle">
-    <text x="124" y="86" class="lbl">COLLECT</text>
-    <text x="374" y="86" class="lbl">ANALYZE</text>
-    <text x="624" y="86" class="lbl">ENRICH</text>
-    <text x="874" y="86" class="lbl">RESPOND</text>
-    <text x="1100" y="86" class="lbl">REPORT</text>
-  </g>
+  <!-- RADAR CHART (left side, centered at 220,140) -->
+  <g class="f">
+    <!-- Glow backdrop -->
+    <circle cx="220" cy="140" r="95" fill="url(#radGlow)"/>
 
-  <!-- Flow connector lines (between stages) -->
-  <g fill="none" stroke="url(#flow)" stroke-width="1.5">
-    <line x1="180" y1="148" x2="320" y2="148"/>
-    <line x1="430" y1="148" x2="570" y2="148"/>
-    <line x1="680" y1="148" x2="820" y2="148"/>
-    <line x1="930" y1="148" x2="1060" y2="148"/>
-  </g>
+    <!-- Concentric ring grid (4 levels: 25, 50, 75, 100) -->
+    <g fill="none" stroke="#27506e" stroke-width="0.8" opacity="0.6">
+      <circle cx="220" cy="140" r="22.5"/>
+      <circle cx="220" cy="140" r="45"/>
+      <circle cx="220" cy="140" r="67.5"/>
+      <circle cx="220" cy="140" r="90"/>
+    </g>
 
-  <!-- Animated traveling dots along flow lines -->
-  <g filter="url(#glow)">
-    <circle r="4" fill="#58a6ff">
-      <animateMotion dur="3.5s" repeatCount="indefinite" path="M180 148 L320 148"/>
-    </circle>
-    <circle r="3" fill="#3fb950">
-      <animateMotion dur="3.5s" begin="0.7s" repeatCount="indefinite" path="M180 148 L320 148"/>
-    </circle>
-    <circle r="4" fill="#58a6ff">
-      <animateMotion dur="3.5s" begin="0.4s" repeatCount="indefinite" path="M430 148 L570 148"/>
-    </circle>
-    <circle r="4" fill="#58a6ff">
-      <animateMotion dur="3.5s" begin="1s" repeatCount="indefinite" path="M680 148 L820 148"/>
-    </circle>
-    <circle r="3" fill="#ffcf5a">
-      <animateMotion dur="3.5s" begin="1.6s" repeatCount="indefinite" path="M680 148 L820 148"/>
-    </circle>
-    <circle r="4" fill="#58a6ff">
-      <animateMotion dur="3.5s" begin="1.2s" repeatCount="indefinite" path="M930 148 L1060 148"/>
-    </circle>
-  </g>
+    <!-- 8 radial axes -->
+    <g stroke="#27506e" stroke-width="0.8" opacity="0.55">
+      <line x1="220" y1="140" x2="220" y2="50"/>
+      <line x1="220" y1="140" x2="283.64" y2="76.36"/>
+      <line x1="220" y1="140" x2="310" y2="140"/>
+      <line x1="220" y1="140" x2="283.64" y2="203.64"/>
+      <line x1="220" y1="140" x2="220" y2="230"/>
+      <line x1="220" y1="140" x2="156.36" y2="203.64"/>
+      <line x1="220" y1="140" x2="130" y2="140"/>
+      <line x1="220" y1="140" x2="156.36" y2="76.36"/>
+    </g>
 
-  <!-- COLLECT stage: 3 tool cards stacked -->
-  <g class="f" transform="translate(60 100)">
-    <g transform="translate(0 0)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#3fb950" class="pulse-a" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Sysmon</text>
-      <text x="26" y="25" class="toolsub">Win EID 1·3·11</text>
+    <!-- Sweeping radar beam -->
+    <g class="sweep">
+      <path d="M220 140 L220 50 A90 90 0 0 1 283.64 76.36 Z" fill="#58a6ff" opacity="0.12"/>
+      <line x1="220" y1="140" x2="220" y2="50" stroke="#58a6ff" stroke-width="2" opacity="0.7"/>
     </g>
-    <g transform="translate(0 35)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#3fb950" class="pulse-b" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Zeek</text>
-      <text x="26" y="25" class="toolsub">conn·dns·http</text>
-    </g>
-    <g transform="translate(0 70)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#3fb950" class="pulse-c" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">EDR · Falcon</text>
-      <text x="26" y="25" class="toolsub">endpoint stream</text>
-    </g>
-  </g>
 
-  <!-- ANALYZE stage: 3 tool cards -->
-  <g class="f" transform="translate(310 100)">
-    <g transform="translate(0 0)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#58a6ff" class="pulse-b" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Splunk</text>
-      <text x="26" y="25" class="toolsub">SPL · 240 rules</text>
+    <!-- SKILL POLYGON (filled): IR 95 / TH 88 / DE 92 / SOAR 80 / Cloud 85 / MITRE 90 / Lab 95 / AI 75 -->
+    <polygon points="220,54.5 275.99,74.01 302.8,140 270.91,180.91 220,216.5 162.72,197.28 134.5,140 172.27,82.27"
+             fill="url(#polyFill)" stroke="#58a6ff" stroke-width="2" class="polyDraw" filter="url(#glow)"/>
+
+    <!-- Apex dots (pulse) -->
+    <g fill="#58a6ff" filter="url(#glow)">
+      <circle cx="220"    cy="54.5"  r="4" class="pls1"/>
+      <circle cx="275.99" cy="74.01" r="4" class="pls2"/>
+      <circle cx="302.8"  cy="140"   r="4" class="pls3"/>
+      <circle cx="270.91" cy="180.91" r="4" class="pls4"/>
+      <circle cx="220"    cy="216.5" r="4" class="pls5"/>
+      <circle cx="162.72" cy="197.28" r="4" class="pls6"/>
+      <circle cx="134.5"  cy="140"   r="4" class="pls7"/>
+      <circle cx="172.27" cy="82.27" r="4" class="pls8"/>
     </g>
-    <g transform="translate(0 35)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#58a6ff" class="pulse-c" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Wazuh</text>
-      <text x="26" y="25" class="toolsub">XDR · 86 TTPs</text>
+
+    <!-- Axis labels -->
+    <g class="axlbl" text-anchor="middle">
+      <text x="220" y="42">IR</text>
+      <text x="297" y="68">HUNT</text>
+      <text x="324" y="144">DET-ENG</text>
+      <text x="297" y="216">SOAR</text>
+      <text x="220" y="246">CLOUD</text>
+      <text x="142" y="216">MITRE</text>
+      <text x="115" y="144">LABS</text>
+      <text x="142" y="68">AI-SOC</text>
     </g>
-    <g transform="translate(0 70)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#58a6ff" class="pulse-a" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Sentinel</text>
-      <text x="26" y="25" class="toolsub">KQL · cloud</text>
+
+    <!-- Ring percent labels -->
+    <g class="sm" text-anchor="end" fill="#8ba3bd">
+      <text x="218" y="120">75</text>
+      <text x="218" y="98">50</text>
+      <text x="218" y="76">25</text>
     </g>
   </g>
 
-  <!-- ENRICH stage: 2 tool cards -->
-  <g class="f" transform="translate(560 100)">
-    <g transform="translate(0 0)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#ffcf5a" class="pulse-c" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">MISP</text>
-      <text x="26" y="25" class="toolsub">IoC · TI feeds</text>
-    </g>
-    <g transform="translate(0 35)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#ffcf5a" class="pulse-a" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">VirusTotal</text>
-      <text x="26" y="25" class="toolsub">hash · domain</text>
-    </g>
-    <g transform="translate(0 70)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#ffcf5a" class="pulse-b" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Any.Run</text>
-      <text x="26" y="25" class="toolsub">sandbox detonate</text>
+  <!-- RIGHT-SIDE CAPABILITY BARS -->
+  <g class="f" transform="translate(460 80)">
+    <!-- Title -->
+    <text x="0" y="0" class="lbl">CAPABILITY BREAKDOWN · SCORE / 100</text>
+
+    <!-- 8 bars, two columns of 4 -->
+    <g transform="translate(0 14)">
+      <!-- COL 1 -->
+      <g>
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#f0f6fc">Incident Response</text>
+        <text x="320" y="14" text-anchor="end" class="m" font-size="11" fill="#58a6ff">95</text>
+        <rect x="0" y="20" width="320" height="6" rx="3" fill="#0d2233"/>
+        <rect x="0" y="20" width="304" height="6" rx="3" fill="url(#bar)" class="barFill1"/>
+      </g>
+      <g transform="translate(0 36)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#f0f6fc">Detection Engineering</text>
+        <text x="320" y="14" text-anchor="end" class="m" font-size="11" fill="#58a6ff">92</text>
+        <rect x="0" y="20" width="320" height="6" rx="3" fill="#0d2233"/>
+        <rect x="0" y="20" width="294" height="6" rx="3" fill="url(#bar)" class="barFill2"/>
+      </g>
+      <g transform="translate(0 72)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#f0f6fc">MITRE ATT&amp;CK Mapping</text>
+        <text x="320" y="14" text-anchor="end" class="m" font-size="11" fill="#58a6ff">90</text>
+        <rect x="0" y="20" width="320" height="6" rx="3" fill="#0d2233"/>
+        <rect x="0" y="20" width="288" height="6" rx="3" fill="url(#bar)" class="barFill3"/>
+      </g>
+      <g transform="translate(0 108)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#f0f6fc">Threat Hunting</text>
+        <text x="320" y="14" text-anchor="end" class="m" font-size="11" fill="#58a6ff">88</text>
+        <rect x="0" y="20" width="320" height="6" rx="3" fill="#0d2233"/>
+        <rect x="0" y="20" width="281" height="6" rx="3" fill="url(#bar)" class="barFill4"/>
+      </g>
+
+      <!-- COL 2 -->
+      <g transform="translate(360 0)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#f0f6fc">Open-Source Lab Building</text>
+        <text x="320" y="14" text-anchor="end" class="m" font-size="11" fill="#3fb950">95</text>
+        <rect x="0" y="20" width="320" height="6" rx="3" fill="#0d2233"/>
+        <rect x="0" y="20" width="304" height="6" rx="3" fill="url(#bar)" class="barFill5"/>
+      </g>
+      <g transform="translate(360 36)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#f0f6fc">Cloud &amp; XDR Investigations</text>
+        <text x="320" y="14" text-anchor="end" class="m" font-size="11" fill="#58a6ff">85</text>
+        <rect x="0" y="20" width="320" height="6" rx="3" fill="#0d2233"/>
+        <rect x="0" y="20" width="272" height="6" rx="3" fill="url(#bar)" class="barFill6"/>
+      </g>
+      <g transform="translate(360 72)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#f0f6fc">SOAR &amp; Playbook Design</text>
+        <text x="320" y="14" text-anchor="end" class="m" font-size="11" fill="#58a6ff">80</text>
+        <rect x="0" y="20" width="320" height="6" rx="3" fill="#0d2233"/>
+        <rect x="0" y="20" width="256" height="6" rx="3" fill="url(#bar)" class="barFill7"/>
+      </g>
+      <g transform="translate(360 108)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#f0f6fc">AI-Augmented Triage</text>
+        <text x="320" y="14" text-anchor="end" class="m" font-size="11" fill="#ffcf5a">75</text>
+        <rect x="0" y="20" width="320" height="6" rx="3" fill="#0d2233"/>
+        <rect x="0" y="20" width="240" height="6" rx="3" fill="url(#bar)" class="barFill8"/>
+      </g>
     </g>
   </g>
 
-  <!-- RESPOND stage: 3 tool cards -->
-  <g class="f" transform="translate(810 100)">
-    <g transform="translate(0 0)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#f85149" class="pulse-a" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">TheHive</text>
-      <text x="26" y="25" class="toolsub">case mgmt</text>
-    </g>
-    <g transform="translate(0 35)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#f85149" class="pulse-b" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Shuffle SOAR</text>
-      <text x="26" y="25" class="toolsub">12 playbooks</text>
-    </g>
-    <g transform="translate(0 70)">
-      <rect width="120" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#f85149" class="pulse-c" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Ollama LLaMA3</text>
-      <text x="26" y="25" class="toolsub">AI triage assist</text>
-    </g>
-  </g>
-
-  <!-- REPORT stage: 2 stacked output cards -->
-  <g class="f" transform="translate(1060 100)">
-    <g transform="translate(0 0)">
-      <rect width="100" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#3fb950" class="pulse-d" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">RCA · MD</text>
-      <text x="26" y="25" class="toolsub">post-mortem</text>
-    </g>
-    <g transform="translate(0 35)">
-      <rect width="100" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#3fb950" class="pulse-a" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Grafana</text>
-      <text x="26" y="25" class="toolsub">exec dashbd</text>
-    </g>
-    <g transform="translate(0 70)">
-      <rect width="100" height="30" rx="6" class="card"/>
-      <circle cx="14" cy="15" r="4" fill="#3fb950" class="pulse-b" filter="url(#glow)"/>
-      <text x="26" y="14" class="toolname">Slack · Teams</text>
-      <text x="26" y="25" class="toolsub">stakeholder alerts</text>
-    </g>
-  </g>
-
-  <!-- Bottom architecture note -->
-  <g class="f" transform="translate(44 204)">
-    <text class="sm" fill="#8ba3bd" y="0">ARCHITECTURE ·</text>
-    <text class="sm" fill="#58a6ff" font-weight="700" y="0" x="86">Open-source first</text>
-    <text class="sm" fill="#8ba3bd" y="0" x="186">·  AI-augmented triage  ·</text>
-    <text class="sm" fill="#58a6ff" font-weight="700" y="0" x="338">Detection-as-code</text>
-    <text class="sm" fill="#8ba3bd" y="0" x="442">·  CI-validated rules  ·</text>
-    <text class="sm" fill="#58a6ff" font-weight="700" y="0" x="582">MITRE-mapped</text>
-    <text class="sm" fill="#8ba3bd" y="0" x="664">·  SLA-tracked  ·</text>
-    <text class="sm" fill="#3fb950" font-weight="700" y="0" x="760">healthy</text>
-    <text class="m" font-size="10" fill="#8ba3bd" y="0" x="820">·  uptime 99.94%  ·  ingest 2.4M events/day  ·  alerts 247/24h</text>
+  <!-- Bottom footer strip -->
+  <g class="f" transform="translate(44 252)">
+    <text class="sm" fill="#8ba3bd" y="0">5+ years L3 ·</text>
+    <text class="sm" fill="#58a6ff" font-weight="700" y="0" x="78">300+ incidents triaged</text>
+    <text class="sm" fill="#8ba3bd" y="0" x="208">·  45+ detections shipped  ·  86 TTPs covered  ·  6 SOC labs published  ·  6 certifications  ·</text>
+    <text class="sm" fill="#3fb950" font-weight="700" y="0" x="720">Open to Senior SOC roles</text>
+    <text class="sm" fill="#8ba3bd" y="0" x="860">·  UK · EU · Remote</text>
   </g>
 </svg>
