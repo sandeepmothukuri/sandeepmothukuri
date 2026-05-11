@@ -18,19 +18,19 @@
 <!-- STATUS BAR -->
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-ON--CALL-3fb950?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/TIER-L3%20%C2%B7%20Senior-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-8b949e?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/TIER-L3%20%C2%B7%20Senior-a371f7?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-36d1dc?style=flat-square&labelColor=132f4c">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
 </p>
 
 <!-- AT A GLANCE -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Experience-5%2B%20years-1f6feb?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Incidents%20triaged-300%2B-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Detections%20authored-45%2B-58a6ff?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Experience-5%2B%20years-ff8c42?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Incidents%20triaged-300%2B-f85149?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Detections%20authored-45%2B-36d1dc?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/SOC%20labs%20shipped-6-ffcf5a?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Public%20repos-31-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Certifications-6-ffcf5a?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Public%20repos-31-a371f7?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
   <img src="https://hits.sh/github.com/sandeepmothukuri.svg?style=flat-square&label=Profile%20views&color=3fb950&labelColor=132f4c">
 </p>
 
