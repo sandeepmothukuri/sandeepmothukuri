@@ -30,6 +30,13 @@
   <img src="https://komarev.com/ghpvc/?username=sandeepmothukuri&style=flat-square&color=3fb950&label=Profile+views&labelColor=0d1117">
 </p>
 
+<!-- TYPING ANIMATION -->
+<p align="center">
+  <a href="https://github.com/sandeepmothukuri">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=820&lines=Senior+SOC+Analyst+(L3);Incident+Response+%26+Threat+Hunting;SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;Detection+Engineering+%26+SOC+Automation;Open-Source+SOC+Lab+Builder;Always+learning+%E2%80%94+Sigma%2C+Caldera%2C+CrewAI" alt="typing animation showcasing roles and focus">
+  </a>
+</p>
+
 <!-- SOC VISUAL INTERFACE START -->
 <p align="center">
   <img src="assets/soc-profile-interface.svg" alt="Sandeep Mothukuri SOC profile visual interface" width="100%">
