@@ -40,24 +40,19 @@
       .ttl { font-size: 14px; font-weight: 700; fill: #f0f6fc; letter-spacing: 0.5px; }
       .pnl { fill: url(#pnl); stroke: #1f3b55; stroke-width: 1; }
       .chip { fill: #0d2233; stroke: #1f6feb; stroke-width: 1; }
-      .live { animation: live 1.4s steps(2) infinite; }
-      .pls1 { animation: pls 2.4s ease-in-out infinite; }
-      .pls2 { animation: pls 2.4s ease-in-out infinite 0.4s; }
-      .pls3 { animation: pls 2.4s ease-in-out infinite 0.8s; }
-      .pls4 { animation: pls 2.4s ease-in-out infinite 1.2s; }
-      .dash { stroke-dasharray: 6 10; animation: dash 9s linear infinite; }
-      .arc1 { animation: arc 5.6s ease-in-out infinite; offset-distance: 0%; }
-      .arc2 { animation: arc 5.6s ease-in-out infinite 1.4s; }
-      .arc3 { animation: arc 5.6s ease-in-out infinite 2.8s; }
-      .arc4 { animation: arc 5.6s ease-in-out infinite 4.2s; }
-      .scroll { animation: scrl 14s linear infinite; }
-      .blink { animation: blink 1.2s steps(2) infinite; }
-      @keyframes live { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.25 } }
-      @keyframes pls { 0%,100% { opacity: 0.4; transform: scale(1) } 50% { opacity: 1; transform: scale(1.18) } }
+      .live { animation: live 1.8s steps(2) infinite; }
+      .pls1 { animation: pls 3.6s ease-in-out infinite; }
+      .pls2 { animation: pls 3.6s ease-in-out infinite 0.6s; }
+      .pls3 { animation: pls 3.6s ease-in-out infinite 1.2s; }
+      .pls4 { animation: pls 3.6s ease-in-out infinite 1.8s; }
+      .dash { stroke-dasharray: 4 9; animation: dash 18s linear infinite; }
+      .scroll { animation: scrl 26s linear infinite; }
+      .blink { animation: blink 1.6s steps(2) infinite; }
+      @keyframes live { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.3 } }
+      @keyframes pls { 0%,100% { opacity: 0.35 } 50% { opacity: 1 } }
       @keyframes dash { to { stroke-dashoffset: -180 } }
-      @keyframes arc { 0% { opacity: 0; offset-distance: 0% } 10% { opacity: 1 } 80% { opacity: 1 } 100% { opacity: 0; offset-distance: 100% } }
       @keyframes scrl { 0% { transform: translateY(0) } 100% { transform: translateY(-140px) } }
-      @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.3 } }
+      @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0.35 } }
     </style>
   </defs>
 
