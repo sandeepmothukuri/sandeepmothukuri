@@ -335,21 +335,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-11 16:30 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-05-11 23:24 UTC_
+_Last refresh: 2026-05-12 11:18 UTC_
 
 **The Hacker News**
 
-- [TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack](https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html)
-- [cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor](https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html)
-- [Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation](https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html)
-- [⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More](https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html)
+- [Why Agentic AI Is Security's Next Blind Spot](https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html)
+- [Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI &amp; More Packages](https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html)
+- [Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak](https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html)
+- [OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation](https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html)
 
 **BleepingComputer**
 
+- [SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA](https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/)
+- [Instructure reaches 'agreement' with ShinyHunters to stop data leak](https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/)
 - [GM agrees to $12.75M California settlement over sale of drivers’ data](https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/)
 - [Official CheckMarx Jenkins package compromised with infostealer](https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/)
-- [New GhostLock tool abuses Windows API to block file access](https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/)
-- [Instructure confirms hackers used Canvas flaw to deface portals](https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/)
 
 **Krebs on Security**
 
