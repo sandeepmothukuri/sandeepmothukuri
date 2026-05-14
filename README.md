@@ -320,16 +320,9 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 <!-- CVE-OF-THE-WEEK-START -->
 ### 🚨 Today's Top Critical CVE
 
-| Field | Value |
-|---|---|
-| **CVE ID** | [`CVE-2026-40281`](https://nvd.nist.gov/vuln/detail/CVE-2026-40281) |
-| **CVSS v3.1** | `10.0` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H` |
-| **Published** | 2026-05-06 |
+_No new CRITICAL CVEs published in the last 7 days, or NVD API temporarily unreachable._
 
-> Gotenberg is a Docker-powered stateless API for PDF files. In versions 8.30.1 and earlier, the metadata write endpoint validates metadata keys for control characters but leaves metadata values unsanitized. A newline character in a metadata value splits the ExifTool stdin line into two separate arguments, allowing injection of arbitrary ExifTool pseudo-tags such as -FileName, -D…
-
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-13 12:03 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Last check: 2026-05-14 11:51 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
