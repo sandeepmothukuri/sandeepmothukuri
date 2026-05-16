@@ -34,6 +34,10 @@ jobs:
         run: bash .github/scripts/snapshot-metrics.sh
 
       - name: Render README
+        env:
+          # Needed by fetch_github_activity() for commits-this-year + streak
+          # via the GraphQL contributionsCollection query.
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/render-metrics.py
 
       - name: Commit straight to main (autopilot)

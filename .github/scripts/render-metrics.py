@@ -11,9 +11,15 @@ from __future__ import annotations
 import json
 import re
 import sys
+import os
 import difflib
+import datetime
+import urllib.request
 from pathlib import Path
 from urllib.parse import quote
+
+OWNER = "sandeepmothukuri"
+GH_JOIN = datetime.datetime(2026, 2, 4, 16, 56, 35, tzinfo=datetime.timezone.utc)
 
 ROOT = Path(__file__).resolve().parents[2]
 README = ROOT / "README.md"
@@ -22,10 +28,15 @@ HIST = ROOT / "metrics" / "history.json"
 LABEL_COLOR = "132f4c"
 
 
+def _shields_escape(s: str) -> str:
+    # shields.io static badges require literal hyphens to be doubled and underscores doubled.
+    return quote(str(s).replace("_", "__").replace("-", "--"))
+
+
 def badge(label: str, value: str, color: str) -> str:
     return (
         f'<img src="https://img.shields.io/badge/'
-        f'{quote(label)}-{quote(str(value))}-{color}'
+        f'{_shields_escape(label)}-{_shields_escape(value)}-{color}'
         f'?style=flat-square&labelColor={LABEL_COLOR}" alt="{label}: {value}">'
     )
 
@@ -91,6 +102,139 @@ def render_repo_block(repo: str, rows: list[dict]) -> str:
     ]) + "</sub>"
 
 
+def uk_now() -> datetime.datetime:
+    # UK is UTC year-round-ish; use BST offset between last-Sun-Mar and last-Sun-Oct.
+    now = datetime.datetime.now(datetime.timezone.utc)
+    year = now.year
+    def last_sunday(y: int, m: int) -> datetime.date:
+        d = datetime.date(y, m, 31)
+        while d.weekday() != 6:
+            d -= datetime.timedelta(days=1)
+        return d
+    bst_start = datetime.datetime.combine(last_sunday(year, 3), datetime.time(1, 0), tzinfo=datetime.timezone.utc)
+    bst_end   = datetime.datetime.combine(last_sunday(year, 10), datetime.time(1, 0), tzinfo=datetime.timezone.utc)
+    offset = datetime.timedelta(hours=1) if bst_start <= now < bst_end else datetime.timedelta(hours=0)
+    return now + offset
+
+
+def render_greeting_block() -> str:
+    now = uk_now()
+    h = now.hour
+    if   5 <= h < 12: g = "Good morning"
+    elif 12 <= h < 18: g = "Good afternoon"
+    elif 18 <= h < 22: g = "Good evening"
+    else: g = "Working the night shift"
+    counter = (
+        f'<img src="https://api.visitorbadge.io/api/visitors?'
+        f'path=github.com%2F{OWNER}&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" '
+        f'alt="Visitors today">'
+    )
+    return f'<sub><b>👋 {g}!</b> &nbsp;·&nbsp; {counter}</sub>'
+
+
+def render_status_block() -> str:
+    now = uk_now()
+    h, dow = now.hour, now.weekday()  # 0=Mon
+    on_shift = (dow < 5 and 8 <= h < 20)
+    tz_label = "BST" if (uk_now() - datetime.datetime.now(datetime.timezone.utc)).total_seconds() > 0 else "GMT"
+    if on_shift:
+        status = badge("Status", f"🟢 On-shift · UK {now:%H:%M} {tz_label}", "3fb950")
+    elif dow < 5:
+        status = badge("Status", f"🌙 Off-shift · UK {now:%H:%M} {tz_label}", "a371f7")
+    else:
+        status = badge("Status", f"🛌 Weekend · UK {now:%H:%M} {tz_label}", "8b949e")
+    rota = badge("This week", "On-call (escalations welcome)", "36d1dc")
+    return "  " + status + "\n  " + rota
+
+
+def render_days_block(commits_this_year: int = 0, streak_days: int = 0) -> str:
+    age = datetime.datetime.now(datetime.timezone.utc) - GH_JOIN
+    years, rem = divmod(age.days, 365)
+    months = rem // 30
+    if years:
+        age_label = f"{years}y {months}m on GitHub"
+    elif months:
+        age_label = f"{months}mo {age.days - months*30}d on GitHub"
+    else:
+        age_label = f"{age.days}d on GitHub"
+    return "  " + "  ".join([
+        badge("Member", age_label, "a371f7"),
+        badge("Commits", f"{commits_this_year:,} this year", "3fb950"),
+        badge("Streak", f"{streak_days} days", "ff8c42"),
+    ])
+
+
+def fetch_github_activity() -> tuple[int, int]:
+    """Return (commits_this_year, current_streak_days). Best-effort; returns (0,0) on failure."""
+    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
+    if not token:
+        return 0, 0
+    year = datetime.datetime.now(datetime.timezone.utc).year
+    body = json.dumps({
+        "query": """
+        query($login:String!,$from:DateTime!,$to:DateTime!){
+          user(login:$login){
+            contributionsCollection(from:$from,to:$to){
+              contributionCalendar{
+                totalContributions
+                weeks{contributionDays{date contributionCount}}
+              }
+            }
+          }
+        }""",
+        "variables": {
+            "login": OWNER,
+            "from": f"{year}-01-01T00:00:00Z",
+            "to":   f"{year}-12-31T23:59:59Z",
+        },
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.github.com/graphql", data=body,
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read())
+    except Exception:
+        return 0, 0
+    cc = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    total = int(cc["totalContributions"])
+    days = [d for w in cc["weeks"] for d in w["contributionDays"]]
+    days.sort(key=lambda d: d["date"], reverse=True)
+    streak = 0
+    today = datetime.date.today().isoformat()
+    for d in days:
+        if d["date"] > today:
+            continue
+        if int(d["contributionCount"]) > 0:
+            streak += 1
+        else:
+            if d["date"] != today or streak > 0:
+                break
+    return total, streak
+
+
+def render_top_repo_block(hist: dict) -> str:
+    best, best_score = None, -1
+    for repo, rows in hist.get("repos", {}).items():
+        score = sum(int(r.get("views", 0)) + int(r.get("clones", 0)) * 3 for r in rows[-7:])
+        if score > best_score:
+            best, best_score = repo, score
+    if not best:
+        return "<sub>Spotlight pending — first week of data still collecting.</sub>"
+    rows = hist["repos"][best]
+    v7 = sum(int(r.get("views", 0))  for r in rows[-7:])
+    c7 = sum(int(r.get("clones", 0)) for r in rows[-7:])
+    stars = int(rows[-1].get("stars", 0)) if rows else 0
+    return (
+        f'<table align="center"><tr><td align="center">\n'
+        f'<sub>🌟 <b>Top repo this week</b></sub><br>\n'
+        f'<a href="https://github.com/{OWNER}/{best}"><b>{best}</b></a><br>\n'
+        f'<sub>{v7} views · {c7} clones · ⭐ {stars} stars (last 7 days)</sub>\n'
+        f'</td></tr></table>'
+    )
+
+
 def main() -> int:
     check = "--check" in sys.argv
 
@@ -99,6 +243,11 @@ def main() -> int:
     text = original
 
     text = replace_block(text, "PROFILE-VIEWS", render_profile_block(hist))
+    text = replace_block(text, "GREETING", render_greeting_block())
+    text = replace_block(text, "STATUS", render_status_block())
+    commits_yr, streak = fetch_github_activity()
+    text = replace_block(text, "DAYS-COUNTER", render_days_block(commits_yr, streak))
+    text = replace_block(text, "TOP-REPO", render_top_repo_block(hist))
 
     for repo, rows in hist.get("repos", {}).items():
         text = replace_block(text, f"REPO-METRICS:{repo}", render_repo_block(repo, rows))

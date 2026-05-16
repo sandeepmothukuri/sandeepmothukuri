@@ -21,6 +21,10 @@
   <img src="https://img.shields.io/badge/TIER-L3%20%C2%B7%20Senior-a371f7?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-36d1dc?style=flat-square&labelColor=132f4c">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
+  <!-- STATUS START -->
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20UK%2010%3A17%20BST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · UK 10:17 BST">
+  <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
+<!-- STATUS END -->
 </p>
 
 <!-- AT A GLANCE -->
@@ -31,6 +35,9 @@
   <img src="https://img.shields.io/badge/SOC%20labs%20shipped-6-ffcf5a?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Public%20repos-31-a371f7?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
+  <!-- DAYS-COUNTER START -->
+  <img src="https://img.shields.io/badge/Member-3mo%2010d%20on%20GitHub-a371f7?style=flat-square&labelColor=132f4c" alt="Member: 3mo 10d on GitHub">  <img src="https://img.shields.io/badge/Commits-0%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 0 this year">  <img src="https://img.shields.io/badge/Streak-0%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 0 days">
+<!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
   <img src="https://img.shields.io/badge/Profile%20views-101-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 101">
   <img src="https://img.shields.io/badge/Last%2030%20days-101-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 101">
@@ -43,6 +50,12 @@
   <a href="https://github.com/sandeepmothukuri">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3200&pause=700&color=39D353&background=0A192900&center=true&vCenter=true&width=900&height=60&multiline=false&random=false&lines=%E2%96%B6+Senior+SOC+Analyst+(L3);%E2%96%B6+Incident+Response+%26+Threat+Hunting;%E2%96%B6+SIEM+%E2%80%94+Splunk%2C+QRadar%2C+Sentinel%2C+CrowdStrike;%E2%96%B6+Detection+Engineering+%26+SOC+Automation;%E2%96%B6+Open-Source+SOC+Lab+Builder;%E2%96%B6+AI-Augmented+SOC+%E2%80%94+Sigma%2C+Caldera%2C+CrewAI;%E2%96%B6+Mentoring+L1%2FL2+analysts+%E2%80%94+L1+%E2%86%92+L3+career+path" alt="typing animation showcasing roles and focus">
   </a>
+</p>
+
+<p align="center">
+<!-- GREETING START -->
+<sub><b>👋 Good morning!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fsandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
+<!-- GREETING END -->
 </p>
 
 <!-- SOC VISUAL INTERFACE START -->
@@ -158,6 +171,14 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 <!-- SOC TELEMETRY STREAM END -->
 
 ## 🧪 Featured Labs
+
+<!-- TOP-REPO START -->
+<table align="center"><tr><td align="center">
+<sub>🌟 <b>Top repo this week</b></sub><br>
+<a href="https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0"><b>advanced-soc-lab-v2.0</b></a><br>
+<sub>0 views · 0 clones · ⭐ 2 stars (last 7 days)</sub>
+</td></tr></table>
+<!-- TOP-REPO END -->
 
 <table>
 <tr>
