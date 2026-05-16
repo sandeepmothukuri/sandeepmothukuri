@@ -299,12 +299,12 @@ index=wineventlog EventCode=5140
 ## 📊 Live GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=sandeepmothukuri&show_icons=true&count_private=true&hide_border=true&bg_color=0a1929&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&ring_color=58a6ff">
+  <img height="180" src="https://github-readme-stats-sandeep-mothukuri-s-projects.vercel.app/api?username=sandeepmothukuri&show_icons=true&count_private=true&hide_border=true&bg_color=0a1929&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&ring_color=58a6ff">
   <img height="180" src="https://streak-stats.demolab.com?user=sandeepmothukuri&hide_border=true&background=0a1929&stroke=1f6feb&ring=58a6ff&fire=f85149&currStreakNum=ffffff&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e">
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&langs_count=8&hide_border=true&bg_color=0a1929&title_color=58a6ff&text_color=c9d1d9">
+  <img height="180" src="https://github-readme-stats-sandeep-mothukuri-s-projects.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&langs_count=8&hide_border=true&bg_color=0a1929&title_color=58a6ff&text_color=c9d1d9">
   <img height="180" src="https://github-profile-trophy.vercel.app/?username=sandeepmothukuri&theme=nord&no-frame=true&no-bg=true&row=2&column=3&margin-w=8&margin-h=8">
 </p>
 
