@@ -1,0 +1,54 @@
+name: Profile Metrics (daily PR)
+
+# Daily snapshot of profile views + per-repo traffic, rendered into README between
+# marker comments and proposed via a pull request. Nothing is pushed to main
+# without an explicit merge.
+
+on:
+  schedule:
+    - cron: "30 6 * * *"   # 06:30 UTC, just after the existing traffic-digest run
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Snapshot today's metrics
+        env:
+          # GH_PAT needs public_repo scope for traffic data.
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/snapshot-metrics.sh
+
+      - name: Render README
+        run: python3 .github/scripts/render-metrics.py
+
+      - name: Open / update preview PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/metrics-update
+          base: main
+          commit-message: "chore(metrics): daily refresh"
+          title: "chore(metrics): daily refresh"
+          body: |
+            Automated daily refresh of profile-view and per-repo traffic badges.
+
+            - `metrics/history.json` — appended today's row
+            - `README.md` — re-rendered marker blocks only
+
+            Merge to publish. The same branch is reused day-over-day, so this PR
+            updates in place rather than spawning a new one.
+          labels: |
+            automation
+            metrics
+          delete-branch: false

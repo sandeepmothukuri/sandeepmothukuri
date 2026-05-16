@@ -31,7 +31,11 @@
   <img src="https://img.shields.io/badge/SOC%20labs%20shipped-6-ffcf5a?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Public%20repos-31-a371f7?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
-  <img src="https://hits.sh/github.com/sandeepmothukuri.svg?style=flat-square&label=Profile%20views&color=3fb950&labelColor=132f4c">
+  <!-- PROFILE-VIEWS START -->
+  <img src="https://img.shields.io/badge/Profile%20views-91-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 91">
+  <img src="https://img.shields.io/badge/Last%2030%20days-91-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 91">
+  <img src="https://img.shields.io/badge/Today-91-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 91">
+<!-- PROFILE-VIEWS END -->
 </p>
 
 <!-- TYPING ANIMATION -->
@@ -161,12 +165,18 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 
 ### 🔐 [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0)
 12-tool SOC lab — OpenSearch · Suricata · Zeek · MISP · Caldera · Velociraptor + AI agents. Docker Compose, MITRE ATT&CK v14, 15 built-in detection rules.
+<!-- REPO-METRICS:advanced-soc-lab-v2.0 START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:advanced-soc-lab-v2.0 END -->
 
 </td>
 <td width="50%" valign="top">
 
 ### 🤖 [ai-soc-lab](https://github.com/sandeepmothukuri/ai-soc-lab)
 AI-augmented open-source SOC — Wazuh + TheHive + Shuffle + MISP + Ollama (LLaMA3) for automated alert triage.
+<!-- REPO-METRICS:ai-soc-lab START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:ai-soc-lab END -->
 
 </td>
 </tr>
@@ -175,12 +185,18 @@ AI-augmented open-source SOC — Wazuh + TheHive + Shuffle + MISP + Ollama (LLaM
 
 ### 🆓 [soc-lab-free](https://github.com/sandeepmothukuri/soc-lab-free)
 100% free SOC lab — OpenVAS, Wazuh, pfSense, Proxmox Mail, Lynis replacing Nessus, Splunk, Netskope, Mimecast.
+<!-- REPO-METRICS:soc-lab-free START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:soc-lab-free END -->
 
 </td>
 <td width="50%" valign="top">
 
 ### 🛡️ [soc-lab](https://github.com/sandeepmothukuri/soc-lab)
 SOC analyst home lab — Wazuh SIEM, Sysmon, brute-force detection, MITRE ATT&CK mapping, IR workflow.
+<!-- REPO-METRICS:soc-lab START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:soc-lab END -->
 
 </td>
 </tr>
@@ -189,12 +205,18 @@ SOC analyst home lab — Wazuh SIEM, Sysmon, brute-force detection, MITRE ATT&CK
 
 ### 🔬 [soc-threat-hunting-lab](https://github.com/sandeepmothukuri/soc-threat-hunting-lab)
 Advanced threat detection lab — Zeek · RITA · Arkime · Velociraptor · OSQuery · MISP · TheHive · Shuffle.
+<!-- REPO-METRICS:soc-threat-hunting-lab START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:soc-threat-hunting-lab END -->
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌀 [Autonomous-SOC-Lab](https://github.com/sandeepmothukuri/Autonomous-SOC-Lab)
 Autonomous SOC with AI-driven detection, automated response, and self-healing playbooks.
+<!-- REPO-METRICS:Autonomous-SOC-Lab START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:Autonomous-SOC-Lab END -->
 
 </td>
 </tr>
