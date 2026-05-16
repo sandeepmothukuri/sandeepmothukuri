@@ -215,6 +215,20 @@ def fetch_github_activity() -> tuple[int, int]:
     return total, streak
 
 
+def fetch_public_repo_count() -> int:
+    """Return the live public-repo count for OWNER. 0 on failure."""
+    try:
+        with urllib.request.urlopen(f"https://api.github.com/users/{OWNER}", timeout=15) as r:
+            return int(json.loads(r.read()).get("public_repos", 0))
+    except Exception:
+        return 0
+
+
+def render_public_repos_block() -> str:
+    n = fetch_public_repo_count()
+    return "  " + badge("Public repos", str(n), "a371f7")
+
+
 def render_top_repo_block(hist: dict) -> str:
     best, best_score = None, -1
     for repo, rows in hist.get("repos", {}).items():
@@ -244,6 +258,7 @@ def main() -> int:
     text = original
 
     text = replace_block(text, "PROFILE-VIEWS", render_profile_block(hist))
+    text = replace_block(text, "PUBLIC-REPOS", render_public_repos_block())
     text = replace_block(text, "GREETING", render_greeting_block())
     text = replace_block(text, "STATUS", render_status_block())
     commits_yr, streak = fetch_github_activity()

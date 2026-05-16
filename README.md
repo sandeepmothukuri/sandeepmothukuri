@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-36d1dc?style=flat-square&labelColor=132f4c">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20UK%2010%3A47%20BST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · UK 10:47 BST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20UK%2011%3A26%20BST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · UK 11:26 BST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -33,10 +33,12 @@
   <img src="https://img.shields.io/badge/Incidents%20triaged-300%2B-f85149?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Detections%20authored-45%2B-36d1dc?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/SOC%20labs%20shipped-6-ffcf5a?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Public%20repos-31-a371f7?style=flat-square&labelColor=132f4c">
+  <!-- PUBLIC-REPOS START -->
+  <img src="https://img.shields.io/badge/Public%20repos-11-a371f7?style=flat-square&labelColor=132f4c" alt="Public repos: 11">
+<!-- PUBLIC-REPOS END -->
   <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
   <!-- DAYS-COUNTER START -->
-  <img src="https://img.shields.io/badge/Member-3mo%2010d%20on%20GitHub-a371f7?style=flat-square&labelColor=132f4c" alt="Member: 3mo 10d on GitHub">  <img src="https://img.shields.io/badge/Commits-179%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 179 this year">  <img src="https://img.shields.io/badge/Streak-1%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 1 days">
+  <img src="https://img.shields.io/badge/Member-3mo%2010d%20on%20GitHub-a371f7?style=flat-square&labelColor=132f4c" alt="Member: 3mo 10d on GitHub">  <img src="https://img.shields.io/badge/Commits-0%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 0 this year">  <img src="https://img.shields.io/badge/Streak-0%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 0 days">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
   <img src="https://img.shields.io/badge/Profile%20views-101-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 101">
