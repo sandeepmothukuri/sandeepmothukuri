@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+env:
+  # Opt into Node 24 for actions/checkout & actions/setup-python ahead of
+  # the June 2026 default switch, silencing the deprecation warning.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
