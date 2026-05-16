@@ -4,7 +4,90 @@
       "date": "2026-05-15",
       "total": 91,
       "daily": 91
+    },
+    {
+      "date": "2026-05-16",
+      "total": 101,
+      "daily": 10
     }
   ],
-  "repos": {}
+  "repos": {
+    "advanced-soc-lab-v2.0": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 2,
+        "forks": 0
+      }
+    ],
+    "ai-soc-lab": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      }
+    ],
+    "soc-lab": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      }
+    ],
+    "soc-lab-free": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      }
+    ],
+    "soc-threat-hunting-lab": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      }
+    ],
+    "Autonomous-SOC-Lab": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      }
+    ],
+    "cyberblue": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      }
+    ]
+  }
 }
