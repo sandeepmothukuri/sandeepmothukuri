@@ -48,11 +48,12 @@ for repo in "${REPOS[@]}"; do
   clones_json="$(gh api -H 'Accept: application/vnd.github+json' "/repos/${OWNER}/${repo}/traffic/clones" 2>/dev/null || echo '{"clones":[]}')"
   meta_json="$(gh api  -H 'Accept: application/vnd.github+json' "/repos/${OWNER}/${repo}"                  2>/dev/null || echo '{}')"
 
-  # Yesterday's complete daily bucket (today's is partial)
-  v_daily=$(echo "$views_json"  | jq --arg d "$YESTERDAY" '[.views[]  | select(.timestamp | startswith($d))] | (first.count    // 0)')
-  v_uniq=$(echo  "$views_json"  | jq --arg d "$YESTERDAY" '[.views[]  | select(.timestamp | startswith($d))] | (first.uniques  // 0)')
-  c_daily=$(echo "$clones_json" | jq --arg d "$YESTERDAY" '[.clones[] | select(.timestamp | startswith($d))] | (first.count    // 0)')
-  c_uniq=$(echo  "$clones_json" | jq --arg d "$YESTERDAY" '[.clones[] | select(.timestamp | startswith($d))] | (first.uniques  // 0)')
+  # Yesterday's complete daily bucket (today's is partial).
+  # Note: `first.count` would parse as `.first.count` in jq — must use `.[0].count`.
+  v_daily=$(echo "$views_json"  | jq --arg d "$YESTERDAY" '[.views[]  | select(.timestamp | startswith($d))] | (.[0].count    // 0)')
+  v_uniq=$(echo  "$views_json"  | jq --arg d "$YESTERDAY" '[.views[]  | select(.timestamp | startswith($d))] | (.[0].uniques  // 0)')
+  c_daily=$(echo "$clones_json" | jq --arg d "$YESTERDAY" '[.clones[] | select(.timestamp | startswith($d))] | (.[0].count    // 0)')
+  c_uniq=$(echo  "$clones_json" | jq --arg d "$YESTERDAY" '[.clones[] | select(.timestamp | startswith($d))] | (.[0].uniques  // 0)')
   stars=$(echo "$meta_json" | jq -r '.stargazers_count // 0')
   forks=$(echo "$meta_json" | jq -r '.forks_count      // 0')
 
