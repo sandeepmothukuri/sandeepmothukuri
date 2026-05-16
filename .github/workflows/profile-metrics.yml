@@ -36,6 +36,10 @@ jobs:
       - name: Open / update preview PR
         uses: peter-evans/create-pull-request@v6
         with:
+          # GH_PAT required: the default GITHUB_TOKEN is blocked from opening PRs
+          # by the repo's "Allow GitHub Actions to create and approve pull requests"
+          # setting. PRs authored by a PAT are not subject to that gate.
+          token: ${{ secrets.GH_PAT }}
           branch: bot/metrics-update
           base: main
           commit-message: "chore(metrics): daily refresh"
