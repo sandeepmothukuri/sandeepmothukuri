@@ -48,6 +48,10 @@ jobs:
 
   isocalendar:
     runs-on: ubuntu-latest
+    # Intermittent SHA-mismatch race in lowlighter/metrics when parallel jobs
+    # commit the generated SVG. SVG is not referenced anywhere on the profile,
+    # so failures are non-blocking.
+    continue-on-error: true
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -79,6 +83,8 @@ jobs:
 
   followup:
     runs-on: ubuntu-latest
+    # Same race condition as isocalendar — non-blocking.
+    continue-on-error: true
     steps:
       - uses: lowlighter/metrics@latest
         with:
