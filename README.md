@@ -367,14 +367,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-41509`](https://nvd.nist.gov/vuln/detail/CVE-2026-41509) |
-| **CVSS v3.1** | `9.8` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-05-08 |
+| **CVE ID** | [`CVE-2026-44643`](https://nvd.nist.gov/vuln/detail/CVE-2026-44643) |
+| **CVSS v3.1** | `10.0` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
+| **Published** | 2026-05-11 |
 
-> CROSS implementation contains reference and optimized implementations of the CROSS post-quantum signature algorithm. Prior to commit fc6b7e7, there is a buffer overflow in crypto_sign_open() caused by an underflow of the integer mlen. This issue has been patched via commit fc6b7e7.…
+> Angular Expressions provides expressions for the Angular.JS web framework as a standalone module. Prior to 1.5.2, an attacker can write a malicious expression using filters that escapes the sandbox to execute arbitrary code on the system. This vulnerability is fixed in 1.5.2.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-15 11:55 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-16 11:01 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
