@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-36d1dc?style=flat-square&labelColor=132f4c">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20UK%2009%3A36%20BST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · UK 09:36 BST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20UK%2021%3A46%20BST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · UK 21:46 BST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -38,7 +38,7 @@
 <!-- PUBLIC-REPOS END -->
   <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
   <!-- DAYS-COUNTER START -->
-  <img src="https://img.shields.io/badge/Commits-179%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 179 this year">  <img src="https://img.shields.io/badge/Streak-3%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 3 days">
+  <img src="https://img.shields.io/badge/Commits-180%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 180 this year">  <img src="https://img.shields.io/badge/Streak-2%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 2 days">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
   <img src="https://img.shields.io/badge/Profile%20views-105-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 105">
@@ -56,7 +56,7 @@
 
 <p align="center">
 <!-- GREETING START -->
-<sub><b>👋 Good morning!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fsandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
+<sub><b>👋 Good evening!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fsandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
 <!-- GREETING END -->
 </p>
 
@@ -173,6 +173,12 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 <!-- SOC TELEMETRY STREAM END -->
 
 ## 🧪 Featured Labs
+
+<p align="center">
+<!-- LAB-AGGREGATE START -->
+  <img src="https://img.shields.io/badge/Total%20lab%20clones-23%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 23 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-13%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 13 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-9-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 9">  <img src="https://img.shields.io/badge/Total%20forks-0-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 0">  <img src="https://img.shields.io/badge/Labs%20tracked-7-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 7">
+<!-- LAB-AGGREGATE END -->
+</p>
 
 <!-- TOP-REPO START -->
 <table align="center"><tr><td align="center">

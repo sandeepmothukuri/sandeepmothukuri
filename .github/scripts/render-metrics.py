@@ -240,6 +240,24 @@ def render_top_repo_block(hist: dict) -> str:
     )
 
 
+def render_aggregate_block(hist: dict) -> str:
+    repos = hist.get("repos", {})
+    n_labs = sum(1 for rows in repos.values() if rows)
+    if not n_labs:
+        return "<sub>Aggregate metrics warming up — first snapshot pending.</sub>"
+    views_30d = sum(sum(int(r.get("views", 0) or 0)  for r in rows[-30:]) for rows in repos.values())
+    clones_30d = sum(sum(int(r.get("clones", 0) or 0) for r in rows[-30:]) for rows in repos.values())
+    stars_total = sum(int(rows[-1].get("stars", 0) or 0) for rows in repos.values() if rows)
+    forks_total = sum(int(rows[-1].get("forks", 0) or 0) for rows in repos.values() if rows)
+    return "  " + "  ".join([
+        badge("Total lab clones", f"{clones_30d:,} / 30d", "36d1dc"),
+        badge("Total lab views",  f"{views_30d:,} / 30d",  "3fb950"),
+        badge("Total stars",      f"{stars_total:,}",      "ffcf5a"),
+        badge("Total forks",      f"{forks_total:,}",      "a371f7"),
+        badge("Labs tracked",     str(n_labs),             "ff8c42"),
+    ])
+
+
 def main() -> int:
     check = "--check" in sys.argv
 
@@ -249,6 +267,7 @@ def main() -> int:
 
     text = replace_block(text, "PROFILE-VIEWS", render_profile_block(hist))
     text = replace_block(text, "PUBLIC-REPOS", render_public_repos_block())
+    text = replace_block(text, "LAB-AGGREGATE", render_aggregate_block(hist))
     text = replace_block(text, "GREETING", render_greeting_block())
     text = replace_block(text, "STATUS", render_status_block())
     commits_yr, streak = fetch_github_activity()
