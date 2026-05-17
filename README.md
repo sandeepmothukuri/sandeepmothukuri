@@ -38,7 +38,7 @@
 <!-- PUBLIC-REPOS END -->
   <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
   <!-- DAYS-COUNTER START -->
-  <img src="https://img.shields.io/badge/Member-3mo%2011d%20on%20GitHub-a371f7?style=flat-square&labelColor=132f4c" alt="Member: 3mo 11d on GitHub">  <img src="https://img.shields.io/badge/Commits-179%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 179 this year">  <img src="https://img.shields.io/badge/Streak-3%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 3 days">
+  <img src="https://img.shields.io/badge/Commits-179%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 179 this year">  <img src="https://img.shields.io/badge/Streak-3%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 3 days">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
   <img src="https://img.shields.io/badge/Profile%20views-105-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 105">

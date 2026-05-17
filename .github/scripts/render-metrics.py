@@ -148,18 +148,8 @@ def render_status_block() -> str:
 
 
 def render_days_block(commits_this_year: int = 0, streak_days: int = 0) -> str:
-    age = datetime.datetime.now(datetime.timezone.utc) - GH_JOIN
-    years, rem = divmod(age.days, 365)
-    months = rem // 30
-    if years:
-        age_label = f"{years}y {months}m on GitHub"
-    elif months:
-        age_label = f"{months}mo {age.days - months*30}d on GitHub"
-    else:
-        age_label = f"{age.days}d on GitHub"
     streak_label = "1 day" if streak_days == 1 else f"{streak_days} days"
     return "  " + "  ".join([
-        badge("Member", age_label, "a371f7"),
         badge("Commits", f"{commits_this_year:,} this year", "3fb950"),
         badge("Streak", streak_label, "ff8c42"),
     ])
