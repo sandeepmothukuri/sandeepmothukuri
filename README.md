@@ -203,6 +203,7 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 
 ### 🤖 [ai-soc-lab](https://github.com/sandeepmothukuri/ai-soc-lab)
 AI-augmented open-source SOC — Wazuh + TheHive + Shuffle + MISP + Ollama (LLaMA3) for automated alert triage.
+<a href="https://codespaces.new/sandeepmothukuri/ai-soc-lab?quickstart=1"><img src="https://img.shields.io/badge/Open%20in-Codespaces-1f6feb?style=flat-square&logo=github&logoColor=white&labelColor=132f4c" alt="Open in Codespaces"></a>
 <!-- REPO-METRICS:ai-soc-lab START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-4%20today%20%C2%B7%204%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 4 today · 4 / 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-14%20today%20%C2%B7%2014%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 14 today · 14 / 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
 <!-- REPO-METRICS:ai-soc-lab END -->
@@ -309,6 +310,52 @@ index=wineventlog EventCode=5140
 ```
 
 > Triggers when one account touches `ADMIN$` / `C$` on **5+ distinct hosts** within the search window — classic post-exploitation lateral movement (PsExec, Impacket, Cobalt Strike `psexec_psh`).
+
+## 🧯 Detection Case Studies
+
+<sub>A curated cross-section of live detection rules from across my open-source labs — what each rule catches, why it matters, and a link to the YAML. Every row is auto-generated from the actual rule files; click any source link to read the full logic.</sub>
+
+<!-- DETECTION-CASESTUDIES START -->
+<details open>
+<summary><b>📋 Detection case studies</b> &mdash; 10 representative rules from my live detection portfolio</summary>
+
+| Technique | Tactic | What the rule catches | Severity | Source |
+|---|---|---|---|---|
+| **T1003.001** | Credential Access | LSASS process memory dumping | Critical | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
+| **T1110** | Credential Access | Password brute-force / spray | High | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
+| **T1059.001** | Execution | Encoded / obfuscated PowerShell execution | Critical | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
+| **T1557.001** | Credential Access | Adversary-in-the-middle (LLMNR / NBT-NS / mDNS poisoning) | High | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1557_responder.yml) |
+| **T1071** | Command & Control | Application-layer C2 beaconing | Critical | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
+| **T1078.004** | Initial Access | Detects two successful interactive sign-ins for the same user from locations whose great-circle distance ca… | High | [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_ImpossibleTravel.yaml) |
+| **T1621** | Credential Access | Detects 5+ failed MFA prompts followed by a successful sign-in for the same user within 30 minutes. | High | [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_MFAFatigue.yaml) |
+| **T1213.002** | Collection | Detects users downloading > 200 files within 1 hour from SharePoint or OneDrive, with comparison to the use… | Medium | [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/M365_MassSharePointDownload.yaml) |
+| **T1071** | Command & Control | Detects C2 beaconing behavior based on regular interval connections to external hosts. | Medium | [soc-threat-hunting-lab](https://github.com/sandeepmothukuri/soc-threat-hunting-lab/blob/main/08-integrations/sigma-rules/c2-beaconing.yml) |
+| **T1071.004** | Command & Control | Detects DNS tunneling by identifying unusually long subdomain queries or high query frequency to the same d… | Medium | [soc-threat-hunting-lab](https://github.com/sandeepmothukuri/soc-threat-hunting-lab/blob/main/08-integrations/sigma-rules/dns-tunneling.yml) |
+
+<sub>Auto-generated from the YAML in each lab — refreshes weekly via `.github/workflows/detection-portfolio.yml`. Click any rule link to read the full detection logic.</sub>
+</details>
+<!-- DETECTION-CASESTUDIES END -->
+
+### ⏱️ Detection trigger thresholds
+
+<sub>Configured detection windows for frequency-based rules in my labs — i.e. how many events must occur in what time span before each rule fires. Parsed from each rule's `num_events` and `timeframe` YAML fields; the values here are the same ones the live rules use in production.</sub>
+
+<!-- DETECTION-TRIGGERS START -->
+| Rule | Type | Trigger | Worst-case latency | Source |
+|---|---|---|---|---|
+| T1003.001 — LSASS Credential Dumping | `any` | Fires on first match (no time aggregation) | near real-time | [T1003_credential_dump.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
+| T1110 — Brute Force Authentication Attack | `frequency` | **10 events in 5m** | ≤ 5m | [T1110_brute_force.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
+| T1059.001 — Suspicious Encoded PowerShell | `any` | Fires on first match (no time aggregation) | near real-time | [T1059_powershell.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
+| T1557 — LLMNR/NBT-NS Poisoning (Responder) | `any` | Fires on first match (no time aggregation) | near real-time | [T1557_responder.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1557_responder.yml) |
+| T1071 — C2 Beacon Detected (Suricata) | `any` | Fires on first match (no time aggregation) | near real-time | [network_c2_beacon.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
+| Entra ID - Impossible Travel Between Sign-Ins | `scheduled-query` | KQL polled every 1h | ≤ 60m | [EntraID_ImpossibleTravel.yaml](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_ImpossibleTravel.yaml) |
+| Entra ID - MFA Fatigue Followed by Success | `scheduled-query` | KQL polled every 30m | ≤ 30m | [EntraID_MFAFatigue.yaml](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_MFAFatigue.yaml) |
+| M365 - Mass SharePoint / OneDrive Download | `scheduled-query` | KQL polled every 1h | ≤ 60m | [M365_MassSharePointDownload.yaml](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/M365_MassSharePointDownload.yaml) |
+| C2 Beaconing via Regular Network Connection | `sigma` | Sigma — backend-defined (Splunk/QRadar/Elastic timing) | backend-dependent | [c2-beaconing.yml](https://github.com/sandeepmothukuri/soc-threat-hunting-lab/blob/main/08-integrations/sigma-rules/c2-beaconing.yml) |
+| DNS Tunneling via Long Subdomain Queries | `sigma` | Sigma — backend-defined (Splunk/QRadar/Elastic timing) | backend-dependent | [dns-tunneling.yml](https://github.com/sandeepmothukuri/soc-threat-hunting-lab/blob/main/08-integrations/sigma-rules/dns-tunneling.yml) |
+
+<sub>Latency = the rule's own detection window (parsed from `timeframe`, `queryFrequency`, or `type`). Portfolio spread: 1–60 minutes worst-case. These are configured windows, not measured end-to-end times — click any source link to verify the raw values.</sub>
+<!-- DETECTION-TRIGGERS END -->
 
 ## 🔐 Certifications
 
