@@ -484,20 +484,20 @@ _Last refresh: 2026-05-18 12:26 UTC_
 | **Languages** | English · Telugu · Hindi |
 | **Website** | [cybertechnology.in](https://cybertechnology.in) |
 | **Email** | [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com) |
-| **LinkedIn** | [sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris) |
+| **LinkedIn** | [sandeepmothukuri](https://www.linkedin.com/in/sandeepmothukuri) |
 
 ## 💼 Hiring me?
 
 I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hunter** roles. Remote-friendly, UK/EU preferred but happy to talk about anywhere with reasonable time-zone overlap.
 
 📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity)
-🔗 Or send a LinkedIn message: [linkedin.com/in/sandeepmothukuris](https://www.linkedin.com/in/sandeepmothukuris)
+🔗 Or send a LinkedIn message: [linkedin.com/in/sandeepmothukuri](https://www.linkedin.com/in/sandeepmothukuri)
 
 ## 📨 Contact
 
 <p align="left">
   <a href="https://cybertechnology.in"><img src="https://img.shields.io/badge/Website-cybertechnology.in-7c3aed?style=flat-square&logo=googlechrome&logoColor=white&labelColor=132f4c"></a>
-  <a href="https://www.linkedin.com/in/sandeepmothukuris"><img src="https://img.shields.io/badge/LinkedIn-sandeepmothukuris-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=132f4c"></a>
+  <a href="https://www.linkedin.com/in/sandeepmothukuri"><img src="https://img.shields.io/badge/LinkedIn-sandeepmothukuri-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=132f4c"></a>
   <a href="mailto:sandeep.mothukuris@gmail.com"><img src="https://img.shields.io/badge/Email-sandeep.mothukuris%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=132f4c"></a>
 </p>
 
