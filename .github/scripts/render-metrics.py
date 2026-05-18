@@ -11,7 +11,12 @@ from __future__ import annotations
 import json
 import re
 import sys
+import io
 import os
+
+# Ensure stdout can handle emoji/Unicode on Windows (cp1252 default would crash).
+if hasattr(sys.stdout, "buffer"):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 import difflib
 import datetime
 import urllib.request

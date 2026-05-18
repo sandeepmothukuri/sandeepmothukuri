@@ -250,6 +250,18 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔵 [cyberblue](https://github.com/sandeepmothukuri/cyberblue)
+Containerised blue-team platform — Wazuh SIEM · Suricata · Zeek · MISP · TheHive · SOAR. Published at cybertechnology.in.
+<!-- REPO-METRICS:cyberblue START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:cyberblue END -->
+
+</td>
+<td width="50%" valign="top"></td>
+</tr>
 </table>
 
 <!-- SOC DETECTION PIPELINE START -->
