@@ -260,7 +260,15 @@ Containerised blue-team platform — Wazuh SIEM · Suricata · Zeek · MISP · T
 <!-- REPO-METRICS:cyberblue END -->
 
 </td>
-<td width="50%" valign="top"></td>
+<td width="50%" valign="top">
+
+### 🛡️ [PromptSentinel](https://github.com/sandeepmothukuri/PromptSentinel)
+Enterprise-grade prompt injection detection and AI firewall — 22 detectors, OWASP LLM Top 10, SARIF/SIEM output, FastAPI + Docker.
+<!-- REPO-METRICS:PromptSentinel START -->
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-new-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: new"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-new-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: new"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0"></sub>
+<!-- REPO-METRICS:PromptSentinel END -->
+
+</td>
 </tr>
 </table>
 
@@ -507,3 +515,4 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 
 <p align="center"><sub>⭐ If a lab or write-up helped you, a star helps other SOC analysts find this work.</sub></p>
 <p align="center"><sub>Released under the <a href="LICENSE">MIT License</a>. © 2026 Sandeep Mothukuri.</sub></p>
+
