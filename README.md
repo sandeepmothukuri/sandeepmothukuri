@@ -455,21 +455,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-20 12:22 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-05-20 11:47 UTC_
+_Last refresh: 2026-05-21 12:11 UTC_
 
 **The Hacker News**
 
-- [Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem](https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html)
-- [Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit](https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html)
-- [Grafana GitHub Breach Exposes Source Code via TanStack npm Attack](https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html)
-- [GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos](https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html)
+- [Microsoft Warns of Two Actively Exploited Defender Vulnerabilities](https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html)
+- [When Identity is the Attack Path](https://thehackernews.com/2026/05/when-identity-is-attack-path.html)
+- [9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros](https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html)
+- [GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension](https://thehackernews.com/2026/05/github-internal-repositories-breached.html)
 
 **BleepingComputer**
 
-- [Exploit released for new PinTheft Arch Linux root escalation flaw](https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/)
-- [GitHub confirms breach of 3,800 repos via malicious VSCode extension](https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/)
-- [Microsoft shares mitigation for YellowKey Windows zero-day](https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/)
-- [GitHub investigates internal repositories breach claimed by TeamPCP](https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/)
+- [Flipper One project needs community help to build open Linux platform](https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/)
+- [Microsoft warns of new Defender zero-days exploited in attacks](https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/)
+- [GitHub links repo breach to TanStack npm supply-chain attack](https://www.bleepingcomputer.com/news/security/github-links-repo-breach-to-tanstack-npm-supply-chain-attack/)
+- [Ukraine identifies infostealer operator tied to 28,000 stolen accounts](https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/)
 
 **Krebs on Security**
 
