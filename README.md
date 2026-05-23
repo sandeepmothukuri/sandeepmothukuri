@@ -440,16 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-41553`](https://nvd.nist.gov/vuln/detail/CVE-2026-41553) |
+| **CVE ID** | [`CVE-2026-43633`](https://nvd.nist.gov/vuln/detail/CVE-2026-43633) |
 | **CVSS v3.1** | `10.0` (CRITICAL) |
 | **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
-| **Published** | 2026-05-15 |
+| **Published** | 2026-05-19 |
 
-> PDF Export Module used in DHTMLX's products Gantt and Scheduler is vulnerable to Remote Code Execution due to lack of "data" parameter sanitization. An unauthenticated attacker can inject the malicious JavaScript code to the parameter whose value is processed by Node.js and subsequently executed. This can lead to server compromise.
+> HestiaCP versions 1.9.0 through 1.9.4 contain a deserialization vulnerability in the web terminal component caused by a session format mismatch between PHP and Node.js that allows unauthenticated remote attackers to achieve root-level code execution. Attackers can inject crafted data into HTTP headers that are processed by the PHP session handler but incorrectly deserialized by…
 
-This issue was fixed in PDF Export Modul…
-
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-22 12:17 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-23 11:09 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
