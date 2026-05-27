@@ -440,14 +440,16 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-43633`](https://nvd.nist.gov/vuln/detail/CVE-2026-43633) |
+| **CVE ID** | [`CVE-2026-20223`](https://nvd.nist.gov/vuln/detail/CVE-2026-20223) |
 | **CVSS v3.1** | `10.0` (CRITICAL) |
 | **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
-| **Published** | 2026-05-19 |
+| **Published** | 2026-05-20 |
 
-> HestiaCP versions 1.9.0 through 1.9.4 contain a deserialization vulnerability in the web terminal component caused by a session format mismatch between PHP and Node.js that allows unauthenticated remote attackers to achieve root-level code execution. Attackers can inject crafted data into HTTP headers that are processed by the PHP session handler but incorrectly deserialized by…
+> A vulnerability in the&nbsp;access validation of internal REST APIs of Cisco Secure Workload could allow an unauthenticated, remote attacker to access site resources with the privileges of the&nbsp;Site Admin role.
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-25 13:28 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+This vulnerability is due to insufficient validation and authentication when accessing REST API endpoints. An attacker could exploit this vulnerability if they ar…
+
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-27 12:50 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
