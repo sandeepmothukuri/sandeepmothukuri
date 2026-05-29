@@ -447,7 +447,7 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 > Improper neutralization of special elements used in a command ('command injection') in Microsoft Power Pages allows an unauthorized attacker to execute code over a network.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-28 13:47 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-29 12:46 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
