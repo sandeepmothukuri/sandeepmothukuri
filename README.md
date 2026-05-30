@@ -453,21 +453,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-29 12:46 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-05-29 12:12 UTC_
+_Last refresh: 2026-05-30 10:46 UTC_
 
 **The Hacker News**
 
-- [New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks](https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html)
-- [What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks](https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html)
-- [Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets](https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html)
-- [Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels](https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html)
+- [PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation](https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html)
+- [ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface](https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html)
+- [Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit](https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html)
+- [New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks](https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html)
 
 **BleepingComputer**
 
-- [Google Chrome adds session cookie theft protection for all users](https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/)
-- [Man sent to prison for selling data of 7 millions elderly Americans](https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/)
-- [US charges Google security engineer with Polymarket insider trading](https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/)
-- [Charter Communications data breach affects 4.9 million accounts](https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/)
+- [ChatGPT share links abused to host fake outage pages to deliver malware](https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/)
+- [California AG sues 23andMe over 2023 breach exposing health data](https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/)
+- [From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market](https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/)
+- [Dutch govt disrupts malware botnet with 17 million infected devices](https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/)
 
 **Krebs on Security**
 
