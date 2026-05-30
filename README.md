@@ -440,14 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-23652`](https://nvd.nist.gov/vuln/detail/CVE-2026-23652) |
-| **CVSS v3.1** | `10.0` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
-| **Published** | 2026-05-22 |
+| **CVE ID** | [`CVE-2018-25350`](https://nvd.nist.gov/vuln/detail/CVE-2018-25350) |
+| **CVSS v3.1** | `9.8` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
+| **Published** | 2026-05-23 |
 
-> Improper neutralization of special elements used in a command ('command injection') in Microsoft Power Pages allows an unauthorized attacker to execute code over a network.…
+> userSpice 4.3.24 contains a username enumeration vulnerability that allows unauthenticated attackers to discover valid usernames by sending POST requests to the existingUsernameCheck.php endpoint. Attackers can submit usernames and analyze response text for the 'taken' string to identify existing accounts in the system.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-29 12:46 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-30 11:18 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
