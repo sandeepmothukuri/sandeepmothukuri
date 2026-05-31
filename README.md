@@ -440,14 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2018-25350`](https://nvd.nist.gov/vuln/detail/CVE-2018-25350) |
+| **CVE ID** | [`CVE-2026-9384`](https://nvd.nist.gov/vuln/detail/CVE-2026-9384) |
 | **CVSS v3.1** | `9.8` (CRITICAL) |
 | **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-05-23 |
+| **Published** | 2026-05-24 |
 
-> userSpice 4.3.24 contains a username enumeration vulnerability that allows unauthenticated attackers to discover valid usernames by sending POST requests to the existingUsernameCheck.php endpoint. Attackers can submit usernames and analyze response text for the 'taken' string to identify existing accounts in the system.…
+> A vulnerability was found in Totolink A8000RU 7.1cu.643_b20200521. This vulnerability affects the function setDiagnosisCfg of the file /cgi-bin/cstecgi.cgi of the component Web Management Interface. The manipulation of the argument ip results in os command injection. The attack can be executed remotely. The exploit has been made public and could be used.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-30 11:18 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-31 11:40 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
