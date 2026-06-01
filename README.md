@@ -440,14 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-9384`](https://nvd.nist.gov/vuln/detail/CVE-2026-9384) |
+| **CVE ID** | [`CVE-2026-9475`](https://nvd.nist.gov/vuln/detail/CVE-2026-9475) |
 | **CVSS v3.1** | `9.8` (CRITICAL) |
 | **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-05-24 |
+| **Published** | 2026-05-25 |
 
-> A vulnerability was found in Totolink A8000RU 7.1cu.643_b20200521. This vulnerability affects the function setDiagnosisCfg of the file /cgi-bin/cstecgi.cgi of the component Web Management Interface. The manipulation of the argument ip results in os command injection. The attack can be executed remotely. The exploit has been made public and could be used.…
+> A vulnerability was determined in Totolink A8000RU 7.1cu.643_b20200521. This affects the function setIpQosRules of the file /cgi-bin/cstecgi.cgi of the component Web Management Interface. This manipulation of the argument Comment causes os command injection. Remote exploitation of the attack is possible. The exploit has been publicly disclosed and may be utilized.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-05-31 11:40 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-01 15:55 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
