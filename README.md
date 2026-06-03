@@ -440,14 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-45247`](https://nvd.nist.gov/vuln/detail/CVE-2026-45247) |
-| **CVSS v3.1** | `9.8` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-05-26 |
+| **CVE ID** | [`CVE-2026-44881`](https://nvd.nist.gov/vuln/detail/CVE-2026-44881) |
+| **CVSS v3.1** | `9.9` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H` |
+| **Published** | 2026-05-28 |
 
-> Mirasvit Full Page Cache Warmer for Magento 2 before version 1.11.12 contains a PHP object injection vulnerability that allows unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie. Attackers can exploit the unrestricted call to PHP's native unserialize() function combined with gadget chains available i…
+> Portainer Community Edition is a lightweight service delivery platform for containerized applications that can be used to manage Docker, Swarm, Kubernetes and ACI environments. From 2.33.0 to before 2.33.8, 2.39.2, and 2.41.0, Portainer supports deploying stacks from Git repositories. When a Git-backed stack is created or updated, Portainer clones the repository using go-git v5…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-02 14:00 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-03 14:27 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
