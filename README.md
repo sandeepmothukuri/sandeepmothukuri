@@ -453,21 +453,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-02 14:00 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-06-02 12:38 UTC_
+_Last refresh: 2026-06-03 13:12 UTC_
 
 **The Hacker News**
 
-- [AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.](https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html)
-- [How Leading Organizations Are Turning EDR Into Operational Resilience](https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html)
-- [Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT](https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html)
-- [Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded](https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html)
+- [Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)](https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html)
+- [Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore](https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html)
+- [Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes](https://thehackernews.com/2026/06/unpatched-windows-search-uri.html)
+- [New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy &amp; Cloudflare](https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html)
 
 **BleepingComputer**
 
-- [Google fixes one actively exploited Android zero-day, 124 flaws](https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/)
-- [Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks](https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/)
-- [Red Hat npm packages compromised to steal developer credentials](https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/)
-- [Spain arrests doxer leaking sensitive data of govt employees](https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/)
+- [Acer working to patch max severity zero-days in Wave 7 routers](https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/)
+- [Police dismantles 9 crime groups in illegal streaming crackdown](https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/)
+- [Google adds Android protection against AI deepfake scam calls](https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/)
+- [VS Code zero-day lets hackers steal GitHub tokens in one click](https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/)
 
 **Krebs on Security**
 
