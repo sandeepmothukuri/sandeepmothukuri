@@ -453,21 +453,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-03 14:27 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-06-03 13:12 UTC_
+_Last refresh: 2026-06-04 11:49 UTC_
 
 **The Hacker News**
 
-- [Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)](https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html)
-- [Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore](https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html)
-- [Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes](https://thehackernews.com/2026/06/unpatched-windows-search-uri.html)
-- [New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy &amp; Cloudflare](https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html)
+- [Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS](https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html)
+- [Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months](https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html)
+- [CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog](https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html)
+- [DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets](https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html)
 
 **BleepingComputer**
 
-- [Acer working to patch max severity zero-days in Wave 7 routers](https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/)
-- [Police dismantles 9 crime groups in illegal streaming crackdown](https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/)
-- [Google adds Android protection against AI deepfake scam calls](https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/)
-- [VS Code zero-day lets hackers steal GitHub tokens in one click](https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/)
+- [Cisco warns of critical Unified CM flaw with PoC exploit code](https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/)
+- [Chinese hackers use new Atlas RAT malware in European cyberattacks](https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/)
+- [U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors](https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/)
+- [CISA warns of cyberattacks targeting fuel tank monitoring systems](https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/)
 
 **Krebs on Security**
 
