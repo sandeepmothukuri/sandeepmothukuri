@@ -440,14 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-44477`](https://nvd.nist.gov/vuln/detail/CVE-2026-44477) |
-| **CVSS v3.1** | `9.9` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H` |
-| **Published** | 2026-05-28 |
+| **CVE ID** | [`CVE-2026-10071`](https://nvd.nist.gov/vuln/detail/CVE-2026-10071) |
+| **CVSS v3.1** | `9.8` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
+| **Published** | 2026-05-29 |
 
-> CloudNativePG is a platform designed to manage PostgreSQL databases within Kubernetes environments. Prior to 1.29.1 and 1.28.3, the CloudNativePG metrics exporter opens its PostgreSQL connection as the postgres superuser via the pod-local Unix socket, then demotes the session with SET ROLE pg_monitor. SET ROLE changes only current_user; session_user remains postgres. Any SQL ex…
+> DreamMaker developed by Interinfo has an Arbitrary File Upload vulnerability, allowing unauthenticated remote attackers to upload and execute web shell backdoors, thereby enabling arbitrary code execution on the server.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-04 12:43 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-05 12:35 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
