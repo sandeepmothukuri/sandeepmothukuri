@@ -453,21 +453,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-06 11:24 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-06-06 10:51 UTC_
+_Last refresh: 2026-06-07 11:06 UTC_
 
 **The Hacker News**
 
+- [New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration](https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html)
 - [Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI](https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html)
 - [CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog](https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html)
 - [AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs](https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html)
-- [Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack](https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html)
 
 **BleepingComputer**
 
+- [Critical Everest Forms Pro flaw exploited to take over WordPress sites](https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/)
 - [Suspicious Polyfill login prompts pop up on Toshiba, Muji websites](https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/)
 - [CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers](https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/)
 - [Chinese APT deploys new malware to keep access to hacked networks](https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/)
-- [Dark web Nemesis Market vendor gets 26 years for selling drugs](https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/)
 
 **Krebs on Security**
 
