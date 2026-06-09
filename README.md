@@ -453,21 +453,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-08 14:05 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-06-08 13:03 UTC_
+_Last refresh: 2026-06-09 11:57 UTC_
 
 **The Hacker News**
 
-- [AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload](https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html)
-- [The Hardest Fork](https://thehackernews.com/2026/06/the-hardest-fork.html)
-- [VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances](https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html)
-- [UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign](https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html)
+- [The Hidden Security Risk in Modern Networks: The Work Between Tools](https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html)
+- [New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing](https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html)
+- [Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer](https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html)
+- [LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE](https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html)
 
 **BleepingComputer**
 
-- [Oxford University discloses data breach after careers platform hack](https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/)
-- [Over 20,000 Instagram accounts stolen in Meta AI support hack](https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/)
-- [Hands on with Intelligent Terminal, an AI-powered Windows Terminal](https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/)
-- [C0XMO botnet spreads via DD-WRT router flaw, kills rival malware](https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/)
+- [French govt messaging service breached in account hijacking attack](https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/)
+- [CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/)
+- [Google patches new Chrome zero-day flaw exploited in the wild](https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/)
+- [NFCShare Android malware spreads via fake banking app updates on GitHub](https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/)
 
 **Krebs on Security**
 
