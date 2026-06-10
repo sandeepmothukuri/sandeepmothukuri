@@ -129,6 +129,11 @@
       "date": "2026-06-09",
       "total": 129,
       "daily": 1
+    },
+    {
+      "date": "2026-06-10",
+      "total": 130,
+      "daily": 1
     }
   ],
   "repos": {
@@ -351,6 +356,15 @@
       },
       {
         "date": "2026-06-09",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-10",
         "views": 0,
         "unique": 0,
         "clones": 0,
@@ -584,6 +598,15 @@
         "unique_cloners": 0,
         "stars": 1,
         "forks": 0
+      },
+      {
+        "date": "2026-06-10",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
       }
     ],
     "soc-lab": [
@@ -805,6 +828,15 @@
       },
       {
         "date": "2026-06-09",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-10",
         "views": 0,
         "unique": 0,
         "clones": 0,
@@ -1038,6 +1070,15 @@
         "unique_cloners": 0,
         "stars": 1,
         "forks": 0
+      },
+      {
+        "date": "2026-06-10",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
       }
     ],
     "soc-threat-hunting-lab": [
@@ -1259,6 +1300,15 @@
       },
       {
         "date": "2026-06-09",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-10",
         "views": 0,
         "unique": 0,
         "clones": 0,
@@ -1492,6 +1542,15 @@
         "unique_cloners": 0,
         "stars": 2,
         "forks": 0
+      },
+      {
+        "date": "2026-06-10",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 2,
+        "forks": 0
       }
     ],
     "cyberblue": [
@@ -1713,6 +1772,15 @@
       },
       {
         "date": "2026-06-09",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-10",
         "views": 0,
         "unique": 0,
         "clones": 0,
