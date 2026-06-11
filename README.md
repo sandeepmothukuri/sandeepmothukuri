@@ -453,28 +453,28 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-10 12:55 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-06-10 12:17 UTC_
+_Last refresh: 2026-06-11 12:41 UTC_
 
 **The Hacker News**
 
-- [Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar](https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html)
-- [Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs](https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html)
-- [Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards](https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html)
-- [ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances](https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html)
+- [AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.](https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html)
+- [OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack](https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html)
+- [GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks](https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html)
+- [China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance](https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html)
 
 **BleepingComputer**
 
-- [Microsoft: Some Windows PCs fail to install latest monthly updates](https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/)
-- [Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days](https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/)
-- [Ivanti: Max severity Sentry flaw allows code execution as root](https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/)
-- [Anthropic rolls out Claude Fable 5, but it's available for a limited time](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-claude-fable-5-but-its-available-for-a-limited-time/)
+- [Microsoft fixes BitLocker recovery bug on Windows Server 2025](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/)
+- [Nottingham University data breach affects over 450,000 students](https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/)
+- [Max severity Ivanti Sentry vulnerability now exploited in attacks](https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/)
+- [Path traversal flaw in AI dev platform Langflow exploited in attacks](https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/)
 
 **Krebs on Security**
 
+- [Who Runs the Ransomware Group &#8216;The Gentlemen?&#8217;](https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/)
 - [A Record-Breaking Patch Tuesday for June 2026](https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/)
 - [Hackers Used Meta&#8217;s AI Support Bot to Seize Instagram Accounts](https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/)
 - [Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks](https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/)
-- [Lawmakers Demand Answers as CISA Tries to Contain Data Leak](https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/)
 
 > Headlines pulled from public RSS feeds. Not endorsements — just situational awareness.
 <!-- SECURITY-NEWS-END -->
