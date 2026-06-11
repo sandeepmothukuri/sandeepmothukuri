@@ -440,14 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-35075`](https://nvd.nist.gov/vuln/detail/CVE-2026-35075) |
-| **CVSS v3.1** | `9.8` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-06-03 |
+| **CVE ID** | [`CVE-2026-48567`](https://nvd.nist.gov/vuln/detail/CVE-2026-48567) |
+| **CVSS v3.1** | `10.0` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H` |
+| **Published** | 2026-06-04 |
 
-> An unauthenticated remote attacker can recover a default, hard coded password from a firmware image and thus gain full access to all affected devices.…
+> Authentication bypass by spoofing in Azure HorizonDB allows an unauthorized attacker to elevate privileges over a network.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-10 12:55 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-11 13:57 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
