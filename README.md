@@ -440,14 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-48567`](https://nvd.nist.gov/vuln/detail/CVE-2026-48567) |
-| **CVSS v3.1** | `10.0` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H` |
-| **Published** | 2026-06-04 |
+| **CVE ID** | [`CVE-2026-46442`](https://nvd.nist.gov/vuln/detail/CVE-2026-46442) |
+| **CVSS v3.1** | `9.9` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H` |
+| **Published** | 2026-06-08 |
 
-> Authentication bypass by spoofing in Azure HorizonDB allows an unauthorized attacker to elevate privileges over a network.…
+> Flowise is a drag & drop user interface to build a customized large language model flow. Prior to version 3.1.2, POST /api/v1/node-custom-function lacks route-level authorization, allowing any authenticated user or API key to submit arbitrary JavaScript to the Custom JS Function node. When E2B_APIKEY is not configured — the common deployment case — Flowise executes this cod…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-11 13:57 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-12 12:53 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
