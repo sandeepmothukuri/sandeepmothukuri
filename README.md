@@ -447,7 +447,7 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 > Flowise is a drag & drop user interface to build a customized large language model flow. Prior to version 3.1.2, POST /api/v1/node-custom-function lacks route-level authorization, allowing any authenticated user or API key to submit arbitrary JavaScript to the Custom JS Function node. When E2B_APIKEY is not configured — the common deployment case — Flowise executes this cod…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-12 12:53 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-13 11:52 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
