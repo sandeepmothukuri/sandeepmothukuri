@@ -438,16 +438,9 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 <!-- CVE-OF-THE-WEEK-START -->
 ### 🚨 Today's Top Critical CVE
 
-| Field | Value |
-|---|---|
-| **CVE ID** | [`CVE-2026-48558`](https://nvd.nist.gov/vuln/detail/CVE-2026-48558) |
-| **CVSS v3.1** | `10.0` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
-| **Published** | 2026-06-12 |
+_No new CRITICAL CVEs published in the last 7 days, or NVD API temporarily unreachable._
 
-> SimpleHelp versions 5.5.15 and prior and 6.0 pre-release versions contain an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token c…
-
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-17 13:40 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Last check: 2026-06-18 12:50 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
