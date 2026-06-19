@@ -438,9 +438,16 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 <!-- CVE-OF-THE-WEEK-START -->
 ### 🚨 Today's Top Critical CVE
 
-_No new CRITICAL CVEs published in the last 7 days, or NVD API temporarily unreachable._
+| Field | Value |
+|---|---|
+| **CVE ID** | [`CVE-2026-47647`](https://nvd.nist.gov/vuln/detail/CVE-2026-47647) |
+| **CVSS v3.1** | `9.9` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H` |
+| **Published** | 2026-06-18 |
 
-_Last check: 2026-06-18 12:50 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+> Improper access control in Microsoft Dynamics 365 allows an authorized attacker to elevate privileges over a network.…
+
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-19 13:33 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
