@@ -438,16 +438,9 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 <!-- CVE-OF-THE-WEEK-START -->
 ### 🚨 Today's Top Critical CVE
 
-| Field | Value |
-|---|---|
-| **CVE ID** | [`CVE-2026-45480`](https://nvd.nist.gov/vuln/detail/CVE-2026-45480) |
-| **CVSS v3.1** | `10.0` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
-| **Published** | 2026-06-19 |
+_No new CRITICAL CVEs published in the last 7 days, or NVD API temporarily unreachable._
 
-> Improper authentication in Azure Active Directory allows an unauthorized attacker to elevate privileges over a network.…
-
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-20 11:54 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Last check: 2026-06-21 12:09 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
