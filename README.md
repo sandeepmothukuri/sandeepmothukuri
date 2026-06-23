@@ -438,9 +438,16 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 <!-- CVE-OF-THE-WEEK-START -->
 ### 🚨 Today's Top Critical CVE
 
-_No new CRITICAL CVEs published in the last 7 days, or NVD API temporarily unreachable._
+| Field | Value |
+|---|---|
+| **CVE ID** | [`CVE-2026-12293`](https://nvd.nist.gov/vuln/detail/CVE-2026-12293) |
+| **CVSS v3.1** | `9.8` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
+| **Published** | 2026-06-16 |
 
-_Last check: 2026-06-22 15:22 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+> Use-after-free in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.…
+
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-23 12:31 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
