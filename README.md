@@ -440,14 +440,18 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-12293`](https://nvd.nist.gov/vuln/detail/CVE-2026-12293) |
+| **CVE ID** | [`CVE-2026-32966`](https://nvd.nist.gov/vuln/detail/CVE-2026-32966) |
 | **CVSS v3.1** | `9.8` (CRITICAL) |
 | **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-06-16 |
+| **Published** | 2026-06-17 |
 
-> Use-after-free in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.…
+> DataSource API Missing Authorization Check Leads to Arbitrary Data Source Metadata Disclosure in Apache DolphinScheduler.
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-23 12:31 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+This issue affects Apache DolphinScheduler: before 3.4.2.
+
+Users are recommended to upgrade to version 3.4.2, which fixes the issue.…
+
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-24 12:17 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
