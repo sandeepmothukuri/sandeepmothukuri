@@ -440,18 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-32966`](https://nvd.nist.gov/vuln/detail/CVE-2026-32966) |
-| **CVSS v3.1** | `9.8` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-06-17 |
+| **CVE ID** | [`CVE-2026-44789`](https://nvd.nist.gov/vuln/detail/CVE-2026-44789) |
+| **CVSS v3.1** | `9.9` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H` |
+| **Published** | 2026-06-23 |
 
-> DataSource API Missing Authorization Check Leads to Arbitrary Data Source Metadata Disclosure in Apache DolphinScheduler.
+> n8n is an open source workflow automation platform. Prior to 1.123.43, 2.22.1, and 2.20.7, an authenticated user with permission to create or modify workflows could achieve global prototype pollution via an unvalidated pagination parameter in the HTTP Request node. Combined with other techniques this could lead to RCE on the instance. This vulnerability is fixed in 1.123.43, 2.…
 
-This issue affects Apache DolphinScheduler: before 3.4.2.
-
-Users are recommended to upgrade to version 3.4.2, which fixes the issue.…
-
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-24 12:17 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-06-25 12:17 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
