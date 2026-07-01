@@ -234,6 +234,11 @@
       "date": "2026-06-30",
       "total": 150,
       "daily": 1
+    },
+    {
+      "date": "2026-07-01",
+      "total": 151,
+      "daily": 1
     }
   ],
   "repos": {
@@ -649,6 +654,15 @@
         "unique": 7,
         "clones": 2,
         "unique_cloners": 2,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-01",
+        "views": 9,
+        "unique": 7,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 3,
         "forks": 1
       }
@@ -1067,6 +1081,15 @@
         "unique_cloners": 2,
         "stars": 1,
         "forks": 0
+      },
+      {
+        "date": "2026-07-01",
+        "views": 3,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
       }
     ],
     "soc-lab": [
@@ -1477,6 +1500,15 @@
       },
       {
         "date": "2026-06-30",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-01",
         "views": 0,
         "unique": 0,
         "clones": 1,
@@ -1899,6 +1931,15 @@
         "unique_cloners": 1,
         "stars": 1,
         "forks": 0
+      },
+      {
+        "date": "2026-07-01",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
       }
     ],
     "soc-threat-hunting-lab": [
@@ -2315,6 +2356,15 @@
         "unique_cloners": 1,
         "stars": 1,
         "forks": 0
+      },
+      {
+        "date": "2026-07-01",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
       }
     ],
     "Autonomous-SOC-Lab": [
@@ -2725,6 +2775,15 @@
       },
       {
         "date": "2026-06-30",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 2,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-01",
         "views": 0,
         "unique": 0,
         "clones": 0,
@@ -3145,6 +3204,15 @@
         "unique": 0,
         "clones": 2,
         "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-01",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 1,
         "forks": 0
       }
