@@ -453,21 +453,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-01 12:32 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-07-01 11:57 UTC_
+_Last refresh: 2026-07-02 11:30 UTC_
 
 **The Hacker News**
 
-- [Microsoft Accelerates Post-Quantum Cryptography Shift to 2029](https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html)
-- [Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware](https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html)
-- [Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls](https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html)
-- [Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts](https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html)
+- [AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack](https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html)
+- [FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations](https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html)
+- [New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos](https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html)
+- [SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation](https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html)
 
 **BleepingComputer**
 
-- [Microsoft fixes GIF functionality in the Windows Emoji Panel](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-gif-functionality-in-the-windows-emoji-panel/)
-- [Amazon fined $2.25M for withholding evidence from fraud victims](https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/)
-- [Adobe patches seven max severity ColdFusion, Campaign flaws](https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/)
-- [Anthropic to restore Claude Fable access on Wednesday](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/)
+- [CISA: Microsoft SharePoint RCE flaw now actively exploited](https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/)
+- [Opera rolls out Paste Protect feature to fight ClickFix attacks](https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/)
+- [Alleged Scattered Spider hacker extradited to the United States](https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/)
+- [Medtronic notifies customers impacted by ShinyHunters data breach](https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/)
 
 **Krebs on Security**
 
