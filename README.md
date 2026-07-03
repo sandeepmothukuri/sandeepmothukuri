@@ -183,7 +183,7 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 <!-- TOP-REPO START -->
 <table align="center"><tr><td align="center">
 <sub>🌟 <b>Top repo this week</b></sub><br>
-<a href="https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0"><b>advanced-soc-lab-v2.0</b></a><br>
+<a href="https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab"><b> Enterprise-Detection-Engineering-SOC-Lab</b></a><br>
 <sub>70 views · 4 clones · ⭐ 4 stars (last 7 days)</sub>
 </td></tr></table>
 <!-- TOP-REPO END -->
@@ -192,11 +192,11 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0)
+### 🔐 [ Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab)
 12-tool SOC lab — OpenSearch · Suricata · Zeek · MISP · Caldera · Velociraptor + AI agents. Docker Compose, MITRE ATT&CK v14, 15 built-in detection rules.
-<!-- REPO-METRICS:advanced-soc-lab-v2.0 START -->
+<!-- REPO-METRICS: Enterprise-Detection-Engineering-SOC-Lab START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-7%20today%20%C2%B7%20185%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 7 today · 185 / 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-2%20today%20%C2%B7%2058%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 2 today · 58 / 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-4%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 4 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-1%20%28%2B1/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 1 (+1/30d)"></sub>
-<!-- REPO-METRICS:advanced-soc-lab-v2.0 END -->
+<!-- REPO-METRICS: Enterprise-Detection-Engineering-SOC-Lab END -->
 
 </td>
 <td width="50%" valign="top">
@@ -341,11 +341,11 @@ index=wineventlog EventCode=5140
 
 | Technique | Tactic | What the rule catches | Severity | Source |
 |---|---|---|---|---|
-| **T1003.001** | Credential Access | LSASS process memory dumping | Critical | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
-| **T1110** | Credential Access | Password brute-force / spray | High | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
-| **T1059.001** | Execution | Encoded / obfuscated PowerShell execution | Critical | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
-| **T1557.001** | Credential Access | Adversary-in-the-middle (LLMNR / NBT-NS / mDNS poisoning) | High | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1557_responder.yml) |
-| **T1071** | Command & Control | Application-layer C2 beaconing | Critical | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
+| **T1003.001** | Credential Access | LSASS process memory dumping | Critical | [ Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
+| **T1110** | Credential Access | Password brute-force / spray | High | [ Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
+| **T1059.001** | Execution | Encoded / obfuscated PowerShell execution | Critical | [ Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
+| **T1557.001** | Credential Access | Adversary-in-the-middle (LLMNR / NBT-NS / mDNS poisoning) | High | [ Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1557_responder.yml) |
+| **T1071** | Command & Control | Application-layer C2 beaconing | Critical | [ Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
 | **T1078.004** | Initial Access | Detects two successful interactive sign-ins for the same user from locations whose great-circle distance ca… | High | [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_ImpossibleTravel.yaml) |
 | **T1621** | Credential Access | Detects 5+ failed MFA prompts followed by a successful sign-in for the same user within 30 minutes. | High | [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_MFAFatigue.yaml) |
 | **T1213.002** | Collection | Detects users downloading > 200 files within 1 hour from SharePoint or OneDrive, with comparison to the use… | Medium | [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/M365_MassSharePointDownload.yaml) |
@@ -363,11 +363,11 @@ index=wineventlog EventCode=5140
 <!-- DETECTION-TRIGGERS START -->
 | Rule | Type | Trigger | Worst-case latency | Source |
 |---|---|---|---|---|
-| T1003.001 — LSASS Credential Dumping | `any` | Fires on first match (no time aggregation) | near real-time | [T1003_credential_dump.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
-| T1110 — Brute Force Authentication Attack | `frequency` | **10 events in 5m** | ≤ 5m | [T1110_brute_force.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
-| T1059.001 — Suspicious Encoded PowerShell | `any` | Fires on first match (no time aggregation) | near real-time | [T1059_powershell.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
-| T1557 — LLMNR/NBT-NS Poisoning (Responder) | `any` | Fires on first match (no time aggregation) | near real-time | [T1557_responder.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1557_responder.yml) |
-| T1071 — C2 Beacon Detected (Suricata) | `any` | Fires on first match (no time aggregation) | near real-time | [network_c2_beacon.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
+| T1003.001 — LSASS Credential Dumping | `any` | Fires on first match (no time aggregation) | near real-time | [T1003_credential_dump.yml](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
+| T1110 — Brute Force Authentication Attack | `frequency` | **10 events in 5m** | ≤ 5m | [T1110_brute_force.yml](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
+| T1059.001 — Suspicious Encoded PowerShell | `any` | Fires on first match (no time aggregation) | near real-time | [T1059_powershell.yml](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
+| T1557 — LLMNR/NBT-NS Poisoning (Responder) | `any` | Fires on first match (no time aggregation) | near real-time | [T1557_responder.yml](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1557_responder.yml) |
+| T1071 — C2 Beacon Detected (Suricata) | `any` | Fires on first match (no time aggregation) | near real-time | [network_c2_beacon.yml](https://github.com/sandeepmothukuri/ Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
 | Entra ID - Impossible Travel Between Sign-Ins | `scheduled-query` | KQL polled every 1h | ≤ 60m | [EntraID_ImpossibleTravel.yaml](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_ImpossibleTravel.yaml) |
 | Entra ID - MFA Fatigue Followed by Success | `scheduled-query` | KQL polled every 30m | ≤ 30m | [EntraID_MFAFatigue.yaml](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_MFAFatigue.yaml) |
 | M365 - Mass SharePoint / OneDrive Download | `scheduled-query` | KQL polled every 1h | ≤ 60m | [M365_MassSharePointDownload.yaml](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/M365_MassSharePointDownload.yaml) |
