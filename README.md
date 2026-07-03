@@ -438,9 +438,16 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 <!-- CVE-OF-THE-WEEK-START -->
 ### 🚨 Today's Top Critical CVE
 
-_No new CRITICAL CVEs published in the last 7 days, or NVD API temporarily unreachable._
+| Field | Value |
+|---|---|
+| **CVE ID** | [`CVE-2026-54350`](https://nvd.nist.gov/vuln/detail/CVE-2026-54350) |
+| **CVSS v3.1** | `10.0` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N` |
+| **Published** | 2026-06-26 |
 
-_Last check: 2026-07-02 12:07 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+> Budibase is an open-source low-code platform. Prior to 3.39.12,  an unauthenticated visitor of any published Budibase app reads every document of the backing MongoDB, CouchDB, Elasticsearch, DynamoDB-PartiQL, or REST-with-JSON-body collection and, where the builder has published a PUBLIC write query, modifies every document of that collection with one HTTP request. enrichContex…
+
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-03 12:07 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
