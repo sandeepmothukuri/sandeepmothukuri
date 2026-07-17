@@ -455,21 +455,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-16 11:38 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-07-16 10:54 UTC_
+_Last refresh: 2026-07-17 10:42 UTC_
 
 **The Hacker News**
 
-- [AI Can Find Bugs, But Human Knowledge Still Proves Them](https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html)
-- [Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide](https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html)
-- [OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol](https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html)
-- [Zoom Patches Critical Windows Flaw That Could Enable Account Takeover](https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html)
+- [ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files](https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html)
+- [New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage](https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html)
+- [CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV](https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html)
+- [Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack](https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html)
 
 **BleepingComputer**
 
-- [Russian hackers trojanize WebEx, Zoom apps to push Starland malware](https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/)
-- [New Spirals ransomware encrypts victim network in under 24 hours](https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/)
-- [Dutch police bust investment fraud ring stealing over €100 million](https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/)
-- [Zoom warns of critical account takeover vulnerability](https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/)
+- [Windows Server 2022 reach end of mainstream support in 90 days](https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/)
+- [US charges two over laundering $43 million from investment fraud](https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/)
+- [CISA urges immediate action on actively exploited Fortinet flaws](https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/)
+- [New ClickLock macOS malware traps users into revealing login password](https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/)
 
 **Krebs on Security**
 
