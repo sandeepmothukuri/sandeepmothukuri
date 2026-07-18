@@ -440,14 +440,18 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-57156`](https://nvd.nist.gov/vuln/detail/CVE-2026-57156) |
+| **CVE ID** | [`CVE-2026-62390`](https://nvd.nist.gov/vuln/detail/CVE-2026-62390) |
 | **CVSS v3.1** | `9.8` (CRITICAL) |
 | **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-07-10 |
+| **Published** | 2026-07-14 |
 
-> FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0 on 32-bit builds, FreeRDP clients contain an integer overflow in update_read_delta_points in libfreerdp/core/orders.c when multiplying an attacker-controlled point count by sizeof(DELTA_POINT), allowing a malicious RDP peer to allocate an undersized heap buffer and then write beyond it during initi…
+> Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Apache Kylin. A backend API refreshing table catalog may cause the injection to the generated SQL.
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-17 11:19 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+This issue affects Apache Kylin: from 4 through 5.0.3.
+
+Users are recommended to upgrade to version 5.0.4, which fixes the issue.…
+
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-18 11:01 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
