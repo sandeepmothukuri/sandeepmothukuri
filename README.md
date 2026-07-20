@@ -451,7 +451,7 @@ This issue affects Apache Kylin: from 4 through 5.0.3.
 
 Users are recommended to upgrade to version 5.0.4, which fixes the issue.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-19 11:07 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-20 12:14 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
