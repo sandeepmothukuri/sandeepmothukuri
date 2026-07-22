@@ -440,18 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-62390`](https://nvd.nist.gov/vuln/detail/CVE-2026-62390) |
-| **CVSS v3.1** | `9.8` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-07-14 |
+| **CVE ID** | [`CVE-2026-54052`](https://nvd.nist.gov/vuln/detail/CVE-2026-54052) |
+| **CVSS v3.1** | `9.9` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L` |
+| **Published** | 2026-07-15 |
 
-> Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Apache Kylin. A backend API refreshing table catalog may cause the injection to the generated SQL.
+> n8n-MCP is an MCP server that provides AI assistants access to n8n node documentation, properties, and operations. Prior to 2.56.1, in HTTP mode with multi-tenancy enabled through ENABLE_MULTI_TENANT=true, n8n-mcp's local workflow version history backups were not isolated per tenant, allowing an authenticated tenant to read workflow version snapshots belonging to other tenants …
 
-This issue affects Apache Kylin: from 4 through 5.0.3.
-
-Users are recommended to upgrade to version 5.0.4, which fixes the issue.…
-
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-21 11:45 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-22 11:45 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
