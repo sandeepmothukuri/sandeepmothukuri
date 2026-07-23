@@ -440,14 +440,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-54052`](https://nvd.nist.gov/vuln/detail/CVE-2026-54052) |
-| **CVSS v3.1** | `9.9` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L` |
-| **Published** | 2026-07-15 |
+| **CVE ID** | [`CVE-2026-47056`](https://nvd.nist.gov/vuln/detail/CVE-2026-47056) |
+| **CVSS v3.1** | `10.0` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
+| **Published** | 2026-07-21 |
 
-> n8n-MCP is an MCP server that provides AI assistants access to n8n node documentation, properties, and operations. Prior to 2.56.1, in HTTP mode with multi-tenancy enabled through ENABLE_MULTI_TENANT=true, n8n-mcp's local workflow version history backups were not isolated per tenant, allowing an authenticated tenant to read workflow version snapshots belonging to other tenants …
+> Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Rest Service).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Data Integrator.  While the vulnerability is in Oracle Data Integrator, attacks may sign…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-22 11:45 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-23 11:48 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
