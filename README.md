@@ -453,21 +453,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-23 11:48 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-07-23 11:05 UTC_
+_Last refresh: 2026-07-24 10:59 UTC_
 
 **The Hacker News**
 
-- [Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs](https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html)
-- [Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access](https://thehackernews.com/2026/07/check-point-patches-exploited.html)
-- [GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier](https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html)
-- [Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs](https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html)
+- [Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry](https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html)
+- [Golden Chickens Resurfaces With Four New Malware Families and Modular Implants](https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html)
+- [NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats](https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html)
+- [Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say](https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html)
 
 **BleepingComputer**
 
-- [New msaRAT malware uses Chrome, Edge browsers to route C2 traffic](https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/)
-- [Microsoft working to fix Exchange Online mailbox quarantine issue](https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/)
-- [Check Point warns of SmartConsole zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/)
-- [Upbound says hack caused $13 million in fraudulent Acima leases](https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/)
+- [Clop ransomware targets Windchill, FlexPLM in data theft attacks](https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/)
+- [New Dolphin X malware uses AI to rank high-value targets](https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/)
+- [Australian energy provider Origin says data breach exposes client data](https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/)
+- [Fake Claude app promoted by Bing ads pushes SectopRAT malware](https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/)
 
 **Krebs on Security**
 
