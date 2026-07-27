@@ -2,6 +2,7 @@
 # Appends today's profile-views + per-repo traffic snapshot to metrics/history.json.
 # Idempotent: if today's date is already recorded for a series, that series is skipped.
 # Requires: gh CLI, jq, curl. GH_TOKEN must have public_repo scope (traffic API).
+# Keep REPOS aligned with every REPO-METRICS marker in README.md.
 set -euo pipefail
 
 OWNER="sandeepmothukuri"
