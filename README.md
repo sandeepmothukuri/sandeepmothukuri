@@ -180,6 +180,10 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 <!-- LAB-AGGREGATE END -->
 </p>
 
+<!-- PORTFOLIO-PULSE START -->
+<sub>📡 Portfolio Pulse loading…</sub>
+<!-- PORTFOLIO-PULSE END -->
+
 <!-- TOP-REPO START -->
 <p align="center">
 <sub>🏆 <b>Top repositories this week</b> · ranked by views and clones</sub><br>
