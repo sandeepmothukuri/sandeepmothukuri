@@ -238,6 +238,12 @@ def render_portfolio_pulse(hist: dict) -> str:
         latest(rows, "stars") - int(rows[max(0, len(rows) - 8)].get("stars", latest(rows, "stars")))
         for rows in series
     )
+    release_downloads = sum(latest(rows, "release_downloads") for rows in series)
+    release_downloads_7d = sum(
+        latest(rows, "release_downloads")
+        - int(rows[max(0, len(rows) - 8)].get("release_downloads", latest(rows, "release_downloads")))
+        for rows in series
+    )
     conversion = (clones_7d / views_7d * 100) if views_7d else 0.0
 
     freshest_date = max(str(rows[-1].get("date", "")) for rows in series)
@@ -255,6 +261,7 @@ def render_portfolio_pulse(hist: dict) -> str:
             badge("7d clones", f"{clones_7d:,} ({signed(clones_7d - clones_prev_7d)} vs prev)", "36d1dc"),
             badge("Clone conversion", f"{conversion:.1f}%", "a371f7"),
             badge("New stars", signed(new_stars), "ffcf5a"),
+            badge("Release downloads", f"{release_downloads:,} ({signed(release_downloads_7d)} / 7d)", "ff8c42"),
             badge("Metric health", f"🟢 {synced}/{len(series)} labs synced", health_color),
         ])
         + '\n</p>'
