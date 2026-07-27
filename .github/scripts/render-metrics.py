@@ -224,6 +224,43 @@ def render_public_repos_block() -> str:
     return "  " + badge("Public repos", str(n), "a371f7")
 
 
+def render_portfolio_pulse(hist: dict) -> str:
+    """Render a compact, seven-day portfolio performance summary."""
+    series = [rows for rows in hist.get("repos", {}).values() if rows]
+    if not series:
+        return "<sub>📡 Portfolio Pulse warming up — first snapshot pending.</sub>"
+
+    views_7d = sum(last_n_sum(rows, "views", 7) for rows in series)
+    clones_7d = sum(last_n_sum(rows, "clones", 7) for rows in series)
+    views_prev_7d = sum(sum(int(row.get("views", 0) or 0) for row in rows[-14:-7]) for rows in series)
+    clones_prev_7d = sum(sum(int(row.get("clones", 0) or 0) for row in rows[-14:-7]) for rows in series)
+    new_stars = sum(
+        latest(rows, "stars") - int(rows[max(0, len(rows) - 8)].get("stars", latest(rows, "stars")))
+        for rows in series
+    )
+    conversion = (clones_7d / views_7d * 100) if views_7d else 0.0
+
+    freshest_date = max(str(rows[-1].get("date", "")) for rows in series)
+    synced = sum(1 for rows in series if str(rows[-1].get("date", "")) == freshest_date)
+    health_color = "3fb950" if synced == len(series) else "ffcf5a"
+
+    def signed(value: int) -> str:
+        return f"+{value:,}" if value >= 0 else f"{value:,}"
+
+    return (
+        '<p align="center">\n'
+        '<sub>📡 <b>Portfolio Pulse</b> · last 7 days</sub><br>\n'
+        + "  ".join([
+            badge("7d views", f"{views_7d:,} ({signed(views_7d - views_prev_7d)} vs prev)", "3fb950"),
+            badge("7d clones", f"{clones_7d:,} ({signed(clones_7d - clones_prev_7d)} vs prev)", "36d1dc"),
+            badge("Clone conversion", f"{conversion:.1f}%", "a371f7"),
+            badge("New stars", signed(new_stars), "ffcf5a"),
+            badge("Metric health", f"🟢 {synced}/{len(series)} labs synced", health_color),
+        ])
+        + '\n</p>'
+    )
+
+
 def render_top_repo_block(hist: dict) -> str:
     """Render the top three labs by seven-day engagement as a linked badge bar."""
     ranked: list[tuple[int, str, int, int]] = []
@@ -282,6 +319,7 @@ def main() -> int:
     text = replace_block(text, "PROFILE-VIEWS", render_profile_block(hist))
     text = replace_block(text, "PUBLIC-REPOS", render_public_repos_block())
     text = replace_block(text, "LAB-AGGREGATE", render_aggregate_block(hist))
+    text = replace_block(text, "PORTFOLIO-PULSE", render_portfolio_pulse(hist))
     text = replace_block(text, "GREETING", render_greeting_block())
     text = replace_block(text, "STATUS", render_status_block())
     commits_yr, streak = fetch_github_activity()
