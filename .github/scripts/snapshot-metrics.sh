@@ -17,6 +17,8 @@ REPOS=(
   "soc-threat-hunting-lab"
   "Autonomous-SOC-Lab"
   "cyberblue"
+  "Enterprise-Detection-Engineering-SOC-Lab"
+  "PromptSentinel"
 )
 
 mkdir -p metrics
@@ -49,7 +51,7 @@ for repo in "${REPOS[@]}"; do
   meta_json="$(gh api  -H 'Accept: application/vnd.github+json' "/repos/${OWNER}/${repo}"                  2>/dev/null || echo '{}')"
 
   # Yesterday's complete daily bucket (today's is partial).
-  # Note: `first.count` would parse as `.first.count` in jq — must use `.[0].count`.
+  # Note: first.count would parse as .first.count in jq — must use .[0].count.
   v_daily=$(echo "$views_json"  | jq --arg d "$YESTERDAY" '[.views[]  | select(.timestamp | startswith($d))] | (.[0].count    // 0)')
   v_uniq=$(echo  "$views_json"  | jq --arg d "$YESTERDAY" '[.views[]  | select(.timestamp | startswith($d))] | (.[0].uniques  // 0)')
   c_daily=$(echo "$clones_json" | jq --arg d "$YESTERDAY" '[.clones[] | select(.timestamp | startswith($d))] | (.[0].count    // 0)')
