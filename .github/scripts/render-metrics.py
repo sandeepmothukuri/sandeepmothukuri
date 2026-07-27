@@ -225,23 +225,32 @@ def render_public_repos_block() -> str:
 
 
 def render_top_repo_block(hist: dict) -> str:
-    best, best_score = None, -1
+    """Render the top three labs by seven-day engagement as a linked badge bar."""
+    ranked: list[tuple[int, str, int, int]] = []
     for repo, rows in hist.get("repos", {}).items():
-        score = sum(int(r.get("views", 0)) + int(r.get("clones", 0)) * 3 for r in rows[-7:])
-        if score > best_score:
-            best, best_score = repo, score
-    if not best:
-        return "<sub>Spotlight pending — first week of data still collecting.</sub>"
-    rows = hist["repos"][best]
-    v7 = sum(int(r.get("views", 0))  for r in rows[-7:])
-    c7 = sum(int(r.get("clones", 0)) for r in rows[-7:])
-    stars = int(rows[-1].get("stars", 0)) if rows else 0
+        if not rows:
+            continue
+        views = sum(int(row.get("views", 0) or 0) for row in rows[-7:])
+        clones = sum(int(row.get("clones", 0) or 0) for row in rows[-7:])
+        ranked.append((views + clones * 3, repo, views, clones))
+
+    if not ranked:
+        return "<sub>Leaderboard pending — first week of data still collecting.</sub>"
+
+    ranked.sort(key=lambda row: (-row[0], row[1].lower()))
+    badges = []
+    for rank, (_, repo, views, clones) in enumerate(ranked[:3], start=1):
+        metric = f"{views} views · {clones} clones"
+        badges.append(
+            f'<a href="https://github.com/{OWNER}/{repo}">'
+            f'{badge(f"#{rank} {repo}", metric, "1f6feb")}</a>'
+        )
+
     return (
-        f'<table align="center"><tr><td align="center">\n'
-        f'<sub>🌟 <b>Top repo this week</b></sub><br>\n'
-        f'<a href="https://github.com/{OWNER}/{best}"><b>{best}</b></a><br>\n'
-        f'<sub>{v7} views · {c7} clones · ⭐ {stars} stars (last 7 days)</sub>\n'
-        f'</td></tr></table>'
+        '<p align="center">\n'
+        '<sub>🏆 <b>Top repositories this week</b> · ranked by views and clones</sub><br>\n'
+        + "  ".join(badges)
+        + '\n</p>'
     )
 
 
