@@ -4848,6 +4848,28 @@
         "stars": 1,
         "forks": 0
       }
+    ],
+    "Enterprise-Detection-Engineering-SOC-Lab": [
+      {
+        "date": "2026-07-27",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 7,
+        "forks": 1
+      }
+    ],
+    "PromptSentinel": [
+      {
+        "date": "2026-07-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      }
     ]
   }
 }
