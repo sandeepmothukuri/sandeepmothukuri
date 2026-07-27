@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-36d1dc?style=flat-square&labelColor=132f4c">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9F%A2%20On--shift%20%C2%B7%20UK%2014%3A27%20BST-3fb950?style=flat-square&labelColor=132f4c" alt="Status: 🟢 On-shift · UK 14:27 BST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9F%A2%20On--shift%20%C2%B7%20UK%2014%3A32%20BST-3fb950?style=flat-square&labelColor=132f4c" alt="Status: 🟢 On-shift · UK 14:32 BST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -181,11 +181,10 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 </p>
 
 <!-- TOP-REPO START -->
-<table align="center"><tr><td align="center">
-<sub>🌟 <b>Top repo this week</b></sub><br>
-<a href="https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0"><b>advanced-soc-lab-v2.0</b></a><br>
-<sub>66 views · 9 clones · ⭐ 7 stars (last 7 days)</sub>
-</td></tr></table>
+<p align="center">
+<sub>🏆 <b>Top repositories this week</b> · ranked by views and clones</sub><br>
+<a href="https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0"><img src="https://img.shields.io/badge/%231%20advanced--soc--lab--v2.0-66%20views%20%C2%B7%209%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#1 advanced-soc-lab-v2.0: 66 views · 9 clones"></a>  <a href="https://github.com/sandeepmothukuri/ai-soc-lab"><img src="https://img.shields.io/badge/%232%20ai--soc--lab-31%20views%20%C2%B7%203%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#2 ai-soc-lab: 31 views · 3 clones"></a>  <a href="https://github.com/sandeepmothukuri/soc-lab"><img src="https://img.shields.io/badge/%233%20soc--lab-13%20views%20%C2%B7%204%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#3 soc-lab: 13 views · 4 clones"></a>
+</p>
 <!-- TOP-REPO END -->
 
 <table>
