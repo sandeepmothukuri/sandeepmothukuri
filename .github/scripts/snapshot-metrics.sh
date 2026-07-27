@@ -50,6 +50,7 @@ for repo in "${REPOS[@]}"; do
   views_json="$(gh api -H 'Accept: application/vnd.github+json' "/repos/${OWNER}/${repo}/traffic/views"  2>/dev/null || echo '{"views":[]}')"
   clones_json="$(gh api -H 'Accept: application/vnd.github+json' "/repos/${OWNER}/${repo}/traffic/clones" 2>/dev/null || echo '{"clones":[]}')"
   meta_json="$(gh api  -H 'Accept: application/vnd.github+json' "/repos/${OWNER}/${repo}"                  2>/dev/null || echo '{}')"
+  release_json="$(gh api --paginate --slurp -H 'Accept: application/vnd.github+json' "/repos/${OWNER}/${repo}/releases?per_page=100" 2>/dev/null || echo '[]')"
 
   # Yesterday's complete daily bucket (today's is partial).
   # Note: first.count would parse as .first.count in jq — must use .[0].count.
@@ -59,10 +60,20 @@ for repo in "${REPOS[@]}"; do
   c_uniq=$(echo  "$clones_json" | jq --arg d "$YESTERDAY" '[.clones[] | select(.timestamp | startswith($d))] | (.[0].uniques  // 0)')
   stars=$(echo "$meta_json" | jq -r '.stargazers_count // 0')
   forks=$(echo "$meta_json" | jq -r '.forks_count      // 0')
+  release_downloads=$(echo "$release_json" | jq '[.[][]?.assets[]?.download_count // 0] | add // 0')
 
   already="$(jq --arg r "$repo" --arg d "$TODAY" '[.repos[$r][]? | select(.date==$d)] | length' "$HIST")"
   if [[ "$already" != "0" ]]; then
-    echo "$repo: $TODAY already present, skipping"
+    has_release_downloads="$(jq --arg r "$repo" --arg d "$TODAY" '[.repos[$r][]? | select(.date==$d) | has("release_downloads")] | any' "$HIST")"
+    if [[ "$has_release_downloads" == "true" ]]; then
+      echo "$repo: $TODAY already present, skipping"
+    else
+      tmp="$(mktemp)"
+      jq --arg r "$repo" --arg d "$TODAY" --argjson rd "$release_downloads" \
+        '(.repos[$r] |= map(if .date == $d then .release_downloads = $rd else . end))' \
+        "$HIST" > "$tmp" && mv "$tmp" "$HIST"
+      echo "$repo: added release_downloads=$release_downloads to today's snapshot"
+    fi
     continue
   fi
 
@@ -70,10 +81,10 @@ for repo in "${REPOS[@]}"; do
   jq --arg r "$repo" --arg d "$TODAY" \
      --argjson v "$v_daily" --argjson vu "$v_uniq" \
      --argjson c "$c_daily" --argjson cu "$c_uniq" \
-     --argjson s "$stars"   --argjson f  "$forks" \
-     '.repos[$r] = ((.repos[$r] // []) + [{"date":$d,"views":$v,"unique":$vu,"clones":$c,"unique_cloners":$cu,"stars":$s,"forks":$f}])' \
+     --argjson s "$stars"   --argjson f  "$forks" --argjson rd "$release_downloads" \
+     '.repos[$r] = ((.repos[$r] // []) + [{"date":$d,"views":$v,"unique":$vu,"clones":$c,"unique_cloners":$cu,"stars":$s,"forks":$f,"release_downloads":$rd}])' \
      "$HIST" > "$tmp" && mv "$tmp" "$HIST"
-  echo "$repo: appended views=$v_daily clones=$c_daily stars=$stars forks=$forks"
+  echo "$repo: appended views=$v_daily clones=$c_daily stars=$stars forks=$forks release_downloads=$release_downloads"
 done
 
 echo "Snapshot complete."
