@@ -318,3 +318,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+# Leaderboard refresh trigger: configuration changes start an immediate run.
