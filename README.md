@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-36d1dc?style=flat-square&labelColor=132f4c">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9F%A2%20On--shift%20%C2%B7%20UK%2014%3A32%20BST-3fb950?style=flat-square&labelColor=132f4c" alt="Status: 🟢 On-shift · UK 14:32 BST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9F%A2%20On--shift%20%C2%B7%20UK%2014%3A46%20BST-3fb950?style=flat-square&labelColor=132f4c" alt="Status: 🟢 On-shift · UK 14:46 BST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -38,7 +38,7 @@
 <!-- PUBLIC-REPOS END -->
   <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
   <!-- DAYS-COUNTER START -->
-  <img src="https://img.shields.io/badge/Commits-222%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 222 this year">  <img src="https://img.shields.io/badge/Streak-0%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 0 days">
+  <img src="https://img.shields.io/badge/Commits-227%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 227 this year">  <img src="https://img.shields.io/badge/Streak-1%20day-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 1 day">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
   <img src="https://img.shields.io/badge/Profile%20views-175-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 175">
@@ -181,7 +181,10 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 </p>
 
 <!-- PORTFOLIO-PULSE START -->
-<sub>📡 Portfolio Pulse loading…</sub>
+<p align="center">
+<sub>📡 <b>Portfolio Pulse</b> · last 7 days</sub><br>
+<img src="https://img.shields.io/badge/7d%20views-132%20%28--59%20vs%20prev%29-3fb950?style=flat-square&labelColor=132f4c" alt="7d views: 132 (-59 vs prev)">  <img src="https://img.shields.io/badge/7d%20clones-29%20%28--5%20vs%20prev%29-36d1dc?style=flat-square&labelColor=132f4c" alt="7d clones: 29 (-5 vs prev)">  <img src="https://img.shields.io/badge/Clone%20conversion-22.0%25-a371f7?style=flat-square&labelColor=132f4c" alt="Clone conversion: 22.0%">  <img src="https://img.shields.io/badge/New%20stars-%2B1-ffcf5a?style=flat-square&labelColor=132f4c" alt="New stars: +1">  <img src="https://img.shields.io/badge/Metric%20health-%F0%9F%9F%A2%209/9%20labs%20synced-3fb950?style=flat-square&labelColor=132f4c" alt="Metric health: 🟢 9/9 labs synced">
+</p>
 <!-- PORTFOLIO-PULSE END -->
 
 <!-- TOP-REPO START -->
