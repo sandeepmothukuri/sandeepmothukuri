@@ -11,6 +11,7 @@ on:
     branches: [main]
     paths:
       - .github/scripts/snapshot-metrics.sh
+      - .github/scripts/render-metrics.py
 
 permissions:
   contents: write
