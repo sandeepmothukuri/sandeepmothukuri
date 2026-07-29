@@ -446,14 +446,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-60296`](https://nvd.nist.gov/vuln/detail/CVE-2026-60296) |
+| **CVE ID** | [`CVE-2026-65590`](https://nvd.nist.gov/vuln/detail/CVE-2026-65590) |
 | **CVSS v3.1** | `9.8` (CRITICAL) |
 | **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| **Published** | 2026-07-21 |
+| **Published** | 2026-07-22 |
 
-> Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and  15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via TCP to compromise Oracle Coherence.  Successful attacks of this vulnerability can result in takeover of …
+> n8n before 2.29.8 and 2.30.x before 2.30.1 does not enforce shell sandbox restrictions on Linux and Windows in the @n8n/computer-use package (sandboxing was applied only on macOS). Shell commands executed by the tool run without any filesystem or network restrictions, allowing unrestricted access to the host filesystem and network from within the computer-use agent process. Thi…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-28 11:56 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-29 11:58 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
