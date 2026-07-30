@@ -459,21 +459,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-29 11:58 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-07-29 11:21 UTC_
+_Last refresh: 2026-07-30 11:03 UTC_
 
 **The Hacker News**
 
-- [Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity](https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html)
-- [Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass](https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html)
-- [OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach](https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html)
-- [New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands](https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html)
+- [Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts](https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html)
+- [SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT](https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html)
+- [Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation](https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html)
+- [FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks](https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html)
 
 **BleepingComputer**
 
-- [These near-mint ASUS Chromebook refurbs are only $145](https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/)
-- [CubePilot drone software dev hit by DNS hijacking to intercept traffic](https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/)
-- [OpenAI models used Artifactory zero-days to escape to the internet](https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/)
-- [CISA shares advice on isolating vital systems during cyberattacks](https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/)
+- [Russian hackers exploit Exchange OWA zero-day for long-term mailbox access](https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/)
+- [Anthropic confirms Claude is down worldwide](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/)
+- [Cisco warns of FMC static credential flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/)
+- [Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare](https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/)
 
 **Krebs on Security**
 
