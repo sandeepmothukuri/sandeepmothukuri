@@ -374,6 +374,11 @@
       "date": "2026-07-30",
       "total": 183,
       "daily": 1
+    },
+    {
+      "date": "2026-07-31",
+      "total": 184,
+      "daily": 1
     }
   ],
   "repos": {
@@ -1044,6 +1049,16 @@
         "unique": 9,
         "clones": 5,
         "unique_cloners": 3,
+        "stars": 7,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 16,
+        "unique": 8,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 7,
         "forks": 1,
         "release_downloads": 0
@@ -1719,6 +1734,16 @@
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "soc-lab": [
@@ -2385,6 +2410,16 @@
       {
         "date": "2026-07-30",
         "views": 4,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 5,
         "unique": 3,
         "clones": 0,
         "unique_cloners": 0,
@@ -3063,6 +3098,16 @@
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "soc-threat-hunting-lab": [
@@ -3730,6 +3775,16 @@
         "date": "2026-07-30",
         "views": 2,
         "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 1,
+        "unique": 1,
         "clones": 0,
         "unique_cloners": 0,
         "stars": 1,
@@ -4407,6 +4462,16 @@
         "stars": 2,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 2,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "cyberblue": [
@@ -5079,6 +5144,16 @@
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "Enterprise-Detection-Engineering-SOC-Lab": [
@@ -5121,6 +5196,16 @@
         "stars": 7,
         "forks": 1,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 16,
+        "unique": 8,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 7,
+        "forks": 1,
+        "release_downloads": 0
       }
     ],
     "PromptSentinel": [
@@ -5158,6 +5243,16 @@
         "date": "2026-07-30",
         "views": 3,
         "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 0,
+        "unique": 0,
         "clones": 0,
         "unique_cloners": 0,
         "stars": 1,
