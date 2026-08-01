@@ -446,14 +446,18 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-18452`](https://nvd.nist.gov/vuln/detail/CVE-2026-18452) |
-| **CVSS v3.1** | `10.0` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
-| **Published** | 2026-07-31 |
+| **CVE ID** | [`CVE-2026-55971`](https://nvd.nist.gov/vuln/detail/CVE-2026-55971) |
+| **CVSS v3.1** | `9.8` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
+| **Published** | 2026-07-27 |
 
-> DMS+ (Non-Mobile) developed by Rich Source has a Use of Hard-coded Credentials vulnerability. Unauthenticated remote attackers can exploit a fixed API key to gain control over all installed DMS+ devices.…
+> Heap-based Buffer Overflow vulnerability in Apache Thrift C++ bindings.
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-07-31 11:57 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+This issue affects Apache Thrift: before 0.24.0.
+
+Users are recommended to upgrade to version 0.24.0, which fixes the issue.…
+
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-01 11:14 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
