@@ -459,21 +459,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-04 12:00 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-08-04 11:20 UTC_
+_Last refresh: 2026-08-05 11:16 UTC_
 
 **The Hacker News**
 
-- [New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root](https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html)
-- [DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT](https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html)
-- [CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises](https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html)
-- [18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users](https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html)
+- [Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data](https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html)
+- [Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself](https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html)
+- [CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited](https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html)
+- [QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer](https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html)
 
 **BleepingComputer**
 
-- [Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts](https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/)
-- [New Pass-ta-key attacks let malware hijack Google-synced passkeys](https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/)
-- [New DOUBLECUP ClickFix service hides malware in browser cache images](https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/)
-- [Fake Roblox Xeno script launcher pushes infostealer, RAT malware](https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/)
+- [OpenAI, Anthropic AI agents targeted real people and systems in cyber tests](https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/)
+- [TP-Link patches Omada ZTP flaws allowing hackers to breach networks](https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/)
+- [Phishing service spoofs RingCentral to steal Microsoft 365 accounts](https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/)
+- [New XCSSET variant targets macOS devs via compromised Xcode projects](https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/)
 
 **Krebs on Security**
 
