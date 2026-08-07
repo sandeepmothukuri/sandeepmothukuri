@@ -446,14 +446,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-70615`](https://nvd.nist.gov/vuln/detail/CVE-2026-70615) |
-| **CVSS v3.1** | `9.9` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H` |
-| **Published** | 2026-08-05 |
+| **CVE ID** | [`CVE-2026-63508`](https://nvd.nist.gov/vuln/detail/CVE-2026-63508) |
+| **CVSS v3.1** | `10.0` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N` |
+| **Published** | 2026-08-07 |
 
-> boringproxy through 0.10.0 contains a newline injection vulnerability that allows authenticated low-privileged users with tunnel-creation permission to inject arbitrary lines into the server account's SSH authorized_keys file by supplying a percent-encoded newline character in the domain parameter of the tunnel creation endpoint. Attackers can insert an unrestricted public key …
+> Missing authentication for critical function in Microsoft Planetary Computer Pro allows an unauthorized attacker to elevate privileges over a network.…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-06 12:00 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-07 10:50 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
