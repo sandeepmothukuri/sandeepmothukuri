@@ -459,28 +459,28 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-11 10:47 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-08-11 09:55 UTC_
+_Last refresh: 2026-08-12 09:57 UTC_
 
 **The Hacker News**
 
-- [Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine](https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html)
-- [BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins](https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html)
-- [Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development](https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html)
-- [China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw](https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html)
+- [Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access](https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html)
+- [Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations](https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html)
+- [SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code](https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html)
+- [ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access](https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html)
 
 **BleepingComputer**
 
-- [US and South Korea warn of Gunra ransomware targeting govt agencies](https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/)
-- [Hackers breached a small Polish energy plant via private APN last year](https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/)
-- [BdThemes plugins supply-chain hack creates rogue WordPress admins](https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/)
-- [OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users](https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/)
+- [Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse](https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/)
+- [DeadLock ransomware uses blockchain to resist infrastructure takedown](https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/)
+- [Sandworm hackers target IT pros with trojanized WireGuard VPN client](https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/)
+- [Cisco warns of ASA and FTD VPN flaw exploited to crash devices](https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/)
 
 **Krebs on Security**
 
+- [Microsoft Plugs Nearly 400 Security Holes](https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/)
 - [Canadian Man Pleads Guilty in Snowflake Extortions](https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/)
 - [Read This Before You Buy That TV Streaming Stick](https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/)
 - [LG to Ban Residential Proxies from Smart TV Apps](https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/)
-- [Microsoft Patches a Record 570 Security Flaws](https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/)
 
 > Headlines pulled from public RSS feeds. Not endorsements — just situational awareness.
 <!-- SECURITY-NEWS-END -->
