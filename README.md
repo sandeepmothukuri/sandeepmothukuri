@@ -459,7 +459,7 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-16 10:19 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-08-16 09:22 UTC_
+_Last refresh: 2026-08-17 09:36 UTC_
 
 **The Hacker News**
 
@@ -470,10 +470,10 @@ _Last refresh: 2026-08-16 09:22 UTC_
 
 **BleepingComputer**
 
-- [New Evooo1Bot Linux botnet turns routers into traffic relay nodes](https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/)
-- [How Anthropic plans to watermark Claude's AI-generated text](https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/)
-- [Hackers arrested over €30M bank fraud exploiting service provider flaw](https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/)
-- [Hackers exploit macOS Screen Sharing flaw to deploy Monero miner](https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/)
+- [Microsoft working on Defender patch for ShieldBreak zero-day](https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/)
+- [SafePal data breach impacts 39,798 customers, stolen info for sale](https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/)
+- [Anthropic confirms Claude is down in major outage affecting multiple services](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/)
+- [Large-scale DDoS attacks disrupted Threema secure messaging service](https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/)
 
 **Krebs on Security**
 
