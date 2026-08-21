@@ -446,14 +446,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-75784`](https://nvd.nist.gov/vuln/detail/CVE-2026-75784) |
+| **CVE ID** | [`CVE-2026-61241`](https://nvd.nist.gov/vuln/detail/CVE-2026-61241) |
 | **CVSS v3.1** | `10.0` (CRITICAL) |
 | **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
 | **Published** | 2026-08-18 |
 
-> A vulnerability was detected in TRENDnet TEW-WLC100 1v2.07b01. Affected by this issue is the function FUN_0040da4c of the file /usr/nginx/sbin/nginx of the component HTTP Header Handler. The manipulation of the argument Server results in stack-based buffer overflow. The attack may be launched remotely. The exploit is now public and may be used.…
+> Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP Server).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Internet Directory.  While the vulnerability is in Oracle Internet Directory, atta…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-20 10:26 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-21 10:27 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
