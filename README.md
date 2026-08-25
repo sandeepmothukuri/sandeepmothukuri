@@ -459,21 +459,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-24 10:34 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-08-24 09:41 UTC_
+_Last refresh: 2026-08-25 09:30 UTC_
 
 **The Hacker News**
 
-- [UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit](https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html)
-- [TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit](https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html)
-- [14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2](https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html)
-- [Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot](https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html)
+- [Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data](https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html)
+- [Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt](https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html)
+- [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
+- [⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More](https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html)
 
 **BleepingComputer**
 
-- [ToxicPanda Android malware uses VPN permissions to block Google Play](https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/)
-- [Hackers infect Android car head units with proxy botnet malware](https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/)
-- [Named Pipes Under Attack: Securing Windows Interprocess Communication](https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/)
-- [New SynkLoader malware pushed in Microsoft Teams phishing campaign](https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/)
+- [Unpatched Calix flaw lets hackers bypass NAT to expose internal devices](https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/)
+- [Hackers target WordPress sites in miniOrange auth bypass attacks](https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/)
+- [TikTok reaches $400M settlement with US over COPPA violations](https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/)
+- [ReliaQuest confirms failed data-theft attack after ShinyHunters breach](https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/)
 
 **Krebs on Security**
 
