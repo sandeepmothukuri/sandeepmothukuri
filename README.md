@@ -446,14 +446,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | Field | Value |
 |---|---|
-| **CVE ID** | [`CVE-2026-62608`](https://nvd.nist.gov/vuln/detail/CVE-2026-62608) |
-| **CVSS v3.1** | `9.9` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H` |
-| **Published** | 2026-08-18 |
+| **CVE ID** | [`CVE-2026-77946`](https://nvd.nist.gov/vuln/detail/CVE-2026-77946) |
+| **CVSS v3.1** | `10.0` (CRITICAL) |
+| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` |
+| **Published** | 2026-08-22 |
 
-> Vulnerability in the Oracle Reports Developer product of Oracle Fusion Middleware (component: Security and Authentication).   The supported version that is affected is 12.2.1.19.0. Easily exploitable vulnerability allows low privileged attacker with network access via CORBA to compromise Oracle Reports Developer.  While the vulnerability is in Oracle Reports Developer, attacks …
+> A vulnerability was determined in TRENDnet TEW-821DAP 2.2.01b05. Affected by this vulnerability is the function uci_safe_get of the file /cgi-bin/apply_time.cgi of the component NTP Timezone Configuration Handler. Executing a manipulation of the argument system.ntp.server/system.ntp.enable_server/cameo.time.time_zone/cameo.cameo.syslog_server can lead to stack-based buffer over…
 
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-25 10:29 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-26 10:32 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- SECURITY-NEWS-START -->
