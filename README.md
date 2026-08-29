@@ -459,21 +459,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-08-28 21:04 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-08-28 20:38 UTC_
+_Last refresh: 2026-08-29 14:07 UTC_
 
 **The Hacker News**
 
+- [Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network](https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html)
+- [Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable](https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html)
 - [Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication](https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html)
 - [Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers](https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html)
-- [ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body](https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html)
-- [19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code](https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html)
 
 **BleepingComputer**
 
+- [McKesson discloses breach after ShinyHunters claims patient data theft](https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/)
 - [PaperCut releases second emergency patch for exploited flaws](https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/)
 - [GiveWP WordPress donation plugin flaw lets hackers execute server commands](https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/)
 - [68-year-old imprisoned after making $1.3 million by pirating IPTV services](https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/)
-- [AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?](https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/)
 
 **Krebs on Security**
 
