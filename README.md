@@ -396,8 +396,6 @@ index=wineventlog EventCode=5140
   <img src="https://img.shields.io/badge/CompTIA%20A%2B-f85149?style=flat-square&labelColor=132f4c">
 </p>
 
-<sub>Cert order: senior/specialty first, foundational at the end. Update if you hold different titles — e.g. CSAP, GSEC, OSCP, AZ-500, AWS Security.</sub>
-
 ## 📊 Live GitHub Stats
 
 <p align="center">
