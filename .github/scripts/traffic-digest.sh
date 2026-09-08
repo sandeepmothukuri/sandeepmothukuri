@@ -4,9 +4,9 @@
 set -euo pipefail
 
 REPOS=(
-  "advanced-soc-lab-v2.0"
-  "ai-soc-lab"
-  "soc-lab"
+  "Enterprise-Detection-Engineering-SOC-Lab"
+  "AI-Augmented-SOC-Lab"
+  "SOC-Detection-and-Threat-Hunting-Lab"
   "soc-lab-free"
   "soc-threat-hunting-lab"
   "Autonomous-SOC-Lab"

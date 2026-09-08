@@ -35,11 +35,11 @@ TIMEOUT = 20
 # Curated subset chosen to cover diverse MITRE tactics across all 4 labs.
 CURATED = [
     # (repo, path, branch)
-    ("advanced-soc-lab-v2.0", "config/elastalert2/rules/T1003_credential_dump.yml", "main"),
-    ("advanced-soc-lab-v2.0", "config/elastalert2/rules/T1110_brute_force.yml",     "main"),
-    ("advanced-soc-lab-v2.0", "config/elastalert2/rules/T1059_powershell.yml",      "main"),
-    ("advanced-soc-lab-v2.0", "config/elastalert2/rules/T1557_responder.yml",       "main"),
-    ("advanced-soc-lab-v2.0", "config/elastalert2/rules/network_c2_beacon.yml",     "main"),
+    ("Enterprise-Detection-Engineering-SOC-Lab", "config/elastalert2/rules/T1003_credential_dump.yml", "main"),
+    ("Enterprise-Detection-Engineering-SOC-Lab", "config/elastalert2/rules/T1110_brute_force.yml",     "main"),
+    ("Enterprise-Detection-Engineering-SOC-Lab", "config/elastalert2/rules/T1059_powershell.yml",      "main"),
+    ("Enterprise-Detection-Engineering-SOC-Lab", "config/elastalert2/rules/T1557_responder.yml",       "main"),
+    ("Enterprise-Detection-Engineering-SOC-Lab", "config/elastalert2/rules/network_c2_beacon.yml",     "main"),
     ("sentinel-detection-engine", "Detections/EntraID_ImpossibleTravel.yaml",        "main"),
     ("sentinel-detection-engine", "Detections/EntraID_MFAFatigue.yaml",              "main"),
     ("sentinel-detection-engine", "Detections/M365_MassSharePointDownload.yaml",     "main"),

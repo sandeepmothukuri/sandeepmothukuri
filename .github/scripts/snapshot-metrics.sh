@@ -11,9 +11,8 @@ YESTERDAY="$(date -u -d 'yesterday' +'%Y-%m-%d')"
 HIST="metrics/history.json"
 
 REPOS=(
-  "advanced-soc-lab-v2.0"
-  "ai-soc-lab"
-  "soc-lab"
+  "AI-Augmented-SOC-Lab"
+  "SOC-Detection-and-Threat-Hunting-Lab"
   "soc-lab-free"
   "soc-threat-hunting-lab"
   "Autonomous-SOC-Lab"
