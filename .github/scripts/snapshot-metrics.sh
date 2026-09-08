@@ -11,15 +11,16 @@ YESTERDAY="$(date -u -d 'yesterday' +'%Y-%m-%d')"
 HIST="metrics/history.json"
 
 REPOS=(
-  "advanced-soc-lab-v2.0"
-  "ai-soc-lab"
-  "soc-lab"
+  "Enterprise-Detection-Engineering-SOC-Lab"
+  "AI-Augmented-SOC-Lab"
+  "SOC-Detection-and-Threat-Hunting-Lab"
   "soc-lab-free"
   "soc-threat-hunting-lab"
   "Autonomous-SOC-Lab"
   "cyberblue"
-  "Enterprise-Detection-Engineering-SOC-Lab"
   "PromptSentinel"
+  "PromptShield"
+  "sentinel-detection-engine"
 )
 
 mkdir -p metrics

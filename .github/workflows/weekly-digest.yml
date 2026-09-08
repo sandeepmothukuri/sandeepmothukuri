@@ -18,7 +18,7 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
       OWNER: sandeepmothukuri
-      REPOS: "advanced-soc-lab-v2.0 ai-soc-lab soc-lab soc-lab-free soc-threat-hunting-lab Autonomous-SOC-Lab cyberblue"
+      REPOS: "Enterprise-Detection-Engineering-SOC-Lab AI-Augmented-SOC-Lab SOC-Detection-and-Threat-Hunting-Lab soc-lab-free soc-threat-hunting-lab Autonomous-SOC-Lab cyberblue PromptSentinel PromptShield sentinel-detection-engine"
     steps:
       - name: Build digest
         run: |

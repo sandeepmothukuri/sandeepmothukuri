@@ -176,21 +176,21 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 
 <p align="center">
 <!-- LAB-AGGREGATE START -->
-  <img src="https://img.shields.io/badge/Total%20lab%20clones-138%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 138 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-1%2C080%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 1,080 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-29-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 29">  <img src="https://img.shields.io/badge/Total%20forks-2-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 2">  <img src="https://img.shields.io/badge/Labs%20tracked-9-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 9">
+  <img src="https://img.shields.io/badge/Total%20lab%20clones-85%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 85 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-484%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 484 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-17-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 17">  <img src="https://img.shields.io/badge/Total%20forks-1-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 1">  <img src="https://img.shields.io/badge/Labs%20tracked-6-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 6">
 <!-- LAB-AGGREGATE END -->
 </p>
 
 <!-- PORTFOLIO-PULSE START -->
 <p align="center">
 <sub>📡 <b>Portfolio Pulse</b> · last 7 days</sub><br>
-<img src="https://img.shields.io/badge/7d%20views-279%20%28%2B9%20vs%20prev%29-3fb950?style=flat-square&labelColor=132f4c" alt="7d views: 279 (+9 vs prev)">  <img src="https://img.shields.io/badge/7d%20clones-47%20%28%2B9%20vs%20prev%29-36d1dc?style=flat-square&labelColor=132f4c" alt="7d clones: 47 (+9 vs prev)">  <img src="https://img.shields.io/badge/Clone%20conversion-16.8%25-a371f7?style=flat-square&labelColor=132f4c" alt="Clone conversion: 16.8%">  <img src="https://img.shields.io/badge/New%20stars-%2B0-ffcf5a?style=flat-square&labelColor=132f4c" alt="New stars: +0">  <img src="https://img.shields.io/badge/Release%20downloads-0%20%28%2B0%20/%207d%29-ff8c42?style=flat-square&labelColor=132f4c" alt="Release downloads: 0 (+0 / 7d)">  <img src="https://img.shields.io/badge/Metric%20health-%F0%9F%9F%A2%209/9%20labs%20synced-3fb950?style=flat-square&labelColor=132f4c" alt="Metric health: 🟢 9/9 labs synced">
+<img src="https://img.shields.io/badge/7d%20views-124%20%28--20%20vs%20prev%29-3fb950?style=flat-square&labelColor=132f4c" alt="7d views: 124 (-20 vs prev)">  <img src="https://img.shields.io/badge/7d%20clones-31%20%28%2B7%20vs%20prev%29-36d1dc?style=flat-square&labelColor=132f4c" alt="7d clones: 31 (+7 vs prev)">  <img src="https://img.shields.io/badge/Clone%20conversion-25.0%25-a371f7?style=flat-square&labelColor=132f4c" alt="Clone conversion: 25.0%">  <img src="https://img.shields.io/badge/New%20stars-%2B0-ffcf5a?style=flat-square&labelColor=132f4c" alt="New stars: +0">  <img src="https://img.shields.io/badge/Release%20downloads-0%20%28%2B0%20/%207d%29-ff8c42?style=flat-square&labelColor=132f4c" alt="Release downloads: 0 (+0 / 7d)">  <img src="https://img.shields.io/badge/Metric%20health-%F0%9F%9F%A2%206/6%20labs%20synced-3fb950?style=flat-square&labelColor=132f4c" alt="Metric health: 🟢 6/6 labs synced">
 </p>
 <!-- PORTFOLIO-PULSE END -->
 
 <!-- TOP-REPO START -->
 <p align="center">
 <sub>🏆 <b>Top repositories this week</b> · ranked by views and clones</sub><br>
-<a href="https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0"><img src="https://img.shields.io/badge/%231%20advanced--soc--lab--v2.0-91%20views%20%C2%B7%2012%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#1 advanced-soc-lab-v2.0: 91 views · 12 clones"></a>  <a href="https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab"><img src="https://img.shields.io/badge/%232%20Enterprise--Detection--Engineering--SOC--Lab-91%20views%20%C2%B7%2012%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#2 Enterprise-Detection-Engineering-SOC-Lab: 91 views · 12 clones"></a>  <a href="https://github.com/sandeepmothukuri/ai-soc-lab"><img src="https://img.shields.io/badge/%233%20ai--soc--lab-57%20views%20%C2%B7%202%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#3 ai-soc-lab: 57 views · 2 clones"></a>
+<a href="https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab"><img src="https://img.shields.io/badge/%231%20Enterprise--Detection--Engineering--SOC--Lab-91%20views%20%C2%B7%2012%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#1 Enterprise-Detection-Engineering-SOC-Lab: 91 views · 12 clones"></a>  <a href="https://github.com/sandeepmothukuri/Autonomous-SOC-Lab"><img src="https://img.shields.io/badge/%232%20Autonomous--SOC--Lab-5%20views%20%C2%B7%209%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#2 Autonomous-SOC-Lab: 5 views · 9 clones"></a>  <a href="https://github.com/sandeepmothukuri/soc-threat-hunting-lab"><img src="https://img.shields.io/badge/%233%20soc--threat--hunting--lab-21%20views%20%C2%B7%203%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#3 soc-threat-hunting-lab: 21 views · 3 clones"></a>
 </p>
 <!-- TOP-REPO END -->
 
@@ -207,12 +207,12 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 </td>
 <td width="50%" valign="top">
 
-### 🤖 [ai-soc-lab](https://github.com/sandeepmothukuri/ai-soc-lab)
+### 🤖 [AI-Augmented-SOC-Lab](https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab)
 AI-augmented open-source SOC — Wazuh + TheHive + Shuffle + MISP + Ollama (LLaMA3) for automated alert triage.
-<a href="https://codespaces.new/sandeepmothukuri/ai-soc-lab?quickstart=1"><img src="https://img.shields.io/badge/Open%20in-Codespaces-1f6feb?style=flat-square&logo=github&logoColor=white&labelColor=132f4c" alt="Open in Codespaces"></a>
-<!-- REPO-METRICS:ai-soc-lab START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-20%20today%20%C2%B7%20200%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 20 today · 200 / 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%209%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 9 / 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
-<!-- REPO-METRICS:ai-soc-lab END -->
+<a href="https://codespaces.new/sandeepmothukuri/AI-Augmented-SOC-Lab?quickstart=1"><img src="https://img.shields.io/badge/Open%20in-Codespaces-1f6feb?style=flat-square&logo=github&logoColor=white&labelColor=132f4c" alt="Open in Codespaces"></a>
+<!-- REPO-METRICS:AI-Augmented-SOC-Lab START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:AI-Augmented-SOC-Lab END -->
 
 </td>
 </tr>
@@ -228,11 +228,11 @@ AI-augmented open-source SOC — Wazuh + TheHive + Shuffle + MISP + Ollama (LLaM
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ [soc-lab](https://github.com/sandeepmothukuri/soc-lab)
+### 🛡️ [SOC-Detection-and-Threat-Hunting-Lab](https://github.com/sandeepmothukuri/SOC-Detection-and-Threat-Hunting-Lab)
 SOC analyst home lab — Wazuh SIEM, Sysmon, brute-force detection, MITRE ATT&CK mapping, IR workflow.
-<!-- REPO-METRICS:soc-lab START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-1%20today%20%C2%B7%20101%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 1 today · 101 / 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%206%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 6 / 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
-<!-- REPO-METRICS:soc-lab END -->
+<!-- REPO-METRICS:SOC-Detection-and-Threat-Hunting-Lab START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:SOC-Detection-and-Threat-Hunting-Lab END -->
 
 </td>
 </tr>
@@ -347,11 +347,11 @@ index=wineventlog EventCode=5140
 
 | Technique | Tactic | What the rule catches | Severity | Source |
 |---|---|---|---|---|
-| **T1003.001** | Credential Access | LSASS process memory dumping | Critical | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
-| **T1110** | Credential Access | Password brute-force / spray | High | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
-| **T1059.001** | Execution | Encoded / obfuscated PowerShell execution | Critical | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
-| **T1557.001** | Credential Access | Adversary-in-the-middle (LLMNR / NBT-NS / mDNS poisoning) | High | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1557_responder.yml) |
-| **T1071** | Command & Control | Application-layer C2 beaconing | Critical | [advanced-soc-lab-v2.0](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
+| **T1003.001** | Credential Access | LSASS process memory dumping | Critical | [Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
+| **T1110** | Credential Access | Password brute-force / spray | High | [Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
+| **T1059.001** | Execution | Encoded / obfuscated PowerShell execution | Critical | [Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
+| **T1557.001** | Credential Access | Adversary-in-the-middle (LLMNR / NBT-NS / mDNS poisoning) | High | [Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1557_responder.yml) |
+| **T1071** | Command & Control | Application-layer C2 beaconing | Critical | [Enterprise-Detection-Engineering-SOC-Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
 | **T1078.004** | Initial Access | Detects two successful interactive sign-ins for the same user from locations whose great-circle distance ca… | High | [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_ImpossibleTravel.yaml) |
 | **T1621** | Credential Access | Detects 5+ failed MFA prompts followed by a successful sign-in for the same user within 30 minutes. | High | [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_MFAFatigue.yaml) |
 | **T1213.002** | Collection | Detects users downloading > 200 files within 1 hour from SharePoint or OneDrive, with comparison to the use… | Medium | [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/M365_MassSharePointDownload.yaml) |
@@ -369,11 +369,11 @@ index=wineventlog EventCode=5140
 <!-- DETECTION-TRIGGERS START -->
 | Rule | Type | Trigger | Worst-case latency | Source |
 |---|---|---|---|---|
-| T1003.001 — LSASS Credential Dumping | `any` | Fires on first match (no time aggregation) | near real-time | [T1003_credential_dump.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
-| T1110 — Brute Force Authentication Attack | `frequency` | **10 events in 5m** | ≤ 5m | [T1110_brute_force.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
-| T1059.001 — Suspicious Encoded PowerShell | `any` | Fires on first match (no time aggregation) | near real-time | [T1059_powershell.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
-| T1557 — LLMNR/NBT-NS Poisoning (Responder) | `any` | Fires on first match (no time aggregation) | near real-time | [T1557_responder.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/T1557_responder.yml) |
-| T1071 — C2 Beacon Detected (Suricata) | `any` | Fires on first match (no time aggregation) | near real-time | [network_c2_beacon.yml](https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
+| T1003.001 — LSASS Credential Dumping | `any` | Fires on first match (no time aggregation) | near real-time | [T1003_credential_dump.yml](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1003_credential_dump.yml) |
+| T1110 — Brute Force Authentication Attack | `frequency` | **10 events in 5m** | ≤ 5m | [T1110_brute_force.yml](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1110_brute_force.yml) |
+| T1059.001 — Suspicious Encoded PowerShell | `any` | Fires on first match (no time aggregation) | near real-time | [T1059_powershell.yml](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1059_powershell.yml) |
+| T1557 — LLMNR/NBT-NS Poisoning (Responder) | `any` | Fires on first match (no time aggregation) | near real-time | [T1557_responder.yml](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/T1557_responder.yml) |
+| T1071 — C2 Beacon Detected (Suricata) | `any` | Fires on first match (no time aggregation) | near real-time | [network_c2_beacon.yml](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab/blob/main/config/elastalert2/rules/network_c2_beacon.yml) |
 | Entra ID - Impossible Travel Between Sign-Ins | `scheduled-query` | KQL polled every 1h | ≤ 60m | [EntraID_ImpossibleTravel.yaml](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_ImpossibleTravel.yaml) |
 | Entra ID - MFA Fatigue Followed by Success | `scheduled-query` | KQL polled every 30m | ≤ 30m | [EntraID_MFAFatigue.yaml](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_MFAFatigue.yaml) |
 | M365 - Mass SharePoint / OneDrive Download | `scheduled-query` | KQL polled every 1h | ≤ 60m | [M365_MassSharePointDownload.yaml](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/M365_MassSharePointDownload.yaml) |
