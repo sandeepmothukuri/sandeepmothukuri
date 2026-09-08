@@ -577,6 +577,3222 @@
     }
   ],
   "repos": {
+    "Enterprise-Detection-Engineering-SOC-Lab": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 2,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-17",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-18",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-19",
+        "views": 3,
+        "unique": 3,
+        "clones": 7,
+        "unique_cloners": 5,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-20",
+        "views": 0,
+        "unique": 0,
+        "clones": 19,
+        "unique_cloners": 14,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-21",
+        "views": 4,
+        "unique": 3,
+        "clones": 22,
+        "unique_cloners": 13,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-22",
+        "views": 1,
+        "unique": 1,
+        "clones": 4,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-23",
+        "views": 6,
+        "unique": 1,
+        "clones": 3,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-24",
+        "views": 10,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-25",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-26",
+        "views": 3,
+        "unique": 2,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-28",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-29",
+        "views": 4,
+        "unique": 2,
+        "clones": 3,
+        "unique_cloners": 2,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-30",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-31",
+        "views": 1,
+        "unique": 1,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-01",
+        "views": 2,
+        "unique": 2,
+        "clones": 4,
+        "unique_cloners": 3,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-02",
+        "views": 6,
+        "unique": 4,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-03",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-04",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-05",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-06",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-07",
+        "views": 1,
+        "unique": 1,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-08",
+        "views": 3,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-09",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-10",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-11",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-12",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-13",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-14",
+        "views": 2,
+        "unique": 1,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-15",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-17",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-18",
+        "views": 6,
+        "unique": 5,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-19",
+        "views": 16,
+        "unique": 6,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-20",
+        "views": 7,
+        "unique": 5,
+        "clones": 3,
+        "unique_cloners": 3,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-21",
+        "views": 19,
+        "unique": 8,
+        "clones": 14,
+        "unique_cloners": 6,
+        "stars": 3,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-22",
+        "views": 14,
+        "unique": 5,
+        "clones": 9,
+        "unique_cloners": 3,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-06-23",
+        "views": 18,
+        "unique": 7,
+        "clones": 14,
+        "unique_cloners": 3,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-06-25",
+        "views": 8,
+        "unique": 8,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-06-26",
+        "views": 8,
+        "unique": 7,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-06-27",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-06-28",
+        "views": 3,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-06-29",
+        "views": 9,
+        "unique": 6,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-06-30",
+        "views": 27,
+        "unique": 7,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-01",
+        "views": 9,
+        "unique": 7,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-02",
+        "views": 13,
+        "unique": 8,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-03",
+        "views": 7,
+        "unique": 7,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 4,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-04",
+        "views": 22,
+        "unique": 6,
+        "clones": 26,
+        "unique_cloners": 18,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-05",
+        "views": 17,
+        "unique": 5,
+        "clones": 5,
+        "unique_cloners": 4,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-06",
+        "views": 7,
+        "unique": 4,
+        "clones": 3,
+        "unique_cloners": 3,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-07",
+        "views": 6,
+        "unique": 6,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-10",
+        "views": 12,
+        "unique": 6,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-11",
+        "views": 10,
+        "unique": 7,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-12",
+        "views": 31,
+        "unique": 12,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-13",
+        "views": 6,
+        "unique": 5,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-14",
+        "views": 15,
+        "unique": 6,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-15",
+        "views": 1,
+        "unique": 1,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-16",
+        "views": 8,
+        "unique": 4,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-17",
+        "views": 4,
+        "unique": 3,
+        "clones": 2,
+        "unique_cloners": 1,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-18",
+        "views": 19,
+        "unique": 5,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-19",
+        "views": 33,
+        "unique": 5,
+        "clones": 3,
+        "unique_cloners": 3,
+        "stars": 5,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-20",
+        "views": 7,
+        "unique": 4,
+        "clones": 3,
+        "unique_cloners": 3,
+        "stars": 6,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-21",
+        "views": 22,
+        "unique": 6,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 6,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-22",
+        "views": 3,
+        "unique": 3,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 6,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-23",
+        "views": 9,
+        "unique": 8,
+        "clones": 2,
+        "unique_cloners": 1,
+        "stars": 6,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-24",
+        "views": 4,
+        "unique": 3,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 6,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-25",
+        "views": 8,
+        "unique": 5,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 6,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-26",
+        "views": 17,
+        "unique": 7,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 7,
+        "forks": 1
+      },
+      {
+        "date": "2026-07-27",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 7,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-28",
+        "views": 5,
+        "unique": 3,
+        "clones": 4,
+        "unique_cloners": 4,
+        "stars": 7,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-29",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 7,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-30",
+        "views": 30,
+        "unique": 9,
+        "clones": 5,
+        "unique_cloners": 3,
+        "stars": 7,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 16,
+        "unique": 8,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 7,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-01",
+        "views": 4,
+        "unique": 4,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-02",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-03",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-04",
+        "views": 5,
+        "unique": 4,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-05",
+        "views": 8,
+        "unique": 7,
+        "clones": 3,
+        "unique_cloners": 1,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-06",
+        "views": 8,
+        "unique": 5,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-07",
+        "views": 30,
+        "unique": 5,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-08",
+        "views": 17,
+        "unique": 10,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-09",
+        "views": 14,
+        "unique": 5,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-10",
+        "views": 7,
+        "unique": 7,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-11",
+        "views": 26,
+        "unique": 10,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-12",
+        "views": 25,
+        "unique": 15,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 8,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-13",
+        "views": 23,
+        "unique": 8,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 9,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-14",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-15",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-17",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-18",
+        "views": 9,
+        "unique": 5,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-19",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-20",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-21",
+        "views": 9,
+        "unique": 7,
+        "clones": 5,
+        "unique_cloners": 2,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-22",
+        "views": 14,
+        "unique": 5,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-23",
+        "views": 9,
+        "unique": 4,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-24",
+        "views": 9,
+        "unique": 5,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-26",
+        "views": 24,
+        "unique": 7,
+        "clones": 3,
+        "unique_cloners": 2,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-27",
+        "views": 13,
+        "unique": 9,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-28",
+        "views": 12,
+        "unique": 6,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-29",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-30",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-31",
+        "views": 4,
+        "unique": 4,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-01",
+        "views": 19,
+        "unique": 10,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-02",
+        "views": 15,
+        "unique": 5,
+        "clones": 4,
+        "unique_cloners": 3,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-03",
+        "views": 9,
+        "unique": 6,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-04",
+        "views": 19,
+        "unique": 10,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-05",
+        "views": 24,
+        "unique": 9,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-06",
+        "views": 5,
+        "unique": 5,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-07",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-08",
+        "views": 19,
+        "unique": 14,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 10,
+        "forks": 1,
+        "release_downloads": 0
+      }
+    ],
+    "AI-Augmented-SOC-Lab": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-17",
+        "views": 4,
+        "unique": 2,
+        "clones": 14,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-18",
+        "views": 3,
+        "unique": 3,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-19",
+        "views": 0,
+        "unique": 0,
+        "clones": 7,
+        "unique_cloners": 4,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-20",
+        "views": 0,
+        "unique": 0,
+        "clones": 7,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-21",
+        "views": 4,
+        "unique": 3,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-22",
+        "views": 2,
+        "unique": 2,
+        "clones": 6,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-23",
+        "views": 6,
+        "unique": 2,
+        "clones": 5,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-24",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-25",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-26",
+        "views": 1,
+        "unique": 1,
+        "clones": 6,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-27",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-28",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-29",
+        "views": 1,
+        "unique": 1,
+        "clones": 4,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-30",
+        "views": 9,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-31",
+        "views": 4,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-01",
+        "views": 12,
+        "unique": 2,
+        "clones": 3,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-02",
+        "views": 0,
+        "unique": 0,
+        "clones": 3,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-03",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-04",
+        "views": 2,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-05",
+        "views": 0,
+        "unique": 0,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-06",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-07",
+        "views": 3,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-08",
+        "views": 3,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-09",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-10",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-11",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-12",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-13",
+        "views": 4,
+        "unique": 4,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-14",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-15",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-16",
+        "views": 3,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-17",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-18",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-19",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-20",
+        "views": 3,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-21",
+        "views": 3,
+        "unique": 3,
+        "clones": 8,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-22",
+        "views": 10,
+        "unique": 6,
+        "clones": 12,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-23",
+        "views": 2,
+        "unique": 2,
+        "clones": 3,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-25",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-26",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-28",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-29",
+        "views": 2,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-30",
+        "views": 4,
+        "unique": 3,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-01",
+        "views": 3,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-02",
+        "views": 5,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-03",
+        "views": 5,
+        "unique": 5,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-04",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-05",
+        "views": 5,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-06",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-07",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-10",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-11",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-12",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-13",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-14",
+        "views": 5,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-15",
+        "views": 4,
+        "unique": 4,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-16",
+        "views": 5,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-17",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-18",
+        "views": 9,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-19",
+        "views": 6,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-20",
+        "views": 22,
+        "unique": 3,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-21",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-22",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-23",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-24",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-25",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-26",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-27",
+        "views": 19,
+        "unique": 5,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-28",
+        "views": 6,
+        "unique": 3,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-29",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-30",
+        "views": 6,
+        "unique": 5,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-01",
+        "views": 3,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-02",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-03",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-04",
+        "views": 46,
+        "unique": 8,
+        "clones": 3,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-05",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-06",
+        "views": 4,
+        "unique": 4,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-07",
+        "views": 3,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-08",
+        "views": 13,
+        "unique": 4,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-09",
+        "views": 10,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-10",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-11",
+        "views": 5,
+        "unique": 5,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-12",
+        "views": 21,
+        "unique": 7,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-13",
+        "views": 6,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-14",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-15",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-16",
+        "views": 9,
+        "unique": 4,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-17",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-18",
+        "views": 5,
+        "unique": 5,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-19",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-20",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-21",
+        "views": 8,
+        "unique": 4,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-22",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-23",
+        "views": 40,
+        "unique": 6,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-24",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-25",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-26",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-27",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-28",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-29",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-30",
+        "views": 22,
+        "unique": 4,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-31",
+        "views": 4,
+        "unique": 3,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-01",
+        "views": 10,
+        "unique": 6,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-02",
+        "views": 11,
+        "unique": 8,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-03",
+        "views": 11,
+        "unique": 9,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-04",
+        "views": 9,
+        "unique": 7,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-05",
+        "views": 3,
+        "unique": 3,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-06",
+        "views": 3,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-07",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-08",
+        "views": 20,
+        "unique": 6,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      }
+    ],
+    "SOC-Detection-and-Threat-Hunting-Lab": [
+      {
+        "date": "2026-05-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-17",
+        "views": 3,
+        "unique": 3,
+        "clones": 8,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-18",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-19",
+        "views": 0,
+        "unique": 0,
+        "clones": 10,
+        "unique_cloners": 7,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-20",
+        "views": 1,
+        "unique": 1,
+        "clones": 11,
+        "unique_cloners": 5,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-21",
+        "views": 2,
+        "unique": 2,
+        "clones": 3,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-22",
+        "views": 2,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-23",
+        "views": 6,
+        "unique": 3,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-24",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-26",
+        "views": 1,
+        "unique": 1,
+        "clones": 6,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-28",
+        "views": 3,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-29",
+        "views": 1,
+        "unique": 1,
+        "clones": 3,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-30",
+        "views": 2,
+        "unique": 2,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-05-31",
+        "views": 5,
+        "unique": 4,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-01",
+        "views": 2,
+        "unique": 1,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-02",
+        "views": 1,
+        "unique": 1,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-03",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-04",
+        "views": 5,
+        "unique": 3,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-05",
+        "views": 2,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-06",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-07",
+        "views": 3,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-08",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-09",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-10",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-11",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-12",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-13",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-14",
+        "views": 2,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-15",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-16",
+        "views": 1,
+        "unique": 1,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-17",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-18",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-19",
+        "views": 5,
+        "unique": 4,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-20",
+        "views": 0,
+        "unique": 0,
+        "clones": 10,
+        "unique_cloners": 7,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-21",
+        "views": 1,
+        "unique": 1,
+        "clones": 8,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-22",
+        "views": 1,
+        "unique": 1,
+        "clones": 4,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-23",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-25",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-26",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-28",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-29",
+        "views": 20,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-06-30",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-01",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-02",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-03",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-04",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-05",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-06",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-07",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-10",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-11",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-12",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-13",
+        "views": 2,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-14",
+        "views": 0,
+        "unique": 0,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-15",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-17",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-18",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-19",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-20",
+        "views": 1,
+        "unique": 1,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-21",
+        "views": 11,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-22",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-23",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-24",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-26",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0
+      },
+      {
+        "date": "2026-07-27",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-28",
+        "views": 2,
+        "unique": 2,
+        "clones": 9,
+        "unique_cloners": 3,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-29",
+        "views": 11,
+        "unique": 3,
+        "clones": 4,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-30",
+        "views": 4,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-07-31",
+        "views": 5,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-01",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-02",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-03",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-04",
+        "views": 0,
+        "unique": 0,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-05",
+        "views": 3,
+        "unique": 2,
+        "clones": 4,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-06",
+        "views": 2,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-07",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-08",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-09",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-10",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-11",
+        "views": 3,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-12",
+        "views": 43,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-13",
+        "views": 2,
+        "unique": 2,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-14",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-15",
+        "views": 5,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-17",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-18",
+        "views": 3,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-19",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-20",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-21",
+        "views": 0,
+        "unique": 0,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-22",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-23",
+        "views": 23,
+        "unique": 2,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-24",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-26",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-28",
+        "views": 10,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-29",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-30",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-08-31",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-01",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-02",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-03",
+        "views": 4,
+        "unique": 3,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-04",
+        "views": 1,
+        "unique": 1,
+        "clones": 1,
+        "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-05",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-06",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-07",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-08",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      }
+    ],
     "soc-lab-free": [
       {
         "date": "2026-05-16",
@@ -4862,448 +8078,6 @@
         "unique_cloners": 0,
         "stars": 1,
         "forks": 0,
-        "release_downloads": 0
-      }
-    ],
-    "Enterprise-Detection-Engineering-SOC-Lab": [
-      {
-        "date": "2026-07-27",
-        "views": 3,
-        "unique": 3,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 7,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-07-28",
-        "views": 5,
-        "unique": 3,
-        "clones": 4,
-        "unique_cloners": 4,
-        "stars": 7,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-07-29",
-        "views": 2,
-        "unique": 2,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 7,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-07-30",
-        "views": 30,
-        "unique": 9,
-        "clones": 5,
-        "unique_cloners": 3,
-        "stars": 7,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-07-31",
-        "views": 16,
-        "unique": 8,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 7,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-01",
-        "views": 4,
-        "unique": 4,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-02",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-03",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-04",
-        "views": 5,
-        "unique": 4,
-        "clones": 2,
-        "unique_cloners": 2,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-05",
-        "views": 8,
-        "unique": 7,
-        "clones": 3,
-        "unique_cloners": 1,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-06",
-        "views": 8,
-        "unique": 5,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-07",
-        "views": 30,
-        "unique": 5,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-08",
-        "views": 17,
-        "unique": 10,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-09",
-        "views": 14,
-        "unique": 5,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-10",
-        "views": 7,
-        "unique": 7,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-11",
-        "views": 26,
-        "unique": 10,
-        "clones": 2,
-        "unique_cloners": 2,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-12",
-        "views": 25,
-        "unique": 15,
-        "clones": 2,
-        "unique_cloners": 2,
-        "stars": 8,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-13",
-        "views": 23,
-        "unique": 8,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 9,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-14",
-        "views": 1,
-        "unique": 1,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-15",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-16",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-17",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-18",
-        "views": 9,
-        "unique": 5,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-19",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-20",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-21",
-        "views": 9,
-        "unique": 7,
-        "clones": 5,
-        "unique_cloners": 2,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-22",
-        "views": 14,
-        "unique": 5,
-        "clones": 2,
-        "unique_cloners": 2,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-23",
-        "views": 9,
-        "unique": 4,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-24",
-        "views": 9,
-        "unique": 5,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-25",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-26",
-        "views": 24,
-        "unique": 7,
-        "clones": 3,
-        "unique_cloners": 2,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-27",
-        "views": 13,
-        "unique": 9,
-        "clones": 2,
-        "unique_cloners": 2,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-28",
-        "views": 12,
-        "unique": 6,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-29",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-30",
-        "views": 0,
-        "unique": 0,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-08-31",
-        "views": 4,
-        "unique": 4,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-09-01",
-        "views": 19,
-        "unique": 10,
-        "clones": 2,
-        "unique_cloners": 2,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-09-02",
-        "views": 15,
-        "unique": 5,
-        "clones": 4,
-        "unique_cloners": 3,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-09-03",
-        "views": 9,
-        "unique": 6,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-09-04",
-        "views": 19,
-        "unique": 10,
-        "clones": 2,
-        "unique_cloners": 2,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-09-05",
-        "views": 24,
-        "unique": 9,
-        "clones": 2,
-        "unique_cloners": 2,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-09-06",
-        "views": 5,
-        "unique": 5,
-        "clones": 1,
-        "unique_cloners": 1,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-09-07",
-        "views": 0,
-        "unique": 0,
-        "clones": 0,
-        "unique_cloners": 0,
-        "stars": 10,
-        "forks": 1,
-        "release_downloads": 0
-      },
-      {
-        "date": "2026-09-08",
-        "views": 19,
-        "unique": 14,
-        "clones": 2,
-        "unique_cloners": 2,
-        "stars": 10,
-        "forks": 1,
         "release_downloads": 0
       }
     ],
