@@ -190,7 +190,7 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 <!-- TOP-REPO START -->
 <p align="center">
 <sub>🏆 <b>Top repositories this week</b> · ranked by views and clones</sub><br>
-<a href="https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0"><img src="https://img.shields.io/badge/%231%20advanced--soc--lab--v2.0-91%20views%20%C2%B7%2012%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#1 advanced-soc-lab-v2.0: 91 views · 12 clones"></a>  <a href="https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab"><img src="https://img.shields.io/badge/%232%20Enterprise--Detection--Engineering--SOC--Lab-91%20views%20%C2%B7%2012%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#2 Enterprise-Detection-Engineering-SOC-Lab: 91 views · 12 clones"></a>  <a href="https://github.com/sandeepmothukuri/ai-soc-lab"><img src="https://img.shields.io/badge/%233%20ai--soc--lab-57%20views%20%C2%B7%202%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#3 ai-soc-lab: 57 views · 2 clones"></a>
+<a href="https://github.com/sandeepmothukuri/advanced-soc-lab-v2.0"><img src="https://img.shields.io/badge/%231%20advanced--soc--lab--v2.0-91%20views%20%C2%B7%2012%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#1 advanced-soc-lab-v2.0: 91 views · 12 clones"></a>  <a href="https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab"><img src="https://img.shields.io/badge/%232%20Enterprise--Detection--Engineering--SOC--Lab-91%20views%20%C2%B7%2012%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#2 Enterprise-Detection-Engineering-SOC-Lab: 91 views · 12 clones"></a>  <a href="https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab"><img src="https://img.shields.io/badge/%233%20ai--soc--lab-57%20views%20%C2%B7%202%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#3 AI-Augmented-SOC-Lab: 57 views · 2 clones"></a>
 </p>
 <!-- TOP-REPO END -->
 
@@ -207,12 +207,12 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 </td>
 <td width="50%" valign="top">
 
-### 🤖 [ai-soc-lab](https://github.com/sandeepmothukuri/ai-soc-lab)
+### 🤖 [AI-Augmented-SOC-Lab](https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab)
 AI-augmented open-source SOC — Wazuh + TheHive + Shuffle + MISP + Ollama (LLaMA3) for automated alert triage.
-<a href="https://codespaces.new/sandeepmothukuri/ai-soc-lab?quickstart=1"><img src="https://img.shields.io/badge/Open%20in-Codespaces-1f6feb?style=flat-square&logo=github&logoColor=white&labelColor=132f4c" alt="Open in Codespaces"></a>
-<!-- REPO-METRICS:ai-soc-lab START -->
+<a href="https://codespaces.new/sandeepmothukuri/AI-Augmented-SOC-Lab?quickstart=1"><img src="https://img.shields.io/badge/Open%20in-Codespaces-1f6feb?style=flat-square&logo=github&logoColor=white&labelColor=132f4c" alt="Open in Codespaces"></a>
+<!-- REPO-METRICS:AI-Augmented-SOC-Lab START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-20%20today%20%C2%B7%20200%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 20 today · 200 / 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%209%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 9 / 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
-<!-- REPO-METRICS:ai-soc-lab END -->
+<!-- REPO-METRICS:AI-Augmented-SOC-Lab END -->
 
 </td>
 </tr>
