@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-36d1dc?style=flat-square&labelColor=132f4c">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20UK%2023%3A13%20BST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · UK 23:13 BST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20UK%2023%3A27%20BST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · UK 23:27 BST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -176,14 +176,14 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 
 <p align="center">
 <!-- LAB-AGGREGATE START -->
-  <img src="https://img.shields.io/badge/Total%20lab%20clones-100%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 100 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-785%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 785 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-19-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 19">  <img src="https://img.shields.io/badge/Total%20forks-1-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 1">  <img src="https://img.shields.io/badge/Labs%20tracked-8-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 8">
+  <img src="https://img.shields.io/badge/Total%20lab%20clones-100%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 100 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-786%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 786 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-20-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 20">  <img src="https://img.shields.io/badge/Total%20forks-1-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 1">  <img src="https://img.shields.io/badge/Labs%20tracked-10-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 10">
 <!-- LAB-AGGREGATE END -->
 </p>
 
 <!-- PORTFOLIO-PULSE START -->
 <p align="center">
 <sub>📡 <b>Portfolio Pulse</b> · last 7 days</sub><br>
-<img src="https://img.shields.io/badge/7d%20views-188%20%28--10%20vs%20prev%29-3fb950?style=flat-square&labelColor=132f4c" alt="7d views: 188 (-10 vs prev)">  <img src="https://img.shields.io/badge/7d%20clones-35%20%28%2B7%20vs%20prev%29-36d1dc?style=flat-square&labelColor=132f4c" alt="7d clones: 35 (+7 vs prev)">  <img src="https://img.shields.io/badge/Clone%20conversion-18.6%25-a371f7?style=flat-square&labelColor=132f4c" alt="Clone conversion: 18.6%">  <img src="https://img.shields.io/badge/New%20stars-%2B0-ffcf5a?style=flat-square&labelColor=132f4c" alt="New stars: +0">  <img src="https://img.shields.io/badge/Release%20downloads-0%20%28%2B0%20/%207d%29-ff8c42?style=flat-square&labelColor=132f4c" alt="Release downloads: 0 (+0 / 7d)">  <img src="https://img.shields.io/badge/Metric%20health-%F0%9F%9F%A2%208/8%20labs%20synced-3fb950?style=flat-square&labelColor=132f4c" alt="Metric health: 🟢 8/8 labs synced">
+<img src="https://img.shields.io/badge/7d%20views-189%20%28--9%20vs%20prev%29-3fb950?style=flat-square&labelColor=132f4c" alt="7d views: 189 (-9 vs prev)">  <img src="https://img.shields.io/badge/7d%20clones-35%20%28%2B7%20vs%20prev%29-36d1dc?style=flat-square&labelColor=132f4c" alt="7d clones: 35 (+7 vs prev)">  <img src="https://img.shields.io/badge/Clone%20conversion-18.5%25-a371f7?style=flat-square&labelColor=132f4c" alt="Clone conversion: 18.5%">  <img src="https://img.shields.io/badge/New%20stars-%2B0-ffcf5a?style=flat-square&labelColor=132f4c" alt="New stars: +0">  <img src="https://img.shields.io/badge/Release%20downloads-0%20%28%2B0%20/%207d%29-ff8c42?style=flat-square&labelColor=132f4c" alt="Release downloads: 0 (+0 / 7d)">  <img src="https://img.shields.io/badge/Metric%20health-%F0%9F%9F%A2%2010/10%20labs%20synced-3fb950?style=flat-square&labelColor=132f4c" alt="Metric health: 🟢 10/10 labs synced">
 </p>
 <!-- PORTFOLIO-PULSE END -->
 
