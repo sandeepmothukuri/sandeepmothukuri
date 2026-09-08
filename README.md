@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-36d1dc?style=flat-square&labelColor=132f4c">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9F%A2%20On--shift%20%C2%B7%20UK%2012%3A32%20BST-3fb950?style=flat-square&labelColor=132f4c" alt="Status: 🟢 On-shift · UK 12:32 BST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20UK%2023%3A13%20BST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · UK 23:13 BST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -38,7 +38,7 @@
 <!-- PUBLIC-REPOS END -->
   <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
   <!-- DAYS-COUNTER START -->
-  <img src="https://img.shields.io/badge/Commits-236%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 236 this year">  <img src="https://img.shields.io/badge/Streak-1%20day-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 1 day">
+  <img src="https://img.shields.io/badge/Commits-242%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 242 this year">  <img src="https://img.shields.io/badge/Streak-1%20day-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 1 day">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
   <img src="https://img.shields.io/badge/Profile%20views-223-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 223">
@@ -56,7 +56,7 @@
 
 <p align="center">
 <!-- GREETING START -->
-<sub><b>👋 Good afternoon!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fsandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
+<sub><b>👋 Working the night shift!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fsandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
 <!-- GREETING END -->
 </p>
 
@@ -176,21 +176,21 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 
 <p align="center">
 <!-- LAB-AGGREGATE START -->
-  <img src="https://img.shields.io/badge/Total%20lab%20clones-138%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 138 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-1%2C080%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 1,080 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-29-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 29">  <img src="https://img.shields.io/badge/Total%20forks-2-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 2">  <img src="https://img.shields.io/badge/Labs%20tracked-9-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 9">
+  <img src="https://img.shields.io/badge/Total%20lab%20clones-100%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 100 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-785%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 785 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-19-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 19">  <img src="https://img.shields.io/badge/Total%20forks-1-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 1">  <img src="https://img.shields.io/badge/Labs%20tracked-8-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 8">
 <!-- LAB-AGGREGATE END -->
 </p>
 
 <!-- PORTFOLIO-PULSE START -->
 <p align="center">
 <sub>📡 <b>Portfolio Pulse</b> · last 7 days</sub><br>
-<img src="https://img.shields.io/badge/7d%20views-279%20%28%2B9%20vs%20prev%29-3fb950?style=flat-square&labelColor=132f4c" alt="7d views: 279 (+9 vs prev)">  <img src="https://img.shields.io/badge/7d%20clones-47%20%28%2B9%20vs%20prev%29-36d1dc?style=flat-square&labelColor=132f4c" alt="7d clones: 47 (+9 vs prev)">  <img src="https://img.shields.io/badge/Clone%20conversion-16.8%25-a371f7?style=flat-square&labelColor=132f4c" alt="Clone conversion: 16.8%">  <img src="https://img.shields.io/badge/New%20stars-%2B0-ffcf5a?style=flat-square&labelColor=132f4c" alt="New stars: +0">  <img src="https://img.shields.io/badge/Release%20downloads-0%20%28%2B0%20/%207d%29-ff8c42?style=flat-square&labelColor=132f4c" alt="Release downloads: 0 (+0 / 7d)">  <img src="https://img.shields.io/badge/Metric%20health-%F0%9F%9F%A2%209/9%20labs%20synced-3fb950?style=flat-square&labelColor=132f4c" alt="Metric health: 🟢 9/9 labs synced">
+<img src="https://img.shields.io/badge/7d%20views-188%20%28--10%20vs%20prev%29-3fb950?style=flat-square&labelColor=132f4c" alt="7d views: 188 (-10 vs prev)">  <img src="https://img.shields.io/badge/7d%20clones-35%20%28%2B7%20vs%20prev%29-36d1dc?style=flat-square&labelColor=132f4c" alt="7d clones: 35 (+7 vs prev)">  <img src="https://img.shields.io/badge/Clone%20conversion-18.6%25-a371f7?style=flat-square&labelColor=132f4c" alt="Clone conversion: 18.6%">  <img src="https://img.shields.io/badge/New%20stars-%2B0-ffcf5a?style=flat-square&labelColor=132f4c" alt="New stars: +0">  <img src="https://img.shields.io/badge/Release%20downloads-0%20%28%2B0%20/%207d%29-ff8c42?style=flat-square&labelColor=132f4c" alt="Release downloads: 0 (+0 / 7d)">  <img src="https://img.shields.io/badge/Metric%20health-%F0%9F%9F%A2%208/8%20labs%20synced-3fb950?style=flat-square&labelColor=132f4c" alt="Metric health: 🟢 8/8 labs synced">
 </p>
 <!-- PORTFOLIO-PULSE END -->
 
 <!-- TOP-REPO START -->
 <p align="center">
 <sub>🏆 <b>Top repositories this week</b> · ranked by views and clones</sub><br>
-<a href="https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab"><img src="https://img.shields.io/badge/%231%20Enterprise--Detection--Engineering--SOC--Lab-91%20views%20%C2%B7%2012%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#1 Enterprise-Detection-Engineering-SOC-Lab: 91 views · 12 clones"></a>  <a href="https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab"><img src="https://img.shields.io/badge/%232%20AI--Augmented--SOC--Lab-57%20views%20%C2%B7%202%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#2 AI-Augmented-SOC-Lab: 57 views · 2 clones"></a>
+<a href="https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab"><img src="https://img.shields.io/badge/%231%20Enterprise--Detection--Engineering--SOC--Lab-91%20views%20%C2%B7%2012%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#1 Enterprise-Detection-Engineering-SOC-Lab: 91 views · 12 clones"></a>  <a href="https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab"><img src="https://img.shields.io/badge/%232%20AI--Augmented--SOC--Lab-57%20views%20%C2%B7%202%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#2 AI-Augmented-SOC-Lab: 57 views · 2 clones"></a>  <a href="https://github.com/sandeepmothukuri/Autonomous-SOC-Lab"><img src="https://img.shields.io/badge/%233%20Autonomous--SOC--Lab-5%20views%20%C2%B7%209%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#3 Autonomous-SOC-Lab: 5 views · 9 clones"></a>
 </p>
 <!-- TOP-REPO END -->
 
