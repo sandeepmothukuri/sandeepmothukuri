@@ -457,21 +457,21 @@ _Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-09-13 14:03 UTC. Au
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-09-13 13:36 UTC_
+_Last refresh: 2026-09-14 15:35 UTC_
 
 **The Hacker News**
 
+- [⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits](https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html)
+- [AI Changed the Exposure Problem. Validation Needs to Change With It.](https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html)
+- [Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users](https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html)
 - [Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data](https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html)
-- [CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV](https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html)
-- [When the Whole Company Adopts AI: What It Does to Your SOC](https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html)
-- [OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers](https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html)
 
 **BleepingComputer**
 
-- [Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent](https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/)
-- [Hackers abused Claude to extract secrets from 1.8M Android apps](https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/)
-- [Florida confirms DMV database breached via stolen police account](https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/)
-- [Passkey-themed phishing attacks lead to Microsoft 365 data theft](https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/)
+- [Why Patch Automation Needs Brakes, Not Just an Accelerator](https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/)
+- [Webinar: How malicious OAuth apps can lead to Google Workspace breaches](https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/)
+- [Microsoft: September updates cause RDS failures on Windows Server](https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/)
+- [Revolut discloses data breach exposing financial info, passports](https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/)
 
 **Krebs on Security**
 
