@@ -654,6 +654,11 @@
       "date": "2026-09-24",
       "total": 241,
       "daily": 1
+    },
+    {
+      "date": "2026-09-25",
+      "total": 242,
+      "daily": 1
     }
   ],
   "repos": {
@@ -1887,6 +1892,16 @@
         "stars": 14,
         "forks": 1,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 15,
+        "forks": 2,
+        "release_downloads": 0
       }
     ],
     "AI-Augmented-SOC-Lab": [
@@ -3116,6 +3131,16 @@
         "unique": 6,
         "clones": 2,
         "unique_cloners": 2,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
@@ -4351,6 +4376,16 @@
         "stars": 2,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 2,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "soc-lab-free": [
@@ -5580,6 +5615,16 @@
         "unique": 1,
         "clones": 1,
         "unique_cloners": 1,
+        "stars": 3,
+        "forks": 1,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 3,
         "forks": 1,
         "release_downloads": 0
@@ -6815,6 +6860,16 @@
         "stars": 3,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "Autonomous-SOC-Lab": [
@@ -8044,6 +8099,16 @@
         "unique": 0,
         "clones": 2,
         "unique_cloners": 2,
+        "stars": 2,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 2,
         "forks": 0,
         "release_downloads": 0
@@ -9279,6 +9344,16 @@
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "PromptSentinel": [
@@ -9881,6 +9956,16 @@
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "PromptShield": [
@@ -10046,6 +10131,16 @@
       },
       {
         "date": "2026-09-24",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
         "views": 0,
         "unique": 0,
         "clones": 0,
@@ -10222,6 +10317,16 @@
         "unique": 2,
         "clones": 1,
         "unique_cloners": 1,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-09-25",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
