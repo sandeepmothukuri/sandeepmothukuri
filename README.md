@@ -259,11 +259,11 @@ Autonomous SOC with AI-driven detection, automated response, and self-healing pl
 <tr>
 <td width="50%" valign="top">
 
-### 🔵 [cyberblue](https://github.com/sandeepmothukuri/cyberblue)
-Containerised blue-team platform — Wazuh SIEM · Suricata · Zeek · MISP · TheHive · SOAR. Published at cybertechnology.in.
-<!-- REPO-METRICS:cyberblue START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%2024%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 24 / 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2027%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 27 / 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
-<!-- REPO-METRICS:cyberblue END -->
+### 🤖 [AI-SOC-Decision-Engine](https://github.com/sandeepmothukuri/AI-SOC-Decision-Engine)
+AI-assisted SOC decision engine for evidence-driven alert triage, investigation, risk scoring, and response recommendations.
+<!-- REPO-METRICS:AI-SOC-Decision-Engine START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:AI-SOC-Decision-Engine END -->
 
 </td>
 <td width="50%" valign="top">
