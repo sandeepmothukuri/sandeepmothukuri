@@ -14,7 +14,6 @@ REPOS=(
   "Enterprise-Detection-Engineering-SOC-Lab"
   "AI-Augmented-SOC-Lab"
   "SOC-Detection-and-Threat-Hunting-Lab"
-  "soc-lab-free"
   "soc-threat-hunting-lab"
   "Autonomous-SOC-Lab"
   "AI-SOC-Decision-Engine"
