@@ -1,0 +1,61 @@
+name: Add PromptShield to Featured Labs
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-promptshield-profile.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Insert PromptShield below SOCForge
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path('README.md')
+          text = p.read_text(encoding='utf-8')
+
+          card = '''<td width="50%" valign="top">
+
+          ### 🛡️ [PromptShield](https://github.com/sandeepmothukuri/PromptShield)
+          Enterprise-grade prompt injection detection and AI firewall for protecting LLM workflows.
+          <!-- REPO-METRICS:PromptShield START -->
+          <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-live-3fb950?style=flat-square&labelColor=132f4c" alt="views live"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-live-36d1dc?style=flat-square&labelColor=132f4c" alt="clones live"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-live-ffcf5a?style=flat-square&labelColor=132f4c" alt="stars live"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-live-a371f7?style=flat-square&labelColor=132f4c" alt="forks live"></sub>
+          <!-- REPO-METRICS:PromptShield END -->
+
+          </td>'''
+
+          # Remove any previous PromptShield card, including malformed placement.
+          text = re.sub(r'<td[^>]*>\s*### 🛡️ \[PromptShield\].*?<!-- REPO-METRICS:PromptShield END -->\s*</td>\s*', '', text, flags=re.S)
+          text = re.sub(r'### 🛡️ \[PromptShield\].*?<!-- REPO-METRICS:PromptShield END -->\s*', '', text, flags=re.S)
+
+          # Insert immediately after the SOCForge table row.
+          soc = text.find('### 🔥 [SOCForge](https://github.com/sandeepmothukuri/socforge)')
+          if soc == -1:
+              raise SystemExit('SOCForge card not found')
+          row_end = text.find('</tr>', soc)
+          if row_end == -1:
+              raise SystemExit('SOCForge table row end not found')
+          insertion = '\n<tr>\n' + card + '\n</tr>'
+          text = text[:row_end+5] + insertion + text[row_end+5:]
+
+          p.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit README and remove repair workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "fix(profile): place PromptShield below SOCForge" || true
+          git push
+          rm -f .github/workflows/fix-promptshield-profile.yml
+          git add .github/workflows/fix-promptshield-profile.yml
+          git commit -m "chore: remove temporary PromptShield repair workflow" || true
+          git push
