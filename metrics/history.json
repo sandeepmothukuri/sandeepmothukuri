@@ -8018,6 +8018,29 @@
         "release_downloads": 0
       }
     ],
-    "AI-SOC-Decision-Engine": []
+    "AI-SOC-Decision-Engine": [
+      {
+        "date": "2026-09-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      }
+    ],
+    "socforge": [
+      {
+        "date": "2026-09-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      }
+    ]
   }
 }
