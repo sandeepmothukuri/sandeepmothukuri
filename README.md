@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/LOCATION-INDIA%20%C2%B7%20GLOBAL%20REMOTE-e00000?style=flat-square&labelColor=132f4c" alt="Location: India · Global Remote">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20India%20IST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · India IST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20UK%2022%3A24%20BST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · UK 22:24 BST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -38,7 +38,7 @@
 <!-- PUBLIC-REPOS END -->
   <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
   <!-- DAYS-COUNTER START -->
-  <img src="https://img.shields.io/badge/Commits-679%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 679 this year">  <img src="https://img.shields.io/badge/Streak-1%20day-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 1 day">
+  <img src="https://img.shields.io/badge/Commits-682%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 682 this year">  <img src="https://img.shields.io/badge/Streak-1%20day-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 1 day">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
   <img src="https://img.shields.io/badge/Profile%20views-244-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 244">
@@ -46,7 +46,7 @@
   <img src="https://img.shields.io/badge/Today-1-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 1">
 <!-- PROFILE-VIEWS END -->
 <!-- LAB-AGGREGATE START -->
-  <img src="https://img.shields.io/badge/Total%20lab%20clones-2%2C951%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 2,951 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-1%2C325%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 1,325 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-25-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 25">  <img src="https://img.shields.io/badge/Total%20forks-2-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 2">  <img src="https://img.shields.io/badge/Labs%20tracked-10-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 10">
+  <img src="https://img.shields.io/badge/Total%20lab%20clones-2%2C951%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 2,951 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-1%2C325%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 1,325 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-29-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 29">  <img src="https://img.shields.io/badge/Total%20forks-3-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 3">  <img src="https://img.shields.io/badge/Labs%20tracked-14-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 14">
 <!-- LAB-AGGREGATE END -->
 
 </p>
