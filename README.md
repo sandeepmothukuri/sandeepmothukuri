@@ -275,6 +275,8 @@ Enterprise-grade prompt injection detection and AI firewall — 22 detectors, OW
 <!-- REPO-METRICS:PromptSentinel END -->
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🛡️ [PromptShield](https://github.com/sandeepmothukuri/PromptShield)
@@ -287,6 +289,7 @@ Enterprise-grade prompt injection detection and AI firewall — 22 detectors, OW
 </tr>
 <tr>
 <td width="50%" valign="top">
+  
 ### 🔥 [SOCForge](https://github.com/sandeepmothukuri/socforge)
 Evidence-driven SOC platform for alert triage, investigation, detection engineering, and AI-augmented security operations.
 <!-- REPO-METRICS:socforge START -->
