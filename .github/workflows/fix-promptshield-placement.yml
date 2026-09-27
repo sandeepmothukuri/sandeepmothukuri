@@ -1,0 +1,41 @@
+name: Fix PromptShield Placement
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix README layout
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          import re
+          p = Path('README.md')
+          s = p.read_text()
+          # Remove the malformed PromptShield block currently outside the table.
+          s = re.sub(r'\n### 🛡️ \[PromptShield\]\(https://github\.com/sandeepmothukuri/PromptShield\).*?<!-- REPO-METRICS:PromptShield END -->\n\n</td>\n</tr>\n<tr>\n<td width="50%" valign="top">', '\n</td>\n</tr>', s, flags=re.S)
+          # Insert PromptShield as the row immediately below SOCForge's row.
+          marker = '''</td>\n</tr>\n\n<!-- SOC DETECTION PIPELINE START -->'''
+          card = '''</td>\n</tr>\n<tr>\n<td width="50%" valign="top">\n\n### 🛡️ [PromptShield](https://github.com/sandeepmothukuri/PromptShield)\nEnterprise-grade prompt injection detection and AI firewall — 22 detectors, OWASP LLM Top 10, SARIF/SIEM output, FastAPI + Docker.\n<!-- REPO-METRICS:PromptShield START -->\n<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-live-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views live"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-live-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones live"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-live-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars live"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-live-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks live"></sub>\n<!-- REPO-METRICS:PromptShield END -->\n\n</td>\n<td width="50%" valign="top">\n\n</td>\n</tr>\n\n<!-- SOC DETECTION PIPELINE START -->'''
+          if '### 🛡️ [PromptShield]' not in s:
+              s = s.replace(marker, card, 1)
+          p.write_text(s)
+          PY
+      - name: Commit and remove repair workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/workflows/fix-promptshield-placement.yml
+          git commit -m "fix(profile): place PromptShield directly under SOCForge" || exit 0
+          git rm .github/workflows/fix-promptshield-placement.yml
+          git commit -m "chore: remove temporary PromptShield repair workflow"
+          git push
