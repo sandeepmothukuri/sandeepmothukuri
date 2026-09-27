@@ -74,3 +74,5 @@ jobs:
           git add -A
           git commit -m 'chore: remove temporary live stats builder' || true
           git push
+
+# Trigger the one-shot rebuild with a workflow-file update.
