@@ -1,0 +1,13 @@
+name: Trigger live repository stats builder
+
+on:
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Triggering the live repository stats builder.'
