@@ -21,6 +21,7 @@ REPOS=(
   "PromptSentinel"
   "PromptShield"
   "sentinel-detection-engine"
+  "socforge"
 )
 
 mkdir -p metrics
