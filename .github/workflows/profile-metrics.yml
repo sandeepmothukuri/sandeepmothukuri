@@ -2,6 +2,7 @@ name: Profile Metrics (autopilot)
 
 # Daily snapshot of profile views + per-repo traffic. Renders the marker
 # blocks in README and commits straight to main — no PR, no manual merge.
+# Status timezone: Asia/Kolkata (IST) — never render legacy UK/BST time.
 
 on:
   schedule:
@@ -14,6 +15,7 @@ on:
       - .github/scripts/render-metrics.py
       - .github/scripts/render-metrics-calendar.py
       - .github/scripts/render-india-status.py
+      - .github/workflows/profile-metrics.yml
 
 permissions:
   contents: write
