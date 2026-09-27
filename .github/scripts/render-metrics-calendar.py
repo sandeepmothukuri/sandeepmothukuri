@@ -1,20 +1,16 @@
 #!/usr/bin/env python3
-"""Calendar-accurate wrapper for the profile metrics renderer.
-
-The existing renderer historically used the last 30 stored snapshots. This
-wrapper keeps the existing README rendering logic but replaces repository
-traffic calculations with the exact calendar window: today + previous 29 days.
-Missing snapshot dates count as zero, which is important for newly tracked repos.
-"""
+"""Calendar-accurate profile metrics renderer with verified traffic baselines."""
 from __future__ import annotations
 
 import datetime
 import importlib.util
+import json
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 TARGET = ROOT / ".github" / "scripts" / "render-metrics.py"
+BASELINE = ROOT / "metrics" / "traffic-baseline.json"
 
 spec = importlib.util.spec_from_file_location("legacy_renderer", TARGET)
 renderer = importlib.util.module_from_spec(spec)
@@ -37,22 +33,50 @@ def calendar_window(rows: list[dict], days: int = 30) -> list[dict]:
     ]
 
 
+def load_baselines() -> dict:
+    if not BASELINE.exists():
+        return {}
+    try:
+        return json.loads(BASELINE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
 def render_repo_block(repo: str, rows: list[dict]) -> str:
-    if not rows:
-        return "<sub>📊 metrics collecting — first snapshot pending</sub>"
+    baseline_data = load_baselines()
+    baseline = baseline_data.get("repos", {}).get(repo, {})
+    baseline_end = str(baseline_data.get("window_end", ""))[:10]
 
     window = calendar_window(rows, 30)
     today_row = window[-1] if window else {}
     available = [r for r in window if r]
     latest = available[-1] if available else {}
-    first = available[0] if available else {}
 
-    views_today = int(today_row.get("views", 0) or 0)
-    clones_today = int(today_row.get("clones", 0) or 0)
-    views_30d = sum(int(r.get("views", 0) or 0) for r in window)
-    clones_30d = sum(int(r.get("clones", 0) or 0) for r in window)
+    # For repositories with a verified GitHub Traffic screenshot, use that
+    # aggregate for the covered historical window and add only snapshots after
+    # the imported window. This avoids inventing daily values from an aggregate.
+    if baseline and baseline_end:
+        views_30d = int(baseline.get("views", 0) or 0)
+        clones_30d = int(baseline.get("clones", 0) or 0)
+        for row in window:
+            d = str(row.get("date", ""))[:10]
+            if d and d > baseline_end:
+                views_30d += int(row.get("views", 0) or 0)
+                clones_30d += int(row.get("clones", 0) or 0)
+        views_today = int(today_row.get("views", 0) or 0)
+        clones_today = int(today_row.get("clones", 0) or 0)
+    else:
+        views_today = int(today_row.get("views", 0) or 0)
+        clones_today = int(today_row.get("clones", 0) or 0)
+        views_30d = sum(int(r.get("views", 0) or 0) for r in window)
+        clones_30d = sum(int(r.get("clones", 0) or 0) for r in window)
+
     stars = int(latest.get("stars", 0) or 0)
     forks = int(latest.get("forks", 0) or 0)
+    if not latest and baseline:
+        stars = forks = 0
+
+    first = available[0] if available else {}
     star_delta = stars - int(first.get("stars", stars) or stars) if first else 0
     fork_delta = forks - int(first.get("forks", forks) or forks) if first else 0
 
