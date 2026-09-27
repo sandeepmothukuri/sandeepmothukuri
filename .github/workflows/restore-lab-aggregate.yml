@@ -1,0 +1,37 @@
+name: Restore lab aggregate stats
+
+on:
+  push:
+    paths:
+      - '.github/workflows/restore-lab-aggregate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore aggregate marker and render live totals
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('README.md')
+          s = p.read_text(encoding='utf-8')
+          if '<!-- LAB-AGGREGATE START -->' not in s:
+              marker = '''\n<!-- LAB-AGGREGATE START -->\n<sub>📊 Aggregate lab metrics loading…</sub>\n<!-- LAB-AGGREGATE END -->\n'''
+              end = '<!-- PROFILE-VIEWS END -->'
+              if end not in s:
+                  raise SystemExit('PROFILE-VIEWS marker not found; refusing to modify README')
+              p.write_text(s.replace(end, end + marker, 1), encoding='utf-8')
+          PY
+          python .github/scripts/render-metrics.py
+          rm -f .github/workflows/restore-lab-aggregate.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md .github/workflows/restore-lab-aggregate.yml
+          git diff --cached --quiet && exit 0
+          git commit -m 'fix(profile): restore total lab traffic stats'
+          git push
