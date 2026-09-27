@@ -12,13 +12,12 @@ on:
     paths:
       - .github/scripts/snapshot-metrics.sh
       - .github/scripts/render-metrics.py
+      - .github/scripts/render-metrics-calendar.py
 
 permissions:
   contents: write
 
 env:
-  # Opt into Node 24 for actions/checkout & actions/setup-python ahead of
-  # the June 2026 default switch, silencing the deprecation warning.
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 jobs:
@@ -34,16 +33,13 @@ jobs:
 
       - name: Snapshot today's metrics
         env:
-          # GH_PAT needs public_repo scope for traffic data.
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: bash .github/scripts/snapshot-metrics.sh
 
-      - name: Render README
+      - name: Render README with exact calendar 30-day windows
         env:
-          # Needed by fetch_github_activity() for commits-this-year + streak
-          # via the GraphQL contributionsCollection query.
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/render-metrics.py
+        run: python3 .github/scripts/render-metrics-calendar.py
 
       - name: Commit straight to main (autopilot)
         run: |
@@ -53,6 +49,6 @@ jobs:
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add metrics/history.json README.md
+          git add metrics/history.json README.md .github/scripts/render-metrics-calendar.py .github/workflows/profile-metrics.yml
           git commit -m "chore(metrics): daily refresh ($(date -u +%Y-%m-%d))"
           git push origin HEAD:main
