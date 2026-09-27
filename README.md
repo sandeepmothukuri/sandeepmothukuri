@@ -19,10 +19,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-ON--CALL-3fb950?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/TIER-L3%20%C2%B7%20Senior-a371f7?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/REGION-UK%20%C2%B7%20EU%20%C2%B7%20Remote-36d1dc?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/LOCATION-INDIA%20%C2%B7%20GLOBAL%20REMOTE-36d1dc?style=flat-square&labelColor=132f4c" alt="Location: India · Global Remote">
   <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20UK%2022%3A04%20BST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · UK 22:04 BST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20India%20IST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · India IST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
