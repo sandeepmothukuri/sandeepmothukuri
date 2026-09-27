@@ -17,7 +17,7 @@ REPOS=(
   "soc-lab-free"
   "soc-threat-hunting-lab"
   "Autonomous-SOC-Lab"
-  "cyberblue"
+  "AI-SOC-Decision-Engine"
   "PromptSentinel"
   "PromptShield"
   "sentinel-detection-engine"
