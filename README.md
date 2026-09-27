@@ -296,6 +296,17 @@ Microsoft Sentinel detection engineering portfolio — KQL detections mapped to 
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ [PromptShield](https://github.com/sandeepmothukuri/PromptShield)
+Enterprise-grade prompt injection detection and AI firewall for protecting LLM workflows.
+<!-- REPO-METRICS:PromptShield START -->
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-live-3fb950?style=flat-square&labelColor=132f4c" alt="views live"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-live-36d1dc?style=flat-square&labelColor=132f4c" alt="clones live"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-live-ffcf5a?style=flat-square&labelColor=132f4c" alt="stars live"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-live-a371f7?style=flat-square&labelColor=132f4c" alt="forks live"></sub>
+<!-- REPO-METRICS:PromptShield END -->
+
+</td>
+</tr>
 
 </td>
 </tr>
