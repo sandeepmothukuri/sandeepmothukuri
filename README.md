@@ -275,6 +275,25 @@ Enterprise-grade prompt injection detection and AI firewall — 22 detectors, OW
 <!-- REPO-METRICS:PromptSentinel END -->
 
 </td>
+<tr>
+<td width="50%" valign="top">
+
+### 🔥 [SOCForge](https://github.com/sandeepmothukuri/socforge)
+Evidence-driven SOC platform for alert triage, investigation, detection engineering, and AI-augmented security operations.
+<!-- REPO-METRICS:socforge START -->
+<sub>📊 metrics collecting — first snapshot pending</sub>
+<!-- REPO-METRICS:socforge END -->
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine)
+Microsoft Sentinel detection engineering portfolio — KQL detections mapped to MITRE ATT&CK.
+<!-- REPO-METRICS:sentinel-detection-engine START -->
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%2020%20/%2030d-3fb950?style=flat-square&labelColor=132f4c"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2039%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1-ffcf5a?style=flat-square&labelColor=132f4c"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0-a371f7?style=flat-square&labelColor=132f4c"></sub>
+<!-- REPO-METRICS:sentinel-detection-engine END -->
+
+</td>
 </tr>
 </table>
 
