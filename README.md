@@ -219,11 +219,11 @@ AI-augmented open-source SOC — Wazuh + TheHive + Shuffle + MISP + Ollama (LLaM
 <tr>
 <td width="50%" valign="top">
 
-### 🆓 [soc-lab-free](https://github.com/sandeepmothukuri/soc-lab-free)
-100% free SOC lab — OpenVAS, Wazuh, pfSense, Proxmox Mail, Lynis replacing Nessus, Splunk, Netskope, Mimecast.
-<!-- REPO-METRICS:soc-lab-free START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%20104%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 104 / 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2082%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 82 / 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-3%20%28%2B2/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 3 (+2/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-1%20%28%2B1/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 1 (+1/30d)"></sub>
-<!-- REPO-METRICS:soc-lab-free END -->
+### 📊 [AI-Augmented-SOC-Lab — Traffic](https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab/graphs/traffic)
+Live GitHub traffic analytics for the AI-Augmented-SOC-Lab project.
+<!-- REPO-METRICS:AI-Augmented-SOC-Lab START -->
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20traffic%20graph-live-36d1dc?style=flat-square&labelColor=132f4c" alt="Live traffic graph"></sub>
+<!-- REPO-METRICS:AI-Augmented-SOC-Lab END -->
 
 </td>
 <td width="50%" valign="top">
