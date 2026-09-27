@@ -1,0 +1,21 @@
+{
+  "source": "GitHub Traffic screenshots supplied by repository owner",
+  "window_start": "2026-09-10",
+  "window_end": "2026-09-23",
+  "window_days": 14,
+  "note": "Imported aggregate totals only; GitHub traffic UI/API exposes a rolling 14-day window. These values are used as the verified baseline until daily snapshots extend the history.",
+  "repos": {
+    "AI-SOC-Decision-Engine": {
+      "views": 146,
+      "unique_views": 3,
+      "clones": 341,
+      "unique_cloners": 104
+    },
+    "socforge": {
+      "views": 109,
+      "unique_views": 1,
+      "clones": 300,
+      "unique_cloners": 84
+    }
+  }
+}
