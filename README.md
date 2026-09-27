@@ -274,7 +274,15 @@ Enterprise-grade prompt injection detection and AI firewall — 22 detectors, OW
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%20108%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 108 / 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%20359%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 359 / 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
 <!-- REPO-METRICS:PromptSentinel END -->
 
+</td
+### 🛡️ [PromptShield](https://github.com/sandeepmothukuri/PromptShield)
+Enterprise-grade prompt injection detection and AI firewall — 22 detectors, OWASP LLM Top 10, SARIF/SIEM output, FastAPI + Docker.
+<!-- REPO-METRICS:PromptShield START -->
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-live-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views live"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-live-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones live"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-live-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars live"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-live-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks live"></sub>
+<!-- REPO-METRICS:PromptShield END -->
+
 </td>
+
 <tr>
 <td width="50%" valign="top">
 
