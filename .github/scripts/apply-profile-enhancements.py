@@ -44,3 +44,5 @@ if anchor in text:
 
 README.write_text(text.rstrip() + "\n", encoding="utf-8")
 print("Profile enhancements applied")
+
+# Workflow trigger marker
