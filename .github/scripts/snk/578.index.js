@@ -68,9 +68,8 @@ const createSnake = (chain, { sizeCell, sizeDot }, duration) => {
             snakeParts[i].push(cells[i]);
     }
     const svgElements = snakeParts.map((_, i, { length }) => {
-        // Tighter snake dot spacing (dots close to each other)
-        const dMin = 12.8;
-        const dMax = 14.6;
+        const dMin = 9.6;
+        const dMax = 14.4;
         const iMax = Math.max(1, length - 1);
         const u = (1 - i / iMax) ** 1.5;
         const s = lerp(u, dMin, dMax);
