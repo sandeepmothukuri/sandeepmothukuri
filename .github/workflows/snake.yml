@@ -30,6 +30,14 @@ jobs:
       - name: Add contribution-driven growth
         run: python3 .github/scripts/snake-growth.py
 
+      - name: Validate generated SVGs
+        run: |
+          test -s dist/github-snake.svg
+          test -s dist/github-snake-dark.svg
+          grep -q 'contribution-driven snake growth' dist/github-snake.svg
+          grep -q 'contribution-driven snake growth' dist/github-snake-dark.svg
+          test "$(grep -o 'class=\"snake-growth snake-growth-[0-9]*\"' dist/github-snake.svg | wc -l)" -gt 0
+
       - name: Publish draft output
         uses: crazy-max/ghaction-github-pages@v4
         with:
