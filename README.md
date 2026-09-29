@@ -176,6 +176,21 @@ SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home l
 </p>
 <!-- SOC TELEMETRY STREAM END -->
 
+<!-- DETECTION-LIFECYCLE START -->
+## 🔄 Detection Engineering & Incident Lifecycle
+
+```mermaid
+flowchart LR
+    Intel["🔍 Threat Intel<br/>(CVE / CTI / ATT&CK)"] --> Emulation["⚡ Adversary Emulation<br/>(Caldera / Atomic Red)"]
+    Emulation --> Telemetry["📡 Telemetry Validation<br/>(Sysmon / EDR / SIEM)"]
+    Telemetry --> Code["💻 Detection-as-Code<br/>(Sigma / KQL / SPL)"]
+    Code --> CI["🤖 CI/CD Testing<br/>(GitHub Actions / Linter)"]
+    CI --> Deploy["🚀 Production SIEM<br/>(Splunk / Sentinel / Wazuh)"]
+    Deploy --> Tuning["🎯 False-Positive Tuning<br/>(Baseline Feedback Loop)"]
+    Tuning -.-> Emulation
+```
+<!-- DETECTION-LIFECYCLE END -->
+
 ## 🧪 Featured Labs
 
 <table>
