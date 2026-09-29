@@ -21,6 +21,66 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      # Make the contribution snake visually larger without changing
+      # the contribution grid, timing, colors, or README layout.
+      - name: Enlarge contribution snake
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          SCALE = 1.45
+
+          for filename in ("dist/github-snake.svg", "dist/github-snake-dark.svg"):
+              path = Path(filename)
+              svg = path.read_text(encoding="utf-8")
+
+              def enlarge(match):
+                  attrs = match.group(1)
+
+                  def number(name):
+                      value = re.search(rf'\\b{name}="([^"]+)"', attrs)
+                      return float(value.group(1)) if value else None
+
+                  x = number("x")
+                  y = number("y")
+                  width = number("width")
+                  height = number("height")
+                  rx = number("rx")
+                  ry = number("ry")
+
+                  if None in (x, y, width, height):
+                      return match.group(0)
+
+                  new_width = width * SCALE
+                  new_height = height * SCALE
+                  new_x = x - (new_width - width) / 2
+                  new_y = y - (new_height - height) / 2
+
+                  attrs = re.sub(r'\\bx="[^"]+"', f'x="{new_x:.1f}"', attrs)
+                  attrs = re.sub(r'\\by="[^"]+"', f'y="{new_y:.1f}"', attrs)
+                  attrs = re.sub(r'\\bwidth="[^"]+"', f'width="{new_width:.1f}"', attrs)
+                  attrs = re.sub(r'\\bheight="[^"]+"', f'height="{new_height:.1f}"', attrs)
+
+                  if rx is not None:
+                      attrs = re.sub(r'\\brx="[^"]+"', f'rx="{rx * SCALE:.1f}"', attrs)
+                  if ry is not None:
+                      attrs = re.sub(r'\\bry="[^"]+"', f'ry="{ry * SCALE:.1f}"', attrs)
+
+                  return "<rect" + attrs + "/>"
+
+              # Only resize snake segments (.s.s0, .s.s1, ...), not grid cells.
+              svg = re.sub(r'<rect([^>]*class="s s\\d+"[^>]*)/>', enlarge, svg)
+
+              # Give the head a subtle glow while preserving its existing animation.
+              svg = svg.replace(
+                  "</style>",
+                  ".s.s0{filter:drop-shadow(0 0 3px var(--cs))}\\n</style>",
+                  1,
+              )
+
+              path.write_text(svg, encoding="utf-8")
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
