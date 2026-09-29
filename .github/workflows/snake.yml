@@ -2,6 +2,9 @@ name: Generate Snake Animation - Draft Growth
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - draft/snake-growth-v2
 
 permissions:
   contents: write
