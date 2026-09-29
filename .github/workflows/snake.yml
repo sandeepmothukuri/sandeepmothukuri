@@ -21,7 +21,64 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # Regenerate the standard-size snake output.
+      # Keep Platane's original 12px contribution cells and normal snake size.
+      # Add a trailing body one normal-size segment at a time as contribution
+      # cells are eaten; this does not scale the snake or alter the grid.
+      - name: Add contribution-growth body segments
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          MAX_SEGMENTS = 60
+          SEGMENT_DELAY_MS = 260
+
+          for path in Path("dist").glob("github-snake*.svg"):
+              svg = path.read_text(encoding="utf-8")
+
+              # Platane's generated SVG contains one keyframe per eaten
+              # contribution cell. Use those timestamps as the growth events.
+              events = [float(x) for x in re.findall(r"@keyframes c\\w+\\{([0-9.]+)%\\{fill:", svg)]
+              events = sorted(dict.fromkeys(events))[:MAX_SEGMENTS]
+              if not events:
+                  continue
+
+              # Reuse Platane's original snake path animation. Each body
+              # segment follows the exact same path with a small time lag.
+              growth_css = []
+              body_svg = []
+
+              for i, event in enumerate(events, 1):
+                  delay = i * SEGMENT_DELAY_MS
+                  growth_css.append(
+                      f"@keyframes grow{i}{{0%,{max(0,event-0.02):.2f}%{{opacity:0}}"
+                      f"{event:.2f}%,100%{{opacity:1}}}}"
+                  )
+                  body_svg.append(
+                      f'<rect class="growth-segment growth-{i}" x="0" y="-16" '
+                      f'width="16" height="16" rx="3" ry="3" />'
+                  )
+
+              style = (
+                  "<style>"
+                  ".growth-segment{shape-rendering:geometricPrecision;fill:var(--cs);"
+                  "animation:s0 20900ms linear infinite;opacity:0;}"
+                  + "".join(
+                      f".growth-{i}{{animation-delay:{i*SEGMENT_DELAY_MS}ms;animation-name:s0,grow{i};animation-duration:20900ms,20900ms;animation-timing-function:linear,linear;animation-iteration-count:infinite,infinite;}}"
+                      for i in range(1, len(events)+1)
+                  )
+                  + "".join(growth_css)
+                  + "</style>"
+              )
+
+              # Insert body behind the existing snake head so the head remains
+              # visually unchanged and the new segments form a trailing body.
+              marker = "</style>"
+              if marker not in svg:
+                  continue
+              svg = svg.replace(marker, marker + style + "<g aria-label=\"snake growth body\">" + "".join(body_svg) + "</g>", 1)
+              path.write_text(svg, encoding="utf-8")
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
