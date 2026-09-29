@@ -39,7 +39,7 @@ jobs:
                   attrs = match.group(1)
 
                   def number(name):
-                      value = re.search(rf'\\b{name}="([^"]+)"', attrs)
+                      value = re.search(rf'{name}="([^"]+)"', attrs)
                       return float(value.group(1)) if value else None
 
                   x = number("x")
@@ -57,25 +57,25 @@ jobs:
                   new_x = x - (new_width - width) / 2
                   new_y = y - (new_height - height) / 2
 
-                  attrs = re.sub(r'\\bx="[^"]+"', f'x="{new_x:.1f}"', attrs)
-                  attrs = re.sub(r'\\by="[^"]+"', f'y="{new_y:.1f}"', attrs)
-                  attrs = re.sub(r'\\bwidth="[^"]+"', f'width="{new_width:.1f}"', attrs)
-                  attrs = re.sub(r'\\bheight="[^"]+"', f'height="{new_height:.1f}"', attrs)
+                  attrs = re.sub(r'x="[^"]+"', f'x="{new_x:.1f}"', attrs, count=1)
+                  attrs = re.sub(r'y="[^"]+"', f'y="{new_y:.1f}"', attrs, count=1)
+                  attrs = re.sub(r'width="[^"]+"', f'width="{new_width:.1f}"', attrs, count=1)
+                  attrs = re.sub(r'height="[^"]+"', f'height="{new_height:.1f}"', attrs, count=1)
 
                   if rx is not None:
-                      attrs = re.sub(r'\\brx="[^"]+"', f'rx="{rx * SCALE:.1f}"', attrs)
+                      attrs = re.sub(r'rx="[^"]+"', f'rx="{rx * SCALE:.1f}"', attrs, count=1)
                   if ry is not None:
-                      attrs = re.sub(r'\\bry="[^"]+"', f'ry="{ry * SCALE:.1f}"', attrs)
+                      attrs = re.sub(r'ry="[^"]+"', f'ry="{ry * SCALE:.1f}"', attrs, count=1)
 
                   return "<rect" + attrs + "/>"
 
               # Only resize snake segments (.s.s0, .s.s1, ...), not grid cells.
-              svg = re.sub(r'<rect([^>]*class="s s\\d+"[^>]*)/>', enlarge, svg)
+              svg = re.sub(r'<rect([^>]*class="s s[0-9]+"[^>]*)/>', enlarge, svg)
 
               # Give the head a subtle glow while preserving its existing animation.
               svg = svg.replace(
                   "</style>",
-                  ".s.s0{filter:drop-shadow(0 0 3px var(--cs))}\\n</style>",
+                  ".s.s0{filter:drop-shadow(0 0 3px var(--cs))}\n</style>",
                   1,
               )
 
