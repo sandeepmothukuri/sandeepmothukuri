@@ -102,6 +102,66 @@ Outside of work I build **open-source SOC labs** that mirror enterprise stacks, 
 - 🧪 **Writing** — Open-source SOC labs others can clone in 15 min (see Featured Labs below)
 - 🎤 **Discussing** — detection engineering, SOAR design, the false-positive economy in modern SOCs
 
+
+## 🏆 Top Repositories — Last 30 Days
+
+> Automatically ranked daily using repository traffic: **views + clones**, with stars and forks shown for additional context.
+
+<!-- TOP-REPOS START -->
+
+| Rank | Repository | Views | Clones | Stars | Forks |
+|---|---|---:|---:|---:|---:|
+| 🥇 | **Enterprise-Detection-Engineering-SOC-Lab** | — | — | — | — |
+| 🥈 | **AI-Augmented-SOC-Lab** | — | — | — | — |
+| 🥉 | **PromptShield** | — | — | — | — |
+
+<!-- TOP-REPOS END -->
+
+> 🔄 This section is automatically recalculated from the latest repository traffic history.
+
+## 🎯 Security Engineering Focus
+
+| Domain | Focus |
+|---|---|
+| 🔎 **Detection Engineering** | Sigma · KQL · SPL · MITRE ATT&CK · Detection-as-Code |
+| 🛡️ **SOC Operations** | L2/L3 triage · Incident Response · Threat Hunting · RCA |
+| 🤖 **AI Security** | LLM Security · Prompt Injection · AI-assisted SOC · AI Firewall |
+| ⚙️ **Security Automation** | Python · PowerShell · SOAR · CI/CD · Automated Enrichment |
+| ☁️ **Cloud Security** | Microsoft Defender · Sentinel · Azure · AWS |
+| 🧪 **Adversary Simulation** | MITRE ATT&CK · Caldera · Atomic Red Team |
+
+## 🧩 Projects → Capabilities
+
+| Project | Demonstrates |
+|---|---|
+| 🔥 [SOCForge](https://github.com/sandeepmothukuri/socforge) | SOC triage · investigation · detection engineering · AI-assisted security operations |
+| 🤖 [AI-SOC-Decision-Engine](https://github.com/sandeepmothukuri/AI-SOC-Decision-Engine) | AI-assisted SOC decisioning · evidence analysis · risk assessment |
+| 🛡️ [PromptShield](https://github.com/sandeepmothukuri/PromptShield) | Prompt injection defense · LLM security · AI application protection |
+| 🛡️ [PromptSentinel](https://github.com/sandeepmothukuri/PromptSentinel) | AI firewall · prompt injection detection · SARIF/SIEM integration |
+| 🧠 [AI-Augmented-SOC-Lab](https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab) | AI SOC experimentation · detection engineering · threat hunting |
+| 🎯 [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine) | KQL · Microsoft Sentinel · MITRE ATT&CK · detection-as-code |
+
+## 🏗️ Engineering Principles
+
+`Detection-as-Code` · `Evidence-Driven Investigation` · `Automation-First SOC` · `MITRE ATT&CK Mapping` · `Reproducible Security Labs` · `AI-Assisted Analysis` · `CI/CD Validation` · `Measurable MTTD / MTTR Reduction`
+
+## 📊 Automated GitHub Analytics
+
+Your profile automatically tracks:
+
+- 👁 Repository views
+- 📥 Repository clones
+- 👥 Unique visitors
+- 👤 Unique cloners
+- ⭐ Stars
+- 🍴 Forks
+- 📦 Release downloads
+- 📈 30-day traffic
+- 🏆 Top repository ranking
+- 🧪 Public repository discovery
+
+New public repositories are automatically discovered by the daily metrics workflow.
+
 ## 💬 Ask me about
 
 SIEM tuning · MITRE ATT&CK mapping · incident response playbooks · SOC home labs · L1 → L3 career progression · interview prep for SOC roles · transitioning from MSSP to in-house SOC · open-source SOAR vs. commercial vendors
@@ -524,4 +584,3 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 
 <p align="center"><sub>⭐ If a lab or write-up helped you, a star helps other SOC analysts find this work.</sub></p>
 <p align="center"><sub>Released under the <a href="LICENSE">MIT License</a>. © 2026 Sandeep Mothukuri.</sub></p>
-
