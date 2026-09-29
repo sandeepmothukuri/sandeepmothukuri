@@ -21,15 +21,15 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # Make the contribution snake visually larger without changing
-      # the contribution grid, timing, colors, or README layout.
+      # Enlarge only the animated snake segments.
+      # Contribution cells, colors, timing, and README layout remain unchanged.
       - name: Enlarge contribution snake
         shell: python
         run: |
           from pathlib import Path
           import re
 
-          SCALE = 1.45
+          SCALE = 1.8
 
           for filename in ("dist/github-snake.svg", "dist/github-snake-dark.svg"):
               path = Path(filename)
@@ -69,7 +69,8 @@ jobs:
 
                   return "<rect" + attrs + "/>"
 
-              # Only resize snake segments (.s.s0, .s.s1, ...), not grid cells.
+              # Only resize the snake's animated segments (.s.s0, .s.s1, ...).
+              # Grid cells are deliberately untouched.
               svg = re.sub(r'<rect([^>]*class="s s[0-9]+"[^>]*)/>', enlarge, svg)
               path.write_text(svg, encoding="utf-8")
 
