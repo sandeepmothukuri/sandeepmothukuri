@@ -33,6 +33,14 @@ jobs:
 
           for path in Path("dist").glob("github-snake*.svg"):
               svg = path.read_text(encoding="utf-8")
+
+              # Find the actual snake group regardless of formatting or
+              # whether the group has additional attributes.
+              group_match = re.search(r'<g class="s"[^>]*>', svg)
+              if not group_match:
+                  raise SystemExit(f"Original snake group not found in {path}")
+
+              # Each cN keyframe marks a contribution cell being eaten.
               events = [
                   float(x)
                   for x in re.findall(
@@ -45,40 +53,47 @@ jobs:
               if not events:
                   raise SystemExit(f"No contribution eating events found in {path}")
 
-              marker = '<g class="s">'
-              if marker not in svg:
-                  raise SystemExit(f"Original snake group not found in {path}")
-
-              css = ['<style>']
+              css = [
+                  "<style>",
+                  ".growth-segment{shape-rendering:geometricPrecision;fill:var(--cs);opacity:0;}",
+              ]
               body = ['<g aria-label="snake growth body">']
 
               for i, event in enumerate(events, 1):
+                  # Keep every segment at the native 16x16 snake-grid size.
+                  # It follows the original path one grid-step behind the head.
                   lag = i * SEGMENT_DELAY_MS
                   before = max(0.0, event - 0.03)
+
                   css.append(
-                      f'.growth-{i}' + '{'
-                      f'animation-name:s0,grow{i};'
-                      f'animation-duration:{DURATION_MS}ms,{DURATION_MS}ms;'
-                      f'animation-timing-function:linear,linear;'
-                      f'animation-iteration-count:infinite,infinite;'
-                      f'animation-delay:{lag}ms,0ms;'
-                      f'animation-fill-mode:backwards,none;'
-                      '}'
+                      f".growth-{i}" + "{"
+                      f"animation-name:s0,grow{i};"
+                      f"animation-duration:{DURATION_MS}ms,{DURATION_MS}ms;"
+                      "animation-timing-function:linear,linear;"
+                      "animation-iteration-count:infinite,infinite;"
+                      f"animation-delay:-{lag}ms,0ms;"
+                      "animation-fill-mode:both,both;"
+                      "}"
                   )
                   css.append(
-                      f'@keyframes grow{i}' + '{'
-                      f'0%,{before:.2f}%{{opacity:0;}}'
-                      f'{event:.2f}%,100%{{opacity:1;}}'
-                      '}'
+                      f"@keyframes grow{i}" + "{"
+                      f"0%,{before:.2f}%{{opacity:0;}}"
+                      f"{event:.2f}%,100%{{opacity:1;}}"
+                      "}"
                   )
+
                   body.append(
                       f'<rect class="growth-segment growth-{i}" '
                       'x="0" y="-16" width="16" height="16" rx="3" ry="3" />'
                   )
 
-              body.append('</g>')
-              css.append('</style>')
-              svg = svg.replace(marker, ''.join(css) + ''.join(body) + marker, 1)
+              body.append("</g>")
+              css.append("</style>")
+
+              # Add the growth body immediately before Platane's original
+              # snake group, leaving the original snake/head unchanged.
+              insert_at = group_match.start()
+              svg = svg[:insert_at] + "".join(css) + "".join(body) + svg[insert_at:]
               path.write_text(svg, encoding="utf-8")
 
       - uses: crazy-max/ghaction-github-pages@v4
