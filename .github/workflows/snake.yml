@@ -71,14 +71,6 @@ jobs:
 
               # Only resize snake segments (.s.s0, .s.s1, ...), not grid cells.
               svg = re.sub(r'<rect([^>]*class="s s[0-9]+"[^>]*)/>', enlarge, svg)
-
-              # Give the head a subtle glow while preserving its existing animation.
-              svg = svg.replace(
-                  "</style>",
-                  ".s.s0{filter:drop-shadow(0 0 3px var(--cs))}\n</style>",
-                  1,
-              )
-
               path.write_text(svg, encoding="utf-8")
 
       - uses: crazy-max/ghaction-github-pages@v4
