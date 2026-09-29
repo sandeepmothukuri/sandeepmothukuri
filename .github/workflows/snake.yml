@@ -21,9 +21,8 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # Keep Platane's original 12px contribution cells and normal snake size.
-      # Add a trailing body one normal-size segment at a time as contribution
-      # cells are eaten; this does not scale the snake or alter the grid.
+      # Keep Platane's original contribution cells and normal snake size.
+      # Add one normal-size trailing segment for each contribution eaten.
       - name: Add contribution-growth body segments
         shell: python
         run: |
@@ -32,51 +31,61 @@ jobs:
 
           MAX_SEGMENTS = 60
           SEGMENT_DELAY_MS = 260
+          DURATION_MS = 20900
 
           for path in Path("dist").glob("github-snake*.svg"):
               svg = path.read_text(encoding="utf-8")
 
-              # Platane's generated SVG contains one keyframe per eaten
-              # contribution cell. Use those timestamps as the growth events.
-              events = [float(x) for x in re.findall(r"@keyframes c\\w+\\{([0-9.]+)%\\{fill:", svg)]
+              # Platane emits one cN keyframe for each contribution cell that
+              # gets eaten. Those timestamps become the growth events.
+              events = [
+                  float(x)
+                  for x in re.findall(r"@keyframes c\\w+\\{([0-9.]+)%\\{fill:", svg)
+              ]
               events = sorted(dict.fromkeys(events))[:MAX_SEGMENTS]
               if not events:
                   continue
 
-              # Reuse Platane's original snake path animation. Each body
-              # segment follows the exact same path with a small time lag.
-              growth_css = []
-              body_svg = []
+              css = [
+                  "<style>",
+                  ".growth-segment{shape-rendering:geometricPrecision;fill:var(--cs);opacity:0;}",
+              ]
+              body = ['<g aria-label="snake growth body">']
 
               for i, event in enumerate(events, 1):
-                  delay = i * SEGMENT_DELAY_MS
-                  growth_css.append(
-                      f"@keyframes grow{i}{{0%,{max(0,event-0.02):.2f}%{{opacity:0}}"
+                  # Segment remains invisible until the corresponding food
+                  # event, then stays visible for the rest of the cycle.
+                  before = max(0.0, event - 0.02)
+                  css.append(
+                      f"@keyframes grow{i}{{0%,{before:.2f}%{{opacity:0}}"
                       f"{event:.2f}%,100%{{opacity:1}}}}"
                   )
-                  body_svg.append(
+                  delay = i * SEGMENT_DELAY_MS
+                  css.append(
+                      f".growth-{i}{{animation-name:s0,grow{i};"
+                      f"animation-duration:{DURATION_MS}ms,{DURATION_MS}ms;"
+                      f"animation-timing-function:linear,linear;"
+                      f"animation-iteration-count:infinite,infinite;"
+                      f"animation-delay:{delay}ms,0ms;}}"
+                  )
+                  # 16px is the original grid step used by Platane's snake
+                  # path. No scale transform is applied.
+                  body.append(
                       f'<rect class="growth-segment growth-{i}" x="0" y="-16" '
                       f'width="16" height="16" rx="3" ry="3" />'
                   )
 
-              style = (
-                  "<style>"
-                  ".growth-segment{shape-rendering:geometricPrecision;fill:var(--cs);"
-                  "animation:s0 20900ms linear infinite;opacity:0;}"
-                  + "".join(
-                      f".growth-{i}{{animation-delay:{i*SEGMENT_DELAY_MS}ms;animation-name:s0,grow{i};animation-duration:20900ms,20900ms;animation-timing-function:linear,linear;animation-iteration-count:infinite,infinite;}}"
-                      for i in range(1, len(events)+1)
-                  )
-                  + "".join(growth_css)
-                  + "</style>"
-              )
+              body.append("</g>")
+              css.append("</style>")
 
-              # Insert body behind the existing snake head so the head remains
-              # visually unchanged and the new segments form a trailing body.
-              marker = "</style>"
+              # Put the body immediately before Platane's original snake head
+              # so the head remains visually unchanged and stays on top.
+              marker = '<g class="s">'
               if marker not in svg:
                   continue
-              svg = svg.replace(marker, marker + style + "<g aria-label=\"snake growth body\">" + "".join(body_svg) + "</g>", 1)
+
+              insertion = "".join(css) + "".join(body)
+              svg = svg.replace(marker, insertion + marker, 1)
               path.write_text(svg, encoding="utf-8")
 
       - uses: crazy-max/ghaction-github-pages@v4
