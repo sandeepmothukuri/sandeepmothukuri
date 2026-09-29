@@ -1,7 +1,11 @@
-name: Generate Snake Animation - Draft Growth
+name: Generate Snake Animation
 
 on:
+  schedule:
+    - cron: "0 5 * * *"  # daily at 05:00 UTC
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
@@ -9,7 +13,6 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     steps:
       - uses: Platane/snk/svg-only@v3
         with:
@@ -18,13 +21,9 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Add contribution-driven growth
-        run: python3 .github/scripts/snake-growth.py
-
-      - name: Publish draft output
-        uses: crazy-max/ghaction-github-pages@v4
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: draft-snake-output-v2
+          target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
