@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   enhance-profile:
-    if: "github.event.head_commit.message != 'ci: apply profile enhancements automatically' && github.event.head_commit.message != 'feat: automate profile portfolio enhancements'"
+    if: github.event.head_commit.message != 'ci: apply profile enhancements automatically' && github.event.head_commit.message != 'feat: automate profile portfolio enhancements'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
