@@ -24,7 +24,7 @@
 </p>
 <p align="center">
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20India%2001%3A11%20IST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · India 01:11 IST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20India%2001%3A35%20IST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · India 01:35 IST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -47,9 +47,9 @@
   <img src="https://img.shields.io/badge/Commits-727%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 727 this year">  <img src="https://img.shields.io/badge/Streak-4%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 4 days">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
-  <img src="https://img.shields.io/badge/Profile%20views-266-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 266">
-  <img src="https://img.shields.io/badge/Last%2030%20days-51-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 51">
-  <img src="https://img.shields.io/badge/Today-9-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 9">
+  <img src="https://img.shields.io/badge/Profile%20views-267-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 267">
+  <img src="https://img.shields.io/badge/Last%2030%20days-52-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 52">
+  <img src="https://img.shields.io/badge/Today-10-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 10">
 <!-- PROFILE-VIEWS END -->
   <br/>
 <!-- LAB-AGGREGATE START -->
