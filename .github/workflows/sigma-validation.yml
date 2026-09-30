@@ -1,0 +1,32 @@
+name: Detection-as-Code Quality Gate
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"   # Mondays at 08:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/validate-sigma-rules.py'
+      - '.github/workflows/sigma-validation.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-detections:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install --quiet pyyaml
+
+      - name: Run Sigma & Detection-as-Code Linter
+        run: python3 .github/scripts/validate-sigma-rules.py

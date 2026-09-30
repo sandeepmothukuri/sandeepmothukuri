@@ -130,7 +130,7 @@ def render_greeting_block() -> str:
     else: g = "Working the night shift"
     counter = (
         f'<img src="https://api.visitorbadge.io/api/visitors?'
-        f'path=github.com%2F{OWNER}&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" '
+        f'path={OWNER}&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" '
         f'alt="Visitors today">'
     )
     return f'<sub><b>👋 {g}!</b> &nbsp;·&nbsp; {counter}</sub>'

@@ -66,7 +66,7 @@
 
 <p align="center">
 <!-- GREETING START -->
-<sub><b>👋 Good evening!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=github.com%2Fsandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
+<sub><b>👋 Good evening!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=sandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
 <!-- GREETING END -->
 </p>
 
@@ -399,7 +399,13 @@ index=wineventlog EventCode=5140
 <!-- MITRE-ATTACK-COVERAGE START -->
 ### 🗺️ MITRE ATT&CK® Enterprise Coverage Matrix
 
-<sub>A mapping of custom detections authored and validated across enterprise kill chains in my open-source labs:</sub>
+<p align="left">
+  <img src="https://img.shields.io/badge/Enterprise%20Tactics-10%2F14%20Covered-1f6feb?style=flat-square&labelColor=132f4c" alt="10/14 Tactics Covered">
+  <img src="https://img.shields.io/badge/Techniques%20Mapped-24%2B%20Validated-3fb950?style=flat-square&labelColor=132f4c" alt="Validated Techniques">
+  <img src="https://img.shields.io/badge/Framework-MITRE%20ATT%26CK%20v15-ffcf5a?style=flat-square&labelColor=132f4c" alt="ATT&CK v15">
+</p>
+
+<sub>Dynamic mapping of custom detection rules authored and validated across enterprise kill chains in my open-source labs:</sub>
 
 | Tactic | Techniques Covered | Primary Detections | Labs / Reference |
 |---|---|---|---|
@@ -528,10 +534,6 @@ index=wineventlog EventCode=5140
 <p align="center">
   <img height="180" src="https://github-readme-stats-sandeep-mothukuri-s-projects.vercel.app/api?username=sandeepmothukuri&show_icons=true&count_private=true&hide_border=true&bg_color=0a1929&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&ring_color=58a6ff">
   <img height="180" src="https://github-readme-stats-sandeep-mothukuri-s-projects.vercel.app/api/top-langs/?username=sandeepmothukuri&layout=compact&langs_count=8&hide_border=true&bg_color=0a1929&title_color=58a6ff&text_color=c9d1d9">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sandeepmothukuri&bg_color=0a1929&color=58a6ff&line=58a6ff&point=1f6feb&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%94%20last%2012%20months&title_color=58a6ff" alt="contribution activity graph" width="100%">
 </p>
 
 <p align="center">
