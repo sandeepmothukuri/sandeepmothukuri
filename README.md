@@ -650,7 +650,7 @@ _Last refresh: 2026-09-30 15:33 UTC_
 | **Experience** | 5+ years (enterprise + MSSP) |
 | **Specialties** | IR · Detection Engineering · Threat Hunting · Cloud XDR |
 | **Open to** | Senior SOC Analyst · L3 · Detection Engineer · Threat Hunter |
-| **Location preference** | Global / Remote |
+| **Location preference** | India / Global Remote |
 | **Availability** | Open to conversations now |
 | **Languages** | English · Telugu · Hindi |
 | **Website** | [cybertechnology.in](https://cybertechnology.in) |
