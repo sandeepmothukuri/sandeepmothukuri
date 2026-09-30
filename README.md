@@ -527,7 +527,7 @@ index=wineventlog EventCode=5140
   <img src="https://img.shields.io/badge/Commits-GPG%20Signed%20%E2%9C%93-3fb950?style=flat-square&logo=gnupg&logoColor=white&labelColor=132f4c" alt="Verified GPG Signed Commits">
   <img src="https://img.shields.io/badge/Sigma--Rules-CI%20Validated-36d1dc?style=flat-square&logo=githubactions&logoColor=white&labelColor=132f4c" alt="Sigma Rules CI Validated">
   <img src="https://img.shields.io/badge/Vulnerabilities-0%20Known-3fb950?style=flat-square&logo=snyk&logoColor=white&labelColor=132f4c" alt="0 Known Vulnerabilities">
-  <img src="https://img.shields.io/badge/Security%20Policy-Enforced-58a6ff?style=flat-square&labelColor=132f4c" alt="Security Policy Enforced">
+  <a href="SECURITY.md"><img src="https://img.shields.io/badge/Security%20Policy-Enforced-58a6ff?style=flat-square&labelColor=132f4c" alt="Security Policy Enforced"></a>
 </p>
 <!-- SECOPS-HYGIENE END -->
 
@@ -688,5 +688,5 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 </p>
 
 <p align="center"><sub>⭐ If a lab or write-up helped you, a star helps other SOC analysts find this work.</sub></p>
-<p align="center"><sub>Released under the <a href="LICENSE">MIT License</a>. © 2026 Sandeep Mothukuri.</sub></p>
+<p align="center"><sub>Protected under <a href="LICENSE">All Rights Reserved</a>. © 2026 Sandeep Mothukuri. See <a href="SECURITY.md">Security Policy</a>.</sub></p>
 
