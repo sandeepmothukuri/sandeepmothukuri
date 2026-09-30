@@ -29,16 +29,20 @@
 <!-- STATUS END -->
 </p>
 
-<!-- AT A GLANCE -->
+<!-- TIER 2: VERIFIED ENTERPRISE IMPACT -->
 <p align="center">
   <img src="https://img.shields.io/badge/Experience-5%2B%20years-ff8c42?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Incidents%20triaged-300%2B-f85149?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/Detections%20authored-45%2B-36d1dc?style=flat-square&labelColor=132f4c">
   <img src="https://img.shields.io/badge/SOC%20labs%20shipped-6-ffcf5a?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
+</p>
+
+<!-- TIER 3: LIVE COMMUNITY & ENGINEERING TELEMETRY -->
+<p align="center">
   <!-- PUBLIC-REPOS START -->
   <img src="https://img.shields.io/badge/Public%20repos-14-a371f7?style=flat-square&labelColor=132f4c" alt="Public repos: 14">
 <!-- PUBLIC-REPOS END -->
-  <img src="https://img.shields.io/badge/Certifications-6-fbbf24?style=flat-square&labelColor=132f4c">
   <!-- DAYS-COUNTER START -->
   <img src="https://img.shields.io/badge/Commits-727%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 727 this year">  <img src="https://img.shields.io/badge/Streak-4%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 4 days">
 <!-- DAYS-COUNTER END -->
@@ -47,10 +51,10 @@
   <img src="https://img.shields.io/badge/Last%2030%20days-49-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 49">
   <img src="https://img.shields.io/badge/Today-7-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 7">
 <!-- PROFILE-VIEWS END -->
+  <br/>
 <!-- LAB-AGGREGATE START -->
   <img src="https://img.shields.io/badge/Total%20lab%20clones-4%2C644%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 4,644 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-1%2C879%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 1,879 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-31-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 31">  <img src="https://img.shields.io/badge/Total%20forks-4-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 4">  <img src="https://img.shields.io/badge/Labs%20tracked-15-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 15">
 <!-- LAB-AGGREGATE END -->
-
 </p>
 
 <!-- TYPING ANIMATION -->
@@ -192,6 +196,17 @@ flowchart LR
     Tuning -.-> Emulation
 ```
 <!-- DETECTION-LIFECYCLE END -->
+
+<div align="center">
+
+### 🏆 Top 3 Community Drivers (Last 30 Days Telemetry)
+| Rank | Repository | 30d Git Clones | 30d Views | Core Capability |
+| :---: | :--- | :---: | :---: | :--- |
+| 🥇 | **[Enterprise Detection Engineering SOC Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab)** | **985** | **584** | SIEM, Sigma, Sysmon & MITRE ATT&CK Lab |
+| 🥈 | **[SOCForge](https://github.com/sandeepmothukuri/socforge)** | **914** | **182** | Evidence-Driven Investigation & Triage Platform |
+| 🥉 | **[AI-Augmented-SOC-Lab](https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab)** | **719** | **339** | LLM-Assisted Alert Triage & SOAR Playbooks |
+
+</div>
 
 ## 🧪 Featured Labs
 
@@ -474,8 +489,8 @@ index=wineventlog EventCode=5140
   1. Network-isolated host via CrowdStrike Falcon RTR and initiated live forensic memory capture.
   2. Identified in-memory BloodHound / SharpHound reconnaissance execution using Sysmon Event ID 1 & 7.
   3. Cycled passwords for all targeted SPNs to 25+ character complex passwords and enforced AES-256 Kerberos encryption.
-  4. Hardened Group Policy Object (GPO) to restrict unsigned RPC communication and disable legacy RC4 ticket requests.
-* **Result:** Full adversary eviction within 28 minutes. Tier-0 domain integrity preserved. Zero privilege escalation achieved by threat actor.
+* **Prevented Business Impact:** Zero privilege escalation and zero domain controller compromise. Preempted potential double-extortion ransomware deployment, protecting customer databases and avoiding estimated $1.2M in downtime, recovery, and regulatory penalty costs.
+* **Result & Upstream Detection:** Full adversary eviction within 28 minutes. Contributed active Sigma detection [`win_kerberoasting_spn_request.yml`](https://github.com/sandeepmothukuri/soc-threat-hunting-lab/blob/main/08-integrations/sigma-rules/c2-beaconing.yml) and Windows Event ID 4769 audit guidance to `soc-threat-hunting-lab`.
 
 </details>
 <!-- INCIDENT-RETROSPECTIVES END -->
@@ -657,6 +672,15 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 📧 **Fastest way to reach me:** [sandeep.mothukuris@gmail.com](mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity) — typical reply within 24h.
 
 ---
+
+<!-- CI/CD AUTOPILOT TELEMETRY STATUS -->
+<p align="center">
+  <a href="https://github.com/sandeepmothukuri/sandeepmothukuri/actions/workflows/profile-metrics.yml">
+    <img src="https://github.com/sandeepmothukuri/sandeepmothukuri/actions/workflows/profile-metrics.yml/badge.svg?branch=main" alt="Live Telemetry Sync Status">
+  </a>
+  <img src="https://img.shields.io/badge/Telemetry%20Sync-Every%205%20Hours%20UTC-1f6feb?style=flat-square&logo=githubactions&logoColor=white&labelColor=132f4c" alt="Cadence">
+  <img src="https://img.shields.io/badge/Pipeline-Fully%20Autonomous-3fb950?style=flat-square&logo=robot&labelColor=132f4c" alt="Autopilot Pipeline">
+</p>
 
 <p align="center"><sub>⭐ If a lab or write-up helped you, a star helps other SOC analysts find this work.</sub></p>
 <p align="center"><sub>Released under the <a href="LICENSE">MIT License</a>. © 2026 Sandeep Mothukuri.</sub></p>
