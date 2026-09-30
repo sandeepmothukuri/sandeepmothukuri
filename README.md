@@ -562,20 +562,19 @@ index=wineventlog EventCode=5140
 Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines from public security RSS sources.
 
 <!-- CVE-OF-THE-WEEK-START -->
-### 🚨 Today's Top Critical CVE
+### 🛡️ Active In-The-Wild Exploits (CISA KEV Threat Intel)
 
-| Field | Value |
-|---|---|
-| **CVE ID** | [`CVE-2026-88773`](https://nvd.nist.gov/vuln/detail/CVE-2026-88773) |
-| **CVSS v3.1** | `10.0` (CRITICAL) |
-| **Vector** | `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N` |
-| **Published** | 2026-09-27 |
+| CVE ID | Affected Vendor & Product | Date Added | ATT&CK Tactic & Technique | Ransomware Use |
+|:---|:---|:---:|:---|:---:|
+| [`CVE-2026-76504`](https://nvd.nist.gov/vuln/detail/CVE-2026-76504) | **Cisco** Catalyst SD-WAN Manager | `2026-09-30` | `T1190` Exploit Public-Facing Application | Monitored |
+| [`CVE-2026-86950`](https://nvd.nist.gov/vuln/detail/CVE-2026-86950) | **Apple** Multiple Products | `2026-09-29` | `T1203` Exploitation for Client Execution | Monitored |
+| [`CVE-2026-88772`](https://nvd.nist.gov/vuln/detail/CVE-2026-88772) | **Citrix** NetScaler | `2026-09-27` | `T1190` Exploit Public-Facing Application | Monitored |
 
-> Inconsistent interpretation of HTTP requests ('HTTP Request/Response smuggling') vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
+> **⚠️ Primary Threat Focus ([`CVE-2026-76504`](https://nvd.nist.gov/vuln/detail/CVE-2026-76504))**: **Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability** — Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.
+> 
+> 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1-37.279 and NDcPP; Gateway: before 14.1-73.37 FIPS and before 13.1-64.23.…
-
-_Source: [NIST NVD](https://nvd.nist.gov/). Last check: 2026-09-30 16:14 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-09-30 19:51 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->

@@ -1,35 +1,28 @@
-name: Apply Profile Enhancements
+name: Profile Integrity Check
 
 on:
   push:
     branches: [main]
     paths:
-      - '.github/scripts/apply-profile-enhancements.py'
       - 'README.md'
+      - '.github/scripts/**'
+      - '.github/workflows/profile-enhancements.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  enhance-profile:
-    if: github.event.head_commit.message != 'ci: apply profile enhancements automatically' && github.event.head_commit.message != 'feat: automate profile portfolio enhancements'
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Apply profile enhancements
-        run: python3 .github/scripts/apply-profile-enhancements.py
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      - name: Commit README changes
-        run: |
-          if git diff --quiet -- README.md; then
-            echo "No README changes required"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "ci: apply profile enhancements automatically"
-          git push
+      - name: Validate Profile Integrity
+        run: python3 .github/scripts/apply-profile-enhancements.py
