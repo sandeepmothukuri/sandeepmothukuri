@@ -61,8 +61,7 @@ def replace_block(text: str, marker: str, new_inner: str) -> str:
         re.escape(start) + r".*?" + re.escape(end),
         re.DOTALL,
     )
-    replacement = f"{start}\n{new_inner}\n{end}"
-    new_text, n = pattern.subn(replacement, text)
+    new_text, n = pattern.subn(lambda _: f"{start}\n{new_inner}\n{end}", text)
     if n == 0:
         print(f"WARN: marker {marker} not found in README", file=sys.stderr)
     return new_text
@@ -316,6 +315,159 @@ def render_aggregate_block(hist: dict) -> str:
     ])
 
 
+FEATURED_REPOS_META = {
+    "Enterprise-Detection-Engineering-SOC-Lab": {
+        "title": "Enterprise Detection Engineering SOC Lab",
+        "icon": "🧬",
+        "tech": "`Splunk` · `ElastAlert 2` · `Sigma` · `Sysmon` · `MITRE ATT&CK`",
+        "desc": "Enterprise detection engineering lab covering SIEM, ElastAlert 2, Sigma, MITRE ATT&CK, and adversary emulation.",
+        "capability": "SIEM, Sigma, Sysmon & MITRE ATT&CK Lab",
+    },
+    "socforge": {
+        "title": "SOCForge",
+        "icon": "🔥",
+        "tech": "`Python 3.12` · `FastAPI` · `React` · `Docker` · `Elasticsearch`",
+        "desc": "Evidence-driven SOC platform for alert triage, investigation, detection engineering, and AI-augmented security operations.",
+        "capability": "Evidence-Driven Investigation & Triage Platform",
+    },
+    "AI-Augmented-SOC-Lab": {
+        "title": "AI-Augmented-SOC-Lab",
+        "icon": "🤖",
+        "tech": "`Python` · `Ollama` · `LangChain` · `FastAPI` · `Docker`",
+        "desc": "AI-augmented SOC lab for LLM-assisted alert triage, automated investigation, and security operations playbooks.",
+        "capability": "LLM-Assisted Alert Triage & SOAR Playbooks",
+    },
+    "PromptSentinel": {
+        "title": "PromptSentinel",
+        "icon": "🛡️",
+        "tech": "`OWASP LLM Top 10` · `AI Firewall` · `FastAPI` · `SIEM JSON`",
+        "desc": "Enterprise prompt-injection detection and AI firewall with 22 detectors, OWASP LLM Top 10 coverage, and SIEM-ready output.",
+        "capability": "AI Firewall & 22-Detector Prompt Defense",
+    },
+    "AI-SOC-Decision-Engine": {
+        "title": "AI-SOC-Decision-Engine",
+        "icon": "🤖",
+        "tech": "`Python` · `FastAPI` · `Ollama` · `Risk Scoring`",
+        "desc": "AI-assisted SOC decision engine for evidence-driven alert triage, investigation, risk scoring, and response recommendations.",
+        "capability": "Evidence-Driven Alert Triage & Risk Scoring",
+    },
+    "PromptShield": {
+        "title": "PromptShield",
+        "icon": "🛡️",
+        "tech": "`Python` · `Heuristics Engine` · `LLM Security`",
+        "desc": "Enterprise-grade prompt injection detection and AI firewall for protecting LLM workflows.",
+        "capability": "Enterprise LLM Security & Heuristic Guardrails",
+    },
+    "Autonomous-SOC-Lab": {
+        "title": "Autonomous-SOC-Lab",
+        "icon": "⚙️",
+        "tech": "`Python` · `CrewAI` · `TheHive` · `MISP` · `SOAR`",
+        "desc": "Autonomous SOC experimentation covering agentic workflows, enrichment, triage, and response automation.",
+        "capability": "Agentic Workflow & SOAR Enrichment",
+    },
+    "soc-threat-hunting-lab": {
+        "title": "soc-threat-hunting-lab",
+        "icon": "🔎",
+        "tech": "`Splunk` · `Sysmon` · `YARA` · `Threat Hunting`",
+        "desc": "Threat-hunting lab focused on hypothesis-driven hunts, telemetry analysis, and defensive investigations.",
+        "capability": "Hypothesis-Driven Threat Hunting & YARA",
+    },
+    "sentinel-detection-engine": {
+        "title": "sentinel-detection-engine",
+        "icon": "🧠",
+        "tech": "`Microsoft Sentinel` · `KQL` · `Defender XDR` · `ATT&CK`",
+        "desc": "Microsoft Sentinel detection engineering portfolio with KQL detections mapped to MITRE ATT&CK.",
+        "capability": "Microsoft Sentinel KQL Detections",
+    },
+    "SOC-Detection-and-Threat-Hunting-Lab": {
+        "title": "SOC-Detection-and-Threat-Hunting-Lab",
+        "icon": "🎯",
+        "tech": "`Elastic SIEM` · `Sigma Rules` · `Zeek` · `Suricata`",
+        "desc": "SOC detection and threat-hunting lab with practical telemetry, investigations, and ATT&CK-aligned detections.",
+        "capability": "Elastic SIEM, Zeek & Suricata Telemetry",
+    },
+}
+
+
+def render_top_drivers_block(hist: dict) -> str:
+    ranked = []
+    for repo, meta in FEATURED_REPOS_META.items():
+        rows = hist.get("repos", {}).get(repo, [])
+        views = last_n_sum(rows, "views", 30)
+        clones = last_n_sum(rows, "clones", 30)
+        score = views + clones
+        ranked.append((score, clones, views, repo, meta))
+
+    ranked.sort(key=lambda item: (-item[0], -item[1], -item[2], item[3].lower()))
+
+    medals = ["🥇", "🥈", "🥉"]
+    rows_md = []
+    for idx, (score, clones, views, repo, meta) in enumerate(ranked[:3]):
+        medal = medals[idx] if idx < len(medals) else f"#{idx+1}"
+        title = meta["title"]
+        capability = meta["capability"]
+        rows_md.append(
+            f"| {medal} | **[{title}](https://github.com/{OWNER}/{repo})** | "
+            f"**{clones:,}** | **{views:,}** | {capability} |"
+        )
+
+    rows_str = "\n".join(rows_md)
+    return (
+        '<div align="center">\n\n'
+        '### 🏆 Top 3 Community Drivers (Last 30 Days Telemetry)\n'
+        '| Rank | Repository | 30d Git Clones | 30d Views | Core Capability |\n'
+        '| :---: | :--- | :---: | :---: | :--- |\n'
+        f'{rows_str}\n\n'
+        '</div>'
+    )
+
+
+def _render_lab_card(repo: str, meta: dict, rows: list[dict]) -> str:
+    title = meta["title"]
+    icon = meta["icon"]
+    tech = meta["tech"]
+    desc = meta["desc"]
+    metrics_inner = render_repo_block(repo, rows)
+    return (
+        f"### {icon} [{title}](https://github.com/{OWNER}/{repo})\n"
+        f"{tech}\n\n"
+        f"{desc}\n"
+        f"<!-- REPO-METRICS:{repo} START -->\n"
+        f"{metrics_inner}\n"
+        f"<!-- REPO-METRICS:{repo} END -->"
+    )
+
+
+def render_featured_labs_block(hist: dict) -> str:
+    ranked = []
+    for repo, meta in FEATURED_REPOS_META.items():
+        rows = hist.get("repos", {}).get(repo, [])
+        views = last_n_sum(rows, "views", 30)
+        clones = last_n_sum(rows, "clones", 30)
+        score = views + clones
+        ranked.append((score, clones, views, repo, meta))
+
+    ranked.sort(key=lambda item: (-item[0], -item[1], -item[2], item[3].lower()))
+
+    lines = ["<table>"]
+    for i in range(0, len(ranked), 2):
+        lines.append("<tr>")
+        score1, c1, v1, repo1, meta1 = ranked[i]
+        card1 = _render_lab_card(repo1, meta1, hist.get("repos", {}).get(repo1, []))
+        lines.append('<td width="50%" valign="top">\n\n' + card1 + "\n\n</td>")
+
+        if i + 1 < len(ranked):
+            score2, c2, v2, repo2, meta2 = ranked[i + 1]
+            card2 = _render_lab_card(repo2, meta2, hist.get("repos", {}).get(repo2, []))
+            lines.append('<td width="50%" valign="top">\n\n' + card2 + "\n\n</td>")
+        else:
+            lines.append('<td width="50%" valign="top">\n\n</td>')
+
+        lines.append("</tr>")
+    lines.append("</table>")
+    return "\n".join(lines)
+
+
 def main() -> int:
     check = "--check" in sys.argv
 
@@ -332,6 +484,8 @@ def main() -> int:
     commits_yr, streak = fetch_github_activity()
     text = replace_block(text, "DAYS-COUNTER", render_days_block(commits_yr, streak))
     text = replace_block(text, "TOP-REPO", render_top_repo_block(hist))
+    text = replace_block(text, "TOP-DRIVERS", render_top_drivers_block(hist))
+    text = replace_block(text, "FEATURED-LABS", render_featured_labs_block(hist))
 
     for repo, rows in hist.get("repos", {}).items():
         text = replace_block(text, f"REPO-METRICS:{repo}", render_repo_block(repo, rows))

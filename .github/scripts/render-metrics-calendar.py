@@ -151,6 +151,87 @@ def render_top_repo_block(hist: dict) -> str:
     )
 
 
+def _render_lab_card(repo: str, meta: dict, rows: list[dict]) -> str:
+    title = meta["title"]
+    icon = meta["icon"]
+    tech = meta["tech"]
+    desc = meta["desc"]
+    metrics_inner = render_repo_block(repo, rows)
+    return (
+        f"### {icon} [{title}](https://github.com/{renderer.OWNER}/{repo})\n"
+        f"{tech}\n\n"
+        f"{desc}\n"
+        f"<!-- REPO-METRICS:{repo} START -->\n"
+        f"{metrics_inner}\n"
+        f"<!-- REPO-METRICS:{repo} END -->"
+    )
+
+
+def render_top_drivers_block(hist: dict) -> str:
+    baseline_data = load_baselines()
+    ranked = []
+    for repo, meta in renderer.FEATURED_REPOS_META.items():
+        rows = hist.get("repos", {}).get(repo, [])
+        views, clones = repo_traffic_30d(repo, rows, baseline_data)
+        score = views + clones
+        ranked.append((score, clones, views, repo, meta))
+
+    ranked.sort(key=lambda item: (-item[0], -item[1], -item[2], item[3].lower()))
+
+    medals = ["🥇", "🥈", "🥉"]
+    rows_md = []
+    for idx, (score, clones, views, repo, meta) in enumerate(ranked[:3]):
+        medal = medals[idx] if idx < len(medals) else f"#{idx+1}"
+        title = meta["title"]
+        capability = meta["capability"]
+        rows_md.append(
+            f"| {medal} | **[{title}](https://github.com/{renderer.OWNER}/{repo})** | "
+            f"**{clones:,}** | **{views:,}** | {capability} |"
+        )
+
+    rows_str = "\n".join(rows_md)
+    return (
+        '<div align="center">\n\n'
+        '### 🏆 Top 3 Community Drivers (Last 30 Days Telemetry)\n'
+        '| Rank | Repository | 30d Git Clones | 30d Views | Core Capability |\n'
+        '| :---: | :--- | :---: | :---: | :--- |\n'
+        f'{rows_str}\n\n'
+        '</div>'
+    )
+
+
+def render_featured_labs_block(hist: dict) -> str:
+    baseline_data = load_baselines()
+    ranked = []
+    for repo, meta in renderer.FEATURED_REPOS_META.items():
+        rows = hist.get("repos", {}).get(repo, [])
+        views, clones = repo_traffic_30d(repo, rows, baseline_data)
+        score = views + clones
+        ranked.append((score, clones, views, repo, meta))
+
+    ranked.sort(key=lambda item: (-item[0], -item[1], -item[2], item[3].lower()))
+
+    lines = ["<table>"]
+    for i in range(0, len(ranked), 2):
+        lines.append("<tr>")
+        score1, c1, v1, repo1, meta1 = ranked[i]
+        card1 = _render_lab_card(repo1, meta1, hist.get("repos", {}).get(repo1, []))
+        lines.append('<td width="50%" valign="top">\n\n' + card1 + "\n\n</td>")
+
+        if i + 1 < len(ranked):
+            score2, c2, v2, repo2, meta2 = ranked[i + 1]
+            card2 = _render_lab_card(repo2, meta2, hist.get("repos", {}).get(repo2, []))
+            lines.append('<td width="50%" valign="top">\n\n' + card2 + "\n\n</td>")
+        else:
+            lines.append('<td width="50%" valign="top">\n\n</td>')
+
+        lines.append("</tr>")
+    lines.append("</table>")
+    return "\n".join(lines)
+
+
 renderer.render_repo_block = render_repo_block
 renderer.render_top_repo_block = render_top_repo_block
+renderer.render_top_drivers_block = render_top_drivers_block
+renderer.render_featured_labs_block = render_featured_labs_block
 renderer.main()
