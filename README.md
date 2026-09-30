@@ -15,12 +15,14 @@
 </div>
 <!-- AUTO-UPDATED-SNAKE END -->
 
-<!-- STATUS BAR -->
+<!-- STATUS & IDENTITY HIERARCHY -->
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ON--CALL-3fb950?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/TIER-L3%20%C2%B7%20Senior-a371f7?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/ROLE-SENIOR%20SOC%20ANALYST%20(L3)-1f6feb?style=flat-square&labelColor=132f4c" alt="Role: Senior SOC Analyst L3">
+  <img src="https://img.shields.io/badge/SPECIALTY-DETECTION%20%26%20THREAT%20HUNTING-a371f7?style=flat-square&labelColor=132f4c" alt="Specialty: Detection & Threat Hunting">
   <img src="https://img.shields.io/badge/LOCATION-INDIA%20%C2%B7%20GLOBAL%20REMOTE-e00000?style=flat-square&labelColor=132f4c" alt="Location: India · Global Remote">
-  <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20senior%20roles-3fb950?style=flat-square&labelColor=132f4c"></a>
+  <a href="mailto:sandeep.mothukuris@gmail.com?subject=SOC%20Role%20%E2%80%94%20Opportunity"><img src="https://img.shields.io/badge/AVAILABILITY-Open%20to%20Senior%20Roles-3fb950?style=flat-square&labelColor=132f4c" alt="Availability: Open to Senior Roles"></a>
+</p>
+<p align="center">
   <!-- STATUS START -->
   <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20India%2000%3A24%20IST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · India 00:24 IST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
@@ -198,7 +200,9 @@ flowchart LR
 <td width="50%" valign="top">
 
 ### 🧬 [Enterprise Detection Engineering SOC Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab)
-Enterprise detection engineering lab covering SIEM, ElastAlert, Sigma, MITRE ATT&CK, and adversary-focused detections.
+`Splunk` · `ElastAlert 2` · `Sigma` · `Sysmon` · `MITRE ATT&CK`
+
+Enterprise detection engineering lab covering SIEM, ElastAlert 2, Sigma, MITRE ATT&CK, and adversary emulation.
 <!-- REPO-METRICS:Enterprise-Detection-Engineering-SOC-Lab START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-10%20today%20%C2%B7%20584%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 10 today · 584 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%20985%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 985 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-16%20%28%2B6/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 16 (+6/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-2%20%28%2B1/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 2 (+1/30d)"></sub>
 <!-- REPO-METRICS:Enterprise-Detection-Engineering-SOC-Lab END -->
@@ -207,7 +211,9 @@ Enterprise detection engineering lab covering SIEM, ElastAlert, Sigma, MITRE ATT
 <td width="50%" valign="top">
 
 ### 🤖 [AI-Augmented-SOC-Lab](https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab)
-AI-augmented SOC lab for LLM-assisted triage, investigation, automation, and security operations.
+`Python` · `Ollama` · `LangChain` · `FastAPI` · `Docker`
+
+AI-augmented SOC lab for LLM-assisted alert triage, automated investigation, and security operations playbooks.
 <!-- REPO-METRICS:AI-Augmented-SOC-Lab START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-15%20today%20%C2%B7%20339%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 15 today · 339 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-88%20today%20%C2%B7%20719%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 88 today · 719 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
 <!-- REPO-METRICS:AI-Augmented-SOC-Lab END -->
@@ -218,6 +224,8 @@ AI-augmented SOC lab for LLM-assisted triage, investigation, automation, and sec
 <td width="50%" valign="top">
 
 ### 🎯 [SOC-Detection-and-Threat-Hunting-Lab](https://github.com/sandeepmothukuri/SOC-Detection-and-Threat-Hunting-Lab)
+`Elastic SIEM` · `Sigma Rules` · `Zeek` · `Suricata`
+
 SOC detection and threat-hunting lab with practical telemetry, investigations, and ATT&CK-aligned detections.
 <!-- REPO-METRICS:SOC-Detection-and-Threat-Hunting-Lab START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-6%20today%20%C2%B7%2056%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 6 today · 56 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-80%20today%20%C2%B7%20147%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 80 today · 147 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-2%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 2 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
@@ -227,6 +235,8 @@ SOC detection and threat-hunting lab with practical telemetry, investigations, a
 <td width="50%" valign="top">
 
 ### 🔎 [soc-threat-hunting-lab](https://github.com/sandeepmothukuri/soc-threat-hunting-lab)
+`Splunk` · `Sysmon` · `YARA` · `Threat Hunting`
+
 Threat-hunting lab focused on hypothesis-driven hunts, telemetry analysis, and defensive investigations.
 <!-- REPO-METRICS:soc-threat-hunting-lab START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-5%20today%20%C2%B7%20109%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 5 today · 109 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-56%20today%20%C2%B7%20146%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 56 today · 146 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-3%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 3 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
@@ -238,6 +248,8 @@ Threat-hunting lab focused on hypothesis-driven hunts, telemetry analysis, and d
 <td width="50%" valign="top">
 
 ### ⚙️ [Autonomous-SOC-Lab](https://github.com/sandeepmothukuri/Autonomous-SOC-Lab)
+`Python` · `CrewAI` · `TheHive` · `MISP` · `SOAR`
+
 Autonomous SOC experimentation covering agentic workflows, enrichment, triage, and response automation.
 <!-- REPO-METRICS:Autonomous-SOC-Lab START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-13%20today%20%C2%B7%20109%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 13 today · 109 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-53%20today%20%C2%B7%20342%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 53 today · 342 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-3%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 3 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-1%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 1 (+0/30d)"></sub>
@@ -247,6 +259,8 @@ Autonomous SOC experimentation covering agentic workflows, enrichment, triage, a
 <td width="50%" valign="top">
 
 ### 🤖 [AI-SOC-Decision-Engine](https://github.com/sandeepmothukuri/AI-SOC-Decision-Engine)
+`Python` · `FastAPI` · `Ollama` · `Risk Scoring`
+
 AI-assisted SOC decision engine for evidence-driven alert triage, investigation, risk scoring, and response recommendations.
 <!-- REPO-METRICS:AI-SOC-Decision-Engine START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-55%20today%20%C2%B7%20208%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 55 today · 208 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-48%20today%20%C2%B7%20395%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 48 today · 395 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
@@ -258,6 +272,8 @@ AI-assisted SOC decision engine for evidence-driven alert triage, investigation,
 <td width="50%" valign="top">
 
 ### 🛡️ [PromptSentinel](https://github.com/sandeepmothukuri/PromptSentinel)
+`OWASP LLM Top 10` · `AI Firewall` · `FastAPI` · `SIEM JSON`
+
 Enterprise prompt-injection detection and AI firewall with 22 detectors, OWASP LLM Top 10 coverage, and SIEM-ready output.
 <!-- REPO-METRICS:PromptSentinel START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-20%20today%20%C2%B7%20135%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 20 today · 135 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-235%20today%20%C2%B7%20599%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 235 today · 599 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
@@ -267,6 +283,8 @@ Enterprise prompt-injection detection and AI firewall with 22 detectors, OWASP L
 <td width="50%" valign="top">
 
 ### 🛡️ [PromptShield](https://github.com/sandeepmothukuri/PromptShield)
+`Python` · `Heuristics Engine` · `LLM Security`
+
 Enterprise-grade prompt injection detection and AI firewall for protecting LLM workflows.
 <!-- REPO-METRICS:PromptShield START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-1%20today%20%C2%B7%20117%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 1 today · 117 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-3%20today%20%C2%B7%20473%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 3 today · 473 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
@@ -278,6 +296,8 @@ Enterprise-grade prompt injection detection and AI firewall for protecting LLM w
 <td width="50%" valign="top">
 
 ### 🧠 [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine)
+`Microsoft Sentinel` · `KQL` · `Defender XDR` · `ATT&CK`
+
 Microsoft Sentinel detection engineering portfolio with KQL detections mapped to MITRE ATT&CK.
 <!-- REPO-METRICS:sentinel-detection-engine START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%2095%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 95 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%20158%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 158 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
@@ -287,6 +307,8 @@ Microsoft Sentinel detection engineering portfolio with KQL detections mapped to
 <td width="50%" valign="top">
 
 ### 🔥 [SOCForge](https://github.com/sandeepmothukuri/socforge)
+`Python 3.12` · `FastAPI` · `React` · `Docker` · `Elasticsearch`
+
 Evidence-driven SOC platform for alert triage, investigation, detection engineering, and AI-augmented security operations.
 <!-- REPO-METRICS:socforge START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-11%20today%20%C2%B7%20182%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 11 today · 182 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-38%20today%20%C2%B7%20914%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 38 today · 914 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
@@ -436,7 +458,8 @@ index=wineventlog EventCode=5140
   2. Isolated compromised identity and extracted IP/User-Agent IOCs into tenant-wide conditional access blocklists.
   3. Audited Unified Audit Logs (UAL) for bulk file download activity or new mailbox rules (`New-InboxRule`).
   4. Authored custom Sentinel KQL rule detecting session anomalies when token issue IP differs from subsequent activity ASN.
-* **Result:** Contained within 19 minutes with zero unauthorized data exfiltration. Shipped rule upstream into [`sentinel-detection-engine`](https://github.com/sandeepmothukuri/sentinel-detection-engine).
+* **Prevented Blast Radius:** Zero unauthorized data exfiltration. Successfully blocked access to corporate OneDrive storage containing confidential M&A transaction artifacts.
+* **Result & Upstream Detection:** Contained within 19 minutes. Engineered and contributed production KQL detection [`EntraID_ImpossibleTravel.yaml`](https://github.com/sandeepmothukuri/sentinel-detection-engine/blob/main/Detections/EntraID_ImpossibleTravel.yaml) to `sentinel-detection-engine`.
 
 </details>
 
