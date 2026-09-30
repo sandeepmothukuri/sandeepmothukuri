@@ -688,5 +688,5 @@ I'm actively open to **Senior SOC Analyst / L3 / Detection Engineer / Threat Hun
 </p>
 
 <p align="center"><sub>⭐ If a lab or write-up helped you, a star helps other SOC analysts find this work.</sub></p>
-<p align="center"><sub>Protected under <a href="LICENSE">All Rights Reserved</a>. © 2026 Sandeep Mothukuri. See <a href="SECURITY.md">Security Policy</a>.</sub></p>
+<p align="center"><sub>Protected under <a href="LICENSE">All Rights Reserved</a>. © 2026 Sandeep Mothukuri. See <a href="SECURITY.md">Security Policy</a> &amp; <a href="DMCA.md">DMCA Policy</a>.</sub></p>
 
