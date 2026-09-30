@@ -23,7 +23,7 @@ spec.loader.exec_module(renderer)
 
 
 def calendar_window(rows: list[dict], days: int = 30) -> list[dict]:
-    today = datetime.date.today()
+    today = datetime.datetime.now(datetime.timezone.utc).date()
     by_date: dict[str, dict] = {}
     for row in rows:
         if not isinstance(row, dict):
@@ -78,6 +78,14 @@ def render_repo_block(repo: str, rows: list[dict]) -> str:
     available = [r for r in window if r]
     latest = available[-1] if available else {}
 
+    views_today = int(today_row.get("views", 0) or 0)
+    if views_today == 0 and latest:
+        views_today = int(latest.get("views", 0) or 0)
+
+    clones_today = int(today_row.get("clones", 0) or 0)
+    if clones_today == 0 and latest:
+        clones_today = int(latest.get("clones", 0) or 0)
+
     if baseline and baseline_end:
         views_30d = int(baseline.get("views", 0) or 0)
         clones_30d = int(baseline.get("clones", 0) or 0)
@@ -86,11 +94,7 @@ def render_repo_block(repo: str, rows: list[dict]) -> str:
             if d and d > baseline_end:
                 views_30d += int(row.get("views", 0) or 0)
                 clones_30d += int(row.get("clones", 0) or 0)
-        views_today = int(today_row.get("views", 0) or 0)
-        clones_today = int(today_row.get("clones", 0) or 0)
     else:
-        views_today = int(today_row.get("views", 0) or 0)
-        clones_today = int(today_row.get("clones", 0) or 0)
         views_30d = sum(int(r.get("views", 0) or 0) for r in window)
         clones_30d = sum(int(r.get("clones", 0) or 0) for r in window)
 

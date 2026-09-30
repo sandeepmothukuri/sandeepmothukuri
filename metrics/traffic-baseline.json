@@ -10,12 +10,6 @@
       "unique_views": 3,
       "clones": 341,
       "unique_cloners": 104
-    },
-    "socforge": {
-      "views": 109,
-      "unique_views": 1,
-      "clones": 300,
-      "unique_cloners": 84
     }
   }
 }
