@@ -574,7 +574,7 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 > 
 > 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-09-30 19:51 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-09-30 19:52 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->
