@@ -24,7 +24,7 @@
 </p>
 <p align="center">
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20India%2001%3A10%20IST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · India 01:10 IST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20India%2001%3A11%20IST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · India 01:11 IST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -44,12 +44,12 @@
   <img src="https://img.shields.io/badge/Public%20repos-14-a371f7?style=flat-square&labelColor=132f4c" alt="Public repos: 14">
 <!-- PUBLIC-REPOS END -->
   <!-- DAYS-COUNTER START -->
-  <img src="https://img.shields.io/badge/Commits-0%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 0 this year">  <img src="https://img.shields.io/badge/Streak-0%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 0 days">
+  <img src="https://img.shields.io/badge/Commits-727%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 727 this year">  <img src="https://img.shields.io/badge/Streak-4%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 4 days">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
-  <img src="https://img.shields.io/badge/Profile%20views-264-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 264">
-  <img src="https://img.shields.io/badge/Last%2030%20days-49-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 49">
-  <img src="https://img.shields.io/badge/Today-7-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 7">
+  <img src="https://img.shields.io/badge/Profile%20views-266-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 266">
+  <img src="https://img.shields.io/badge/Last%2030%20days-51-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 51">
+  <img src="https://img.shields.io/badge/Today-9-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 9">
 <!-- PROFILE-VIEWS END -->
   <br/>
 <!-- LAB-AGGREGATE START -->
