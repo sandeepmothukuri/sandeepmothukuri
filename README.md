@@ -617,21 +617,21 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-10-01 15:57 UTC_
+_Last refresh: 2026-10-02 15:17 UTC_
 
 **The Hacker News**
 
-- [WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory](https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html)
-- [How Financial Services Companies Can Modernize Their Software Supply Chain](https://thehackernews.com/2026/10/how-financial-services-companies-can.html)
-- [OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates](https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html)
-- [CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV](https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html)
+- [OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling](https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html)
+- [Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report](https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html)
+- [Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools](https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html)
+- [Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html)
 
 **BleepingComputer**
 
-- [Police dismantle KillSec ransomware gang allegedly led by 16-year-old](https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/)
-- [The Day-One Hole in Zero Trust Architecture](https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/)
-- [Kiteworks patches max severity code injection vulnerability](https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/)
-- [Microsoft enables Windows settings backup by default for orgs](https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/)
+- [The EDR blind spot: 3 ways browser attacks evade endpoint telemetry](https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/)
+- [Dell asks admins to patch max severity CSM flaws as soon as possible](https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/)
+- [Microsoft’s X account hacked in crypto pump-and-dump scheme](https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/)
+- [Fortinet warns of critical FortiMail flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/)
 
 **Krebs on Security**
 
