@@ -568,15 +568,15 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | CVE ID | Affected Vendor & Product | Date Added | ATT&CK Tactic & Technique | Ransomware Use |
 |:---|:---|:---:|:---|:---:|
+| [`CVE-2026-102490`](https://nvd.nist.gov/vuln/detail/CVE-2026-102490) | **Zammad GmbH** Zammad | `2026-10-02` | `T1190` Exploit Public-Facing Application | Monitored |
+| [`CVE-2026-102489`](https://nvd.nist.gov/vuln/detail/CVE-2026-102489) | **Zammad GmbH** Zammad | `2026-10-02` | `T1190` Exploit Public-Facing Application | Monitored |
 | [`CVE-2026-104286`](https://nvd.nist.gov/vuln/detail/CVE-2026-104286) | **Fortinet** FortiMail | `2026-10-01` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-76504`](https://nvd.nist.gov/vuln/detail/CVE-2026-76504) | **Cisco** Catalyst SD-WAN Manager | `2026-09-30` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-86950`](https://nvd.nist.gov/vuln/detail/CVE-2026-86950) | **Apple** Multiple Products | `2026-09-29` | `T1203` Exploitation for Client Execution | Monitored |
 
-> **⚠️ Primary Threat Focus ([`CVE-2026-104286`](https://nvd.nist.gov/vuln/detail/CVE-2026-104286))**: **Fortinet FortiMail Path Traversal Vulnerability** — Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.
+> **⚠️ Primary Threat Focus ([`CVE-2026-102490`](https://nvd.nist.gov/vuln/detail/CVE-2026-102490))**: **Zammad GmbH Zammad Improper Privilege Management Vulnerability** — Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.
 > 
 > 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-10-02 16:05 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-10-03 14:33 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->
