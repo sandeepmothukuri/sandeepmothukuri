@@ -759,6 +759,11 @@
       "date": "2026-10-15",
       "total": 325,
       "daily": 5
+    },
+    {
+      "date": "2026-10-16",
+      "total": 326,
+      "daily": 1
     }
   ],
   "repos": {
@@ -2199,6 +2204,16 @@
         "unique": 2,
         "clones": 7,
         "unique_cloners": 6,
+        "stars": 17,
+        "forks": 2,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 17,
         "forks": 2,
         "release_downloads": 0
@@ -3644,6 +3659,16 @@
         "stars": 5,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 5,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "SOC-Detection-and-Threat-Hunting-Lab": [
@@ -5083,6 +5108,16 @@
         "unique": 0,
         "clones": 3,
         "unique_cloners": 3,
+        "stars": 2,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 2,
         "forks": 0,
         "release_downloads": 0
@@ -6528,6 +6563,16 @@
         "stars": 3,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "Autonomous-SOC-Lab": [
@@ -7970,6 +8015,16 @@
         "stars": 4,
         "forks": 1,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 4,
+        "forks": 1,
+        "release_downloads": 0
       }
     ],
     "PromptSentinel": [
@@ -8782,6 +8837,16 @@
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "PromptShield": [
@@ -9161,6 +9226,16 @@
         "unique": 0,
         "clones": 2,
         "unique_cloners": 2,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
@@ -9546,6 +9621,16 @@
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "AI-SOC-Decision-Engine": [
@@ -9845,6 +9930,16 @@
         "unique": 0,
         "clones": 2,
         "unique_cloners": 2,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
@@ -10150,6 +10245,16 @@
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "awesome-lists": [
@@ -10449,6 +10554,16 @@
         "unique": 0,
         "clones": 3,
         "unique_cloners": 3,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
@@ -10818,6 +10933,16 @@
         "stars": 3,
         "forks": 1,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 1,
+        "release_downloads": 0
       }
     ],
     "SOC-CyberDeck": [
@@ -11117,6 +11242,16 @@
         "unique": 1,
         "clones": 3,
         "unique_cloners": 3,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-10-16",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
