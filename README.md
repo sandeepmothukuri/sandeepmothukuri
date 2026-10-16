@@ -568,15 +568,15 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | CVE ID | Affected Vendor & Product | Date Added | ATT&CK Tactic & Technique | Ransomware Use |
 |:---|:---|:---:|:---|:---:|
+| [`CVE-2026-21589`](https://nvd.nist.gov/vuln/detail/CVE-2026-21589) | **Atlassian** Multiple Products | `2026-10-15` | `T1556` Modify Authentication Process | Monitored |
 | [`CVE-2026-105134`](https://nvd.nist.gov/vuln/detail/CVE-2026-105134) | **Ahsay** AhsayCBS | `2026-10-14` | `T1190` Exploit Public-Facing Application | Monitored |
 | [`CVE-2026-76519`](https://nvd.nist.gov/vuln/detail/CVE-2026-76519) | **Cisco** Secure Email Gateway | `2026-10-14` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-105133`](https://nvd.nist.gov/vuln/detail/CVE-2026-105133) | **Ahsay** AhsayCBS | `2026-10-14` | `T1556` Modify Authentication Process | Monitored |
 
-> **⚠️ Primary Threat Focus ([`CVE-2026-105134`](https://nvd.nist.gov/vuln/detail/CVE-2026-105134))**: **Ahsay AhsayCBS Command Injection Vulnerability** — Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.
+> **⚠️ Primary Threat Focus ([`CVE-2026-21589`](https://nvd.nist.gov/vuln/detail/CVE-2026-21589))**: **Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability** — Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions.
 > 
 > 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-10-15 14:39 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-10-16 14:30 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->
