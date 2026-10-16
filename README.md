@@ -617,21 +617,21 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-10-15 13:52 UTC_
+_Last refresh: 2026-10-16 13:42 UTC_
 
 **The Hacker News**
 
-- [Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules](https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html)
-- [Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early](https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html)
-- [Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation](https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html)
-- [Why AI Confidence Is Not Validation](https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html)
+- [AI Decision Models and Their Impact on AI SOC Platforms](https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html)
+- [China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers](https://thehackernews.com/2026/10/china-linked-hackers-exploited.html)
+- [CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing](https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html)
+- [PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions](https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html)
 
 **BleepingComputer**
 
-- [Microsoft: Windows Server 2022 reached end of mainstream support](https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/)
-- [Police arrests 95 suspects in international CSAM crackdown action](https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/)
-- [Microsoft fixes bug causing Windows black screens, Explorer crashes](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/)
-- [UK Legal Aid Agency: Hackers stole records dating back to 1978](https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/)
+- [Burger King Japan data breach exposes 11 million customer records](https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/)
+- [Microsoft: October Windows update may break Smart App Control](https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/)
+- [BAE Systems cyberattack disrupts US federal court operations](https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/)
+- [BeyondTrust patches zero-day exploited in attacks since August](https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/)
 
 **Krebs on Security**
 
