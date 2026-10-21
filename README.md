@@ -617,21 +617,21 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-10-20 14:02 UTC_
+_Last refresh: 2026-10-21 14:18 UTC_
 
 **The Hacker News**
 
-- [Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election](https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html)
-- [WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators](https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html)
-- [What Security Teams Can Do To Tame Wild Code](https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html)
-- [Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns](https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html)
+- [Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands](https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html)
+- [China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors](https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html)
+- [Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports](https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html)
+- [PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't](https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html)
 
 **BleepingComputer**
 
-- [CJIS v6.1 Compliance: 5 Practical Priorities for Agencies](https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/)
-- [Hacker gets 8 years for stealing $3.3 million from taxpayers](https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/)
-- [Windows Server 2025 gets support for quick machine recovery](https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/)
-- [OVHcloud CLI releases backdoored on GitHub to steal developer secrets](https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/)
+- [PHP ships emergency patches for critical PHP2Shell flaws](https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/)
+- [ClickFix has never been bigger, and AI tools are its most convincing lure yet](https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/)
+- [Microsoft PowerToys adds CursorHide, Button Lock mouse tools](https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/)
+- [Microsoft says October updates didn’t actually fix VPN issues](https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/)
 
 **Krebs on Security**
 
