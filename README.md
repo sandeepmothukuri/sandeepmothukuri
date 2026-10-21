@@ -24,7 +24,7 @@
 </p>
 <p align="center">
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20India%2000%3A32%20IST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · India 00:32 IST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%8C%99%20Off--shift%20%C2%B7%20India%2004%3A23%20IST-a371f7?style=flat-square&labelColor=132f4c" alt="Status: 🌙 Off-shift · India 04:23 IST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -41,15 +41,15 @@
 <!-- TIER 3: LIVE COMMUNITY & ENGINEERING TELEMETRY -->
 <p align="center">
   <!-- PUBLIC-REPOS START -->
-  <img src="https://img.shields.io/badge/Public%20repos-14-a371f7?style=flat-square&labelColor=132f4c" alt="Public repos: 14">
+  <img src="https://img.shields.io/badge/Public%20repos-0-a371f7?style=flat-square&labelColor=132f4c" alt="Public repos: 0">
 <!-- PUBLIC-REPOS END -->
   <!-- DAYS-COUNTER START -->
   <img src="https://img.shields.io/badge/Commits-1%2C108%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 1,108 this year">  <img src="https://img.shields.io/badge/Streak-0%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 0 days">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
-  <img src="https://img.shields.io/badge/Profile%20views-352-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 352">
-  <img src="https://img.shields.io/badge/Last%2030%20days-114-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 114">
-  <img src="https://img.shields.io/badge/Today-4-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 4">
+  <img src="https://img.shields.io/badge/Profile%20views-353-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 353">
+  <img src="https://img.shields.io/badge/Last%2030%20days-115-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 115">
+  <img src="https://img.shields.io/badge/Today-5-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 5">
 <!-- PROFILE-VIEWS END -->
   <br/>
 <!-- LAB-AGGREGATE START -->
@@ -66,7 +66,7 @@
 
 <p align="center">
 <!-- GREETING START -->
-<sub><b>👋 Good evening!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=sandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
+<sub><b>👋 Working the night shift!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=sandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
 <!-- GREETING END -->
 </p>
 
