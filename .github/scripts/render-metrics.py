@@ -492,6 +492,12 @@ def main() -> int:
     text = replace_block(text, "FEATURED-LABS", render_featured_labs_block(hist))
 
     for repo, rows in hist.get("repos", {}).items():
+        # Only render per-repository metrics where the README has a matching
+        # section. Historical snapshots may include repos not featured here.
+        marker_start = f"<!-- REPO-METRICS:{repo} START -->"
+        marker_end = f"<!-- REPO-METRICS:{repo} END -->"
+        if marker_start not in text or marker_end not in text:
+            continue
         text = replace_block(text, f"REPO-METRICS:{repo}", render_repo_block(repo, rows))
 
     # Also handle repos that exist as markers in README but haven't been snapshotted yet
