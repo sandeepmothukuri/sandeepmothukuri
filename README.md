@@ -203,7 +203,7 @@ flowchart LR
 ### 🏆 Top 3 Community Drivers (Last 30 Days Telemetry)
 | Rank | Repository | 30d Git Clones | 30d Views | Core Capability |
 | :---: | :--- | :---: | :---: | :--- |
-| 🥇 | **[SOCForge](https://github.com/sandeepmothukuri/socforge)** | **852** | **176** | Evidence-Driven Investigation & Triage Platform |
+| 🥇 | **[Evidence-Driven SOC Platform](https://github.com/sandeepmothukuri/Evidence-Driven-SOC-Platform)** | **852** | **176** | Evidence-Driven Investigation & Triage Platform |
 | 🥈 | **[Enterprise Detection Engineering SOC Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab)** | **374** | **297** | SIEM, Sigma, Sysmon & MITRE ATT&CK Lab |
 | 🥉 | **[AI-SOC-Decision-Engine](https://github.com/sandeepmothukuri/AI-SOC-Decision-Engine)** | **457** | **212** | Evidence-Driven Alert Triage & Risk Scoring |
 
@@ -217,13 +217,13 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
 
-### 🔥 [SOCForge](https://github.com/sandeepmothukuri/socforge)
+### 🔥 [Evidence-Driven SOC Platform](https://github.com/sandeepmothukuri/Evidence-Driven-SOC-Platform)
 `Python 3.12` · `FastAPI` · `React` · `Docker` · `Elasticsearch`
 
 Evidence-driven SOC platform for alert triage, investigation, detection engineering, and AI-augmented security operations.
-<!-- REPO-METRICS:socforge START -->
+<!-- REPO-METRICS:Evidence-Driven-SOC-Platform START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%20176%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 176 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-2%20today%20%C2%B7%20852%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 2 today · 852 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
-<!-- REPO-METRICS:socforge END -->
+<!-- REPO-METRICS:Evidence-Driven-SOC-Platform END -->
 
 </td>
 <td width="50%" valign="top">
