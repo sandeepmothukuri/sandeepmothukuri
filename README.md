@@ -203,7 +203,7 @@ flowchart LR
 ### 🏆 Top 3 Community Drivers (Last 30 Days Telemetry)
 | Rank | Repository | 30d Git Clones | 30d Views | Core Capability |
 | :---: | :--- | :---: | :---: | :--- |
-| 🥇 | **[AI-SOC-Decision-Engine](https://github.com/sandeepmothukuri/AI-SOC-Decision-Engine)** | **457** | **212** | Evidence-Driven Alert Triage & Risk Scoring |
+| 🥇 | **[Evidence-Driven SOC Platform](https://github.com/sandeepmothukuri/Evidence-Driven-SOC-Platform)** | **850** | **170** | Evidence-Driven Investigation & Triage Platform |
 | 🥈 | **[Enterprise Detection Engineering SOC Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab)** | **371** | **270** | SIEM, Sigma, Sysmon & MITRE ATT&CK Lab |
 | 🥉 | **[PromptSentinel](https://github.com/sandeepmothukuri/PromptSentinel)** | **470** | **58** | AI Firewall & 22-Detector Prompt Defense |
 
