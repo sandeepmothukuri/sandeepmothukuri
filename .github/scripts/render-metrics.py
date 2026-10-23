@@ -482,12 +482,10 @@ def main() -> int:
     text = replace_block(text, "PROFILE-VIEWS", render_profile_block(hist))
     text = replace_block(text, "PUBLIC-REPOS", render_public_repos_block())
     text = replace_block(text, "LAB-AGGREGATE", render_aggregate_block(hist))
-    text = replace_block(text, "PORTFOLIO-PULSE", render_portfolio_pulse(hist))
     text = replace_block(text, "GREETING", render_greeting_block())
     text = replace_block(text, "STATUS", render_status_block())
     commits_yr, streak = fetch_github_activity()
     text = replace_block(text, "DAYS-COUNTER", render_days_block(commits_yr, streak))
-    text = replace_block(text, "TOP-REPO", render_top_repo_block(hist))
     text = replace_block(text, "TOP-DRIVERS", render_top_drivers_block(hist))
     text = replace_block(text, "FEATURED-LABS", render_featured_labs_block(hist))
 
