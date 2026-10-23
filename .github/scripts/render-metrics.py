@@ -323,8 +323,8 @@ FEATURED_REPOS_META = {
         "desc": "Enterprise detection engineering lab covering SIEM, ElastAlert 2, Sigma, MITRE ATT&CK, and adversary emulation.",
         "capability": "SIEM, Sigma, Sysmon & MITRE ATT&CK Lab",
     },
-    "socforge": {
-        "title": "SOCForge",
+    "Evidence-Driven-SOC-Platform": {
+        "title": "Evidence-Driven SOC Platform",
         "icon": "🔥",
         "tech": "`Python 3.12` · `FastAPI` · `React` · `Docker` · `Elasticsearch`",
         "desc": "Evidence-driven SOC platform for alert triage, investigation, detection engineering, and AI-augmented security operations.",
