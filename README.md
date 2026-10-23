@@ -72,7 +72,7 @@
 
 <!-- SOC VISUAL INTERFACE START -->
 <p align="center">
-  <img src="assets/soc-profile-interface.svg" alt="Sandeep Mothukuri SOC profile visual interface" width="100%">
+  <img src="assets/analytics-dashboard.svg" alt="Automatically generated security analytics dashboard with profile views, repository traffic, tracked repositories, and data freshness" width="100%">
 </p>
 <!-- SOC VISUAL INTERFACE END -->
 
