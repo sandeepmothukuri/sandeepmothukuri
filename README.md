@@ -210,19 +210,9 @@ flowchart LR
 </div>
 <!-- TOP-DRIVERS END -->
 
-<!-- PORTFOLIO-PULSE START -->
-<p align="center">
-<sub>📡 <b>Portfolio Pulse</b> · last 7 days</sub><br>
-<img src="https://img.shields.io/badge/7d%20views-61%20%28--93%20vs%20prev%29-3fb950?style=flat-square&labelColor=132f4c" alt="7d views: 61 (-93 vs prev)">  <img src="https://img.shields.io/badge/7d%20clones-171%20%28--115%20vs%20prev%29-36d1dc?style=flat-square&labelColor=132f4c" alt="7d clones: 171 (-115 vs prev)">  <img src="https://img.shields.io/badge/Clone%20conversion-280.3%25-a371f7?style=flat-square&labelColor=132f4c" alt="Clone conversion: 280.3%">  <img src="https://img.shields.io/badge/New%20stars-%2B0-ffcf5a?style=flat-square&labelColor=132f4c" alt="New stars: +0">  <img src="https://img.shields.io/badge/Release%20downloads-0%20%28%2B0%20/%207d%29-ff8c42?style=flat-square&labelColor=132f4c" alt="Release downloads: 0 (+0 / 7d)">  <img src="https://img.shields.io/badge/Metric%20health-%F0%9F%9F%A2%2013/15%20labs%20synced-ffcf5a?style=flat-square&labelColor=132f4c" alt="Metric health: 🟢 13/15 labs synced">
-</p>
-<!-- PORTFOLIO-PULSE END -->
 
-<!-- TOP-REPO START -->
-<p align="center">
-<sub>🏆 <b>Top repositories</b> · last 30 days · ranked by views + clones</sub><br>
-<a href="https://github.com/sandeepmothukuri/Evidence-Driven-SOC-Platform"><img src="https://img.shields.io/badge/%231%20Evidence--Driven--SOC--Platform-170%20views%20%C2%B7%20850%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#1 Evidence-Driven-SOC-Platform: 170 views · 850 clones"></a>  <a href="https://github.com/sandeepmothukuri/AI-SOC-Decision-Engine"><img src="https://img.shields.io/badge/%232%20AI--SOC--Decision--Engine-212%20views%20%C2%B7%20457%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#2 AI-SOC-Decision-Engine: 212 views · 457 clones"></a>  <a href="https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab"><img src="https://img.shields.io/badge/%233%20Enterprise--Detection--Engineering--SOC--Lab-270%20views%20%C2%B7%20371%20clones-1f6feb?style=flat-square&labelColor=132f4c" alt="#3 Enterprise-Detection-Engineering-SOC-Lab: 270 views · 371 clones"></a>
-</p>
-<!-- TOP-REPO END -->
+
+
 
 ## 🧪 Featured Labs
 
