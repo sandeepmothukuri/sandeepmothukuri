@@ -513,25 +513,27 @@ index=wineventlog EventCode=5140
 ## 🔐 Certifications
 
 <p align="left">
-  <img src="https://img.shields.io/badge/CISM-f85149?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/ISC2%20CC-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/CompTIA%20Security%2B-f85149?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/SOC%20Analyst%20(EC--Council)-3fb950?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/Ethical%20Hacking%20(CEH)-8b949e?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/ITIL%204%20Foundation-58a6ff?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/CompTIA%20Network%2B-f85149?style=flat-square&labelColor=132f4c">
-  <img src="https://img.shields.io/badge/CompTIA%20A%2B-f85149?style=flat-square&labelColor=132f4c">
+  <img src="https://img.shields.io/badge/CISM-ISACA-1f6feb?style=flat-square&labelColor=132f4c" alt="CISM — ISACA">
+  <img src="https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity-1f6feb?style=flat-square&labelColor=132f4c" alt="ISC2 Certified in Cybersecurity">
+  <img src="https://img.shields.io/badge/CompTIA-Security%2B-1f6feb?style=flat-square&labelColor=132f4c" alt="CompTIA Security+">
+  <img src="https://img.shields.io/badge/Zoom%20Technologies-SOC%20Analyst%20%26%20Ethical%20Hacking%20Professional-6f42c1?style=flat-square&labelColor=132f4c" alt="Zoom Technologies SOC Analyst and Ethical Hacking Professional">
+  <img src="https://img.shields.io/badge/ITIL-4%20Foundation-1f6feb?style=flat-square&labelColor=132f4c" alt="ITIL 4 Foundation">
+  <img src="https://img.shields.io/badge/CompTIA-Network%2B-1f6feb?style=flat-square&labelColor=132f4c" alt="CompTIA Network+">
+  <img src="https://img.shields.io/badge/CompTIA-A%2B-1f6feb?style=flat-square&labelColor=132f4c" alt="CompTIA A+">
+  <img src="https://img.shields.io/badge/LPI-Linux%20Essentials-1f6feb?style=flat-square&labelColor=132f4c" alt="LPI Linux Essentials">
+  <img src="https://img.shields.io/badge/Splunk-Search%20Expert%20101-1f6feb?style=flat-square&labelColor=132f4c" alt="Splunk Search Expert 101">
 </p>
 
-## 📊 Live GitHub Stats
+## 🛡️ Security & Project Quality
 
 <!-- SECOPS-HYGIENE START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/OpenSSF-Scorecard%20Passed-3fb950?style=flat-square&logo=openssf&logoColor=white&labelColor=132f4c" alt="OpenSSF Scorecard Passed">
-  <img src="https://img.shields.io/badge/Commits-GPG%20Signed%20%E2%9C%93-3fb950?style=flat-square&logo=gnupg&logoColor=white&labelColor=132f4c" alt="Verified GPG Signed Commits">
-  <img src="https://img.shields.io/badge/Sigma--Rules-CI%20Validated-36d1dc?style=flat-square&logo=githubactions&logoColor=white&labelColor=132f4c" alt="Sigma Rules CI Validated">
-  <img src="https://img.shields.io/badge/Vulnerabilities-0%20Known-3fb950?style=flat-square&logo=snyk&logoColor=white&labelColor=132f4c" alt="0 Known Vulnerabilities">
-  <a href="SECURITY.md"><img src="https://img.shields.io/badge/Security%20Policy-Enforced-58a6ff?style=flat-square&labelColor=132f4c" alt="Security Policy Enforced"></a>
+  <a href="https://github.com/sandeepmothukuri/sandeepmothukuri/actions/workflows/sigma-validation.yml">
+    <img src="https://github.com/sandeepmothukuri/sandeepmothukuri/actions/workflows/sigma-validation.yml/badge.svg" alt="Detection-as-Code Quality Gate status">
+  </a>
+  <a href="SECURITY.md">
+    <img src="https://img.shields.io/badge/Security%20Policy-Published-58a6ff?style=flat-square&logo=github&logoColor=white&labelColor=132f4c" alt="Security Policy Published">
+  </a>
 </p>
 <!-- SECOPS-HYGIENE END -->
 
