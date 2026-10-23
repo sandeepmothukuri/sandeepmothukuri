@@ -13,7 +13,7 @@ REPOS=(
   "PromptSentinel"
   "PromptShield"
   "sentinel-detection-engine"
-  "socforge"
+  "Evidence-Driven-SOC-Platform"
 )
 OWNER="sandeepmothukuri"
 TODAY="$(date -u +'%Y-%m-%d %H:%M UTC')"
