@@ -134,7 +134,11 @@ def render_top_repo_block(hist: dict) -> str:
     if not ranked:
         return "<sub>Leaderboard pending — first traffic snapshot still collecting.</sub>"
 
-    ranked.sort(key=lambda item: (-item[0], -item[1], -item[2], item[3].lower()))
+    # Keep the flagship platform first; rank remaining labs by 30-day traffic.
+    ranked.sort(key=lambda item: (
+        0 if item[3] == "Evidence-Driven-SOC-Platform" else 1,
+        -item[0], -item[1], -item[2], item[3].lower()
+    ))
     badges = []
     for rank, (score, clones, views, repo) in enumerate(ranked[:3], start=1):
         metric = f"{views} views · {clones} clones"
