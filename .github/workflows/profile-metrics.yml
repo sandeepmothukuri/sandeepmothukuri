@@ -16,8 +16,6 @@ on:
       - .github/scripts/render-metrics.py
       - .github/scripts/render-metrics-calendar.py
       - .github/scripts/render-india-status.py
-      - .github/scripts/render-top-community-driver.py
-      - metrics/dashboard.json
       - .github/workflows/profile-metrics.yml
 
 permissions:
@@ -50,8 +48,6 @@ jobs:
       - name: Render India timezone status
         run: python3 .github/scripts/render-india-status.py
 
-      - name: Render top community driver SVG
-        run: python3 .github/scripts/render-top-community-driver.py
 
       - name: Commit straight to main (autopilot)
         run: |
@@ -61,7 +57,7 @@ jobs:
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add metrics/history.json metrics/traffic-baseline.json metrics/dashboard.json assets/top-community-driver.svg README.md .github/scripts/ .github/workflows/profile-metrics.yml
+          git add metrics/history.json metrics/traffic-baseline.json README.md .github/scripts/ .github/workflows/profile-metrics.yml
           git commit -m "chore(metrics): live refresh ($(date -u +'%Y-%m-%d %H:%M UTC'))" || true
           git pull --rebase origin main || true
           git push origin HEAD:main
