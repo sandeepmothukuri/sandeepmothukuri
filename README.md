@@ -24,7 +24,7 @@
 </p>
 <p align="center">
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9F%A2%20On--shift%20%C2%B7%20India%2008%3A07%20IST-3fb950?style=flat-square&labelColor=132f4c" alt="Status: 🟢 On-shift · India 08:07 IST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9F%A2%20On--shift%20%C2%B7%20India%2008%3A48%20IST-3fb950?style=flat-square&labelColor=132f4c" alt="Status: 🟢 On-shift · India 08:48 IST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -44,12 +44,12 @@
   <img src="https://img.shields.io/badge/Public%20repos-14-a371f7?style=flat-square&labelColor=132f4c" alt="Public repos: 14">
 <!-- PUBLIC-REPOS END -->
   <!-- DAYS-COUNTER START -->
-  <img src="https://img.shields.io/badge/Commits-1%2C121%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 1,121 this year">  <img src="https://img.shields.io/badge/Streak-1%20day-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 1 day">
+  <img src="https://img.shields.io/badge/Commits-1%2C131%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 1,131 this year">  <img src="https://img.shields.io/badge/Streak-1%20day-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 1 day">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
-  <img src="https://img.shields.io/badge/Profile%20views-364-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 364">
-  <img src="https://img.shields.io/badge/Last%2030%20days-124-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 124">
-  <img src="https://img.shields.io/badge/Today-6-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 6">
+  <img src="https://img.shields.io/badge/Profile%20views-368-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 368">
+  <img src="https://img.shields.io/badge/Last%2030%20days-128-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 128">
+  <img src="https://img.shields.io/badge/Today-10-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 10">
 <!-- PROFILE-VIEWS END -->
   <br/>
 <!-- LAB-AGGREGATE START -->
@@ -200,10 +200,12 @@ flowchart LR
 <!-- TOP-DRIVERS START -->
 <div align="center">
 
-### 🏆 Top Community Driver (Last 30 Days Telemetry)
+### 🏆 Top 3 Community Drivers (Last 30 Days Telemetry)
 | Rank | Repository | 30d Git Clones | 30d Views | Core Capability |
 | :---: | :--- | :---: | :---: | :--- |
 | 🥇 | **[Evidence-Driven SOC Platform](https://github.com/sandeepmothukuri/Evidence-Driven-SOC-Platform)** | **850** | **170** | Evidence-Driven Investigation & Triage Platform |
+| 🥈 | **[AI-SOC-Decision-Engine](https://github.com/sandeepmothukuri/AI-SOC-Decision-Engine)** | **457** | **212** | Evidence-Driven Alert Triage & Risk Scoring |
+| 🥉 | **[Enterprise Detection Engineering SOC Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab)** | **371** | **270** | SIEM, Sigma, Sysmon & MITRE ATT&CK Lab |
 
 </div>
 <!-- TOP-DRIVERS END -->
