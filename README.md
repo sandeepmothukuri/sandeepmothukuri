@@ -217,6 +217,17 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
 
+### 🔥 [Evidence-Driven SOC Platform](https://github.com/sandeepmothukuri/Evidence-Driven-SOC-Platform)
+`Python 3.12` · `FastAPI` · `React` · `Docker` · `Elasticsearch`
+
+Evidence-driven SOC platform for alert triage, investigation, detection engineering, and AI-augmented security operations.
+<!-- REPO-METRICS:Evidence-Driven-SOC-Platform START -->
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%208%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 8 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2020%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 20 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
+<!-- REPO-METRICS:Evidence-Driven-SOC-Platform END -->
+
+</td>
+<td width="50%" valign="top">
+
 ### 🤖 [AI-SOC-Decision-Engine](https://github.com/sandeepmothukuri/AI-SOC-Decision-Engine)
 `Python` · `FastAPI` · `Ollama` · `Risk Scoring`
 
@@ -226,6 +237,8 @@ AI-assisted SOC decision engine for evidence-driven alert triage, investigation,
 <!-- REPO-METRICS:AI-SOC-Decision-Engine END -->
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🧬 [Enterprise Detection Engineering SOC Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab)
@@ -237,8 +250,6 @@ Enterprise detection engineering lab covering SIEM, ElastAlert 2, Sigma, MITRE A
 <!-- REPO-METRICS:Enterprise-Detection-Engineering-SOC-Lab END -->
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🛡️ [PromptSentinel](https://github.com/sandeepmothukuri/PromptSentinel)
@@ -250,6 +261,8 @@ Enterprise prompt-injection detection and AI firewall with 22 detectors, OWASP L
 <!-- REPO-METRICS:PromptSentinel END -->
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🤖 [AI-Augmented-SOC-Lab](https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab)
@@ -261,8 +274,6 @@ AI-augmented SOC lab for LLM-assisted alert triage, automated investigation, and
 <!-- REPO-METRICS:AI-Augmented-SOC-Lab END -->
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🔎 [soc-threat-hunting-lab](https://github.com/sandeepmothukuri/soc-threat-hunting-lab)
@@ -274,6 +285,8 @@ Threat-hunting lab focused on hypothesis-driven hunts, telemetry analysis, and d
 <!-- REPO-METRICS:soc-threat-hunting-lab END -->
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### ⚙️ [Autonomous-SOC-Lab](https://github.com/sandeepmothukuri/Autonomous-SOC-Lab)
@@ -285,8 +298,6 @@ Autonomous SOC experimentation covering agentic workflows, enrichment, triage, a
 <!-- REPO-METRICS:Autonomous-SOC-Lab END -->
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🎯 [SOC-Detection-and-Threat-Hunting-Lab](https://github.com/sandeepmothukuri/SOC-Detection-and-Threat-Hunting-Lab)
@@ -298,6 +309,8 @@ SOC detection and threat-hunting lab with practical telemetry, investigations, a
 <!-- REPO-METRICS:SOC-Detection-and-Threat-Hunting-Lab END -->
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🧠 [sentinel-detection-engine](https://github.com/sandeepmothukuri/sentinel-detection-engine)
@@ -309,8 +322,6 @@ Microsoft Sentinel detection engineering portfolio with KQL detections mapped to
 <!-- REPO-METRICS:sentinel-detection-engine END -->
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🛡️ [PromptShield](https://github.com/sandeepmothukuri/PromptShield)
@@ -320,17 +331,6 @@ Enterprise-grade prompt injection detection and AI firewall for protecting LLM w
 <!-- REPO-METRICS:PromptShield START -->
 <sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%2021%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 21 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2027%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 27 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
 <!-- REPO-METRICS:PromptShield END -->
-
-</td>
-<td width="50%" valign="top">
-
-### 🔥 [Evidence-Driven SOC Platform](https://github.com/sandeepmothukuri/Evidence-Driven-SOC-Platform)
-`Python 3.12` · `FastAPI` · `React` · `Docker` · `Elasticsearch`
-
-Evidence-driven SOC platform for alert triage, investigation, detection engineering, and AI-augmented security operations.
-<!-- REPO-METRICS:Evidence-Driven-SOC-Platform START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%208%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 8 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2020%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 20 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
-<!-- REPO-METRICS:Evidence-Driven-SOC-Platform END -->
 
 </td>
 </tr>
