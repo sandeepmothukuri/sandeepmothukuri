@@ -447,7 +447,11 @@ def render_featured_labs_block(hist: dict) -> str:
         score = views + clones
         ranked.append((score, clones, views, repo, meta))
 
-    ranked.sort(key=lambda item: (-item[0], -item[1], -item[2], item[3].lower()))
+    # Pin the flagship platform first; rank the remaining labs by recent traffic.
+    ranked.sort(key=lambda item: (
+        0 if item[3] == "Evidence-Driven-SOC-Platform" else 1,
+        -item[0], -item[1], -item[2], item[3].lower()
+    ))
 
     lines = ["<table>"]
     for i in range(0, len(ranked), 2):
