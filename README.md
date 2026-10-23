@@ -201,8 +201,9 @@ flowchart LR
 <div align="center">
 
 ### 🏆 Top Community Driver (Last 30 Days Telemetry)
-
-<img src="assets/top-community-driver.svg" alt="Top Community Driver: Evidence-Driven SOC Platform with 30-day clone and view metrics" width="100%">
+| Rank | Repository | 30d Git Clones | 30d Views | Core Capability |
+| :---: | :--- | :---: | :---: | :--- |
+| 🥇 | **[Evidence-Driven SOC Platform](https://github.com/sandeepmothukuri/Evidence-Driven-SOC-Platform)** | **850** | **170** | Evidence-Driven Investigation & Triage Platform |
 
 </div>
 <!-- TOP-DRIVERS END -->
