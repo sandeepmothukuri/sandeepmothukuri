@@ -210,6 +210,12 @@ flowchart LR
 </div>
 <!-- TOP-DRIVERS END -->
 
+<!-- PORTFOLIO-PULSE START -->
+<!-- PORTFOLIO-PULSE END -->
+
+<!-- TOP-REPO START -->
+<!-- TOP-REPO END -->
+
 ## 🧪 Featured Labs
 
 <!-- FEATURED-LABS START -->
