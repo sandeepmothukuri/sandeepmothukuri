@@ -24,7 +24,7 @@
 </p>
 <p align="center">
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20India%2019%3A13%20IST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · India 19:13 IST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20India%2023%3A12%20IST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · India 23:12 IST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -47,9 +47,9 @@
   <img src="https://img.shields.io/badge/Commits-1%2C133%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 1,133 this year">  <img src="https://img.shields.io/badge/Streak-1%20day-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 1 day">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
-  <img src="https://img.shields.io/badge/Profile%20views-375-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 375">
-  <img src="https://img.shields.io/badge/Last%2030%20days-134-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 134">
-  <img src="https://img.shields.io/badge/Today-3-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 3">
+  <img src="https://img.shields.io/badge/Profile%20views-376-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 376">
+  <img src="https://img.shields.io/badge/Last%2030%20days-135-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 135">
+  <img src="https://img.shields.io/badge/Today-4-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 4">
 <!-- PROFILE-VIEWS END -->
   <br/>
 <!-- LAB-AGGREGATE START -->
@@ -66,7 +66,7 @@
 
 <p align="center">
 <!-- GREETING START -->
-<sub><b>👋 Good afternoon!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=sandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
+<sub><b>👋 Good evening!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=sandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
 <!-- GREETING END -->
 </p>
 
