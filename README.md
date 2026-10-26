@@ -623,21 +623,21 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-10-25 13:31 UTC_
+_Last refresh: 2026-10-26 15:46 UTC_
 
 **The Hacker News**
 
-- [OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication](https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html)
-- [Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software](https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html)
-- [Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline](https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html)
-- [Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads](https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html)
+- [⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More](https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html)
+- [Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes](https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html)
+- [Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses](https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html)
+- [uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts](https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html)
 
 **BleepingComputer**
 
-- [BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot](https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/)
-- [Abandoned Popcorn Time app exposed millions of devices to RCE attacks](https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/)
-- [Microsoft Teams to get AI-powered, context-aware phishing detection](https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/)
-- [Microsoft: Windows Server 2016 reaches end of support in January](https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/)
+- [Microsoft releases emergency .NET patches for critical Brotli flaw](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/)
+- [When an AI Agent Is the Incident, the Identity Record Is the Evidence](https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/)
+- [Chinese man extradited for role in $36 million cryptocurrency scam](https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/)
+- [Kali Linux 2026.3 released with 6 new tools, desktop updates](https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/)
 
 **Krebs on Security**
 
