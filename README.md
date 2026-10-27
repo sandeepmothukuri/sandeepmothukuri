@@ -623,21 +623,21 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-10-26 15:46 UTC_
+_Last refresh: 2026-10-27 15:04 UTC_
 
 **The Hacker News**
 
-- [⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More](https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html)
-- [Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes](https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html)
-- [Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses](https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html)
-- [uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts](https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html)
+- [Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens](https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html)
+- [Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key](https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html)
+- [AI-Generated Fake Login Pages Are Making Account Takeovers Easier](https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html)
+- [Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption](https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html)
 
 **BleepingComputer**
 
-- [Microsoft releases emergency .NET patches for critical Brotli flaw](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/)
-- [When an AI Agent Is the Incident, the Identity Record Is the Evidence](https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/)
-- [Chinese man extradited for role in $36 million cryptocurrency scam](https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/)
-- [Kali Linux 2026.3 released with 6 new tools, desktop updates](https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/)
+- [Tailscale warns of SSH flaws allowing root privilege escalation](https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/)
+- [The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest](https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/)
+- [Apple backports CoreGraphics zero-day patches to older iPhones](https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/)
+- [Energy giant ENGIE discloses data breach affecting customers](https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/)
 
 **Krebs on Security**
 
