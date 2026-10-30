@@ -574,15 +574,15 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | CVE ID | Affected Vendor & Product | Date Added | ATT&CK Tactic & Technique | Ransomware Use |
 |:---|:---|:---:|:---|:---:|
+| [`CVE-2026-97229`](https://nvd.nist.gov/vuln/detail/CVE-2026-97229) | **GitLab** Community Edition and Enterprise Edition | `2026-10-29` | `T1190` Exploit Public-Facing Application | Monitored |
+| [`CVE-2026-76418`](https://nvd.nist.gov/vuln/detail/CVE-2026-76418) | **Cisco** Secure Firewall ASA Software and Cisco Secure FTD Software | `2026-10-29` | `T1556` Modify Authentication Process | Monitored |
 | [`CVE-2026-41709`](https://nvd.nist.gov/vuln/detail/CVE-2026-41709) | **Broadcom** VMware ESX | `2026-10-28` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-46300`](https://nvd.nist.gov/vuln/detail/CVE-2026-46300) | **Linux** Kernel | `2026-10-28` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-48356`](https://nvd.nist.gov/vuln/detail/CVE-2026-48356) | **Adobe** Commerce and Magento | `2026-10-27` | `T1190` Exploit Public-Facing Application | Monitored |
 
-> **⚠️ Primary Threat Focus ([`CVE-2026-41709`](https://nvd.nist.gov/vuln/detail/CVE-2026-41709))**: **Broadcom VMWare ESX Insufficient Logging Vulnerability** — Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.
+> **⚠️ Primary Threat Focus ([`CVE-2026-97229`](https://nvd.nist.gov/vuln/detail/CVE-2026-97229))**: **GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability** — GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.
 > 
 > 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-10-29 16:34 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-10-30 16:31 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->
