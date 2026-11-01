@@ -623,21 +623,21 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-10-31 14:57 UTC_
+_Last refresh: 2026-11-01 15:42 UTC_
 
 **The Hacker News**
 
-- [Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data](https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html)
-- [Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access](https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html)
-- [A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats](https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html)
-- [Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%](https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html)
+- [CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key](https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html)
+- [Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script](https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html)
+- [FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist](https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html)
+- [NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection](https://thehackernews.com/2026/11/netamloader-malware-targets-government.html)
 
 **BleepingComputer**
 
-- [Reddit to lock content behind logins to fight scrapers](https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/)
-- [From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.](https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/)
-- [Chainalysis discloses data breach from "offensive agentic techniques"](https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/)
-- [Critical Linux kernel flaw allows remote root attacks on MPTCP servers](https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/)
+- [Alpine Linux rebuilds GitLab after attempted RCE attack](https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/)
+- [OpenAI says it's doubling Pro usage limits and bringing Work features to Chat](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/)
+- [Northflank security breach leads to abuse of customers' AI API keys](https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/)
+- [New Android SMS of Death exploit can remotely crash unpatched phones](https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/)
 
 **Krebs on Security**
 
