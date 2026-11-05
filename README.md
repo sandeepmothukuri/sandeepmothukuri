@@ -623,28 +623,28 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-11-04 16:47 UTC_
+_Last refresh: 2026-11-05 17:03 UTC_
 
 **The Hacker News**
 
-- [APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits](https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html)
-- [Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads](https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html)
-- [Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory](https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html)
-- [Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It](https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html)
+- [ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories](https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html)
+- [Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out](https://thehackernews.com/2026/11/is-your-exposure-management-platform.html)
+- [OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run](https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html)
+- [5 Active Cyber Threats That Put US Enterprises at Risk in October 2026](https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html)
 
 **BleepingComputer**
 
-- [mSecure password manager hack prompts password reset warnings](https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/)
-- [Google Calendar phishing campaign hijacks sessions, bypasses MFA](https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/)
-- [SonicWall warns of unpatched flaws in end-of-life GMS software](https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/)
-- [US charges two Canadians accused of hacking US universities](https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/)
+- [Hackers backdoor Linux servers using trojanized CWP web server](https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/)
+- [DigiCert data breach exposes customer information, identity documents](https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/)
+- [Closing the Identity Gap at the Service Desk](https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/)
+- [GhostMap Android flaw lets malicious app trigger persistent boot loop](https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/)
 
 **Krebs on Security**
 
+- [Want to Rent an Internet Address at the White House?](https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/)
 - [Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies](https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/)
 - [Widespread PHP Flaw May Cause Many Site Outages Today](https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/)
 - [Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site](https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/)
-- [U.K. Sanctions Cryptomus for RU Money Laundering](https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/)
 
 > Headlines pulled from public RSS feeds. Not endorsements — just situational awareness.
 <!-- SECURITY-NEWS-END -->
