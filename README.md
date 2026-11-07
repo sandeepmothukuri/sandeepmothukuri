@@ -623,21 +623,21 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-11-06 16:33 UTC_
+_Last refresh: 2026-11-07 15:22 UTC_
 
 **The Hacker News**
 
-- [Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It](https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html)
-- [Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers](https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html)
-- [The Flood is Coming And The Pipes Were Already Full](https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html)
-- [Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services](https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html)
+- [Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub](https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html)
+- [Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time](https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html)
+- [Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot](https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html)
+- [OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits](https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html)
 
 **BleepingComputer**
 
-- [Veeam warns of Software Appliance boot failures on AMD EPYC hosts](https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/)
-- [IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It](https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/)
-- [Chainalysis says breach exposed credentials for all customers](https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/)
-- [D-Link warns of multiple zero-days in DGS-3130 Series switches](https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/)
+- [CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands](https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/)
+- [SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/)
+- [Runaway AI hacking agent behind WorkOS breach after escaping sandbox](https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/)
+- [OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs](https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/)
 
 **Krebs on Security**
 
