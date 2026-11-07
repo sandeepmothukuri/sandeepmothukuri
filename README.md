@@ -574,15 +574,15 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | CVE ID | Affected Vendor & Product | Date Added | ATT&CK Tactic & Technique | Ransomware Use |
 |:---|:---|:---:|:---|:---:|
+| [`CVE-2026-19868`](https://nvd.nist.gov/vuln/detail/CVE-2026-19868) | **SonicWall** SonicOS SSLVPN | `2026-11-06` | `T1190` Exploit Public-Facing Application | Monitored |
 | [`CVE-2024-27834`](https://nvd.nist.gov/vuln/detail/CVE-2024-27834) | **Apple** Multiple Products | `2026-11-04` | `T1556` Modify Authentication Process | Monitored |
 | [`CVE-2026-119977`](https://nvd.nist.gov/vuln/detail/CVE-2026-119977) | **WordPress** WordPress Core | `2026-11-03` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-118527`](https://nvd.nist.gov/vuln/detail/CVE-2026-118527) | **Ivanti** Connect Secure | `2026-10-30` | `T1556` Modify Authentication Process | Monitored |
 
-> **⚠️ Primary Threat Focus ([`CVE-2024-27834`](https://nvd.nist.gov/vuln/detail/CVE-2024-27834))**: **Apple Multiple Products Improper Authentication Vulnerability** — Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.
+> **⚠️ Primary Threat Focus ([`CVE-2026-19868`](https://nvd.nist.gov/vuln/detail/CVE-2026-19868))**: **SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability** — SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).
 > 
 > 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-06 17:09 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-07 16:05 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->
