@@ -24,7 +24,7 @@
 </p>
 <p align="center">
   <!-- STATUS START -->
-  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20India%2009%3A16%20IST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · India 09:16 IST">
+  <img src="https://img.shields.io/badge/Status-%F0%9F%9B%8C%20Weekend%20%C2%B7%20India%2017%3A52%20IST-8b949e?style=flat-square&labelColor=132f4c" alt="Status: 🛌 Weekend · India 17:52 IST">
   <img src="https://img.shields.io/badge/This%20week-On--call%20%28escalations%20welcome%29-36d1dc?style=flat-square&labelColor=132f4c" alt="This week: On-call (escalations welcome)">
 <!-- STATUS END -->
 </p>
@@ -47,13 +47,13 @@
   <img src="https://img.shields.io/badge/Commits-1%2C118%20this%20year-3fb950?style=flat-square&labelColor=132f4c" alt="Commits: 1,118 this year">  <img src="https://img.shields.io/badge/Streak-0%20days-ff8c42?style=flat-square&labelColor=132f4c" alt="Streak: 0 days">
 <!-- DAYS-COUNTER END -->
   <!-- PROFILE-VIEWS START -->
-  <img src="https://img.shields.io/badge/Profile%20views-450-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 450">
-  <img src="https://img.shields.io/badge/Last%2030%20days-120-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 120">
-  <img src="https://img.shields.io/badge/Today-1-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 1">
+  <img src="https://img.shields.io/badge/Profile%20views-451-3fb950?style=flat-square&labelColor=132f4c" alt="Profile views: 451">
+  <img src="https://img.shields.io/badge/Last%2030%20days-121-36d1dc?style=flat-square&labelColor=132f4c" alt="Last 30 days: 121">
+  <img src="https://img.shields.io/badge/Today-2-ffcf5a?style=flat-square&labelColor=132f4c" alt="Today: 2">
 <!-- PROFILE-VIEWS END -->
   <br/>
 <!-- LAB-AGGREGATE START -->
-  <img src="https://img.shields.io/badge/Total%20lab%20clones-478%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 478 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-922%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 922 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-44-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 44">  <img src="https://img.shields.io/badge/Total%20forks-8-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 8">  <img src="https://img.shields.io/badge/Labs%20tracked-15-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 15">
+  <img src="https://img.shields.io/badge/Total%20lab%20clones-502%20/%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="Total lab clones: 502 / 30d">  <img src="https://img.shields.io/badge/Total%20lab%20views-959%20/%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="Total lab views: 959 / 30d">  <img src="https://img.shields.io/badge/Total%20stars-44-ffcf5a?style=flat-square&labelColor=132f4c" alt="Total stars: 44">  <img src="https://img.shields.io/badge/Total%20forks-8-a371f7?style=flat-square&labelColor=132f4c" alt="Total forks: 8">  <img src="https://img.shields.io/badge/Labs%20tracked-15-ff8c42?style=flat-square&labelColor=132f4c" alt="Labs tracked: 15">
 <!-- LAB-AGGREGATE END -->
 </p>
 
@@ -66,7 +66,7 @@
 
 <p align="center">
 <!-- GREETING START -->
-<sub><b>👋 Working the night shift!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=sandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
+<sub><b>👋 Good afternoon!</b> &nbsp;·&nbsp; <img src="https://api.visitorbadge.io/api/visitors?path=sandeepmothukuri&label=Visitors%20today&countColor=%2336d1dc&labelColor=%23132f4c&style=flat-square" alt="Visitors today"></sub>
 <!-- GREETING END -->
 </p>
 
@@ -203,9 +203,9 @@ flowchart LR
 ### 🏆 Top 3 Community Drivers (Last 30 Days Telemetry)
 | Rank | Repository | 30d Git Clones | 30d Views | Core Capability |
 | :---: | :--- | :---: | :---: | :--- |
-| 🥇 | **[Enterprise Detection Engineering SOC Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab)** | **104** | **437** | SIEM, Sigma, Sysmon & MITRE ATT&CK Lab |
+| 🥇 | **[Enterprise Detection Engineering SOC Lab](https://github.com/sandeepmothukuri/Enterprise-Detection-Engineering-SOC-Lab)** | **109** | **439** | SIEM, Sigma, Sysmon & MITRE ATT&CK Lab |
 | 🥈 | **[AI-SOC-Decision-Engine](https://github.com/sandeepmothukuri/AI-SOC-Decision-Engine)** | **361** | **156** | Evidence-Driven Alert Triage & Risk Scoring |
-| 🥉 | **[AI-Augmented-SOC-Lab](https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab)** | **55** | **252** | LLM-Assisted Alert Triage & SOAR Playbooks |
+| 🥉 | **[AI-Augmented-SOC-Lab](https://github.com/sandeepmothukuri/AI-Augmented-SOC-Lab)** | **59** | **261** | LLM-Assisted Alert Triage & SOAR Playbooks |
 
 </div>
 <!-- TOP-DRIVERS END -->
@@ -226,7 +226,7 @@ flowchart LR
 
 Enterprise detection engineering lab covering SIEM, ElastAlert 2, Sigma, MITRE ATT&CK, and adversary emulation.
 <!-- REPO-METRICS:Enterprise-Detection-Engineering-SOC-Lab START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%20437%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 437 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%20104%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 104 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-17%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 17 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-4%20%28%2B1/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 4 (+1/30d)"></sub>
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-2%20today%20%C2%B7%20439%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 2 today · 439 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-5%20today%20%C2%B7%20109%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 5 today · 109 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-17%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 17 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-4%20%28%2B1/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 4 (+1/30d)"></sub>
 <!-- REPO-METRICS:Enterprise-Detection-Engineering-SOC-Lab END -->
 
 </td>
@@ -250,7 +250,7 @@ AI-assisted SOC decision engine for evidence-driven alert triage, investigation,
 
 AI-augmented SOC lab for LLM-assisted alert triage, automated investigation, and security operations playbooks.
 <!-- REPO-METRICS:AI-Augmented-SOC-Lab START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%20252%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 252 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2055%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 55 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-6%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 6 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-1%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 1 (+0/30d)"></sub>
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-9%20today%20%C2%B7%20261%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 9 today · 261 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-4%20today%20%C2%B7%2059%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 4 today · 59 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-6%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 6 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-1%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 1 (+0/30d)"></sub>
 <!-- REPO-METRICS:AI-Augmented-SOC-Lab END -->
 
 </td>
@@ -261,7 +261,7 @@ AI-augmented SOC lab for LLM-assisted alert triage, automated investigation, and
 
 Threat-hunting lab focused on hypothesis-driven hunts, telemetry analysis, and defensive investigations.
 <!-- REPO-METRICS:soc-threat-hunting-lab START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%2070%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 70 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2021%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 21 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-6%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 6 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-5%20today%20%C2%B7%2075%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 5 today · 75 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-3%20today%20%C2%B7%2024%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 3 today · 24 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-6%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 6 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
 <!-- REPO-METRICS:soc-threat-hunting-lab END -->
 
 </td>
@@ -274,7 +274,7 @@ Threat-hunting lab focused on hypothesis-driven hunts, telemetry analysis, and d
 
 Enterprise prompt-injection detection and AI firewall with 22 detectors, OWASP LLM Top 10 coverage, and SIEM-ready output.
 <!-- REPO-METRICS:PromptSentinel START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%204%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 4 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2067%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 67 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28--1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (-1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%204%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 4 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-1%20today%20%C2%B7%2068%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 1 today · 68 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28--1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (-1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
 <!-- REPO-METRICS:PromptSentinel END -->
 
 </td>
@@ -298,23 +298,10 @@ Evidence-driven SOC platform for alert triage, investigation, detection engineer
 
 Microsoft Sentinel detection engineering portfolio with KQL detections mapped to MITRE ATT&CK.
 <!-- REPO-METRICS:sentinel-detection-engine START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%2028%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 28 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2027%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 27 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-2%20today%20%C2%B7%2030%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 2 today · 30 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2027%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 27 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-1%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 1 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
 <!-- REPO-METRICS:sentinel-detection-engine END -->
 
 </td>
-<td width="50%" valign="top">
-
-### 🎯 [SOC-Detection-and-Threat-Hunting-Lab](https://github.com/sandeepmothukuri/SOC-Detection-and-Threat-Hunting-Lab)
-`Elastic SIEM` · `Sigma Rules` · `Zeek` · `Suricata`
-
-SOC detection and threat-hunting lab with practical telemetry, investigations, and ATT&CK-aligned detections.
-<!-- REPO-METRICS:SOC-Detection-and-Threat-Hunting-Lab START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%2019%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 19 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2023%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 23 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-3%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 3 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
-<!-- REPO-METRICS:SOC-Detection-and-Threat-Hunting-Lab END -->
-
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### ⚙️ [Autonomous-SOC-Lab](https://github.com/sandeepmothukuri/Autonomous-SOC-Lab)
@@ -322,8 +309,21 @@ SOC detection and threat-hunting lab with practical telemetry, investigations, a
 
 Autonomous SOC experimentation covering agentic workflows, enrichment, triage, and response automation.
 <!-- REPO-METRICS:Autonomous-SOC-Lab START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%2020%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 20 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2022%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 22 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-5%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 5 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-1%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 1 (+0/30d)"></sub>
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-1%20today%20%C2%B7%2021%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 1 today · 21 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-3%20today%20%C2%B7%2025%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 3 today · 25 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-5%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 5 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-1%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 1 (+0/30d)"></sub>
 <!-- REPO-METRICS:Autonomous-SOC-Lab END -->
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 [SOC-Detection-and-Threat-Hunting-Lab](https://github.com/sandeepmothukuri/SOC-Detection-and-Threat-Hunting-Lab)
+`Elastic SIEM` · `Sigma Rules` · `Zeek` · `Suricata`
+
+SOC detection and threat-hunting lab with practical telemetry, investigations, and ATT&CK-aligned detections.
+<!-- REPO-METRICS:SOC-Detection-and-Threat-Hunting-Lab START -->
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-1%20today%20%C2%B7%2020%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 1 today · 20 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2023%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 23 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-3%20%28%2B1/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 3 (+1/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
+<!-- REPO-METRICS:SOC-Detection-and-Threat-Hunting-Lab END -->
 
 </td>
 <td width="50%" valign="top">
@@ -333,7 +333,7 @@ Autonomous SOC experimentation covering agentic workflows, enrichment, triage, a
 
 Enterprise-grade prompt injection detection and AI firewall for protecting LLM workflows.
 <!-- REPO-METRICS:PromptShield START -->
-<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%204%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 4 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-0%20today%20%C2%B7%2021%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 0 today · 21 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
+<sub><img src="https://img.shields.io/badge/%F0%9F%91%81%20views-0%20today%20%C2%B7%204%20/%20last%2030d-3fb950?style=flat-square&labelColor=132f4c" alt="👁 views: 0 today · 4 / last 30d"> <img src="https://img.shields.io/badge/%F0%9F%93%A5%20clones-2%20today%20%C2%B7%2023%20/%20last%2030d-36d1dc?style=flat-square&labelColor=132f4c" alt="📥 clones: 2 today · 23 / last 30d"> <img src="https://img.shields.io/badge/%E2%AD%90%20stars-0%20%28%2B0/30d%29-ffcf5a?style=flat-square&labelColor=132f4c" alt="⭐ stars: 0 (+0/30d)"> <img src="https://img.shields.io/badge/%F0%9F%8D%B4%20forks-0%20%28%2B0/30d%29-a371f7?style=flat-square&labelColor=132f4c" alt="🍴 forks: 0 (+0/30d)"></sub>
 <!-- REPO-METRICS:PromptShield END -->
 
 </td>
