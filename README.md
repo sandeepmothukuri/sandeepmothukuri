@@ -623,21 +623,21 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-11-15 16:01 UTC_
+_Last refresh: 2026-11-16 19:11 UTC_
 
 **The Hacker News**
 
-- [Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent](https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html)
-- [Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html)
-- [Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection](https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html)
-- [PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE](https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html)
+- [Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches](https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html)
+- [⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days](https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html)
+- [Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login](https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html)
+- [Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware](https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html)
 
 **BleepingComputer**
 
-- [TSMC employee data breach linked to cloud provider](https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/)
-- [Cursor confirms security breach led to malicious Claude Code extension](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/)
-- [US disrupts North Korean campaign behind $400 million crypto theft](https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/)
-- [Trezor confirms crypto-stealing implants in three wallets, releases fix](https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/)
+- [Microsoft says months-old bug caused global Microsoft 365 outage](https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/)
+- [Fandango says hackers stole payment card details from checkout pages](https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/)
+- [7 Tips For Complying with CJIS Password and MFA Requirements](https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/)
+- [Google warns that fully-automated AI attacks are coming soon](https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/)
 
 **Krebs on Security**
 
