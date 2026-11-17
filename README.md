@@ -623,21 +623,21 @@ index=citrix_netscaler sourcetype="citrix:netscaler:web"
 <!-- SECURITY-NEWS-START -->
 ### 📰 Threat Headlines
 
-_Last refresh: 2026-11-16 19:11 UTC_
+_Last refresh: 2026-11-17 18:05 UTC_
 
 **The Hacker News**
 
-- [Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches](https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html)
-- [⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days](https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html)
-- [Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login](https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html)
-- [Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware](https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html)
+- [Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap](https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html)
+- [Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission](https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html)
+- [New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels](https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html)
+- [Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks](https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html)
 
 **BleepingComputer**
 
-- [Microsoft says months-old bug caused global Microsoft 365 outage](https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/)
-- [Fandango says hackers stole payment card details from checkout pages](https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/)
-- [7 Tips For Complying with CJIS Password and MFA Requirements](https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/)
-- [Google warns that fully-automated AI attacks are coming soon](https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/)
+- [Tor releases emergency update amid ongoing DDoS attack](https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/)
+- [Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool](https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/)
+- [Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions](https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/)
+- [Microsoft testing Remote Lock for lost or stolen Windows devices](https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/)
 
 **Krebs on Security**
 
