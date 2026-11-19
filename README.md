@@ -574,15 +574,15 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | CVE ID | Affected Vendor & Product | Date Added | ATT&CK Tactic & Technique | Ransomware Use |
 |:---|:---|:---:|:---|:---:|
-| [`CVE-2026-115731`](https://nvd.nist.gov/vuln/detail/CVE-2026-115731) | **Perforce** Puppet Enterprise | `2026-11-17` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-114713`](https://nvd.nist.gov/vuln/detail/CVE-2026-114713) | **UnrealIRCd** UnrealIRCd | `2026-11-13` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-123039`](https://nvd.nist.gov/vuln/detail/CVE-2026-123039) | **Check Point** Multiple Products | `2026-11-13` | `T1190` Exploit Public-Facing Application | Monitored |
+| [`CVE-2024-10441`](https://nvd.nist.gov/vuln/detail/CVE-2024-10441) | **Synology** DiskStation Manager (DSM) | `2026-11-18` | `T1190` Exploit Public-Facing Application | Monitored |
+| [`CVE-2026-40217`](https://nvd.nist.gov/vuln/detail/CVE-2026-40217) | **BerriAI** LiteLLM | `2026-11-18` | `T1190` Exploit Public-Facing Application | Monitored |
+| [`CVE-2026-90817`](https://nvd.nist.gov/vuln/detail/CVE-2026-90817) | **Vanderbilt University** Research Electronic Data Capture (REDCap) | `2026-11-18` | `T1190` Exploit Public-Facing Application | Monitored |
 
-> **⚠️ Primary Threat Focus ([`CVE-2026-115731`](https://nvd.nist.gov/vuln/detail/CVE-2026-115731))**: **Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability** — Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.
+> **⚠️ Primary Threat Focus ([`CVE-2024-10441`](https://nvd.nist.gov/vuln/detail/CVE-2024-10441))**: **Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability** — Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.
 > 
 > 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-18 18:38 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-19 18:51 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->
