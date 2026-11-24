@@ -574,15 +574,15 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | CVE ID | Affected Vendor & Product | Date Added | ATT&CK Tactic & Technique | Ransomware Use |
 |:---|:---|:---:|:---|:---:|
-| [`CVE-2026-133968`](https://nvd.nist.gov/vuln/detail/CVE-2026-133968) | **Project MONAI** MONAI Label | `2026-11-23` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-134624`](https://nvd.nist.gov/vuln/detail/CVE-2026-134624) | **N-able** MailAssure | `2026-11-23` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-129448`](https://nvd.nist.gov/vuln/detail/CVE-2026-129448) | **Apache** Roller | `2026-11-20` | `T1556` Modify Authentication Process | Monitored |
+| [`CVE-2026-132224`](https://nvd.nist.gov/vuln/detail/CVE-2026-132224) | **Optimizely** Web Experimentation | `2026-11-24` | `T1203` Exploitation for Client Execution | Monitored |
+| [`CVE-2026-131914`](https://nvd.nist.gov/vuln/detail/CVE-2026-131914) | **Idunno** AntiCsrf | `2026-11-24` | `T1556` Modify Authentication Process | Monitored |
+| [`CVE-2026-132165`](https://nvd.nist.gov/vuln/detail/CVE-2026-132165) | **Drupal** Core | `2026-11-24` | `T1190` Exploit Public-Facing Application | Monitored |
 
-> **⚠️ Primary Threat Focus ([`CVE-2026-133968`](https://nvd.nist.gov/vuln/detail/CVE-2026-133968))**: **Project MONAI MONAI Label Path Traversal Vulnerability** — Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.
+> **⚠️ Primary Threat Focus ([`CVE-2026-132224`](https://nvd.nist.gov/vuln/detail/CVE-2026-132224))**: **Optimizely Web Experimentation External Control of Critical State Data Vulnerability** — Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites.
 > 
 > 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-23 21:52 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-24 20:29 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->
