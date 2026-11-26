@@ -575,14 +575,14 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 | CVE ID | Affected Vendor & Product | Date Added | ATT&CK Tactic & Technique | Ransomware Use |
 |:---|:---|:---:|:---|:---:|
 | [`CVE-2026-103406`](https://nvd.nist.gov/vuln/detail/CVE-2026-103406) | **Hewlett Packard Enterprise (HPE)** Juniper Session Smart Conductor and Session Smart Router | `2026-11-25` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-132224`](https://nvd.nist.gov/vuln/detail/CVE-2026-132224) | **Optimizely** Web Experimentation | `2026-11-24` | `T1203` Exploitation for Client Execution | Monitored |
-| [`CVE-2026-131914`](https://nvd.nist.gov/vuln/detail/CVE-2026-131914) | **Idunno** AntiCsrf | `2026-11-24` | `T1556` Modify Authentication Process | Monitored |
+| [`CVE-2026-133469`](https://nvd.nist.gov/vuln/detail/CVE-2026-133469) | **Vates** Xen Orchestra | `2026-11-25` | `T1556` Modify Authentication Process | Monitored |
+| [`CVE-2025-41450`](https://nvd.nist.gov/vuln/detail/CVE-2025-41450) | **Danfoss** AK-SM 800A Series | `2026-11-25` | `T1556` Modify Authentication Process | Monitored |
 
 > **⚠️ Primary Threat Focus ([`CVE-2026-103406`](https://nvd.nist.gov/vuln/detail/CVE-2026-103406))**: **Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability** — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.
 > 
 > 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-25 19:44 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-26 19:24 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->
