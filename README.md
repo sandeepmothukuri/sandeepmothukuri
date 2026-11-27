@@ -574,15 +574,15 @@ Auto-refreshed daily by GitHub Actions. CVE feed from NIST NVD; threat headlines
 
 | CVE ID | Affected Vendor & Product | Date Added | ATT&CK Tactic & Technique | Ransomware Use |
 |:---|:---|:---:|:---|:---:|
-| [`CVE-2026-103406`](https://nvd.nist.gov/vuln/detail/CVE-2026-103406) | **Hewlett Packard Enterprise (HPE)** Juniper Session Smart Conductor and Session Smart Router | `2026-11-25` | `T1190` Exploit Public-Facing Application | Monitored |
-| [`CVE-2026-133469`](https://nvd.nist.gov/vuln/detail/CVE-2026-133469) | **Vates** Xen Orchestra | `2026-11-25` | `T1556` Modify Authentication Process | Monitored |
-| [`CVE-2025-41450`](https://nvd.nist.gov/vuln/detail/CVE-2025-41450) | **Danfoss** AK-SM 800A Series | `2026-11-25` | `T1556` Modify Authentication Process | Monitored |
+| [`CVE-2026-120705`](https://nvd.nist.gov/vuln/detail/CVE-2026-120705) | **OSGeo** GeoServer | `2026-11-27` | `T1190` Exploit Public-Facing Application | Monitored |
+| [`CVE-2026-129243`](https://nvd.nist.gov/vuln/detail/CVE-2026-129243) | **OSGeo** GeoServer | `2026-11-27` | `T1190` Exploit Public-Facing Application | Monitored |
+| [`CVE-2026-136716`](https://nvd.nist.gov/vuln/detail/CVE-2026-136716) | **Drupal** Core | `2026-11-27` | `T1556` Modify Authentication Process | Monitored |
 
-> **⚠️ Primary Threat Focus ([`CVE-2026-103406`](https://nvd.nist.gov/vuln/detail/CVE-2026-103406))**: **Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability** — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.
+> **⚠️ Primary Threat Focus ([`CVE-2026-120705`](https://nvd.nist.gov/vuln/detail/CVE-2026-120705))**: **OSGeo GeoServer XML Injection Vulnerability** — OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.
 > 
 > 🎯 **SOC Action Required**: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-26 19:24 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
+_Source: [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog). Last check: 2026-11-27 19:19 UTC. Auto-refreshed daily by [`cve-of-the-week.yml`](.github/workflows/cve-of-the-week.yml)._
 <!-- CVE-OF-THE-WEEK-END -->
 
 <!-- THREAT-HUNT-SPOTLIGHT START -->
