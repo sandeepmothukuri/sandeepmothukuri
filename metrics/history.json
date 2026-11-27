@@ -969,6 +969,11 @@
       "date": "2026-11-26",
       "total": 481,
       "daily": 3
+    },
+    {
+      "date": "2026-11-27",
+      "total": 482,
+      "daily": 1
     }
   ],
   "repos": {
@@ -2829,6 +2834,16 @@
         "unique": 5,
         "clones": 6,
         "unique_cloners": 6,
+        "stars": 17,
+        "forks": 4,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 17,
         "forks": 4,
         "release_downloads": 0
@@ -4694,6 +4709,16 @@
         "stars": 6,
         "forks": 1,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 8,
+        "unique": 6,
+        "clones": 4,
+        "unique_cloners": 3,
+        "stars": 6,
+        "forks": 1,
+        "release_downloads": 0
       }
     ],
     "SOC-Detection-and-Threat-Hunting-Lab": [
@@ -6556,6 +6581,16 @@
         "stars": 3,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 3,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "soc-threat-hunting-lab": [
@@ -8411,6 +8446,16 @@
       },
       {
         "date": "2026-11-26",
+        "views": 2,
+        "unique": 2,
+        "clones": 2,
+        "unique_cloners": 2,
+        "stars": 6,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
         "views": 2,
         "unique": 2,
         "clones": 2,
@@ -10280,6 +10325,16 @@
         "stars": 5,
         "forks": 1,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 5,
+        "forks": 1,
+        "release_downloads": 0
       }
     ],
     "PromptSentinel": [
@@ -11512,6 +11567,16 @@
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "PromptShield": [
@@ -12311,6 +12376,16 @@
         "unique": 0,
         "clones": 6,
         "unique_cloners": 5,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
@@ -13116,6 +13191,16 @@
         "stars": 1,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 1,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "AI-SOC-Decision-Engine": [
@@ -13835,6 +13920,16 @@
         "unique": 0,
         "clones": 2,
         "unique_cloners": 2,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 1,
+        "unique": 1,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
@@ -14560,6 +14655,16 @@
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "awesome-lists": [
@@ -15282,6 +15387,16 @@
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
       }
     ],
     "cyberblue": [
@@ -15935,7 +16050,7 @@
         "unique": 1,
         "clones": 1,
         "unique_cloners": 1,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -15945,7 +16060,7 @@
         "unique": 4,
         "clones": 1,
         "unique_cloners": 1,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -15955,7 +16070,7 @@
         "unique": 4,
         "clones": 4,
         "unique_cloners": 2,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -15965,7 +16080,7 @@
         "unique": 2,
         "clones": 0,
         "unique_cloners": 0,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -15975,7 +16090,7 @@
         "unique": 2,
         "clones": 4,
         "unique_cloners": 3,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -15985,7 +16100,7 @@
         "unique": 0,
         "clones": 2,
         "unique_cloners": 1,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -15995,7 +16110,7 @@
         "unique": 3,
         "clones": 2,
         "unique_cloners": 2,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -16005,7 +16120,7 @@
         "unique": 1,
         "clones": 0,
         "unique_cloners": 0,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -16015,7 +16130,7 @@
         "unique": 0,
         "clones": 0,
         "unique_cloners": 0,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -16025,7 +16140,7 @@
         "unique": 1,
         "clones": 1,
         "unique_cloners": 1,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -16035,7 +16150,7 @@
         "unique": 0,
         "clones": 0,
         "unique_cloners": 0,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -16045,7 +16160,7 @@
         "unique": 0,
         "clones": 2,
         "unique_cloners": 1,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -16055,7 +16170,7 @@
         "unique": 0,
         "clones": 0,
         "unique_cloners": 0,
-        "stars": 5,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       },
@@ -16065,7 +16180,17 @@
         "unique": 1,
         "clones": 2,
         "unique_cloners": 2,
-        "stars": 5,
+        "stars": 6,
+        "forks": 2,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
+        "stars": 6,
         "forks": 2,
         "release_downloads": 0
       }
@@ -16787,6 +16912,16 @@
         "unique": 0,
         "clones": 3,
         "unique_cloners": 3,
+        "stars": 0,
+        "forks": 0,
+        "release_downloads": 0
+      },
+      {
+        "date": "2026-11-27",
+        "views": 0,
+        "unique": 0,
+        "clones": 0,
+        "unique_cloners": 0,
         "stars": 0,
         "forks": 0,
         "release_downloads": 0
